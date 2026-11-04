@@ -183,7 +183,191 @@
           "retrievedAt": "2026-11-04T00:47:21.531Z"
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-04T11:02:17Z",
+      "searchCount": 36,
+      "collectionWindow": {
+        "start": "2026-11-01T11:02:17.000Z",
+        "end": "2026-11-04T11:02:17Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "2026-11-04-tencent-hy4",
+          "title": "腾讯混元 Hy4 正式版接入 API，新增视觉理解",
+          "summary": "腾讯云 TokenHub 已列出 Hy4 正式版调用方式。官方文档给出的上下文窗口为 1024k，并将视觉理解列为相对预览版的新增能力。权重公开仍是后续计划。",
+          "whyItMatters": "已有兼容接口的团队可以测试图表理解和长程任务，权重发布则关系到能否独立部署与复现。",
+          "context": "原文日期 2026-11-04。读取腾讯云 11 月 4 日版的模型规格与调用说明，并交叉查看路透社和 IT 之家发布报道。",
+          "url": "https://cloud.tencent.com/document/product/1823/132252",
+          "publisher": "腾讯云",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "product",
+          "tags": [
+            "腾讯混元",
+            "多模态"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "2026-11-04-apple-siri-ai-developer-preview",
+          "title": "苹果向所有开发者开放 Siri AI 接入预览",
+          "summary": "苹果在 iOS、iPadOS、macOS 和 visionOS 27.3 测试版开放开发者预览。第三方应用可用 App Intents 向 Siri AI 提供内容和操作，也可定义由多步操作组成的技能。",
+          "whyItMatters": "语音助手可以直接调用第三方应用功能，开发者现在能测试订单查询、预约等操作在真实应用里的接入方式。",
+          "context": "原文日期 2026-11-03。读取官方公告的接入机制与发布安排。当前是开发者预览。",
+          "url": "https://developer.apple.com/news/?id=gdk2umrf",
+          "publisher": "Apple Developer",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "product",
+          "tags": [
+            "Siri",
+            "App Intents"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-amd-q3-2026",
+          "title": "AMD 数据中心季度营收约 85 亿美元，同比增长 97%",
+          "summary": "AMD 披露 2026 年第三季度总营收为 133.77 亿美元。数据中心部门营收为 85.46 亿美元，公司将增长归因于 EPYC 处理器需求和 Instinct MI450 系列推出。",
+          "whyItMatters": "财报提供了观察 AI 算力供应商实际销售的窗口。数据中心部门同时包含服务器 CPU 等产品，不能据此单独估算 AI 加速器营收。",
+          "context": "原文日期 2026-11-03。读取 AMD 财报摘要、分部说明及分部营收表。",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "publisher": "AMD",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "business",
+          "tags": [
+            "AI 芯片",
+            "财报"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-unesco-ai-climate-institute",
+          "title": "联合国教科文组织公布 AI 气候研究所启动安排",
+          "summary": "联合国教科文组织、巴西政府与国际电信联盟将于 11 月 16 日在 COP31 启动 AI 气候研究所的运营阶段。公告称届时将发布工作计划、展示试点并开放机构加入。",
+          "whyItMatters": "项目把气候监测所需的技术培训与模型资源消耗放在同一框架里，为算力受限地区提供能力建设渠道。",
+          "context": "原文日期 2026-11-03。读取伙伴分工、路线图与启动安排。机构构想在 2025 年已公布，本次进展是公布运营启动日期和安排。",
+          "url": "https://www.unesco.org/en/articles/unesco-brazilian-government-and-itu-partner-launch-green-ai-climate-institute",
+          "publisher": "UNESCO",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "policy",
+          "tags": [
+            "气候",
+            "AI 治理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-asu-retinal-ai-alzheimer",
+          "title": "亚利桑那州立大学将用视网膜影像研究阿尔茨海默病早筛",
+          "summary": "亚利桑那州立大学与梅奥诊所等机构参与一项由美国国立卫生研究院资助的五年期项目，获资助 320 万美元。团队将用深度学习增强视网膜图像，并研究与血液生物标志物结合后能否识别临床前风险。",
+          "whyItMatters": "若后续研究验证了筛查价值，常规眼科成像可能帮助识别值得进一步检查的人群。",
+          "context": "原文日期 2026-11-03。读取校方项目公告的资助、合作和研究设计段落。公告披露研究计划，尚无新项目临床结果。",
+          "url": "https://news.asu.edu/20261103-science-and-technology-what-eye-may-reveal-about-alzheimers",
+          "publisher": "Arizona State University",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "research",
+          "tags": [
+            "医学影像",
+            "科研资助"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-adversarial-speculative-reasoning",
+          "title": "研究用草稿模型调节关键推理位置的计算精度",
+          "summary": "研究者训练推测解码的草稿模型，使它在关键决策处更易被目标模型拒绝，从新的验证块开始计算。在每配置五次独立运行的 DeepSWE 实验中，GLM-5.3-nvfp4 平均通过率从 60.6% 升至 67.6%，目标模型权重保持固定。",
+          "whyItMatters": "部署团队评测长程编码时，除了比较模型，还可以控制推测解码配置，避免把运行栈差异归因于模型本身。",
+          "context": "原文日期 2026-11-03。读取 arXiv v1 摘要及正文第 4、5 节相关段落。结论限于论文所测推理栈与任务。",
+          "url": "https://arxiv.org/abs/2611.05345",
+          "publisher": "arXiv · Luo 等",
+          "publishedAt": "2026-11-03T18:45:23Z",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "research",
+          "tags": [
+            "推测解码",
+            "智能体评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-pearl-durable-suppression",
+          "title": "PEARL 研究测试模型不良行为在继续微调后是否反弹",
+          "summary": "研究者在 Qwen3-4B 和 GPT-OSS-20B 上构造两种受控的不良行为，分别由特定提示线索和更广泛的请求触发。PEARL 在训练中从缓存轨迹的中间状态采样续写。作者报告，在所测设置中，该方法较能维持抑制效果并保留任务准确率。",
+          "whyItMatters": "将后续微调纳入安全评测，可以发现一次性测评容易漏掉的行为复发。",
+          "context": "原文日期 2026-11-03。读取 arXiv v1 摘要、正文讨论和局限段落。实验覆盖两种受控行为与两个模型系列。",
+          "url": "https://arxiv.org/abs/2611.05358",
+          "publisher": "arXiv · He 等",
+          "publishedAt": "2026-11-03T18:54:08Z",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "research",
+          "tags": [
+            "模型安全",
+            "强化学习"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-stringman-lerobot-community",
+          "title": "Stringman 展示可用 LeRobot 采集示范数据的房间级机器人",
+          "summary": "一款由四根线缆悬挂的抓取机器人进入 Hacker News 讨论，项目作者在帖中答疑。项目文档说明，操作者可用手柄遥控，经界面记录示范供 LeRobot 训练，也可在局域网内运行。",
+          "whyItMatters": "线缆结构把操作范围扩展到房间尺度，同时省去了移动底盘的导航和平衡控制，适合探索大范围模仿学习。",
+          "context": "原文日期 2026-11-03。日期对应 11 月 3 日社区帖。读取作者答疑与项目官网的技术规格、控制和数据采集说明。",
+          "url": "https://news.ycombinator.com/item?id=50354358",
+          "publisher": "Hacker News · Neufangled Robotics",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "community",
+          "tags": [
+            "机器人",
+            "LeRobot",
+            "模仿学习"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "2026-11-04-meituan-longcat-2-5",
+          "title": "美团发布面向长程智能体任务的 LongCat-2.5",
+          "summary": "美团技术团队披露，LongCat-2.5 总参数约 1.6 万亿，每个 token 激活约 480 亿参数。模型以多层离散 token 表示图像，并将智能体的部分失败轨迹转为可用测试用例验证的训练任务。",
+          "whyItMatters": "失败轨迹可以变成后续训练和回归检查的材料。原生视觉输入也使模型可处理依赖截图或设计图的编程任务。",
+          "context": "原文日期 2026-11-02。近期精选补充。读取 11 月 2 日官方技术文的发布摘要、视觉表征和智能体强化学习部分。",
+          "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+          "publisher": "美团技术团队",
+          "publishedAt": "2026-11-02",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "product",
+          "tags": [
+            "LongCat",
+            "视觉编程",
+            "智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "2026-11-04-receipt-agent-command-state",
+          "title": "RECEIPT 用进程状态识别智能体命令的假成功",
+          "summary": "研究者发现，在 Litmus 中关闭输入后，156 个会提示用户的调用里有 18 个以状态码 0 退出却未执行请求。RECEIPT 从系统调用识别进程等待的输入。在论文比较的五个模型中，相较关闭输入，误报成功次数由 34 次减至 9 次。",
+          "whyItMatters": "自动化发布、迁移和运维都可能遇到交互提示。把进程在等待什么返回给智能体，有助于核实操作结果。",
+          "context": "原文日期 2026-11-01。近期精选补充。读取 arXiv v1 摘要、正文引言与实验结果概述。数字限于论文的调用集合与对照设置。",
+          "url": "https://arxiv.org/abs/2611.01930",
+          "publisher": "arXiv · Yang 等",
+          "publishedAt": "2026-11-01T14:06:53Z",
+          "retrievedAt": "2026-11-04T11:01:05Z",
+          "category": "research",
+          "tags": [
+            "智能体",
+            "可复现评测",
+            "命令执行"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-04T07:12:31.436Z"
+  "updatedAt": "2026-11-04T11:02:17.982Z"
 }
