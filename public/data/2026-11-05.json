@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-05",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-04T22:59:40.154Z",
+      "searchCount": 35,
+      "collectionWindow": {
+        "start": "2026-11-01T22:56:10Z",
+        "end": "2026-11-04T22:56:10Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "autodna-nature",
+          "title": "AutoDNA 将核酸实验的多个环节接入同一自动化平台",
+          "summary": "研究团队在《自然》发表 AutoDNA。系统可调度 20 多类仪器，执行合成、转录、扩增和测序等操作，并在示范实验中完成一次 DNA 数据存储与无误恢复。",
+          "whyItMatters": "可复用的实验流程比单台设备的演示更有参考价值。论文同时给出了代码存档线索，便于其他团队比较平台设计。",
+          "context": "原文发布日期为 2026-11-04。读取论文摘要和代码可用性声明，未阅读全文。作者报告的 3.2 倍提速针对并发协议执行。实验仍需人工补充试剂、耗材及维护设备。",
+          "url": "https://www.nature.com/articles/s41586-026-11228-6",
+          "publisher": "Nature",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "research",
+          "tags": [
+            "自动化实验室",
+            "核酸",
+            "科研复现"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "cert-in-crafty-falcon",
+          "title": "印度 CERT-In 更新金融业预警，披露 AI 辅助攻击链",
+          "summary": "印度计算机应急响应团队报告，攻击者利用公开 AI 安全工具辅助侦察和生成攻击脚本，并尝试通过受害机构自身的支付与放款 API 转移资金。",
+          "whyItMatters": "通告把测试环境、共享凭据和支付接口串进同一攻击链，为金融团队排查跨环境权限提供了具体线索。",
+          "context": "原文发布日期为 2026-11-04。读取官方通告的概述和攻击模式，并与路透社报道交叉核验。原文更新了 10 月 9 日通告，此次新增攻击升级及重复受袭观察。",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+          "publisher": "CERT-In",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "policy",
+          "tags": [
+            "金融安全",
+            "支付接口",
+            "智能体"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "terawulf-google-backstop",
+          "title": "Google 为 TeraWulf 的 Anthropic 数据中心项目提供信用支持",
+          "summary": "TeraWulf 宣布与 Google 签署信用支持协议，为肯塔基州数据中心的预期债务融资提供支持。该园区涉及约 190 亿美元的 Anthropic 合同租赁承诺，另有三栋数据中心纳入与 Fluor 的工程协议。",
+          "whyItMatters": "把长期租约与工程交付节点放在一起看，可以看出 AI 算力扩张怎样转化为融资与建设义务。",
+          "context": "原文发布日期为 2026-11-04。读取公司公告的融资和工程条款，并与路透社报道交叉核验。约 190 亿美元是合同租赁承诺总额，公告未把它列为 Google 的信用支持金额。",
+          "url": "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+          "publisher": "TeraWulf",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "business",
+          "tags": [
+            "算力基础设施",
+            "Anthropic",
+            "Google"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "meta-conductor",
+          "title": "Conductor 加入 Meta，云端工作区将于 11 月 20 日关闭",
+          "summary": "编程工具 Conductor 宣布加入 Meta。云端工作区将于 11 月 13 日转为只读、20 日关闭。团队表示，本地应用仍会更新模型并修复关键问题至 2027 年初。",
+          "whyItMatters": "对已有用户而言，最直接的变化是云端任务和数据迁移期限。公告提供了将云端工作区转成本地工作区以及导出数据的方式。",
+          "context": "原文发布日期为 2026-11-04。读取团队公告的时间表和用户问答。原站以 11 月 4 日作为变更起点，同日 TechCrunch 报道交叉核验收购与关闭安排。",
+          "url": "https://www.conductor.build/announcement",
+          "publisher": "Conductor",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "business",
+          "tags": [
+            "Meta",
+            "编程智能体",
+            "产品迁移"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "together-compiler",
+          "title": "Together AI 推出由智能体持续调优的推理编译器",
+          "summary": "Together Compiler 让多组智能体改写并验证模型推理的 GPU 代码。Together AI 表示，服务已用于部分无服务器端点，独立部署功能处于限量测试。",
+          "whyItMatters": "把优化与验证纳入部署流程，有望缩短新模型从可运行到高吞吐的调优周期。",
+          "context": "原文发布日期为 2026-11-04。读取 Together AI 在 AIwire 刊发的发布稿正文。公司报告 Kimi K3 和 GLM 5.3 的峰值吞吐分别为所用 InferenceX 对照结果的 1.5 倍和 1.4 倍，数字限于发布稿所述模型和对照。",
+          "url": "https://www.hpcwire.com/aiwire/2026/11/04/together-ai-launches-together-compiler-for-continual-optimization-of-open-source-ai-models/",
+          "publisher": "Together AI（经 AIwire 发布）",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "product",
+          "tags": [
+            "推理优化",
+            "GPU",
+            "编译器"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "forgekernel-arxiv",
+          "title": "ForgeKernel 让算子优化经验在多轮搜索间复用",
+          "summary": "ForgeKernel 从高性能参考算子提炼可复用的硬件机制，在候选通过正确性和性能验证后，用它作为下一轮优化的参考。",
+          "whyItMatters": "可以用论文给出的算子和输入配置比较迭代式优化与人工参考实现，观察哪些收益能跨硬件复现。",
+          "context": "原文发布日期为 2026-11-03。近期精选补充。仅读取 arXiv v1 摘要和提交记录。作者报告在 NVIDIA Hopper 和 Blackwell 上的 29 种输入配置中，有 25 种达到或超过专家参考，性能几何均值提升 10%。结果来自预印本所述测试。",
+          "url": "https://arxiv.org/abs/2611.04998",
+          "publisher": "arXiv／ForgeKernel 作者",
+          "publishedAt": "2026-11-03T14:49:28Z",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "research",
+          "tags": [
+            "GPU算子",
+            "性能基准",
+            "预印本"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "checkpoint-prompt-adware",
+          "title": "Check Point 披露第三方 Codex 配置包植入持久提示广告",
+          "summary": "研究人员分析 Haiou 的 Codex 配置包后发现，安装过程会改写全局智能体指令，使后续回答推广第三方模型网关。",
+          "whyItMatters": "全局指令和技能也属于智能体的供应链。此案例展示了只检查传统可执行文件可能遗漏的持久行为。",
+          "context": "原文发布日期为 2026-11-03。近期精选补充。读取 Check Point 的报告概述、样本与安装分析，并与 The Hacker News 报道交叉核验。结论针对所分析的第三方包及其 4.5.0 版本。",
+          "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/",
+          "publisher": "Check Point Research",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "research",
+          "tags": [
+            "提示注入",
+            "供应链安全",
+            "Codex"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nooks-node-growth",
+          "title": "Nooks 获 5 亿美元增长资金承诺并推出销售助手 Node",
+          "summary": "Nooks 宣布获得 General Catalyst 旗下 Customer Value Fund 的增长资金承诺，并推出可利用通话、电邮和商机上下文协助销售人员的 Node。",
+          "whyItMatters": "把销售上下文跨多次接触保留下来，是此类工具能否进入日常销售流程的重要一环。",
+          "context": "原文发布日期为 2026-11-04。读取 Nooks 公告的资金与产品段落，并与路透社交叉核验。资金用于支持销售和营销扩张，按增长资金承诺表述。",
+          "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
+          "publisher": "Nooks",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "business",
+          "tags": [
+            "销售智能体",
+            "增长融资",
+            "企业应用"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "cohere-openrouter-retrieval",
+          "title": "Cohere 的 Embed 5 和 Rerank 5 接入 OpenRouter",
+          "summary": "OpenRouter 现可调用 Cohere 的嵌入和重排模型。Cohere 随公告发布 Python 示例，演示如何从文档建索引、召回候选，再筛出供模型引用的段落。",
+          "whyItMatters": "示例把索引成本与每次查询的调用成本拆开，便于在自己的语料上测量召回、延迟和费用。",
+          "context": "原文发布日期为 2026-11-04。读取 Cohere 公告、流程图和重排示例。上线范围是新增 OpenRouter 接入渠道，示例效果取决于文档和检索设置。",
+          "url": "https://cohere.com/blog/embed-rerank-5-openrouter",
+          "publisher": "Cohere",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "product",
+          "tags": [
+            "RAG",
+            "向量检索",
+            "重排"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "fal-series-f-2026",
+          "title": "fal 同步披露 E 轮和 F 轮，扩充生成媒体推理能力",
+          "summary": "生成媒体推理服务商 fal 披露今年早些时候完成的 E 轮与最新 F 轮，后者由 Bessemer Venture Partners 领投，NVIDIA 继续参与。",
+          "whyItMatters": "图像、视频和音频模型进入制作流程后，推理吞吐与交付成本成为独立的基础设施需求。",
+          "context": "原文发布日期为 2026-11-03。近期精选补充。读取 fal 官方博客融资与用途段落。官方页面只标 2026 年 11 月，11 月 3 日的披露日期由同日 TechCrunch 报道核对。",
+          "url": "https://fal.ai/blog/series-e-f",
+          "publisher": "fal",
+          "publishedAt": "2026-11-03",
+          "retrievedAt": "2026-11-04T22:59:09Z",
+          "category": "business",
+          "tags": [
+            "生成媒体",
+            "推理服务",
+            "融资"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-04T22:59:40.219Z"
+}
