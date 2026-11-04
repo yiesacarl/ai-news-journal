@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="每天早晚，读懂值得关注的 AI 进展。独立检索、原文核验，关注产品、研究与开源。">
+  <meta name="theme-color" content="#f4f2eb">
+  <title>AI 资讯日报 · 早晚精选</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="journal.css">
+  <script src="journal.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#news">跳到资讯</a>
+  <header class="masthead wrap">
+    <div class="topline"><span>独立检索 / 每日两刊</span><span>THE AI JOURNAL</span><span class="top-time">07:00 & 19:00 · 北京时间</span></div>
+    <div class="brand-row"><a href="./" class="brand"><span class="brand-mark" aria-hidden="true">AI<span>∷</span></span><span>资讯日报<small>读进展，也读它的意义。</small></span></a><div class="brand-note">从模型突破到科研现场<br>每天，留一点时间给新知。</div><button id="savedToggle" class="save-toggle" aria-pressed="false">☆ 阅读清单 <span id="savedCount">0</span></button></div>
+    <nav class="edition-nav" aria-label="刊期选择"><div class="edition-tabs"><button data-edition="all" aria-pressed="true">今日全刊</button><button data-edition="morning" aria-pressed="false">早报 <small>07:00</small></button><button data-edition="evening" aria-pressed="false">晚报 <small>19:00</small></button></div><label class="date-control">往期 <select id="daySelect" aria-label="选择日报日期"><option>正在加载</option></select></label></nav>
+  </header>
+
+  <main class="wrap" id="main">
+    <section class="issue-heading" aria-labelledby="issueTitle"><div><p class="eyebrow" id="issueNumber">DAILY EDITION</p><h1 id="issueTitle">今日，值得关注</h1><p class="issue-description">少一点信息噪声，多一点值得读的进展。</p></div><div class="issue-meta"><strong id="dateLabel">—</strong><span id="publicationStatus">正在读取最新刊期</span></div></section>
+    <div class="reading-layout">
+      <div class="reading-main">
+        <section id="leadStory" aria-label="本期重点"></section>
+        <section id="news" class="news-section" aria-labelledby="listHeading">
+          <div class="section-heading"><h2 id="listHeading">本期资讯 <span id="resultCount"></span></h2><span class="quiet" id="editionNote">先核验，再摘要</span></div>
+          <div class="filter-row"><div id="categoryFilters" class="categories" aria-label="按主题筛选"></div><label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="搜索资讯、来源…" aria-label="搜索资讯和来源"></label></div>
+          <div id="activeFilter" class="active-filter" hidden><span></span><button id="clearFilters">清除筛选 ×</button></div>
+          <div id="storyList" aria-live="polite" aria-busy="true"><p class="loading">正在翻开今天的日报…</p></div>
+          <div id="emptyState" class="empty" hidden><span aria-hidden="true">∷</span><h3 id="emptyTitle"></h3><p id="emptyDescription"></p><button id="retryButton" class="text-button" hidden>重新加载 ↻</button></div>
+        </section>
+      </div>
+      <aside class="reading-sidebar">
+        <section class="side-block schedule"><p class="eyebrow">一天，两次好阅读</p><h2>早读新进展<br>晚看新变化<span>。</span></h2><div class="schedule-row"><span>早报</span><strong>07:00</strong><span id="morningStatus">10 条精选</span></div><div class="schedule-row"><span>晚报</span><strong>19:00</strong><span id="eveningStatus">10 条精选</span></div><p>以上为开始整理时间，核验后发布。早晚去重，全天目标 20 条。</p></section>
+        <section class="side-block science"><p class="eyebrow">RESEARCH LENS</p><h2>给科研留一页</h2><p>论文、科学发现、可复现的工具。关注 AI 能力，也关心证据和边界。</p><button id="scienceFilter" class="text-button">阅读科研精选 <span>↗</span></button></section>
+        <section class="side-block standards"><p class="eyebrow">我们的编辑方法</p><ol><li><span>01</span><div><strong>回到原文</strong><p>追溯官方公告、论文与项目仓库。</p></div></li><li><span>02</span><div><strong>说明为什么重要</strong><p>提炼事实，区分结果与解读。</p></div></li><li><span>03</span><div><strong>保留阅读边界</strong><p>标明发布日期与核验范围。</p></div></li></ol></section>
+        <p class="storage-note">阅读清单仅保存在当前浏览器。</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="wrap journal-footer"><span>AI 资讯日报</span><p>以原文为依据，以理解为目的。</p><a href="#main">回到顶部 ↑</a></footer>
+  <dialog id="storyDialog" aria-labelledby="dialogTitle"><div class="dialog-top"><span id="dialogCategory" class="eyebrow"></span><button id="closeDialog" aria-label="关闭阅读详情">×</button></div><h2 id="dialogTitle"></h2><p id="dialogMeta" class="dialog-meta"></p><p id="dialogSummary" class="dialog-summary"></p><section><h3>为什么值得关注</h3><p id="dialogWhy"></p></section><section><h3>阅读与核验记录</h3><p id="dialogContext"></p></section><div class="dialog-bottom"><a id="dialogLink" class="primary-link" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a><button id="dialogSave" class="text-button">加入阅读清单</button></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
