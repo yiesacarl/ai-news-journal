@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-06",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-05T23:03:06Z",
+      "searchCount": 21,
+      "collectionWindow": {
+        "start": "2026-11-02T23:00:41Z",
+        "end": "2026-11-05T23:00:41Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "gpt6-cyber-launch",
+          "title": "OpenAI 发布 GPT-6 Cyber，并公布授权范围评估",
+          "summary": "OpenAI 推出面向授权安全研究的 GPT-6 Cyber。官方报告其 ExploitGym 成绩为 48.5%，此前 GPT-5.6 Cyber 为 32.1%，并将其网络安全能力评为 Critical。",
+          "whyItMatters": "模型能力与权限边界需要同时评估。此次发布同时给出了漏洞利用表现和范围遵守测试，便于防御团队审查部署条件。",
+          "context": "原文发布日期为 2026-11-05。读取发布公告、系统卡概述与范围评估段落，并与路透社交叉核验。分数来自官方测试，Critical 是 OpenAI 自身准备度框架的能力分类。此次模型发布与此前漏洞流水线报告分别处理。",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "product",
+          "tags": [
+            "网络安全",
+            "模型发布",
+            "授权测试"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "metr-anthropic-acceleration",
+          "title": "METR 独立评估 Anthropic 的 AI 研发加速，强调估计不确定性",
+          "summary": "METR 在取得内部研发资料后估计，Anthropic 在定义明确任务上的模型进步速度，可能约为历史时期的两倍。报告也指出基准选择、时间滞后和更广泛任务的解释均存在不确定性。",
+          "whyItMatters": "这份评估把研发加速从员工自述扩展到内部指标、算法效率和训练流程证据，有助于区分不同测量口径。",
+          "context": "原文发布日期为 2026-11-05。读取执行摘要、主要结论与基准及员工自述的限制。评估于 8 月 12 日至 10 月 29 日开展，11 月 5 日发表。约两倍为综合判断，团队认为 1.3 倍或 3 倍也并不意外。",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "publisher": "METR",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "research",
+          "tags": [
+            "研发加速",
+            "独立评估",
+            "能力测量"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "plamo3-translate-openweights",
+          "title": "PLaMo 3 Translate 开放四种规模权重，支持设备端翻译",
+          "summary": "Preferred Networks 发布 0.8B、2B、8B 和 31B 四种翻译模型权重，支持包括日语和英语在内的 53 种语言。官方展示了最小模型在飞行模式手机上的运行演示。",
+          "whyItMatters": "从小模型到服务器版本的选择，便于对敏感文档、离线场景和设备延迟做实际测试。",
+          "context": "原文发布日期为 2026-11-05。读取 PFN 公告的模型规模、部署和许可段落及 Hugging Face 模型卡。适用 PLaMo Community License，公告说明个人及最近财年年营收不超过 10 亿日元的企业可免费使用。性能比较属于厂商评测。",
+          "url": "https://www.preferred.jp/en/news/pr20261105",
+          "publisher": "Preferred Networks",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "离线翻译",
+            "端侧AI"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-omni12flash-video",
+          "title": "Gemini Omni 1.2 Flash 增加 15 秒视频与多轮编辑",
+          "summary": "Google 宣布 Gemini Omni 1.2 Flash 正式可用，增加原生 15 秒视频生成、参考内容遵循和多轮对话编辑。公告给出的 720p 价格为每秒 0.07 美元。",
+          "whyItMatters": "片段时长与连续编辑会直接影响制作流程，开发者可结合所需分辨率和片长核算一次生成的费用。",
+          "context": "原文发布日期为 2026-11-05。读取 Google 官方公告正文的可用性、视频能力和定价段落。相对 1.1 降价 30% 为厂商口径，所述每秒价格针对 720p，其他配置需另行核对。",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "product",
+          "tags": [
+            "视频生成",
+            "Gemini",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "enzymersi-dual-loop",
+          "title": "EnzymeRSI 研究用双循环调整酶设计方法与工作流",
+          "summary": "EnzymeRSI 将研究流程改进与预测、候选选择算法迭代分成两层。作者还报告了三组前瞻性湿实验，包括荧光素酶候选与修饰底物上的聚合酶测试。",
+          "whyItMatters": "把候选筛选与方法本身的改进分别记录，有助于检验性能提升究竟来自哪个环节。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文。作者报告 RLuc 实验中 32 个未预先指定候选有 10 个达到至少两倍野生型活性。结果限于摘要所述实验，属于预印本报告。",
+          "url": "https://arxiv.org/abs/2611.06321",
+          "publisher": "arXiv／EnzymeRSI 作者",
+          "publishedAt": "2026-11-04T10:54:35Z",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "research",
+          "tags": [
+            "酶设计",
+            "科学智能体",
+            "湿实验"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "trial-simulator-interventionblind",
+          "title": "临床试验模拟研究用隐藏干预信息检验模型是否理解药物",
+          "summary": "研究以 7207 项注册试验构建 9996 个试验内对照，比较同一模拟器在保留和隐藏干预信息时的误差，测量预测能力是否真正依赖治疗信息。",
+          "whyItMatters": "在医疗模拟中，预测相关性不足以证明模型能评估干预。该评测为检查这一差别提供了可复用设计。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。时间切分测试包含 655 项试验的 878 个对照；作者发现其中的梯度提升基线隐藏干预后反而更好。论文称公开基准、代码和调用输出，未在本次执行复现。",
+          "url": "https://arxiv.org/abs/2611.05907",
+          "publisher": "arXiv／Alicem Koyun",
+          "publishedAt": "2026-11-04T03:59:15Z",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "research",
+          "tags": [
+            "临床试验",
+            "因果评测",
+            "可复现基准"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "glasswing-disclosures-study",
+          "title": "研究利用漏洞披露数据评估前沿 AI 对防御方的影响",
+          "summary": "一项预印本比较获得 Project Glasswing 早期访问的企业与其他企业，报告前者公开披露的漏洞增加，高影响漏洞也更多，而修复速度未明显降低。",
+          "whyItMatters": "研究把模型能力问题延伸到公开漏洞生态和研究人员行为，提供了检查防御收益的外部数据角度。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv 摘要和提交记录。文中披露倍增、攻击比例下降等均为作者基于观察数据的估计；企业分组和受限访问会影响结果解释。未阅读全文或独立复现。",
+          "url": "https://arxiv.org/abs/2611.06629",
+          "publisher": "arXiv／Thomas Mosk",
+          "publishedAt": "2026-11-04T15:12:30Z",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "research",
+          "tags": [
+            "安全评估",
+            "漏洞披露",
+            "观察研究"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "kalepa-seriesb",
+          "title": "Kalepa 获 7500 万美元 B 轮，扩展保险 AI 工作流",
+          "summary": "保险 AI 公司 Kalepa 宣布按 4.7 亿美元估值完成 7500 万美元 B 轮融资，由 Updata Partners 领投。公司计划扩展产品和市场，并于 2027 年扩大团队。",
+          "whyItMatters": "承保、定价与组合管理依赖大量文档和风险数据，这笔融资反映了面向专业流程的 AI 产品投资方向。",
+          "context": "原文发布日期为 2026-11-05。读取公司公告的资金、领投方及用途段落，并与路透社交叉核验。融资与估值为公司披露，营收与客户效率表述没有作为独立验证的效果指标引用。",
+          "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+          "publisher": "Kalepa",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "business",
+          "tags": [
+            "保险科技",
+            "企业AI",
+            "融资"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "cmu-nfl-foundationmodels",
+          "title": "CMU 获 NFL 影像与追踪数据，研究多模态比赛理解",
+          "summary": "卡内基梅隆大学公布与 NFL 的研究合作。团队利用比赛影片和球员追踪数据分别训练初步系统，后续计划研究两类数据融合及战术预测。",
+          "whyItMatters": "将视频与结构化轨迹对齐，是体育分析之外也常见的多模态问题。报道明确区分了已完成的基础系统和未来目标。",
+          "context": "原文发布日期为 2026-11-05。读取 CMU 校方报道正文。11 月 5 日为报道日期，合作起始日未明确。当前成果为分别处理影片和轨迹的预训练系统，融合与预测仍属于研究方向。",
+          "url": "https://www.cmu.edu/news/stories/archives/2026/november/cmu-researchers-teach-football-to-ai-models",
+          "publisher": "Carnegie Mellon University",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "research",
+          "tags": [
+            "多模态",
+            "体育分析",
+            "基础模型"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "fabaid-nebraska-cybersecurity",
+          "title": "内布拉斯加大学公布 AI 科研数据网络的安全与运维职责",
+          "summary": "内布拉斯加大学林肯分校介绍其在 Fabric for AI-Driven Science 项目中的职责，将负责网络安全并参与分布式服务运维。项目旨在连接科研数据、计算资源和 AI 服务。",
+          "whyItMatters": "跨机构科学计算需要可信的数据流转。安全与持续运维职责的明确，比单独增加模型接口更接近研究平台的基础需求。",
+          "context": "原文发布日期为 2026-11-05。读取校方公告中的项目概述、安全和运维职责。11 月 5 日为本次职责报道日期，五年 2450 万美元为整体项目规模，原文提及的 NSF 总投资涵盖更大范围项目。",
+          "url": "https://news.unl.edu/article/university-to-lead-cybersecurity-for-national-fabric-for-ai-driven-science-project",
+          "publisher": "University of Nebraska–Lincoln",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T23:03:06Z",
+          "category": "community",
+          "tags": [
+            "科研基础设施",
+            "数据共享",
+            "网络安全"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-05T23:03:13.873Z"
+}
