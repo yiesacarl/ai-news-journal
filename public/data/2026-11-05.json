@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-05T11:03:42Z",
+      "searchCount": 36,
+      "collectionWindow": {
+        "start": "2026-11-02T11:03:42.000Z",
+        "end": "2026-11-05T11:03:42Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "ernie-55-flash-base",
+          "title": "百度开放 ERNIE 5.5 Flash Base 预训练权重",
+          "summary": "百度发布 280B 总参数、每 token 激活 14B 参数的稀疏 MoE 基座模型，在 33.5T tokens 上完成预训练。官方说明，最长训练上下文为 128K，微调与推理支持 1M tokens，并提供权重和微调入口。",
+          "whyItMatters": "统一的预训练终点可供团队对照不同领域适配、指令微调和强化学习方案。",
+          "context": "原文发布日期 2026-11-05。读取官方技术博客的引言、架构与预训练章节。发布日期由官网动态列表核对。此次权重未经中训练与后训练。Hugging Face 文件页未能读取，未验证下载。",
+          "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-base/",
+          "publisher": "百度文心",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "预训练",
+            "MoE"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "ripple-65b-preview",
+          "title": "Ricursive 发布 Apache 2.0 许可的 Ripple-65B Preview",
+          "summary": "Ricursive 开放 65B 稠密模型的指令版、基础版及 NVFP4 量化版本。模型卡称其以 12T tokens 预训练，支持最高 1M 上下文，并公开训练阶段和评测设置。",
+          "whyItMatters": "同时提供基础权重和指令权重，让开发者可以分别研究预训练能力与后训练收益。量化版本提供了本地运行入口。",
+          "context": "原文发布日期 2026-11-04。读取官方模型卡、许可标识、训练流程和基准说明，并核对官方发布页。11 月 4 日发布由官方社交帖及 VentureBeat 同日报道核对。作者提示评测框架会影响成绩，本文不据此宣称全面领先。",
+          "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+          "publisher": "Ricursive Intelligence",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "编码智能体",
+            "Apache-2.0"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "images-26",
+          "title": "Images 2.6 上线，增加 GIF、SVG 导出与图像标记编辑",
+          "summary": "OpenAI 发布 Images 2.6，并向 API 提供 Flare 与 Sunburst 两种型号。公告介绍了 GIF 创作、SVG 导出、指定区域编辑和控制场景规划的 complexity 参数。公司称低质量设置下 Flare 最快约六秒出图。",
+          "whyItMatters": "图像标记和跨轮编辑一致性关系到设计迭代的可控程度，SVG 导出则便于将设计带入后续制作流程。",
+          "context": "原文发布日期 2026-11-04。读取官方公告的功能、API 控制与可用范围章节。速度是厂商所述特定质量设置下的数据，未进行独立测试。",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "product",
+          "tags": [
+            "图像生成",
+            "GIF",
+            "开发者工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "pierre-acquisition",
+          "title": "OpenAI 拟收购 Pierre，将代码存储与评审工具带入 Codex",
+          "summary": "OpenAI 宣布将收购 Pierre Computer Company。Codex 已使用其 Trees 和 Diffs 库，后续计划整合 Code Storage 的功能。公告称开源项目将继续开放，交易仍需满足惯例交割条件及监管批准。",
+          "whyItMatters": "智能体生成代码之后，文件导航、评审和版本存储也需要处理更大的代码变更量，这笔交易扩展了 Codex 周边的工程工具。",
+          "context": "原文发布日期 2026-11-04。读取官方公告正文，核对已使用的组件、整合计划和交割条件。收购按拟议交易表述。",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "business",
+          "tags": [
+            "Codex",
+            "代码评审",
+            "收购"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "claude-vault-particles",
+          "title": "Anthropic 披露 Claude 辅助解析原核来源 vault 颗粒结构",
+          "summary": "Anthropic 生物实验室报告，团队用 Claude 辅助筛选蛋白候选、设计表达构建体、优化分离流程并执行冷冻电镜分析。团队在大肠杆菌中表达候选后，确认四种蛋白可形成 vault 形状，并解析了噬菌体来源 L05 的结构。",
+          "whyItMatters": "公告把模型参与的分析步骤和人类实验决策对应起来，也披露了错误协议与错误图谱造成的返工，便于评估科研助手的实际分工。",
+          "context": "原文发布日期 2026-11-04。读取研究公告中发现、实验过程与局限章节，未读预印本全文。结果为公司实验室报告。天然宿主内是否形成颗粒及其功能仍待验证，电镜计算使用了内部多 GPU 资源。",
+          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "结构生物学",
+            "科学发现",
+            "冷冻电镜"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "linux-vulnerability-pipeline",
+          "title": "OpenAI 报告自动化 Linux 漏洞发现与候选补丁流水线",
+          "summary": "OpenAI 称，在十月中旬的一次受控内核扫描中，流水线动态复现了 1,724 个漏洞，并产生 948 个本地提权利用及候选补丁。流程包括发现、复现、可利用性评估、补丁生成及人工审核，API 成本约 120 万美元。",
+          "whyItMatters": "当候选数量增长时，维护者仍需完成优先级判断和补丁审核。报告展示了将复现证据与补丁一起交付的流程。",
+          "context": "原文发布日期 2026-11-04。读取官方报告的扫描范围、流水线、成本与补丁状态章节，并交叉查看独立报道。数字均为 OpenAI 自报，未找到独立核验全量计数的证据。候选补丁仍需维护者审核合并。",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "网络安全",
+            "Linux",
+            "自动化修复"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "google-health-evaluation",
+          "title": "Google 公布结合基准、模型评分与专家审查的健康 AI 评估框架",
+          "summary": "Google 介绍一套围绕准确性、安全性与有用性展开的评估方法，将封闭题基准、模型自动评分和专家审查结合，并按基础模型、产品开发和上线后监测划分评估阶段。",
+          "whyItMatters": "医疗场景中的答案质量涉及任务与使用环境，框架让采购和开发团队能明确每个阶段需要补充哪类评估证据。",
+          "context": "原文发布日期 2026-11-04。读取 11 月 4 日官方说明，论文仅阅读 arXiv 摘要及版本记录，未读全文。论文初稿 11 月 3 日提交、11 月 4 日更新。本条报道评估方法，未提供临床有效性结论。",
+          "url": "https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/",
+          "publisher": "Google Health",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "健康AI",
+            "模型评估",
+            "科研方法"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "corde-disclosure",
+          "title": "CORDE 为机密 AI 的对外数据披露建立可核查日志",
+          "summary": "研究提出让用户衍生数据默认留在机密虚拟机中，需要对外发送时，先记录具体内容、接收方和理由。系统结合 Rust 信息流约束、可信执行环境账本和远程证明。作者在 H100 的 AppWorld 测试中报告约 0.5% 任务延迟开销。",
+          "whyItMatters": "智能体调用外部服务时可能带出用户信息。将披露内容与调用对应，可为用户事后检查提供记录。",
+          "context": "原文发布日期 2026-11-04。近期精选补充。读取 arXiv v1 摘要、系统设计引言和安全验证段落。约 0.5% 限于作者所测 H100 与 AppWorld 配置，功能测试尚不构成形式化安全证明。",
+          "url": "https://arxiv.org/abs/2611.05971",
+          "publisher": "arXiv · Shiina 等",
+          "publishedAt": "2026-11-04T05:05:43Z",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "隐私",
+            "机密计算",
+            "智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "eu-ai-act-qa-benchmark",
+          "title": "研究开放 110 道欧盟 AI 法案问答基准及评测代码",
+          "summary": "研究者用 110 道开放题测试五个专用法规助手和三个通用基线，同时评估正确性、引用、表达和延迟，并设置模拟用户反驳的多轮模式。作者报告，仅两个参赛专用助手持续优于基线。",
+          "whyItMatters": "可公开运行的逐题标准便于检查法规问答系统是否给出正确条款，以及在用户质疑后能否保持可靠判断。",
+          "context": "原文发布日期 2026-11-03。近期精选补充。读取论文摘要、引言与基准范围，并打开作者代码仓库。基准按 2026 年 5 月 1 日的法规状态解释，后续修订不在评测范围内。结果来自论文所述参赛系统。",
+          "url": "https://arxiv.org/abs/2611.04546",
+          "publisher": "arXiv · Virgolin 等",
+          "publishedAt": "2026-11-03T09:12:05Z",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "可复现评测",
+            "法规问答",
+            "开放数据"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "embodied-science-evidence-review",
+          "title": "具身科研综述提出分别检查动作、实验与科学主张",
+          "summary": "一篇综述将具身科研系统分为操作、知识更新和证据三个层次，强调记录实验实际执行条件、观测与后续确认之间的联系。摘要介绍了覆盖 28 个工作流的证据图谱，以及对有效实验和已确认主张分别评估的建议。",
+          "whyItMatters": "自动化实验的成功率需要追溯到样品、仪器状态和测量记录，这套分类为复核科研智能体提供了检查维度。",
+          "context": "原文发布日期 2026-11-03。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文及附录。本文是综述与评价方法提案。",
+          "url": "https://arxiv.org/abs/2611.04371",
+          "publisher": "arXiv · Xu 等",
+          "publishedAt": "2026-11-03T05:59:43Z",
+          "retrievedAt": "2026-11-05T11:03:24Z",
+          "category": "research",
+          "tags": [
+            "具身科研",
+            "研究精选",
+            "科学复现"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-04T22:59:40.219Z"
+  "updatedAt": "2026-11-05T11:03:43.088Z"
 }
