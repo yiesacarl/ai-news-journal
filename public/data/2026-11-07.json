@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-07",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-06T23:07:02Z",
+      "searchCount": 28,
+      "collectionWindow": {
+        "start": "2026-11-03T23:03:58Z",
+        "end": "2026-11-06T23:03:58Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "biobasicsbench-wetlab",
+          "title": "BioBasicsBench 用原始实验数据检验智能体的湿实验判断",
+          "summary": "OpenAI 与 Ligo 推出包含 100 项任务的 BioBasicsBench，覆盖凝胶、显微图像、测序文件和实验记录。任务要求模型解释数据、发现错误，并在证据不足时保留结论。",
+          "whyItMatters": "实验室里的原始材料往往包含模糊或冲突信息，这种评测更接近日常分析和排错过程。",
+          "context": "原文发布日期为 2026-11-06。读取官方公告的任务设计、评分、结果和失败案例。七个模型共测试 37 种模型与推理设置，每设置每题尝试五次；成绩是评分细则下的平均得分。",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "湿实验",
+            "科学评测",
+            "多模态"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "aurora-cancer-pioneer",
+          "title": "AURORA 选出三支癌症研究团队，开始检验 AI 科研伙伴",
+          "summary": "Cancer Grand Challenges 的 AURORA 项目将为三支团队提供合计 400 万美元，研究 AI 科研伙伴在 CAR-T、癌症起始和肿瘤免疫研究中的作用。",
+          "whyItMatters": "项目把 AI 生成的假设放回正在进行的实验中检验，可以观察建议能否转化成可靠研究结果。",
+          "context": "原文发布日期为 2026-11-06。读取哈佛医学院报道的项目设计、资助和验证安排，并与 Cancer Grand Challenges 发布稿交叉核验。11 月 5 日举办启动活动，11 月 6 日报道。此前核心模块的 600 万美元与本批 400 万美元分开记录，实验验证仍将开展。",
+          "url": "https://hms.harvard.edu/news/can-ai-co-scientist-accelerate-cancer-research",
+          "publisher": "Harvard Medical School",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "癌症研究",
+            "AI科研伙伴",
+            "实验验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "meta-specialized-muse",
+          "title": "Meta 为 Muse 和 Meta AI 推出专门训练的模型",
+          "summary": "Meta 宣布将利用 Muse Wonder 训练的专门模型部署到 Muse 和 Meta AI，加入 Active Memory 和 Active Focus，尝试保留跨会话相关信息并帮助推进目标。",
+          "whyItMatters": "长期助手需要区分短期信息、稳定偏好和过期上下文，这类改进可用跨会话任务直接检验。",
+          "context": "原文发布日期为 2026-11-06。读取 Meta 官方博客的发布、记忆和评估段落。内部记忆评估由旧模型 76% 升至新模型 90%，该数字来自 Meta 自定义任务。",
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+          "publisher": "Meta AI Research",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "product",
+          "tags": [
+            "长期记忆",
+            "个人助手",
+            "Meta AI"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sle-scientific-agents",
+          "title": "Science’s Last Exam 公布 113 项可执行科研任务",
+          "summary": "Science’s Last Exam 以真实研究材料和工具评估智能体，公开设计涵盖九个学科，强调提交可检查、可重新运行的研究产物，并以预先封存的检查规则验收。",
+          "whyItMatters": "科研能力需要同时检查方法选择、计算执行与证据边界。任务包设计便于比较具体环节的失败。",
+          "context": "原文发布日期为 2026-11-06。读取项目官网与博客的任务、评分和发布说明。博客列明 11 月 6 日发布，包含 113 项公开任务及一项端到端任务；湿实验执行仍在建设，未将其写成已完成评测。未在本次执行任务包。",
+          "url": "https://sciences-last-exam.org/blog",
+          "publisher": "Science’s Last Exam／AItonomy Foundation",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "科研智能体",
+            "可执行基准",
+            "科研复现"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "protegrity-pii-release",
+          "title": "Protegrity 开放个人信息检测模型与 PII-SCOPE 基准",
+          "summary": "Protegrity 发布开放权重的 Protegrity-PII，识别 69 类个人信息，并提供 PII-SCOPE 基准与技术报告。模型卡包含权重、分词器和推理脚本的使用说明。",
+          "whyItMatters": "检测敏感信息需要按具体实体类型与业务材料评测，公开测试集有助于对漏检和误检做独立比较。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取官方 11 月 5 日公告与 Hugging Face 模型卡，模型文件访问需要接受条件。PII-SCOPE 有 8030 条记录，模型优劣比较为发布方评测，未独立复现。",
+          "url": "https://www.protegrity.com/news/protegrity-releases-open-weights-pii-detection-model-on-hugging-face-backed-by-new-benchmark-research",
+          "publisher": "Protegrity",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "opensource",
+          "tags": [
+            "个人信息保护",
+            "开放权重",
+            "评测数据"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "uchicago-laude-weather",
+          "title": "芝加哥大学获 1000 万美元资助，建设面向本地决策的 AI 天气平台",
+          "summary": "Laude Institute 为芝加哥大学团队提供 1000 万美元，支持 AI 天气模型和 AI Almanac 平台。项目将结合 AI 与物理预报，为不同地区的农业和公共卫生决策调整预报。",
+          "whyItMatters": "全球平均误差难以直接回答播种和热浪应对问题，按本地观测与实际决策评估更接近应用需求。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取校方 11 月 5 日公告的资助、模型组合和平台计划。开放平台属于建设目标，已有农业预报部署与未来平台分别叙述，未把后续目标视为已交付功能。",
+          "url": "https://cs-www.uchicago.edu/news/university-of-chicago-team-wins-10-million-laude-institute-grant-to-advance-ai-weather-forecasting-for-low-and-middle-income-economies/",
+          "publisher": "University of Chicago",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "天气预报",
+            "科研基础设施",
+            "农业"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "trickortreat-medical-vlm",
+          "title": "Trick-or-Treat 用冲突的医学图像检查模型幻觉",
+          "summary": "研究者将真实胸片与合成临床照片配对，保持同一胸片而更换照片中的表现，测试多模态模型能否识别两个证据来源的不一致。",
+          "whyItMatters": "让证据发生受控冲突，可以发现模型为了统一诊断而错误解释图像的倾向。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要与提交记录。三个前沿模型在不匹配图像对中出现有临床意义的照片幻觉比例为 45% 至 57.5%，同样照片单独展示时为 25% 至 37.5%。这是合成图像对抗测试结果，属于预印本报告。",
+          "url": "https://arxiv.org/abs/2611.06631",
+          "publisher": "arXiv／Trick-or-Treat 作者",
+          "publishedAt": "2026-11-04T15:13:35Z",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "医学多模态",
+            "幻觉评测",
+            "证据冲突"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "vabar-robotics-benchmark",
+          "title": "VABAR 提供六类可重复的机器人操作基准",
+          "summary": "VABAR 将工业、医疗与基础设施场景中的变化操作任务纳入模拟评测，包括工具分拣、齿轮啮合、注射器装盒和线缆操作。",
+          "whyItMatters": "对象形状和位置变化是实际自动化的常见障碍，可重复的任务设计方便检查系统鲁棒性。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。基准以模拟为基础，设计目标包含可复现、物理可实现和计算效率。未在本次运行模拟或验证实体机器人效果。",
+          "url": "https://arxiv.org/abs/2611.06881",
+          "publisher": "arXiv／VABAR 作者",
+          "publishedAt": "2026-11-04T18:38:01Z",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "操作基准",
+            "模拟评测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "trustmix-distribution-shift",
+          "title": "TrustMix 在分布偏移时逐步转向可指定的保底预测",
+          "summary": "TrustMix 将预训练模型输出与用户指定的保底分布混合。当分布外信号增强时，预测逐步靠近保底分布，并可用于分类或回归。",
+          "whyItMatters": "显式指定外推行为有助于把领域假设写进模型使用流程，进而检查偏移条件下的不确定性。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。方法无需重新训练基础模型，作者在合成与真实偏移任务上报告似然或校准改善，未据此声称对任意分布偏移都有精度保证。",
+          "url": "https://arxiv.org/abs/2611.07206",
+          "publisher": "arXiv／TrustMix 作者",
+          "publishedAt": "2026-11-04T22:51:54Z",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "research",
+          "tags": [
+            "分布偏移",
+            "不确定性",
+            "模型校准"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "adobe-cx-coworker-integrations",
+          "title": "Adobe 将客户体验智能体接入多家 AI 平台",
+          "summary": "Adobe 宣布 CX Enterprise Coworker 可在 ChatGPT、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot 中使用，同时增加连接企业营销与数据系统的预建接口。",
+          "whyItMatters": "企业智能体的实际用途取决于能否接入既有数据和动作权限，多平台集成使其工作范围更具体。",
+          "context": "原文发布日期为 2026-11-04。近期精选补充。读取 Adobe 11 月 4 日发布稿的可用平台、协议和连接器段落。采用 MCP 与 A2A 等标准，Amazon Quick、IBM 和 Snowflake 的平台内可用性仍属计划。未将宣传中的效率提升当作独立实测。",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms",
+          "publisher": "Adobe",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-06T23:07:02Z",
+          "category": "product",
+          "tags": [
+            "企业智能体",
+            "MCP",
+            "客户体验"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-06T23:07:09.968Z"
+}
