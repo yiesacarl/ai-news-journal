@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-06T11:03:49Z",
+      "searchCount": 36,
+      "collectionWindow": {
+        "start": "2026-11-03T11:03:49.000Z",
+        "end": "2026-11-06T11:03:49Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "inkling-2-small",
+          "title": "Thinking Machines 发布 Inkling 2 Small，先通过 Tinker 提供服务",
+          "summary": "Inkling 2 Small 是总参数 594B、激活参数 17B 的 MoE 模型，支持图像输入和可调推理强度。用户已可在 Tinker 上试用、微调和采样。团队计划在完成外部安全测试后，于下一周以 Apache 2.0 许可开放完整权重。",
+          "whyItMatters": "图像反馈和微调接口可用于构建特定工作流。权重开放时间则决定团队何时能独立部署与复现。",
+          "context": "原文发布日期 2026-11-05。读取官方发布文的模型规格、训练方法、可用范围与开放计划。当前提供托管访问，开放权重为后续计划。",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "publisher": "Thinking Machines Lab",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "product",
+          "tags": [
+            "多模态",
+            "模型微调",
+            "Tinker"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "mnn-pocket-03b",
+          "title": "MNN-Pocket-0.3B 开放端侧部署版本，INT4 包约 173 MB",
+          "summary": "阿里 MNN 团队发布面向手机应用的约 300M 参数中英文模型，支持 32K 上下文，采用 Apache 2.0 许可。官方仓库说明，W4A16 量化感知训练版本约 173 MB，在 iPhone 18 Pro 的测试中解码吞吐为 350 token/s。",
+          "whyItMatters": "模型、量化版本和推理引擎一起提供，便于开发者在手机的内存、延迟及业务任务约束下做离线适配。",
+          "context": "原文发布日期 2026-11-04。近期精选补充。读取官方 README 的 11 月 4 日发布记录与部署说明。媒体于 11 月 6 日报道，按仓库原日期记录。速度为指定设备上的厂商测试，未读取技术报告全文或实际运行模型。",
+          "url": "https://github.com/alibaba/MNN",
+          "publisher": "阿里巴巴 MNN 团队",
+          "publishedAt": "2026-11-04",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "opensource",
+          "tags": [
+            "端侧AI",
+            "轻量模型",
+            "开源"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "structrfm-nature",
+          "title": "中国科大公布 structRFM RNA 基础模型，开放数据、权重与代码",
+          "summary": "中国科大团队将结构知识融入 RNA 序列学习，使用约 2,100 万条经计算注释的序列与二级结构配对数据进行预训练。模型可提取序列、核苷酸及核苷酸对特征，用于结构预测和功能推断。相关成果发表于《自然》。",
+          "whyItMatters": "完整训练配对数据与模型资源为复现实验提供了入口，也便于比较结构信息对不同 RNA 任务的贡献。",
+          "context": "原文发布日期 2026-11-05。读取 11 月 5 日署名中国科大的中科院研究公告和作者仓库的概述、资源与使用入口。《自然》原文无法访问，未阅读全文。论文页面标注 11 月 4 日发表，本条日期对应机构公告。",
+          "url": "https://www.cas.cn/syky/202611/t20261105_5123509.shtml",
+          "publisher": "中国科学技术大学／中国科学院",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "research",
+          "tags": [
+            "RNA",
+            "科学发现",
+            "开放数据"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "tcsexam",
+          "title": "TCSExam 开放 100 项可验证的理论计算机科学研究任务",
+          "summary": "TCSExam 覆盖定理证明、求解器工程、数学构造和开放猜想。Full 套件含 100 项专家审核任务，Lite 含 20 项，提交结果由 Lean 内核或可执行检查器验证。作者同时开放任务来源、Docker 构建配方和评测工具。",
+          "whyItMatters": "按任务产物验证结果，有助于区分可复核的研究进展与文字上合理的回答，Lite 也降低了初次评测的任务数量。",
+          "context": "原文发布日期 2026-11-05。仅读取 arXiv v1 摘要和提交记录，并读取官方仓库的任务结构、运行入口与评分说明，未读论文全文。不同套件的榜首分数对应不同任务集合，本文不作横向换算。",
+          "url": "https://arxiv.org/abs/2611.07962",
+          "publisher": "arXiv／MoonshotAI TCSExam 作者",
+          "publishedAt": "2026-11-05T12:58:43Z",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "research",
+          "tags": [
+            "理论计算机科学",
+            "可复现评测",
+            "Lean"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "scientists-use-claude",
+          "title": "Anthropic 分析 20.7 万次科研会话，发现使用集中于数据分析和写作",
+          "summary": "Anthropic 用隐私保护方法分析 207,000 次 Claude 与 Claude Code 科研会话，并调查 528 名科研人员。数据分析约占 Claude 会话的三分之一、Claude Code 会话的近一半；构思与物理数据采集的使用占比较低。",
+          "whyItMatters": "分析将科研任务拆开观察，显示已有工具更常用于数字化工作，实验采集等环节仍可能约束整体科研流程。",
+          "context": "原文发布日期 2026-11-05。读取报告摘要、任务使用分布与调查说明。样本来自 Claude 用户，调查对象为积极使用 AI 的研究者。研究产出倍增等数字来自情景模型，本文只概括观察到的使用分布。",
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "research",
+          "tags": [
+            "AI for Science",
+            "科研工作流",
+            "使用研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "potential-sciences-sovereign",
+          "title": "英国 Sovereign AI 为 Potential Sciences 提供投资与算力支持",
+          "summary": "英国政府宣布支持 Potential Sciences，参与其八位数规模融资并提供算力获取支持。公司计划以适配 GPU 的物理模拟生成分子相互作用数据，训练用于化学和药物设计的 AI。",
+          "whyItMatters": "模拟数据可能补充实验数据的覆盖范围，政府把投资与算力结合的方式也会影响科研型初创公司的资源条件。",
+          "context": "原文发布日期 2026-11-05。读取政府公告的投资、算力与技术路线说明。公告披露八位数融资规模，政府单独投资金额未列明。成本改善与药物发现收益仍属公司及政府预期。",
+          "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
+          "publisher": "英国政府",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "business",
+          "tags": [
+            "AI制药",
+            "科研算力",
+            "融资"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "serve-physical-ai-services",
+          "title": "Serve Robotics 将连接、数据筛选与训练数据服务对外提供",
+          "summary": "Serve 推出 Physical AI Services，包含连接机器人与云端模型的 Serve Link、筛选车队关键数据的 Data Curator，以及来自人行道部署的现实环境数据目录。公告列出 Bedrock Robotics 为首批客户。",
+          "whyItMatters": "机器人团队可以评估复用连接和数据处理服务的可行性，把更多工程资源放在自身任务与机体上。",
+          "context": "原文发布日期 2026-11-05。读取官方公告正文及三项服务说明。覆盖范围和客户情况为公司公告所述，未进行服务性能测试。",
+          "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology",
+          "publisher": "Serve Robotics",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "product",
+          "tags": [
+            "机器人",
+            "数据基础设施",
+            "物理AI"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-community-compact",
+          "title": "OpenAI 发布数据中心社区承诺，将公开能耗、水耗和噪声信息",
+          "summary": "OpenAI 公布 National Community Compact，承诺为未来自有自营园区制定本地协议，承担新增用电及基础设施成本，公开水电使用和建设计划，并发布独立噪声研究。与公职人员的保密约定将收窄至特定敏感信息。",
+          "whyItMatters": "这些公开事项让社区有具体依据检查园区建设与运营对资源、费用和就业的影响，后续年度报告将是检验承诺的材料。",
+          "context": "原文发布日期 2026-11-05。读取官方社区承诺和政策蓝图说明，并与路透社 11 月 5 日报道交叉核验。适用范围为未来 OpenAI 自有自营园区，政策蓝图中的建议仍待立法或监管采纳。",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "policy",
+          "tags": [
+            "数据中心",
+            "透明度",
+            "能源"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "clear-wsi",
+          "title": "CLEAR-WSI 用固定长度表示检索病理全切片图像",
+          "summary": "研究提出将病理切片聚合为固定长度向量，再用诊断预测筛选相似病例，并让处理过的病例进入可增长检索库。实验覆盖两个公开数据集与一个私有临床数据集，共四项检索任务。",
+          "whyItMatters": "固定长度表示和逐步扩展的病例库为大规模影像档案检索提供了设计方案，诊断标签是否可得也能被单独评估。",
+          "context": "原文发布日期 2026-11-05。读取 arXiv v1 摘要及正文检索方法、标签过滤和实验设置。论文将已知真实诊断标签的 CI 配置单列为 oracle，自动 SR 配置使用预测标签。结果限于所测数据集。",
+          "url": "https://arxiv.org/abs/2611.07935",
+          "publisher": "arXiv／Liu 等",
+          "publishedAt": "2026-11-05T12:38:23Z",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "research",
+          "tags": [
+            "数字病理",
+            "图像检索",
+            "医学AI"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "artividrm",
+          "title": "ArtiVidRM 先列可见生成缺陷，再对视频质量打分",
+          "summary": "ArtiVidRM 将视频中的可见生成缺陷组织成结构化列表，再以列表作为质量评分依据。训练同时优化缺陷预测和视频偏好排序，作者报告该方法可用于视频生成优化及缺陷引导的结果改进。",
+          "whyItMatters": "缺陷列表把评分与视频证据对应起来，可帮助开发者定位模型需要修正的具体表现，并检查奖励信号。",
+          "context": "原文发布日期 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文或复现实验。性能提升为作者在论文所测偏好基准和生成设置下的报告。",
+          "url": "https://arxiv.org/abs/2611.07301",
+          "publisher": "arXiv／Li 等",
+          "publishedAt": "2026-11-05T01:37:25Z",
+          "retrievedAt": "2026-11-06T11:03:32Z",
+          "category": "research",
+          "tags": [
+            "视频生成",
+            "奖励模型",
+            "可解释评测"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-05T23:03:13.873Z"
+  "updatedAt": "2026-11-06T11:03:51.438Z"
 }
