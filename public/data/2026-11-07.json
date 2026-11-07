@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-07T11:03:01Z",
+      "searchCount": 45,
+      "collectionWindow": {
+        "start": "2026-11-04T11:03:01Z",
+        "end": "2026-11-07T11:03:01Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "ling-32-flash-release",
+          "title": "Ling-3.2-flash 上线百万上下文多模态接口",
+          "summary": "蚂蚁百灵官方更新记录列出 Ling-3.2-flash，模型规格为 560B 总参数、25B 激活参数和百万上下文窗口，支持文本、图像及视频输入，并提供兼容 OpenAI 与 Anthropic 协议的接口。",
+          "whyItMatters": "长上下文、多模态和协议兼容性影响现有应用的接入成本，可按具体业务材料检验效果。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取官方更新记录与模型规格页。参数和能力为发布方说明，本次未调用接口或独立测试。",
+          "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/",
+          "publisher": "蚂蚁百灵",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "product",
+          "tags": [
+            "多模态",
+            "长上下文",
+            "模型接口"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "lerobot-v070-release",
+          "title": "LeRobot 0.7.0 加入语言交互控制与远程推理",
+          "summary": "LeRobot 0.7.0 增加运行中切换子任务、视觉问答及自动引导接口，同时引入无需落盘的数据集流式读取和远程 GPU 推理服务，方便把机器人采集、训练与执行环节连接起来。",
+          "whyItMatters": "研究者可在执行过程中纠正任务，并把推理计算迁到远程设备，降低搭建机器人实验流程的工作量。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取官方发布文章的交互执行、流式数据集和远程推理段落。视觉问答与自动引导需要具备文本生成能力的策略或外部视觉语言规划器，本次未运行代码或实体机器人。",
+          "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+          "publisher": "Hugging Face／LeRobot",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "opensource",
+          "tags": [
+            "机器人",
+            "LeRobot",
+            "远程推理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-agent-memory-components",
+          "title": "Anthropic 拆解智能体记忆的存储与整理环节",
+          "summary": "Anthropic 研究智能体如何借助持久化笔记、日志和离线整理，在新会话中沿用已有经验。文章比较不同记忆组织方式，并讨论如何从任务记录中提炼可复用规则。",
+          "whyItMatters": "跨会话工作的效果取决于保存什么、如何检索与更新，这些环节可以分别评估，帮助定位记忆系统的失效原因。",
+          "context": "原文发布日期为 2026-11-06。读取研究文章的记忆组件、组织方式与 CL-Bench 实验说明。实验中的新会话通过共享目录保留记忆，结果受所用模型、任务与记忆配置约束，本次未复现。",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "智能体记忆",
+            "持续学习",
+            "实验设计"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "scientific-modeling-sbi-guide",
+          "title": "科学建模研究文章讨论如何约束 AI 的机制解释",
+          "summary": "图宾根大学与 ELLIS 研究者在 Anthropic 研究栏目讨论构建、约束和解释科学模型的流程，介绍用模拟与神经网络推断参数分布的方法，并强调结合观测检验模型解释。",
+          "whyItMatters": "多个机制可能拟合同一组数据，显式处理不确定性与模型假设，有助于研究者判断 AI 给出的解释是否可检验。",
+          "context": "原文发布日期为 2026-11-06。读取文章的建模流程与基于模拟的推断讨论。这是一篇科研方法精选，内容为作者的方法论分析，本次未执行模拟或复现推断流程。",
+          "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+          "publisher": "Anthropic／图宾根大学研究者",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "科学建模",
+            "模拟推断",
+            "不确定性"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "ecological-foundation-model-roadmap",
+          "title": "生态基础模型路线图提出连接基因、卫星与声学观测",
+          "summary": "研究团队在 Nature Machine Intelligence 观点文章中提出生态基础模型路线图，讨论整合遗传序列、卫星影像、声学记录与物种观测，并把生态理论、不确定性和数据治理纳入设计。",
+          "whyItMatters": "生态数据分散在不同尺度和模态，统一建模的价值需要同时用生态合理性与实际保护决策来检验。",
+          "context": "原文发布日期为 2026-11-06。读取牛津大学官方报道，并与伦敦玛丽女王大学参与团队报道交叉核验。期刊原文未能读取，内容为路线图提议，未将其描述为已完成模型或已有性能结果。",
+          "url": "https://www.biology.ox.ac.uk/node/5027171",
+          "publisher": "University of Oxford",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "生态学",
+            "基础模型",
+            "科学发现"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-hacktron-partnership",
+          "title": "OpenAI 与 Hacktron 扩大智能体跨服务安全测试",
+          "summary": "OpenAI 宣布与 Hacktron 合作，选择高优先级测试目标，重点检查第三方服务及其集成，并通过 Daybreak Red 扩大测试人员使用前沿模型的范围。",
+          "whyItMatters": "智能体执行任务时会跨越多个服务和权限边界，联合测试可帮助发现单个平台内测试难以覆盖的连接风险。",
+          "context": "原文发布日期为 2026-11-06。读取 OpenAI 官方合作公告。公告描述合作范围与访问安排，本次未独立验证测试成效，文中没有可据以比较的漏洞发现数量。",
+          "url": "https://openai.com/index/partnering-with-hacktron/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "business",
+          "tags": [
+            "智能体安全",
+            "安全测试",
+            "服务集成"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "roboarcade-long-horizon-benchmark",
+          "title": "RoboARCade 用三种机器人形态测试长程操作",
+          "summary": "RoboARCade 提出基于 MuJoCo 的长程操作基准，覆盖三种机器人形态，并通过可替换接口与任务数据包测试视觉语言智能体。作者同时检查任务执行与模型自报成功之间的差异。",
+          "whyItMatters": "操作评测需要追踪实际完成状态，成功自报与环境结果的差距会影响机器人系统的可靠性判断。",
+          "context": "原文首次提交时间为 2026-11-05T16:00:16Z。近期精选补充。仅读取 arXiv 摘要与提交记录。内容为预印本作者报告，本次未读取全文或运行 MuJoCo 任务。",
+          "url": "https://arxiv.org/abs/2611.08209",
+          "publisher": "arXiv／RoboARCade 作者",
+          "publishedAt": "2026-11-05T16:00:16Z",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "长程任务",
+            "评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "energybench-live-forecasting",
+          "title": "EnergyBench 以实时数据检验能源预测模型",
+          "summary": "EnergyBench 建立持续更新的能源预测基准，覆盖六个欧洲电力竞价区的电价、风电、光伏和负荷，按 15 分钟粒度预测。任务在每日拍卖截止前冻结可用输入，减少事后信息混入。",
+          "whyItMatters": "实时冻结输入与持续评测能暴露固定历史测试集难以发现的问题，也便于比较相同信息条件下的模型表现。",
+          "context": "原文首次提交时间为 2026-11-05T10:26:36Z。近期精选补充。读取 arXiv 摘要及 HTML 正文的任务设计、信息截止规则与输入设置。每日 11:30 CET/CEST 冻结信息，距拍卖截止 30 分钟。本次未运行基准，结果仍需在后续时段持续检验。",
+          "url": "https://arxiv.org/abs/2611.07784",
+          "publisher": "arXiv／EnergyBench 作者",
+          "publishedAt": "2026-11-05T10:26:36Z",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "能源预测",
+            "实时评测",
+            "数据泄漏"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "vials-aa-scientific-vision",
+          "title": "VIALS-AA 用三次重复运行检验科研图像分析稳定性",
+          "summary": "Artificial Analysis 推出包含 161 项任务的 VIALS-AA，结合科研图像检查与代码执行。每项任务运行三次，以三次均正确的 pass^3 指标衡量可靠完成能力，并公开任务示例和执行轨迹。",
+          "whyItMatters": "科研分析常需稳定重复执行，连续三次成功的要求有助于区分偶然答对与可重复完成。",
+          "context": "原文发布日期为 2026-11-06。读取发布文章的任务概述、评分规则、成本定义与凝胶图像示例。评测使用开源 Stirrup 框架，pass^3 要求三次全对。本次未独立重跑任务。",
+          "url": "https://artificialanalysis.ai/articles/vials-aa",
+          "publisher": "Artificial Analysis",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "科研图像",
+            "可靠性",
+            "可重复评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "platour-pact-check",
+          "title": "PLatour 提出对照检查，区分模型通信与桥接训练收益",
+          "summary": "PLatour 研究用可训练线性桥接层连接冻结的大模型与较小模型。作者报告，在受控实验中，无信息信号、自通信或仅接收端训练也能重现部分收益，并提出 PACT-Check 检查通信贡献。",
+          "whyItMatters": "跨模型协作的提升可能来自适配环节，设置相应对照有助于判断新增通信机制究竟贡献了什么。",
+          "context": "原文首次提交时间为 2026-11-04T13:33:47Z。近期精选补充。仅读取 arXiv 摘要与提交记录，内容为预印本作者的受控实验报告。本次未读取全文、检查实现或复现实验。",
+          "url": "https://arxiv.org/abs/2611.06976",
+          "publisher": "arXiv／PLatour 作者",
+          "publishedAt": "2026-11-04T13:33:47Z",
+          "retrievedAt": "2026-11-07T11:03:01Z",
+          "category": "research",
+          "tags": [
+            "模型协作",
+            "对照实验",
+            "可复现研究"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-06T23:07:09.968Z"
+  "updatedAt": "2026-11-07T11:04:11.941Z"
 }
