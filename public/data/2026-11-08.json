@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-08",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-07T23:00:46Z",
+      "searchCount": 27,
+      "collectionWindow": {
+        "start": "2026-11-04T22:58:13Z",
+        "end": "2026-11-07T22:58:13Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "psi-aaronson-ambainis",
+          "title": "PSI 公布 Aaronson–Ambainis 猜想证明与 Lean 形式化材料",
+          "summary": "PSI 宣布，其内部研究系统使用未公开的 Anthropic 模型获得 Aaronson–Ambainis 猜想证明，并公开论文、Lean 形式化和检查说明。",
+          "whyItMatters": "公开数学陈述、形式化边界与检查方法，使研究者有机会分别审查推理、定理翻译和复现过程。",
+          "context": "原文发布日期为 2026-11-06。近期精选补充。读取 11 月 6 日官方公告与原仓库 README 的定理、状态和验证说明，并与 Business Insider 交叉核验发布。Lean 通过与外部专家反馈均按发布方表述记录。本次未审阅整篇证明或运行 Lean，也未独立确认数学正确性。",
+          "url": "https://psi.inc/research/aaronson-ambainis/",
+          "publisher": "Physical Superintelligence",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "形式化证明",
+            "量子计算",
+            "科研复现"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "nist-insight-indoor",
+          "title": "NIST 测试将室内扫描转为救援规划数据的 INSIGHT",
+          "summary": "NIST 正在测试 INSIGHT 自动化流程，用几何和语义信息将建筑扫描转为可供救援准备与导航使用的结构化数据，并将检测路径间的分歧交给人工审核。",
+          "whyItMatters": "室内地图需要描述通行条件与安全设施，识别结果能否被核查会直接影响这类数据的实用性。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取 NIST 11 月 5 日公告的适用范围、扫描处理和验证段落。当前工作集中在事前准备阶段，实时追踪仍是未来方向。未把测试方案写成已部署的灾害现场系统。",
+          "url": "https://www.nist.gov/news-events/news/2026/11/building-intelligence-first-responders-foundation-models-interoperable",
+          "publisher": "NIST",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "室内建图",
+            "应急响应",
+            "人工审核"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "envopt-stationary-environments",
+          "title": "EnvOpt 将智能体的信息环境作为优化对象",
+          "summary": "EnvOpt 针对多个任务共享的文档、数据源等相对稳定环境，自动调整信息组织方式，研究在模型和执行框架之外降低智能体成本的方法。",
+          "whyItMatters": "智能体找信息的路径会影响调用量与成功率，这提供了可与模型升级分别测试的优化方向。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要与提交记录。作者在 AutomationBench 上报告 Haiku 4.5 成本下降 72.7%；结果依赖所用环境、任务和框架，未独立复现。",
+          "url": "https://arxiv.org/abs/2611.07372",
+          "publisher": "arXiv／EnvOpt 作者",
+          "publishedAt": "2026-11-05T03:16:52Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "智能体环境",
+            "成本评估",
+            "信息组织"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "agent-code-representations",
+          "title": "研究比较代码地图对编程智能体的帮助与代价",
+          "summary": "研究比较语法树、调用图、模块依赖、文档检索与混合视图。结果显示，代码表示可在部分定位任务中节省 token，但写补丁和测试的收益随任务变化。",
+          "whyItMatters": "代码检索更省资源并不必然提高修复成功率，比较两者有助于决定是否值得增加工具复杂度。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要和提交记录。实验使用 Claude Code 与 Haiku 4.5，在 LinuxFLBench、SWE-bench Pro、SWT-bench 和 SecBench 上比较。SWE-bench Pro 的解决率接近基线，而 token 降低 17% 至 26%，部分任务延迟增加。",
+          "url": "https://arxiv.org/abs/2611.07286",
+          "publisher": "arXiv／代码表示研究作者",
+          "publishedAt": "2026-11-05T01:08:43Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "编程智能体",
+            "代码检索",
+            "评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "vhrbench-geospatial",
+          "title": "VHR-Bench 比较地理基础模型对高分辨率影像的迁移",
+          "summary": "VHR-Bench 汇集十个分辨率为 1.5 米或更精细的数据集，比较不同预训练路线在高分辨率遥感任务中的表现。",
+          "whyItMatters": "常用卫星预训练数据的尺度与建筑、道路识别差别很大，基准能帮助检查预训练优势是否适用于目标分辨率。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要与提交记录。比较十二个编码器，冻结骨干并采用两档标注比例。SkySense 在少标注条件下领先，完整标注条件下 DINOv3 ViT-L 略优；这些结论限于所用输入和协议。",
+          "url": "https://arxiv.org/abs/2611.08003",
+          "publisher": "arXiv／VHR-Bench 作者",
+          "publishedAt": "2026-11-05T13:28:19Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "遥感",
+            "基础模型",
+            "迁移评估"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cxr-ehr-leakage-audit",
+          "title": "胸片与病历评测审计发现患者泄漏和标签错配",
+          "summary": "研究审计一个含 10479 名患者、29083 张胸片的多模态分类基准，发现记录级切分与复制标签可能夸大模型和类别不平衡处理策略的表现。",
+          "whyItMatters": "按患者隔离与对齐实际就诊标签，是判断医学模型是否能泛化到新患者的关键检查。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要与提交记录。作者在八个诊断目标上重建患者隔离评测，报告多项原有结论不再成立。结论针对所审计数据和配置，属于预印本结果。",
+          "url": "https://arxiv.org/abs/2611.07950",
+          "publisher": "arXiv／胸片与病历评测审计作者",
+          "publishedAt": "2026-11-05T12:47:38Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "数据泄漏",
+            "医学AI",
+            "基准审计"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "npcbench-carepath",
+          "title": "NPCBench 将医学问答扩展到同一患者的诊疗路径",
+          "summary": "NPCBench 围绕鼻咽癌构建知识、病例规划、纵向复查和咨询任务，检验模型能否在患者的多步诊疗路径中保持证据与决策一致。",
+          "whyItMatters": "单题成绩可能掩盖连续决策中的组合错误，患者级评估提供了不同的观察角度。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要与提交记录。包含 4777 个组成与咨询项目，以及 100 名患者的 417 项诊疗任务。在 21 个多模态模型中，严格 CarePath 联合成功率最高为 23%，限于该基准。",
+          "url": "https://arxiv.org/abs/2611.08369",
+          "publisher": "arXiv／NPCBench 作者",
+          "publishedAt": "2026-11-05T17:48:55Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "临床路径",
+            "多模态评测",
+            "肿瘤"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "referclaw-intent-clarification",
+          "title": "ReferClaw 让第一视角助手先澄清指代再回答",
+          "summary": "ReferClaw 用合作智能体识别第一视角视频问答中的候选含义，在“它在哪里”等无法唯一确定意图的问题上先请求澄清，再生成有视觉依据的回答。",
+          "whyItMatters": "明确提问的成本与猜错的成本，有助于改进需要持续观察和交互的助手。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要和提交记录。评测采用扩充后的第一视角问答基准，并报告跨数据集零样本迁移。摘要没有证明其在任意真实佩戴场景中均有效。",
+          "url": "https://arxiv.org/abs/2611.07683",
+          "publisher": "arXiv／ReferClaw 作者",
+          "publishedAt": "2026-11-05T09:10:14Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "第一视角助手",
+            "意图澄清",
+            "视频问答"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "worldmodel-navigation-distillation",
+          "title": "导航研究将世界模型的前瞻能力蒸馏到快速策略",
+          "summary": "研究利用两个世界模型在训练时评估候选动作，分别预测邻近人群互动与后续场景语义，部署时移除世界模型，由策略单次前向计算动作。",
+          "whyItMatters": "把预测开销放在训练阶段，提供了研究导航响应速度与前瞻行为之间权衡的具体方法。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要及提交记录。作者在五个留出场景中报告安全性和群体协调性改善，并进行观察者评价。未在本次验证机器人现场部署。",
+          "url": "https://arxiv.org/abs/2611.07730",
+          "publisher": "arXiv／世界模型导航研究作者",
+          "publishedAt": "2026-11-05T09:42:12Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "世界模型",
+            "导航",
+            "策略蒸馏"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "opd-learning-dynamics",
+          "title": "在线蒸馏研究分析学生轨迹如何改变后续学习",
+          "summary": "研究把 on-policy 蒸馏分为监督信号转成参数更新，以及更新改变后续生成分布两个阶段，分析为何更贴近教师的局部更新仍可能使生成退化。",
+          "whyItMatters": "蒸馏效果受学生自身产生的数据影响，检查反馈过程可帮助解释训练稳定性和准备阶段的作用。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要和提交记录。作者指出离线准备可能在尚未显著提高即时测试准确率时改善后续在线蒸馏效果；本次未读取完整实验配置或复现。",
+          "url": "https://arxiv.org/abs/2611.08016",
+          "publisher": "arXiv／在线蒸馏动力学研究作者",
+          "publishedAt": "2026-11-05T13:38:26Z",
+          "retrievedAt": "2026-11-07T23:00:46Z",
+          "category": "research",
+          "tags": [
+            "模型蒸馏",
+            "训练动力学",
+            "后训练"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-07T23:00:51.577Z"
+}
