@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-09",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-08T23:04:29Z",
+      "searchCount": 32,
+      "collectionWindow": {
+        "start": "2026-11-05T23:01:46Z",
+        "end": "2026-11-08T23:01:46Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "nvidia-board-independent-review-20261108",
+          "title": "NVIDIA 董事会宣布启动独立调查",
+          "summary": "NVIDIA 董事会于 11 月 8 日宣布，就涉及首席执行官的媒体报道启动独立调查。调查由独立董事组成的委员会监督，并由外部独立法律顾问协助。",
+          "whyItMatters": "作为主要 AI 算力供应商，NVIDIA 的治理安排和后续披露值得行业关注。此次可确认的新进展是董事会正式启动审查。",
+          "context": "原文发布日期为 2026-11-08。读取 NVIDIA 董事会声明全文。声明表示，目前没有理由认为国家安全或公司机密受到损害，仍会审查所有可用信息。所涉媒体指称尚待调查，本条仅报道已公开的调查安排和董事会立场。",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "publisher": "NVIDIA Board of Directors",
+          "publishedAt": "2026-11-08",
+          "retrievedAt": "2026-11-08T23:04:29Z",
+          "category": "business",
+          "tags": [
+            "NVIDIA",
+            "公司治理",
+            "AI算力"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gputaskman-macos-linux-amd-031",
+          "title": "GPU Taskman 增加 Apple Silicon 与原生 Linux AMD 支持",
+          "summary": "GPU Taskman v0.3.1 加入 Apple Silicon 支持及原生 Linux AMD 显卡支持，并增加对两个 JSON 快照进行比较的命令。项目可用于查看 GPU 进程、显存和部分模型运行信息。",
+          "whyItMatters": "新增平台覆盖与快照比较让开发者更容易在不同机器上排查模型加载、推理运行时和显存占用变化。",
+          "context": "近期精选补充。原版本发布于 2026-11-07 01:05:19 UTC。读取原仓库 README、v0.3.1 发布说明，并用 GitHub 发布元数据核对时间。项目初次发布更早，本条仅收录此次新增平台和快照比较能力。不同驱动与硬件暴露的计数器不同，未在本次执行安装或性能测试。",
+          "url": "https://github.com/shanselman/gputaskman/releases/tag/v0.3.1",
+          "publisher": "Scott Hanselman／GPU Taskman GitHub",
+          "publishedAt": "2026-11-07T01:05:19Z",
+          "retrievedAt": "2026-11-08T23:04:29Z",
+          "category": "opensource",
+          "tags": [
+            "GPU工具",
+            "显存分析",
+            "跨平台"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-08T23:04:55.286Z"
+}
