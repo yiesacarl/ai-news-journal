@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-08T11:03:28Z",
+      "searchCount": 46,
+      "collectionWindow": {
+        "start": "2026-11-05T11:03:28Z",
+        "end": "2026-11-08T11:03:28Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "reprobridge-reproducible-artifacts",
+          "title": "ReproBridge 把复现实验的操作知识整理成可交接材料",
+          "summary": "ReproBridge 将代码修订、环境配置、实验启动器与复现指南打包，让全新会话中的智能体重新执行实验。研究构建了覆盖 36 篇论文、387 项实验的 1029 个任务，并由独立审计环节检查执行证据。",
+          "whyItMatters": "保存已经解决的环境与配置问题，有助于后续研究者把时间用于核查实验本身，也让复现流程更容易审计。",
+          "context": "原文首次提交时间为 2026-11-05T18:45:36Z。近期精选补充。读取 arXiv 摘要、提交记录及 HTML 正文的摘要部分。四个被测模型的平均复现成功率由 76.4% 升至 92.6%，属于该任务与审计协议下的预印本结果，本次未运行复现。",
+          "url": "https://arxiv.org/abs/2611.08452",
+          "publisher": "arXiv／ReproBridge 作者",
+          "publishedAt": "2026-11-05T18:45:36Z",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "research",
+          "tags": [
+            "科研复现",
+            "研究产物",
+            "执行审计"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cheme-as-code-platform",
+          "title": "ChemE-as-Code 将化工设计文件、计算和检查接入 Git",
+          "summary": "ChemE-as-Code 提供面向化学工程智能体的开源环境，把流程图、设备数据、布局和评估材料保存为关联的机器可读文件。计算由外部工具执行，数值记录来源，自动检查定位不一致和过期结果。",
+          "whyItMatters": "工程计算和来源追踪分离后，研究者可以逐项检查智能体修改了什么，以及哪些计算需要重做。",
+          "context": "原文首次提交时间为 2026-11-05T12:45:28Z。近期精选补充。仅读取论文摘要与提交记录，另读原项目 GitHub 组织 README 的文件格式、检查流程、状态和许可说明。氨工艺示例尚未经过独立工程师评审，项目为研究预览，未执行代码或验证设计。",
+          "url": "https://arxiv.org/abs/2611.07947",
+          "publisher": "arXiv／TU Delft ChemE-as-Code",
+          "publishedAt": "2026-11-05T12:45:28Z",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "opensource",
+          "tags": [
+            "化学工程",
+            "可追溯计算",
+            "开源工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "scientist-world-executable-environments",
+          "title": "Scientist World 将论文问题转为 1000 个可执行研究环境",
+          "summary": "Scientist World 从论文提取开放研究问题，并复现论文方法作为基线，供 AI 科研系统提出方案与执行比较。作者公布首批 1000 个经过其验证的环境，并汇集 6400 小时的研究过程记录。",
+          "whyItMatters": "把问题、基线和执行过程放进同一环境，便于检查科研智能体提出的改进能否在明确条件下重现。",
+          "context": "原文首次提交时间为 2026-11-05T18:58:17Z。近期精选补充。仅读取 arXiv v1 摘要与提交记录。环境数量与过程时长均为作者披露，属于预印本报告。本次未检查任务包或独立确认基线复现质量。",
+          "url": "https://arxiv.org/abs/2611.08478",
+          "publisher": "arXiv／Scientist World 作者",
+          "publishedAt": "2026-11-05T18:58:17Z",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "research",
+          "tags": [
+            "科研智能体",
+            "可执行环境",
+            "研究记录"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ampersand-vercel-gateway",
+          "title": "群聊协作模型 Ampersand 接入 Vercel AI Gateway",
+          "summary": "Vercel 宣布 Humans& 的 Ampersand 接入 AI Gateway。模型针对多人对话训练，逐条读取消息并决定发言或等待，可通过调用方定义的 send_message 与 pass 工具参与协作。",
+          "whyItMatters": "群聊助手需要同时处理个人目标、共同任务与发言时机，这种接口设计让等待也成为可明确记录的动作。",
+          "context": "原文发布日期为 2026-11-06。近期精选补充。读取 Vercel 更新公告的模型背景、群聊示例、工具协议和调用示例。基于 GLM 5.3 的训练背景为公告说明，本次未调用模型或验证长期协作表现。",
+          "url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+          "publisher": "Vercel",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "product",
+          "tags": [
+            "多人协作",
+            "群聊模型",
+            "工具调用"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "frameboy-atlas-realtime",
+          "title": "World Labs 发布 Frameboy，以最高 15 帧每秒探索生成场景",
+          "summary": "World Labs 发布 Frameboy 研究预览，把优化后的 Atlas 放在云端 GPU 上运行，并向浏览器实时传送生成画面。用户可控制相机探索精选场景，Viewfinder 也加入实时流式叠加模式。",
+          "whyItMatters": "实时反馈可以缩短场景探索与调整镜头的等待过程，为研究生成式空间交互提供具体演示。",
+          "context": "原文发布日期为 2026-11-05。近期精选补充。读取官方博客的发布、场景生成、Viewfinder 与运行限制段落。最高 15 帧每秒为厂商口径，Viewfinder 仍为封闭测试，服务依赖云端 GPU。本次未运行演示或测量延迟。",
+          "url": "https://www.worldlabs.ai/blog/atlas-realtime",
+          "publisher": "World Labs",
+          "publishedAt": "2026-11-05",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "product",
+          "tags": [
+            "世界模型",
+            "空间智能",
+            "实时交互"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "xbow-fall-2026-cost-evaluation",
+          "title": "XBOW 按预算比较安全测试模型，发现领先者随成本变化",
+          "summary": "XBOW 更新自主安全测试评估，在冻结为含漏洞版本的开源项目中，比较不同模型随支出增加的任务解决率。报告认为，低预算下较便宜的模型可完成更多探索，较大模型的优势会在更高预算时出现。",
+          "whyItMatters": "统一预算能让安全团队区分单次推理能力与整体测试效率，避免只依据一个最终成功率选择系统。",
+          "context": "原文发布日期为 2026-11-06。近期精选补充。读取 XBOW 原始评估的任务设置、成本曲线说明与模型比较。结果限于 XBOW 的任务和编排环境，本次未复现，未把结果推广为通用模型排名。",
+          "url": "https://xbow.com/blog/top-ai-models-for-offensive-security-fall-2026",
+          "publisher": "XBOW",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "research",
+          "tags": [
+            "安全评测",
+            "推理成本",
+            "预算比较"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sophos-obfuscated-skills-detection",
+          "title": "Sophos 用确定性解码与小模型检查混淆技能代码",
+          "summary": "Sophos 介绍混合检测流程，先用确定性程序恢复技能代码中的混淆信息并保留记录，再让小型语言模型判断行为是否符合声明用途。实验覆盖正常和恶意技能的多种混淆变体。",
+          "whyItMatters": "把解码证据和意图判断分开，有助于审计检测依据，也可减少小模型同时处理混淆与行为推断的负担。",
+          "context": "原文发布日期为 2026-11-06，由官方博客列表核对。近期精选补充。读取原文的流程、实验与限制段落。测试采用合成技能集，按基础技能隔离训练与测试，静态扫描器比较未启用其可选 LLM 功能。详细结果仍待发布，本次未运行检测。",
+          "url": "https://www.sophos.com/en-us/blog/killing-ill-willed-skills-sophos-ai-at-bsides-sydney",
+          "publisher": "Sophos AI",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "research",
+          "tags": [
+            "智能体技能",
+            "供应链安全",
+            "小模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "meta-commercial-terms-paused",
+          "title": "Meta 暂停原定 11 月 20 日生效的商业与生成式 AI 条款更新",
+          "summary": "Meta 向路透社确认暂停商业条款、商品目录条款、自助广告条款和广告创意生成式 AI 条款更新。公司表示将继续与相关方沟通，目前沿用现有条款。",
+          "whyItMatters": "条款是否生效影响发布者和企业对内容授权范围的判断，暂停消息提供了明确的实施状态。",
+          "context": "原文发布时间为 2026-11-06T12:14:00Z。近期精选补充。读取路透社正文中的公司直接回应，并与 Ars Technica 报道交叉核验。此条记录 11 月 6 日确认的暂停状态。",
+          "url": "https://www.reuters.com/business/meta-pauses-planned-terms-updates-keeps-existing-rules-place-2026-11-06/",
+          "publisher": "Reuters",
+          "publishedAt": "2026-11-06T12:14:00Z",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "policy",
+          "tags": [
+            "内容授权",
+            "AI条款",
+            "发布者"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "loss-of-control-behavioural-framework",
+          "title": "研究将 AI 失控风险拆成动机、能力与规避监测三项",
+          "summary": "研究者提出行为评估框架，将失控风险分解为目标偏离、造成危害的能力与规避监测，并以 13 个维度、29 项任务构建综合分数，研究它与受控长程风险场景中失败率的关系。",
+          "whyItMatters": "分解风险来源可以帮助设计针对性的评估和缓解实验，进一步检查安全分数是否能预测后续任务行为。",
+          "context": "原文首次提交时间为 2026-11-05T12:49:20Z。近期精选补充。仅读取 arXiv v1 摘要与提交记录。作者在 13 个模型上报告分数与受控场景失败率相关系数 r=0.84，属于预印本的实验关联，本次未审阅完整任务或独立验证预测能力。",
+          "url": "https://arxiv.org/abs/2611.07953",
+          "publisher": "arXiv／失控风险行为框架作者",
+          "publishedAt": "2026-11-05T12:49:20Z",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "research",
+          "tags": [
+            "行为评估",
+            "长期智能体",
+            "AI安全"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "langford-ai-frontiers-account",
+          "title": "John Langford 发文宣布离开微软，回顾 AI Frontiers 重组",
+          "summary": "John Langford 在个人博客宣布离开微软，回顾约 50 人的 AI Frontiers 团队在 9 月并入 Microsoft AI 的经历，并表达对研究组织与规模化路线的看法。微软实验室页面仍记载该团队转入 Microsoft AI。",
+          "whyItMatters": "研究人员的一手说明与机构公开页面可分别审查，有助于观察基础研究团队如何经历组织调整。",
+          "context": "原文发布于 2026-11-06，页面另显示 11 月 7 日更新。近期精选补充。读取个人博客正文，并核对微软 AI Frontiers 官方页面。离职与个人经历按本人陈述记录，对管理路线和团队结束的判断归于作者，机构页面未提供关闭公告。",
+          "url": "https://hunch.net/?p=13764006",
+          "publisher": "John Langford／Machine Learning (Theory)",
+          "publishedAt": "2026-11-06",
+          "retrievedAt": "2026-11-08T11:03:28Z",
+          "category": "community",
+          "tags": [
+            "科研组织",
+            "Microsoft AI",
+            "研究者观点"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-07T23:00:51.577Z"
+  "updatedAt": "2026-11-08T11:05:29.260Z"
 }
