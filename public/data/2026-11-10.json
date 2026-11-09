@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-10",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-09T23:09:33Z",
+      "searchCount": 34,
+      "collectionWindow": {
+        "start": "2026-11-06T23:05:23Z",
+        "end": "2026-11-09T23:05:23Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "claude-fable-mythos52",
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+          "summary": "Anthropic 更新 Fable 与 Mythos，公布编程、推理和视觉等评测结果。两者使用相同底层模型，Fable 带有更严格的网络安全与生物安全防护，Mythos 面向经验证的专业用途。",
+          "whyItMatters": "可用范围、推理设置与价格一起变化，开发者可据此重新测试高难任务的效果和成本。",
+          "context": "原文发布日期为 2026-11-09。读取官方公告的模型区别、评测条件、价格与安全说明。输入和输出价格分别为每百万 token 8 美元与 40 美元，快模式另行定价；性能数字来自 Anthropic 测试，未独立复现。",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "product",
+          "tags": [
+            "模型发布",
+            "编程",
+            "科研工具"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "google-tpu8tx-8imax",
+          "title": "Google 推出 TPU 8tx 与 TPU 8i Max 系统",
+          "summary": "Google 扩展第八代 TPU 系统阵容。8tx 侧重敏感数据与模型在处理过程中的保护，8i Max 面向大上下文窗口和更高机架计算密度。",
+          "whyItMatters": "硬件系统对内存、互联与安全的不同配置，影响长上下文和受监管工作负载的部署选择。",
+          "context": "原文发布日期为 2026-11-09。读取 Google 原始 11 月 9 日公告的系统定位及硬件说明，并与 Google Cloud 技术说明核对。Cloud 转载日期为 11 月 10 日，未将其当作首发日期。本次为新系统配置发布，不据此推定使用了全新芯片。",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "product",
+          "tags": [
+            "TPU",
+            "机密计算",
+            "长上下文"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "maxtext-context-parallelism",
+          "title": "MaxText 加入四种 TPU 上下文并行训练策略",
+          "summary": "Google 宣布 MaxText 支持 All-gather、Ulysses、Ring Attention 及混合策略，结合负载均衡与序列打包，让单条长序列分布在多个 TPU 芯片上训练。",
+          "whyItMatters": "公开配置与开源实现让训练团队能按硬件、序列长度和显存约束比较通信与计算开销。",
+          "context": "原文发布日期为 2026-11-09。读取官方技术公告的策略、测试条件、可用版本与原仓库说明。64 芯片 TPU 7 上的 Llama 3.1 8B 测试在 1400 万 token 长度达到 48.7% MFU，为厂商所述特定配置结果。未执行训练或复现。",
+          "url": "https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/",
+          "publisher": "Google Developers Blog",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "opensource",
+          "tags": [
+            "MaxText",
+            "分布式训练",
+            "TPU"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "maps-aistudio-integration",
+          "title": "Google Maps Platform 接入 AI Studio 的应用构建流程",
+          "summary": "开发者现可在 Google AI Studio 中构建地图应用，使用地点、路线、三维视图等能力。官方提供每日免费测试额度，生产部署或更高配额需要连接计费账号。",
+          "whyItMatters": "地图配置与应用生成放在同一工作流程中，可缩短原型验证，同时保留明确的配额和生产费用边界。",
+          "context": "原文发布日期为 2026-11-09。读取 Google Developers 官方公告的接入、配额与生产说明。免费试用有每日限额，生产适用 Google Maps Platform 标准价格。未实际注册、连接计费或调用接口。",
+          "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+          "publisher": "Google Developers Blog",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "product",
+          "tags": [
+            "地图应用",
+            "AI Studio",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nominal-seriesc-240m",
+          "title": "Nominal 获 2.4 亿美元 C 轮，发展硬件工程智能平台",
+          "summary": "Nominal 宣布按 30 亿美元估值完成 2.4 亿美元 C 轮融资，由 Lightspeed 领投、Insight 联合领投，计划扩展工程产品、智能体和市场。",
+          "whyItMatters": "硬件开发需要把试验数据、验证与机器运行记录连起来，融资用途指向更完整的工程工作流。",
+          "context": "原文发布日期为 2026-11-09。读取 Nominal 官方融资公告的金额、投资方和用途段落。智能体覆盖需求验证、规划、调度与机队健康等方向属于公司开发计划，未作为已验证性能引用。",
+          "url": "https://nominal.io/blog/series-c-news",
+          "publisher": "Nominal",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "business",
+          "tags": [
+            "硬件工程",
+            "融资",
+            "工程智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "geniosai-funding191m",
+          "title": "geniosAI 披露 1910 万美元融资，面向可追溯金融分析",
+          "summary": "geniosAI 宣布种子轮与 A 轮合计融资 1910 万美元，参与方包括 FactSet、Zoom 和 General Catalyst，A 轮由 FactSet 领投。平台面向金融机构和财务团队。",
+          "whyItMatters": "将数据来源、计算假设和审阅决定与分析结果一起保留，是金融工作流审查 AI 输出的重要条件。",
+          "context": "原文发布日期为 2026-11-09。读取 11 月 9 日 Business Wire 发布稿在 01net 的完整转载。金额是两轮合计，未称其全部来自单次 A 轮；平台的可追溯能力为公司产品说明，未独立测试。",
+          "url": "https://www.01net.it/geniosai-emerges-from-stealth-with-19-1m-in-funding-to-give-financial-institutions-analysis-they-can-trace-defend-and-build-on/",
+          "publisher": "geniosAI／Business Wire（经 01net 发布）",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "business",
+          "tags": [
+            "金融分析",
+            "融资",
+            "证据追溯"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "claude-max-subscription-ruling",
+          "title": "Claude Max 用量宣传诉讼部分请求获准继续审理",
+          "summary": "美国加州联邦法院对 Anthropic 的撤诉申请作出部分支持、部分驳回决定。争议涉及消费者如何理解 Claude Max 的五倍或二十倍用量宣传，部分请求获准进入后续程序。",
+          "whyItMatters": "订阅产品的会话额度与更长周期限制如何展示，会影响用户对价格和可用量的理解。",
+          "context": "原文发布日期为 2026-11-09。路透社原文发表于 2026-11-09，裁定日期为 2026-11-06，两者区分记录。读取路透社报道与所链接裁定的相关分析、结论。法院允许部分请求继续、其他请求可修订，案件仍处早期程序，责任认定有待后续审理。",
+          "url": "https://www.reuters.com/legal/government/anthropic-must-face-lawsuit-over-claude-subscription-marketing-2026-11-09/",
+          "publisher": "Reuters／美国加州北区联邦法院",
+          "publishedAt": "2026-11-09T16:24:00Z",
+          "retrievedAt": "2026-11-09T23:09:33Z",
+          "category": "policy",
+          "tags": [
+            "订阅服务",
+            "消费者权益",
+            "诉讼进展"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-09T23:09:34.124Z"
+}
