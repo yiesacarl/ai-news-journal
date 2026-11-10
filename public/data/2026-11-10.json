@@ -3,11 +3,11 @@
   "date": "2026-11-10",
   "editions": {
     "morning": {
-      "publishedAt": "2026-11-09T23:09:33Z",
-      "searchCount": 34,
+      "publishedAt": "2026-11-10T11:02:33Z",
+      "searchCount": 69,
       "collectionWindow": {
         "start": "2026-11-06T23:05:23Z",
-        "end": "2026-11-09T23:05:23Z",
+        "end": "2026-11-10T11:02:33Z",
         "timezone": "Asia/Shanghai"
       },
       "stories": [
@@ -136,9 +136,254 @@
             "诉讼进展"
           ],
           "importance": 3
+        },
+        {
+          "id": "arxiv-audir-2611-12478",
+          "title": "AuDiR 以规则与声学观察对照拆解音频推理错误",
+          "summary": "AuDiR 收集来自九个来源、十八类任务的 201 个音频推理题，为每题配套规则文本和声学观察。研究通过补充规则、补充观察及移除音频等对照，分析模型错误与感知信息、规则使用之间的关系。",
+          "whyItMatters": "把可提供的信息分步控制，比只看最终准确率更有利于研究音频推理的瓶颈。",
+          "context": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 14:23:38 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。作者注明验证尚不完整，可能存在识别捷径及非单调变化，诊断结果仍属初步。",
+          "url": "https://arxiv.org/abs/2611.12478",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T14:23:38Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "音频AI",
+            "推理评测",
+            "多模态"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-autobuddy-2611-12393",
+          "title": "AutoBuddy 用模拟组织评测主动发现与执行工作义务",
+          "summary": "AutoBuddy 在含邮件、聊天及文档的模拟组织中，要求智能体主动识别待办义务，并执行能被世界状态验证的操作。研究以时间图描述组织信息，分别衡量发现与执行，报告两阶段能力之间的相关性较弱。",
+          "whyItMatters": "主动办公助手需要同时判断哪些事该做、完成后是否真正改变状态，这类评测将两个瓶颈分开观察。",
+          "context": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 13:30:18 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。实验环境为模拟组织，结果来自作者报告。",
+          "url": "https://arxiv.org/abs/2611.12393",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T13:30:18Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "办公智能体",
+            "主动助手",
+            "基准"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-shadow-ai-detector-2611-12377",
+          "title": "Shadow AI 研究提出 Windows 智能体排查工具与受控实验",
+          "summary": "论文介绍 Windows Agent Detector，通过服务身份、配置与安装痕迹等信号排查企业终端中的 AI 组件，并整理 39 种工具及 184 个模型端点。作者使用合成智能体、AI 组件和良性工作负载进行受控测试。",
+          "whyItMatters": "终端上的 AI 工具可见性影响资产管理与数据治理，该研究给出可检查的检测信号及其时间窗口限制。",
+          "context": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 13:19:45 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。实验仅在一台工作站上进行，包含 12 个合成智能体、3 个 AI 组件及 9 个良性负载，每组重复五次，外推范围有限。",
+          "url": "https://arxiv.org/abs/2611.12377",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T13:19:45Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "终端安全",
+            "影子AI",
+            "企业治理"
+          ],
+          "importance": 3
+        }
+      ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-10T11:02:33Z",
+      "searchCount": 35,
+      "collectionWindow": {
+        "start": "2026-11-07T11:00:00Z",
+        "end": "2026-11-10T11:02:33Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "meta-muse-ember-20261109",
+          "title": "Meta 发布 Muse Ember，面向高频智能体执行任务",
+          "summary": "Meta 推出小型多模态模型 Muse Ember，支持文本、图像、音频和视频输入，提供 100 万 token 上下文及最高 51.2 万 token 输出。模型已通过 Meta Model API 与 Muse Code 提供，重点覆盖工具调用、文档处理和重复编码任务。",
+          "whyItMatters": "把规划与大量执行步骤分别交给适合的模型，为高频智能体工作流提供新的成本与延迟选择。",
+          "context": "原文发布于 2026-11-09。已读取官方公告的任务定位、上下文、可用性及评测说明，性能对比来自发布方和其引用的评测，未调用模型实测。",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "publisher": "Meta",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "product",
+          "tags": [
+            "多模态模型",
+            "智能体",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "robbyant-lingbot-touch-20261110",
+          "title": "蚂蚁灵波开放 LingBot-Touch，统一三类机器人触觉信号",
+          "summary": "Robbyant 发布 LingBot-Touch，将磁式、视触觉及压阻式传感信号映射为统一触觉表示。项目提供推理代码与 Tiny、Small 模型获取入口，采用接近 5000 小时触觉数据预训练，并在两种灵巧手的 26 项真实任务中评估。",
+          "whyItMatters": "跨传感器复用触觉表示，有望减少更换灵巧手或动作策略时重复开发感知模块的工作。",
+          "context": "公司公告发布于 2026-11-10 09:23 UTC，代码在 11 月 9 日已出现。已读取原仓库 README、官方技术页与公司 Business Wire 公告全文。模型下载需按项目要求获得访问授权，未运行代码或复现实机实验。公告 https://www.businesswire.com/news/home/20261109284905/en/ 。",
+          "url": "https://github.com/Robbyant/lingbot-touch",
+          "publisher": "Robbyant",
+          "publishedAt": "2026-11-10T09:23:00Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "opensource",
+          "tags": [
+            "机器人",
+            "触觉",
+            "具身智能"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "australia-ai-incident-review-20261110",
+          "title": "澳大利亚接受 18 项 AI 事件审查建议，推进强制报告机制",
+          "summary": "澳大利亚政府公布 AI 驱动网络事件快速审查的 18 项建议，并宣布全部接受、开始实施。重点包括 AI 公司对失准行为及网络事件的报告、研究严重失当行为的刑法改革、跨国协作，以及提升政府系统的响应与信息共享能力。",
+          "whyItMatters": "智能体安全治理正在延伸到事件披露时限、开发者责任和政府应急能力，影响前沿模型在当地的运营要求。",
+          "context": "原文发布于 2026-11-10。已读取总理府公告正文，并交叉读取 The Guardian 当日报道正文。本文记录政府接受建议与推进政策的进展，具体义务仍取决于后续立法和实施文件。交叉来源 https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack 。",
+          "url": "https://www.pm.gov.au/media/strengthening-australia-against-ai-driven-cyber-incidents",
+          "publisher": "澳大利亚总理府",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "policy",
+          "tags": [
+            "AI治理",
+            "事件报告",
+            "网络安全"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "statnett-datacenter-reservations-20261109",
+          "title": "挪威 Statnett 暂停新增数据中心电网容量预留",
+          "summary": "Statnett 宣布暂停新增数据中心接入容量预留及部分设施功能审批，原因包括大规模快速负荷变化对系统稳定性的影响。运营商预计最迟于 2027 年 8 月 1 日解除暂停，并将制定新的功能要求、提交监管机构审批。",
+          "whyItMatters": "AI 算力扩张的工程约束进一步涉及负荷变化速度、扰动响应和并网规范，可能影响数据中心项目排期。",
+          "context": "近期精选补充，原文发布于 2026-11-09 08:45（挪威当地时间）。已读取运营商公告的措施、例外与功能要求部分。已获必要功能批准的项目仍可接入，区域电网部分近期项目及小型设施有例外安排。",
+          "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2026/midlertidige-tiltak-for-fortsatt-forsvarlig-systemdrift/",
+          "publisher": "Statnett",
+          "publishedAt": "2026-11-09T08:45:00+01:00",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "business",
+          "tags": [
+            "数据中心",
+            "电网",
+            "算力基础设施"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-cloud-pathways-ga-20261109",
+          "title": "Cloud Pathways 正式可用，以单控制器调度多 TPU 切片",
+          "summary": "Google Cloud 宣布分布式机器学习运行时 Cloud Pathways 在 GKE 上正式可用。开发者可由单个 Python 控制器编排多个 TPU 切片，通过 IFRT 分离控制与执行，并支持交互式开发和故障恢复。与 Cluster Director 的 Slurm 集成处于预览阶段。",
+          "whyItMatters": "把跨切片训练的控制逻辑集中到熟悉的 Python 环境，有助于降低大规模 TPU 作业的编排复杂度。",
+          "context": "原文发布于 2026-11-09。已读取官方公告的架构、支持环境、正式可用范围和 Slurm 预览说明，未部署集群或验证吞吐。",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga",
+          "publisher": "Google Cloud",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "product",
+          "tags": [
+            "分布式训练",
+            "TPU",
+            "机器学习系统"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-tpu-sync-release-20261109",
+          "title": "Google 开源 TPU Sync，异步搬运 KV 缓存与模型权重",
+          "summary": "TPU Sync 以原生 C++ 与异步 DMA，在 TPU 高带宽内存、主机内存和跨主机网络间传输保持原生布局的张量。它面向前缀缓存及预填充、解码分离服务，并提供强化学习训练器向采样器同步权重的底层传输能力。",
+          "whyItMatters": "长上下文服务和强化学习常被状态搬运拖慢，开放底层传输组件让框架开发者有机会复用和检验这部分优化。",
+          "context": "原文发布于 2026-11-09。已读取官方公告的传输架构、缓存分层及使用场景。共享二级存储分层和强化学习模块标为实验性，未运行项目或复核性能数据。",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+          "publisher": "Google Cloud",
+          "publishedAt": "2026-11-09",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "opensource",
+          "tags": [
+            "开源工具",
+            "KV缓存",
+            "TPU"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-sage-taiyi-2611-12762",
+          "title": "Sage 提出科学智能体元认知架构，TaiyiBench 覆盖十个学科",
+          "summary": "论文提出 Sage 架构，持续记录证据、假设与未解决问题，并据此调整科研目标和复用推理。作者构建含 265 项任务、源自 50 篇论文的 TaiyiBench，报告总分为 54.0，对照 AI Scientist-v2 为 47.9，另展示五项专家指导的实验与计算协作。",
+          "whyItMatters": "评价科学智能体时，研究目标如何更新、证据如何积累，开始与单次问题解答能力一起进入测试。",
+          "context": "原文 v1 提交于 2026-11-09 17:38:05 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。上述结果为作者在其基准与专家参与条件下的报告。",
+          "url": "https://arxiv.org/abs/2611.12762",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T17:38:05Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "科学智能体",
+            "科学发现",
+            "科研评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-trialdesignbench-2611-12640",
+          "title": "TrialDesignBench 以 617 项肿瘤试验检验剂量设计推理",
+          "summary": "研究将 617 项肿瘤 I 期及 I/II 期剂量探索试验整理为带专家核验参考设计的基准，评估五种前沿语言模型。摘要报告这些模型均未达到参考设计质量，并分别分析未写入记录的潜在决策因素与结构化决策树推理的影响。",
+          "whyItMatters": "把专业设计流程和判断依据纳入评测，有助于定位语言模型在临床研究辅助中的具体能力缺口。",
+          "context": "原文 v1 提交于 2026-11-09 16:15:57 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。评价范围是回顾性试验设计基准，结果不能直接转化为临床用药或试验实施建议。",
+          "url": "https://arxiv.org/abs/2611.12640",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T16:15:57Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "AI医疗研究",
+            "临床试验",
+            "科研评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-maxim-2611-12825",
+          "title": "MaxIM 用信息论奖励训练长期记忆压缩",
+          "summary": "MaxIM 面向有限 token 预算下的长历史交互，训练可递归更新的记忆摘要。其奖励同时考虑对未来任务相关目标的预测能力、与历史的对应关系和递归一致性，作者在长程科学阅读及多轮对话任务中报告改进。",
+          "whyItMatters": "长期智能体需要保留未来有用的信息，训练目标能否指导取舍，是比单纯扩大上下文更细化的研究问题。",
+          "context": "原文 v1 提交于 2026-11-09 18:25:42 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。效果来自作者在指定任务和严格记忆预算下的实验。",
+          "url": "https://arxiv.org/abs/2611.12825",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T18:25:42Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "智能体记忆",
+            "强化学习",
+            "长上下文"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-pace-ecg-2611-12307",
+          "title": "PACE 结合纵向心电对比学习与临床监督，测试跨队列风险表征",
+          "summary": "论文提出 PACE，将同一患者时间相近的心电图用于对比预训练，并结合临床多任务监督。作者冻结编码器后，在 MIMIC-IV 及波士顿、亚特兰大外部队列测试心肌梗死后的全因死亡和新发心衰预测，并与自监督基线比较。",
+          "whyItMatters": "同一患者的纵向记录可能补充单张心电图学习，外部队列验证也让表征的迁移能力成为研究重点。",
+          "context": "原文 v1 提交于 2026-11-09 12:27:36 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。结果属于指定回顾性队列的风险预测实验，本文未核验临床部署效果。",
+          "url": "https://arxiv.org/abs/2611.12307",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T12:27:36Z",
+          "retrievedAt": "2026-11-10T11:02:33Z",
+          "category": "research",
+          "tags": [
+            "科学研究",
+            "心电图",
+            "医学AI"
+          ],
+          "importance": 4
         }
       ]
     }
   },
-  "updatedAt": "2026-11-09T23:09:34.124Z"
+  "updatedAt": "2026-11-10T11:02:51.398Z"
 }
