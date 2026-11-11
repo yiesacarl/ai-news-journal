@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-11T11:01:57Z",
+      "searchCount": 63,
+      "collectionWindow": {
+        "start": "2026-11-08T11:01:57.000Z",
+        "end": "2026-11-11T11:01:57Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "qwen4-max-preview-20261111",
+          "title": "阿里云百炼开放 Qwen4-Max 预览，支持图像与视频理解",
+          "summary": "Qwen4-Max-Preview 于 11 月 11 日 10 时开放，接入百炼 Token Plan。模型支持文本、图像与视频输入、工具调用和结构化输出，提供 100 万 token 上下文。思考内容与最终回答共用 393,216 token 的最大输出预算。",
+          "whyItMatters": "视频分析和工具调用能在同一模型中完成，开发者可以在现有 API 协议下评估多模态工作流，也需要留意输出预算变化。",
+          "context": "预览于 2026-11-11 10:00（北京时间）开始。已读取阿里云百炼中文文档的能力规格、接入及迁移说明。该文档未单列发布时间，日期采用其明确列出的预览上线时间。官方文档注明预览期至 11 月 25 日结束，期间仅支持 Token Plan。",
+          "url": "https://docs.bailian.console.aliyun.com/zh/model-studio/qwen4-max-preview",
+          "publisher": "阿里云百炼",
+          "publishedAt": "2026-11-11T10:00:00+08:00",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "product",
+          "tags": [
+            "中文原文",
+            "国产模型",
+            "多模态"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "minimax-h3-image-20261110",
+          "title": "MiniMax 开放 H3-Image 权重，支持原生 4K 生图与编辑",
+          "summary": "MiniMax 发布 H3-Image，同一组权重支持文本生图及多参考图编辑。模型卡给出的方形输出为 4096×4096，无需额外超分，并注明支持最多 16 张参考图。推理权重按 MiniMax 社区许可发布。",
+          "whyItMatters": "原生高分辨率输出和开放权重为本地视觉工作流提供了新选项。模型卡列出了各组件的精度和文件大小，便于估算部署资源。",
+          "context": "中文公告标注 2026-11-10，英文公告标注 2026-11-11。已读取中文发布稿、英文发布稿及官方模型卡的权重、架构和尺寸章节。未实测耗时。模型卡 https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+          "url": "https://www.minimax.cn/blog/minimax-h3-image",
+          "publisher": "MiniMax",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "opensource",
+          "tags": [
+            "中文原文",
+            "图像生成",
+            "开放权重"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "alibaba-thead-spin-off-hkex-20261110",
+          "title": "阿里巴巴披露平头哥拟分拆赴港上市",
+          "summary": "阿里巴巴公告称，港交所已确认阿里可推进建议分拆，平头哥已于 9 月 11 日保密递交香港主板上市申请。拟通过全球发售 H 股推进，发行规模及阿里持股变化尚未确定。",
+          "whyItMatters": "这份正式披露为观察国产数据中心芯片业务的资本安排提供了依据。若分拆完成，阿里预计平头哥仍为其子公司。",
+          "context": "中文公告签署于 2026-11-10。已读取港交所披露 PDF 的交易结构、豁免及完成条件。分拆仍需上市委员会批准、完成境内备案及两家公司作出最终决定。",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1110/2026111001062_c.pdf",
+          "publisher": "阿里巴巴集团",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "business",
+          "tags": [
+            "中文原文",
+            "AI芯片",
+            "上市"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nsfc-ai-mathematical-foundations-call-20261110",
+          "title": "基金委公布 2026 年度人工智能数理基础重点专项申报指南",
+          "summary": "国家自然科学基金委员会公布其主责的五个国家重点研发计划专项年度申报指南，其中包括人工智能的数理基础。申请材料在国家科技管理信息系统发布，通知列出的牵头单位网上填报时段为 11 月 13 日 8 时至 12 月 8 日 16 时。",
+          "whyItMatters": "指南发布为国内 AI 基础理论团队提供了明确的申报入口和准备时间，也便于跟踪研究方向如何落实到具体项目。",
+          "context": "近期精选补充。原文发布于 2026-11-10。已读取基金委公开通告，并核对东华大学转发的申报通知正文。读取范围未包含系统内的分项指南附件。",
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/145508.html",
+          "publisher": "国家自然科学基金委员会",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "policy",
+          "tags": [
+            "中文原文",
+            "科研资助",
+            "人工智能数理基础"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "claude-sheets-whiteboards-data-20261110",
+          "title": "Anthropic 为 Claude 增加协作表格、白板和数据看板",
+          "summary": "Claude 新增可与同事共同编辑的表格和白板，支持多工作表及公式编辑，也可把白板讨论整理成下一步工作。由 Dashboards 更名的 Claude Data 可连接 Snowflake、Salesforce 等数据源，生成看板和可视化报告。",
+          "whyItMatters": "把讨论、数据处理和交付物放在同一个协作空间，减少团队在聊天工具与办公软件之间手工搬运上下文的工作。",
+          "context": "官方产品更新列表标注 2026-11-10。已读取发布文章的协作产物、交互式连接器与数据治理段落，并核对官方更新列表。经数据团队认证的定义仍处于测试阶段。",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "product",
+          "tags": [
+            "办公协作",
+            "电子表格",
+            "连接器"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-robotics-25-20261110",
+          "title": "DeepMind 发布 Gemini Robotics 2.5，并披露汽车产线试验",
+          "summary": "Google DeepMind 公布新版视觉语言动作模型，在逾 200 项任务中评估。团队与 Apptronik、Mercedes-Benz 在德国和匈牙利的在用产线做概念验证，由具身推理模型跟踪流程、动作模型控制 Apollo 2 抓取并按序摆放汽车金属支架。发布方报告该试验的成功率为 96%。",
+          "whyItMatters": "真实产线试验提供了一个观察机器人能否稳定执行指定重复工序的案例，也让后续评估有了明确的任务边界。",
+          "context": "原文发布于 2026-11-10。已读取官方公告的模型说明、评测图表和产线概念验证段落。96% 仅对应公告中的零件配套试验。",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "product",
+          "tags": [
+            "具身智能",
+            "机器人",
+            "工业试点"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "elevenlabs-scribe-v3-20261110",
+          "title": "ElevenLabs 推出 Scribe v3，实时转写加入说话人区分",
+          "summary": "Scribe v3 面向录制音频，Scribe v3 Live 面向低延迟实时转写。实时版新增说话人区分，并用对话上下文辅助判断发言轮次。两款模型可经 ElevenAPI 使用，实时版也接入 ElevenAgents。",
+          "whyItMatters": "会议记录与语音助手分别依赖说话人区分和轮次判断。实时版把这两项能力放进同一接口，减少额外拼接处理的需求。",
+          "context": "原文发布于 2026-11-10。已读取官方发布的型号差异、说话人标记、轮次检测和可用性说明，未做独立转写测试。",
+          "url": "https://elevenlabs.io/blog/scribe-v3",
+          "publisher": "ElevenLabs",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "product",
+          "tags": [
+            "语音转写",
+            "实时语音",
+            "说话人区分"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cncf-openshell-sandbox-20261110",
+          "title": "NVIDIA 将 OpenShell 贡献给 CNCF Sandbox",
+          "summary": "CNCF 宣布接纳开源智能体运行时 OpenShell 为 Sandbox 项目。OpenShell 提供可执行的策略边界和运行监控，正在采用 Cedar 作为策略语言，并将代码仓库迁往中立的 ai-openshell 组织。",
+          "whyItMatters": "智能体的运行控制逐渐成为可独立维护的基础设施。基金会治理和公开提案流程让使用方有渠道共同审查与改进隔离、审批和策略。",
+          "context": "原文发布于 2026-11-10。已读取 CNCF 项目公告的治理、策略和迁移部分，并交叉读取 NVIDIA 的同日公告。Sandbox 是项目纳入阶段。",
+          "url": "https://www.cncf.io/blog/2026/11/10/welcoming-openshell-to-the-cncf-open-governance-to-secure-agentic-ai/",
+          "publisher": "CNCF",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "opensource",
+          "tags": [
+            "智能体治理",
+            "开源运行时",
+            "CNCF"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-contrastive-discovery-2611-14514",
+          "title": "科研智能体把相互竞争的解释放在同一组实验中检验",
+          "summary": "Contrastive Discovery 让科研智能体为一个问题提出互斥且覆盖候选空间的解释，并衡量实验结果如何改变各解释的支持程度。作者在六个领域的实验中报告，使用同等实验预算，由竞争解释引导搜索比逐条检验基线多解决 67% 的问题。",
+          "whyItMatters": "科研中的反证常只能排除一个说法。把候选解释并列，有助于判断已有证据还支持哪个说法，以及下一轮实验最值得检验什么。",
+          "context": "arXiv v1 提交于 2026-11-10 18:58:43 UTC。仅读取论文摘要、接收说明与提交记录。增幅为作者在其六领域设置中按相同实验预算得出的相对值，未独立复现。",
+          "url": "https://arxiv.org/abs/2611.14514",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-10T18:58:43Z",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "research",
+          "tags": [
+            "科学发现",
+            "科研智能体",
+            "实验设计"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-reframe-2611-12886",
+          "title": "Reframe 训练视觉智能体用上工具返回的观察证据",
+          "summary": "Reframe 的两阶段训练先鼓励模型主动收集和利用图像或视频工具的观察，再在多教师蒸馏时修正证据不足的工具动作，从修正后的观察继续训练。作者报告其在 14 项图像与视频基准上超过混合强化学习与原始多教师蒸馏对照。",
+          "whyItMatters": "这项工作把评估重点推进到模型是否真的使用了工具返回的信息，为检查视觉智能体的证据依赖提供了可检验的实验设计。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-09 18:59:54 UTC。仅读取论文摘要与提交记录，比较结果来自作者选定的 14 项基准，未独立复现。",
+          "url": "https://arxiv.org/abs/2611.12886",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-09T18:59:54Z",
+          "retrievedAt": "2026-11-11T11:01:25Z",
+          "category": "research",
+          "tags": [
+            "视觉推理",
+            "智能体",
+            "蒸馏"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-10T23:05:55.475Z"
+  "updatedAt": "2026-11-11T11:01:58.314Z"
 }
