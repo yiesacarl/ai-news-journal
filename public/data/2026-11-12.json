@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-11T23:05:43Z",
+      "searchCount": 19,
+      "collectionWindow": {
+        "start": "2026-11-08T23:02:08.000Z",
+        "end": "2026-11-11T23:04:24Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "aws-emulator-agent-built",
+          "title": "AWS 公开由 AI 智能体编写的本地云服务模拟器",
+          "summary": "AWS 发布 AWS Emulator，用于在开发环境构建和测试调用 AWS 服务的应用。AWS 称模拟器代码由智能体编写，团队用真实 AWS 验证过的场景测试来检查模拟器行为，并公开了源码。",
+          "whyItMatters": "API 规范和可重复回放的测试让开发者能具体检查智能体写出的软件在哪些场景与真实服务一致。",
+          "context": "原文发布于 2026-11-11。读取 AWS 官方文章中的开发流程、一致性测试与发布章节，并查看 GitHub 仓库说明。测试反映已覆盖场景，实际服务兼容性仍取决于调用方式。",
+          "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
+          "publisher": "AWS",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "opensource",
+          "tags": [
+            "智能体",
+            "云服务",
+            "开发测试"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "runway-praxis-1-open-weights",
+          "title": "Runway 开放机器人模型 Praxis-1 的权重与微调代码",
+          "summary": "Runway 将 9 月公布的 Praxis-1 权重、推理与微调代码按 Apache 2.0 发布。该模型联合预测视频和动作。据 Runway 报告，在 RoboLab-120 的 1,200 个评测回合中，成功率为 46.2%。",
+          "whyItMatters": "开放权重和 LoRA 微调支持，让实验室可以检验视频预训练对不同机器人、摄像头和任务的迁移效果。",
+          "context": "原文发布于 2026-11-11。读取 Runway 发布公告的评测与开放范围，并查看官方 GitHub 仓库。成功率来自公告所列评测，实际部署表现随设备和任务变化。",
+          "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+          "publisher": "Runway",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "opensource",
+          "tags": [
+            "机器人",
+            "世界动作模型",
+            "开放权重"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "fractile-series-c-sovereign-ai",
+          "title": "英国推理芯片公司 Fractile 完成 7.2 亿美元 C 轮",
+          "summary": "英国政府宣布 Sovereign AI 基金与英国商业银行参投 Fractile，称本轮超过 5 亿英镑。Fractile 向路透确认本轮为 7.2 亿美元，由 Thrive Capital、Founders Fund、Lightspeed 和 Redpoint 领投。",
+          "whyItMatters": "这轮融资把英国公共资金与大型风投集中到推理硬件。后续可关注首批芯片交付，以及第三方在实际推理负载上测得的性能和能耗。",
+          "context": "原文发布于 2026-11-11。读取英国政府公告正文，并与路透当日对公司融资金额及领投方的报道交叉核验。",
+          "url": "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+          "publisher": "英国科学、创新与技术部",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "business",
+          "tags": [
+            "AI 芯片",
+            "推理",
+            "融资"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tier-iv-autoware-e2e-models",
+          "title": "TIER IV 开放多套端到端驾驶模型",
+          "summary": "TIER IV 与 Autoware 基金会公布多套驾驶模型及代码。METEOR 可在不依赖高精地图的条件下由传感器数据生成轨迹，OnePlanner 当前采用激光雷达点云特征并结合地图等信息规划。",
+          "whyItMatters": "公开模型可在同一软件框架中比较不同传感器和地图配置，方便团队评估目标车型的算力和集成需求。",
+          "context": "原文发布于 2026-11-11。读取公告的各模型、仓库链接和集成状态章节。LatentDrive 的车内验证仍在进行。",
+          "url": "https://tier4.co.jp/en/updates/press-release/20261111-tieriv-unveils-e2e-autonomous-driving?hs_amp=true",
+          "publisher": "TIER IV",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "opensource",
+          "tags": [
+            "自动驾驶",
+            "Autoware",
+            "传感器"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "grpo-dense-rewards-matched-compute",
+          "title": "等算力复测改变了 GRPO 稠密奖励的排名",
+          "summary": "一项预印本用生成 token 数和训练 GPU 时间分别匹配预算，比较推理模型的训练方法。在 Qwen2.5-1.5B 的实验中，蒙特卡洛步骤奖励按更新次数比较领先，但在同等生成 token 数时比标准 GRPO 低 14.3 个百分点，在同等训练时间时低 7.8 个百分点。",
+          "whyItMatters": "为中间步骤评分也需要生成额外样本。把这笔开销算进去，才能判断一种方法是否真正更节省训练资源。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 04:25 UTC。读取摘要及正文的预算匹配、稠密奖励实验与结果部分。数值对应论文设定的模型和任务。",
+          "url": "https://arxiv.org/abs/2611.13560",
+          "publisher": "arXiv · Singh 等",
+          "publishedAt": "2026-11-10T04:25:22Z",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "research",
+          "tags": [
+            "强化学习",
+            "GRPO",
+            "算力预算"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sae-massive-activations-reproducibility",
+          "title": "研究发现极端激活会干扰稀疏自编码器评估",
+          "summary": "研究者发现，一些模型的激活方差过度集中在首个主成分，使得稀疏自编码器在不同次训练中把同一信号拆成不同特征。训练前分离该成分后，受影响模型的前 50 项特征跨训练共享率由 4%–39.5% 提高到 73%–99.5%。",
+          "whyItMatters": "做模型可解释性分析时，除了重构表现，还可以检查重要特征能否在不同训练中稳定出现。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 04:08 UTC。读取摘要、正文的前 50 项特征复现结果及分模型对照；两个 Gemma 模型原有共享率较高，改善较小。",
+          "url": "https://arxiv.org/abs/2611.13548",
+          "publisher": "arXiv · Delisle 与 Tan",
+          "publishedAt": "2026-11-10T04:08:55Z",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "research",
+          "tags": [
+            "可解释性",
+            "稀疏自编码器",
+            "可复现性"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-businesses-chatgpt-beta",
+          "title": "ChatGPT 测试企业资料认领和商家智能体",
+          "summary": "OpenAI 推出 Businesses in ChatGPT 测试版。符合条件的企业可认领资料、更新价格和库存，并查看满足隐私阈值的聚合互动数据。美国符合条件的电商和在线服务商家可提供单独标记的问答智能体。",
+          "whyItMatters": "商家可以维护 ChatGPT 引用的商品信息，用户则能看到自己何时从通用回答进入商家提供的问答。",
+          "context": "近期精选补充。原文发布于 2026-11-10。读取官方公告的企业认证、聚合分析、商家智能体及赞助展示章节。OpenAI 称企业不会收到用户的聊天内容。",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "product",
+          "tags": [
+            "企业资料",
+            "电商",
+            "ChatGPT"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "gemini-live-carplay-rollout",
+          "title": "Gemini Live 开始向 Apple CarPlay 推送",
+          "summary": "Google 开始向 iOS 用户推送 CarPlay 版 Gemini Live，可通过语音续接会话、查询日历或总结 Gmail 邮件。车内会话会同步到 iPhone 上的 Gemini 应用。",
+          "whyItMatters": "跨设备续接和现有工作账户集成，让车载语音助手可以处理需要上下文的任务。",
+          "context": "原文发布于 2026-11-11。读取 Google 官方公告正文、启用条件及脚注。该功能分批推出，部分个性化功能另有地区和年龄限制。",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "product",
+          "tags": [
+            "车载",
+            "语音助手",
+            "Gemini Live"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "apex-streaming-video-condition-shifting",
+          "title": "APEX 研究用同一网络承担流式视频生成与蒸馏估计",
+          "summary": "一项预印本通过切换条件，让同一生成网络承担流式视频生成和蒸馏中的分布估计。在论文的匹配训练设置下，与使用独立估计网络的基线相比，单卡峰值显存低 4.4%，平均每轮迭代短 9.2%。",
+          "whyItMatters": "流式生成面向连续交互。减少训练开销的同时评估指令遵循和运动质量，有助于判断方法适合哪些应用。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 13:01 UTC。读取摘要及正文的评测设置和比较段落。论文在人评中报告指令遵循改善，运动质量则偏向基线 S2-Avatar。",
+          "url": "https://arxiv.org/abs/2611.14033",
+          "publisher": "arXiv · Liu 等",
+          "publishedAt": "2026-11-10T13:01:20Z",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "research",
+          "tags": [
+            "流式视频",
+            "蒸馏",
+            "训练效率"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "google-labs-tabletop-waitlist",
+          "title": "Google Labs 测试可用提示生成互动工具的共享空间",
+          "summary": "Google Labs 推出 Tabletop 实验。用户可以添加链接和文件，从提示或模板生成行程、投票、费用分摊工具或赛事对阵表，再用链接邀请多人同时编辑。",
+          "whyItMatters": "生成结果可以直接用于群体决策，也为比较 AI 生成互动工具与普通共享文档提供了实际场景。",
+          "context": "原文发布于 2026-11-11。读取 Google Labs 官方短公告的功能示例与开放条件。目前仅向美国年满 18 岁的用户开放候补登记。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+          "publisher": "Google Labs",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-11T23:04:24Z",
+          "category": "product",
+          "tags": [
+            "多人协作",
+            "互动工具",
+            "实验产品"
+          ],
+          "importance": 2
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-11T23:05:44.286Z"
+}
