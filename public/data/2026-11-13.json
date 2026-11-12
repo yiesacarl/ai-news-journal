@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-12T23:02:53Z",
+      "searchCount": 23,
+      "collectionWindow": {
+        "start": "2026-11-09T23:02:53.000Z",
+        "end": "2026-11-12T23:02:53Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "gemini-4-hydrogen",
+          "title": "Google 发布面向日常编程与工具任务的 Gemini 4 Hydrogen",
+          "summary": "Google 开始将 Gemini 4 Hydrogen 推向 Gemini 应用、搜索、AI Studio 和 Gemini API 等渠道。模型支持百万 token 上下文和四档推理强度。",
+          "whyItMatters": "团队可按任务调整推理深度，在模型质量、响应时间和调用成本之间做取舍。",
+          "context": "原文发布于 2026-11-12。读取 Google 公告的模型定位、推理档位、评测和开放渠道章节。免费用户在 Gemini 应用内通过自动选模获得相应能力。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "product",
+          "tags": [
+            "Gemini",
+            "模型发布",
+            "推理"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "frontier-ai-california-nonprofit-lawsuit",
+          "title": "四家公益组织在加州起诉五家前沿 AI 开发商",
+          "summary": "Public Citizen 等四家组织在旧金山县加州高等法院提起诉讼，要求法院叫停 Anthropic、Google、Meta、OpenAI 和 SpaceXSI 开发更先进的 AI 系统。",
+          "whyItMatters": "案件提出一个具体的治理问题，即加州现有的不正当竞争法律能否为要求限制模型开发提供依据。",
+          "context": "原文发布于 2026-11-12。读取原告方公告的立案信息和诉求，并与美联社及路透正文交叉核验。所述风险和违法主张来自原告，暂停开发是请求的救济措施。",
+          "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+          "publisher": "Public Citizen",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "policy",
+          "tags": [
+            "前沿 AI",
+            "加州",
+            "诉讼"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "eu-ai-sandbox-implementing-regulation-2487",
+          "title": "欧盟公布 AI 监管沙盒统一实施规则",
+          "summary": "欧盟委员会通过第 2026/2487 号实施条例，为主管机关如何设立和监督 AI 监管沙盒制定统一规则，涵盖参与、测试计划、退出和报告。条例定于 12 月 1 日生效。",
+          "whyItMatters": "企业可据此了解如何在受监管的环境里验证创新系统，各国主管机关也有了共同的运行框架。",
+          "context": "近期精选补充。条例于 2026-11-10 通过，2026-11-11 刊登于欧盟官方公报。读取法规原文的序言、沙盒计划、终止与报告条款及生效条款。",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj",
+          "publisher": "欧盟委员会",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "policy",
+          "tags": [
+            "AI 法案",
+            "监管沙盒",
+            "欧盟"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ibm-granite-llmon-preview",
+          "title": "IBM 开放两款用显式标记区分指令与数据的 Granite 预览模型",
+          "summary": "IBM 团队发布基于 Granite 4.1 的 3B 和 8B 实验模型。它们能读取和生成 LLMON 标记文本，开发者可以用保留标记表达指令、数据和嵌套结构。团队也公布了转换工具和模板示例。",
+          "whyItMatters": "应用团队可以检验显式区分外部数据与指令，是否能让结构化输出和输入边界更可靠。",
+          "context": "原文发布于 2026-11-12。读取团队技术文章中的格式、实验模型和工具说明，并查看 GitHub 项目。效果来自团队测试，两款模型均为实验预览。",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "publisher": "IBM Granite 团队",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "opensource",
+          "tags": [
+            "Granite",
+            "结构化输出",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "are-bench-real-research-workspaces",
+          "title": "ARE-bench 用真实研究工作区检验科研智能体的交付能力",
+          "summary": "研究者从科研人员的实际会话和工作区构建了 75 项任务，覆盖七个研究阶段。按每项清单要求均满足的口径，七个参测模型中最高完整成功率为 66.2%。",
+          "whyItMatters": "科研任务往往依赖此前约定和遗留文件。把这些约束纳入评分，有助于发现单轮演示看不出的交付问题。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 17:21 UTC。读取摘要、正文评测设置和总体结果。统计采用每任务三次运行，结论限于论文构造的任务和受测模型。",
+          "url": "https://arxiv.org/abs/2611.14364",
+          "publisher": "ARE-bench 研究团队",
+          "publishedAt": "2026-11-10T17:21:31Z",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "research",
+          "tags": [
+            "科研智能体",
+            "评测",
+            "工作区"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "connectome-baseline-physiology",
+          "title": "果蝇神经回路模拟显示生理约束可改变对布线作用的判断",
+          "summary": "研究者比较真实果蝇神经连接图与打乱后的对照，并测试不同调参条件。在蘑菇体模型的一项任务中，加入独立生理数据约束后，真实布线由领先对照 0.09 转为落后 0.09。",
+          "whyItMatters": "比较真实结构与随机对照时，调参公平性和独立数据约束都会影响能否把模型表现归因于连接结构。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 18:55 UTC。读取摘要和蘑菇体对照、留出验证部分。结果来自模拟，约束下的表现也可能反映模型本身的不足。",
+          "url": "https://arxiv.org/abs/2611.14508",
+          "publisher": "果蝇连接组建模研究团队",
+          "publishedAt": "2026-11-10T18:55:48Z",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "research",
+          "tags": [
+            "计算神经科学",
+            "模型验证",
+            "对照实验"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "continual-arc-feedback-budget",
+          "title": "Continual-ARC 区分智能体记住旧任务与掌握新规则",
+          "summary": "研究团队让 ARC 任务隔段时间以新实例再次出现，要求智能体为示例或答错后的反馈消耗预算。测试中，多种冻结权重的智能体未能超过直接缓存旧示例的基线，也未在全新任务上显示收益。",
+          "whyItMatters": "把复访和全新任务分开评分，可以辨别节省反馈究竟来自复用旧信息，还是形成了能迁移的技能。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 18:55 UTC。读取摘要、示例缓存基线与留出任务结果。结论限于论文中的 ARC 任务流和受测方案。",
+          "url": "https://arxiv.org/abs/2611.14505",
+          "publisher": "Continual-ARC 研究团队",
+          "publishedAt": "2026-11-10T18:55:01Z",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "research",
+          "tags": [
+            "持续学习",
+            "ARC",
+            "可复现评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "dnnp-noisy-sensor-pm25",
+          "title": "DnNP 将输入测量噪声纳入空气质量插值模型",
+          "summary": "DnNP 在神经过程中显式建模输入测量误差。在美国马萨诸塞州布鲁克莱恩 34 个传感器的 PM2.5 空间插值实验中，相比标准神经过程，均方根误差在部分特征配置下最多降低 30%。",
+          "whyItMatters": "环境传感器的输入也有误差。研究公开代码和观测数据，让团队能复查这种误差建模在其他监测网络上是否有效。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 18:00 UTC。读取摘要、正文空间插值实验和数据划分说明。30% 是特定数据和特征配置下的最大改善。",
+          "url": "https://arxiv.org/abs/2611.14424",
+          "publisher": "DnNP 研究团队",
+          "publishedAt": "2026-11-10T18:00:37Z",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "research",
+          "tags": [
+            "空气质量",
+            "不确定性",
+            "可复现研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "dupont-microsoft-nobleai-rd",
+          "title": "杜邦与 Microsoft、NobleAI 合作将建模工具接入研发流程",
+          "summary": "杜邦宣布与 Microsoft 和 NobleAI 合作。Microsoft Discovery 用于规划和组织研发流程，NobleAI 的 VIP 平台提供科学建模，帮助团队筛选候选方案并安排后续实验。",
+          "whyItMatters": "这类合作把研发流程编排和预测建模放在同一个使用场景中。后续可用实验轮次、验证成功率和交付时间衡量是否有收益。",
+          "context": "原文发布于 2026-11-12。读取杜邦新闻稿正文和合作分工。缩短研发周期是项目目标，公告未披露量化成效。",
+          "url": "https://www.dupont.com/news/dupont-announces-collaboration-with-microsoft-and-nobleai-to-accelerate-rd-innovation-with-ai.html",
+          "publisher": "杜邦",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "business",
+          "tags": [
+            "工业研发",
+            "科学建模",
+            "企业合作"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "qvac-botpsy-edge-tool-use",
+          "title": "BotPsy 开放 8 亿参数端侧工具调用模型",
+          "summary": "Tether AI Research 公布基于 Qwen3.5-0.8B 的 BotPsy，提供 safetensors 权重和多种精度的 GGUF 文件。团队报告其在 BFCL v4 工具调用评测中由基座的 23.4 分提高到 44.0 分。",
+          "whyItMatters": "可直接比较量化精度与设备资源对简单工具任务的影响，为低算力设备上的助手提供了可复测的起点。",
+          "context": "近期精选补充。原文发布于 2026-11-11。读取团队技术文章的评测与限制章节，并打开模型卡核对权重。长指令链和低资源语言的表现仍有限。",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "publisher": "Tether AI Research",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T23:02:53Z",
+          "category": "opensource",
+          "tags": [
+            "端侧模型",
+            "工具调用",
+            "开放权重"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-12T23:02:53.808Z"
+}
