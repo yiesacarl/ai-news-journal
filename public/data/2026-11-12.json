@@ -192,7 +192,198 @@
           "importance": 2
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-12T11:04:04Z",
+      "searchCount": 44,
+      "collectionWindow": {
+        "start": "2026-11-09T11:04:04.000Z",
+        "end": "2026-11-12T11:04:04Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "ernie-55-flash-preview-20261111",
+          "title": "百度上线文心 5.5 Flash Preview，开放后训练版 API",
+          "summary": "百度将基于此前公开 Base 模型的首个后训练版本接入千帆。官方规格为总参数 2800 亿、激活参数 140 亿、100 万 token 上下文。发布稿展示了使用外部工具和素材完成的编程、三维建模及办公案例，并将权重开放列为后续计划。",
+          "whyItMatters": "此前的 Base 权重发布与这次后训练版 API 上线是两个阶段。新版本让团队可以直接评估指令执行和工具工作流。",
+          "context": "官方研究目录标注发布日期为 2026-11-11。已读取中文发布稿的模型规格、可用性及案例条件。示例属于厂商展示，部分依赖外部工具和素材。公告计划于 11 月 25 日前开放权重。",
+          "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/",
+          "publisher": "百度文心",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "product",
+          "tags": [
+            "中文原文",
+            "国产模型",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "qwen-code-1-preview-20261111",
+          "title": "Qwen Code 1.0 预览整合 Qoder，提供跨平台原生包",
+          "summary": "Qwen Code 1.0 Preview 整合 Qoder 与 Qwen Code 的智能体运行框架，用于理解代码、实现、调试和测试。预览版支持两类账号、多模型服务商和自定义兼容端点，为 macOS、Linux、Windows 提供无需另装 Node.js 的原生包。",
+          "whyItMatters": "本次更新落在开发工具的运行与分发层。多端原生包和会话恢复有助于降低跨系统部署和接续开发的成本。",
+          "context": "近期精选补充。GitHub Release 发布于 2026-11-11 03:55:44 UTC。已读取官方中文概述、预览版发布说明及发布元数据。预览期间接口与配置可能调整。发布说明 https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+          "url": "https://qwenlm.github.io/qwen-code-docs/zh/users/overview/",
+          "publisher": "Qwen Code 团队",
+          "publishedAt": "2026-11-11T03:55:44Z",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "opensource",
+          "tags": [
+            "中文原文",
+            "编码助手",
+            "跨平台"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tencent-yuanbao-search-web-20261111",
+          "title": "腾讯开放独立网页端元宝搜索，整合网页、公众号与学术文献",
+          "summary": "腾讯推出可通过独立网址使用的元宝搜索，QQ 浏览器也提供搜索引擎切换入口。发布稿称检索覆盖公开网页、公众号、视频号和学术文献，用户可在生成式摘要上继续追问，广告单独标注和展示。",
+          "whyItMatters": "独立网页入口把 AI 搜索从助手内部扩展到通用浏览场景。公众号与公开网页能否一起检索，以及答案与广告如何区分，是值得观察的产品变化。",
+          "context": "中文发布稿于 2026-11-11 上线，已读取腾讯云开发者社区转载正文的入口、信源和结果展示说明。覆盖范围与广告呈现依据发布稿，未独立测试。",
+          "url": "https://cloud.tencent.com/developer/article/2781917",
+          "publisher": "腾讯云开发者社区",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "product",
+          "tags": [
+            "中文发布稿",
+            "AI搜索",
+            "腾讯"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nex-n26-weights-20261110",
+          "title": "Nex-AGI 放出 Nex-N2.6 权重，面向多模态工具任务",
+          "summary": "Nex-N2.6 基于 GLM-5.3-Flash，发布 FP8 量化权重，模型卡标注约 3210 亿参数。模型面向图像输入、编程和长程工具任务。团队把减少重复推理、提高对当前工具列表的遵循程度列为这一版的主要目标。",
+          "whyItMatters": "公开权重和部署说明让研究者可在自己的工具环境中检验模型行为，尤其适合对照模型是否调用了当前环境实际提供的工具。",
+          "context": "近期精选补充。模型平台标注发布日期为 2026-11-10，官方仓库同日已有权重上传记录。已读取发布方模型卡的规格、内测指标说明和部署段落，并核对提交历史与 OpenRouter 上架日期。未复现模型评测。",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.6",
+          "publisher": "Nex-AGI",
+          "publishedAt": "2026-11-10",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "opensource",
+          "tags": [
+            "国产模型",
+            "开放权重",
+            "工具调用"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "agile-robots-series-f-20261112",
+          "title": "Agile Robots 宣布完成 5 亿美元 F 轮，拟扩大机器人产能",
+          "summary": "Agile Robots 宣布完成 5 亿美元 F 轮融资，估值为 85 亿美元，由软银集团领投，NVIDIA、日立集团和 T.Capital 等参与。公司计划加强美国市场布局，并继续扩建包括德国在内的生产能力。",
+          "whyItMatters": "这轮融资的用途覆盖制造与市场扩张，便于观察工业机器人项目从研发走向产能建设的节奏。",
+          "context": "公司公告正文电头为 2026-11-12，网页栏目标注 2026-11-10。本条采用正文电头。已读取公司公告正文的融资、投资方及产能安排。",
+          "url": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+          "publisher": "Agile Robots",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "工业机器人",
+            "具身智能"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-gemini-decisions-api-20261111",
+          "title": "Google 推出 Gemini Decisions API，一次对多道封闭选项题打分",
+          "summary": "Gemini Decisions API 由 Gemini Decision 1 驱动，可对同一份文本、图片、音频、视频或 PDF 输入批量评分。官方规格为最多 256K token 输入及 1000 道独立问题，支持是非判断、选项选择和按量规评分，并返回置信分。",
+          "whyItMatters": "对文档分类、模型路由和规则筛选，直接评分可以替代逐题生成解释。返回的分值也可用来设定转人工复核的阈值。",
+          "context": "原文发布于 2026-11-11。已读取官方公告的输入范围、评分方式、评测条件与接入部分。未调用 API 或校验置信度校准。",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "product",
+          "tags": [
+            "多模态",
+            "分类",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "deepl-aure-voice-20261111",
+          "title": "DeepL 发布 Aure，实时语音翻译保留发言节奏与语气",
+          "summary": "DeepL 将 Aure 接入在线会议、面对面会话和语音 API。模型用源语音及译文持续调整翻译音频的语调、强调和语速，首批覆盖英语、德语、法语、日语、韩语等八种语言。",
+          "whyItMatters": "跨语言会议常依赖语气来理解强调、停顿或话轮。实时翻译能保留多少表达信息，可以和译文准确性分别评估。",
+          "context": "原文发布于 2026-11-11。已读取 DeepL 公告的技术说明、适用产品和首批语言清单。表现描述来自公司公告，未做延迟或语音还原测试。",
+          "url": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
+          "publisher": "DeepL",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "product",
+          "tags": [
+            "语音翻译",
+            "实时语音",
+            "跨语言会议"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-torchcurves-2611-14516",
+          "title": "TorchCurves 软件论文说明如何训练可微参数曲线",
+          "summary": "TorchCurves 在 PyTorch 中把 B 样条或勒让德多项式表示的向量曲线作为可学习组件，可对输入和曲线系数求导。库提供可训练模块、基函数及函数接口，支持连续特征嵌入、函数回归和 Kolmogorov–Arnold 网络。",
+          "whyItMatters": "可微曲线可与周围网络一起优化。论文同时比较了不同问题规模下的运行开销，让读者判断何时值得用这种更通用的接口。",
+          "context": "近期精选补充。软件论文 v1 提交于 2026-11-10 18:58:52 UTC。已读取论文摘要、提交记录与项目仓库说明。事件为软件论文公开，未运行性能测试。项目 https://github.com/alexshtf/torchcurves",
+          "url": "https://arxiv.org/abs/2611.14516",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-10T18:58:52Z",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "opensource",
+          "tags": [
+            "可复现工具",
+            "PyTorch",
+            "可微计算"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-robot-memory-clock-2611-14488",
+          "title": "暂停实验发现，机器人策略可能把耗时当作任务进度",
+          "summary": "研究在 RoboMME 的两项计数任务中加入无进展的短暂停顿或手腕动作。被测的带记忆视觉语言动作策略有时提前停止，两项任务各 50 次，成功次数分别从 47 降至 16、从 44 降至 10。按事件索引记忆在这些实验中恢复了至少一半损失。",
+          "whyItMatters": "保持真实进度不变、只改变耗时，是检验机器人是否记住已完成步骤的一种直接办法，可用于设计更可靠的长任务评测。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 18:47:57 UTC。仅读取论文摘要与提交记录。数字限于作者对特定策略的两项 RoboMME 计数实验。",
+          "url": "https://arxiv.org/abs/2611.14488",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-10T18:47:57Z",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "research",
+          "tags": [
+            "机器人记忆",
+            "视觉语言动作",
+            "对照实验"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-retrace-2611-14492",
+          "title": "ReTrace 将智能体执行记录转为可重复的规则工作流",
+          "summary": "ReTrace 从标准操作流程和少量智能体运行记录中提取各步骤的选择条件，合并为规则文档，再编译为可执行流程。作者在自家平台 79 项流程上报告，编译后的完成率为 93.8%，原智能体为 96.8%，每项任务成本降低 24%。",
+          "whyItMatters": "常规流程反复运行时，逐步请求模型会积累成本。把稳定的分支逻辑交给代码执行，给团队提供了可以量化的成本与完成率取舍。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-10 18:49:47 UTC。仅读取论文摘要与提交记录。完成率和成本比较限于作者生产平台的 79 项流程。",
+          "url": "https://arxiv.org/abs/2611.14492",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-10T18:49:47Z",
+          "retrievedAt": "2026-11-12T11:03:05Z",
+          "category": "research",
+          "tags": [
+            "工作流",
+            "智能体",
+            "自动化评测"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-11T23:05:44.286Z"
+  "updatedAt": "2026-11-12T11:04:08.150Z"
 }
