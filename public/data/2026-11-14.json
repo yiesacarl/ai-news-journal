@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-13T23:05:42Z",
+      "searchCount": 27,
+      "collectionWindow": {
+        "start": "2026-11-10T23:05:42.000Z",
+        "end": "2026-11-13T23:05:42Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "antigravity-teamwork-science-engineering",
+          "title": "Google 公布 Antigravity 多智能体在数学形式化和工程中的新结果",
+          "summary": "Google Research 公布 /teamwork 的实验结果。团队用 Lean 对已有的韦伊猜想证明进行机器可核查的形式化，并报告用硬件基准反馈优化 TPU 内核。部分工作流已向外部研究人员开放。",
+          "whyItMatters": "形式化证明检查器和硬件计时能给智能体提供可独立检查的反馈，让复杂任务的结果更容易复核。",
+          "context": "原文发布于 2026-11-13。读取 Google Research 公告的数学形式化、工程基准和开放范围。韦伊猜想案例是对已有证明的形式化，专用证明工作流仍待上线。",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "publisher": "Google Research",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "多智能体",
+            "Lean",
+            "工程验证"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "inclusionai-duo-full-duplex-release",
+          "title": "蚂蚁 inclusionAI 发布全双工视听世界模型 Duo",
+          "summary": "Duo 在接收用户音视频的同时生成回应，把对话意图与视听生成交给不同模块。团队公布了因果版、蒸馏和量化权重，以及离线推理代码和流式部署入口。",
+          "whyItMatters": "输入和输出可以同时进行，为研究用户打断时模型如何调整语言和画面提供了可试用的实现。",
+          "context": "项目发布日志日期为 2026-11-13，arXiv v1 提交于 11 月 11 日。读取 GitHub 发布日志、权重说明及论文摘要。部署与使用须分别核对代码和权重许可。",
+          "url": "https://github.com/inclusionAI/Duo",
+          "publisher": "inclusionAI",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "opensource",
+          "tags": [
+            "世界模型",
+            "全双工",
+            "视听生成"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "isla-coordinate-free-pde",
+          "title": "ISLA 测试流体代理模型能否适应旋转与重新划分网格",
+          "summary": "研究者为稳态边界驱动偏微分方程提出 ISLA，用相对几何关系和边界积分来预测流场。在含 2816 个流动算例的 AeroZoo 上，报告的平均参考尺度化速度和压力误差分别低于各基线至少约 3.1 倍和 3.3 倍。",
+          "whyItMatters": "工程软件常用不同坐标和网格描述同一问题。对这些变化进行测试，有助于识别模型是否依赖训练数据的表示方式。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:30 UTC。读取摘要、正文的方法性质与基准结论。结果针对论文中的稳态流动任务。",
+          "url": "https://arxiv.org/abs/2611.17141",
+          "publisher": "ISLA 研究团队",
+          "publishedAt": "2026-11-12T17:30:03Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "科学计算",
+            "流体力学",
+            "物理不变性"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "analoglayoutworld-agent-verification",
+          "title": "AnalogLayoutWorld 用电气与物理验证评测模拟芯片版图智能体",
+          "summary": "研究构建 40 项专家复核任务，要求智能体从给定晶体管级网表生成版图。正文报告，13 种模型与运行框架组合的尝试中，91.1% 产出版图文件，21.3% 满足全部验收条件。",
+          "whyItMatters": "生成可打开的版图只是交付的一环。独立物理与电气检查更能衡量智能体是否完成工程要求。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 15:56 UTC。读取正文任务设置和汇总结果。arXiv 页面摘要另列 23.0%，本条采用正文口径。论文称仓库将随后公开。",
+          "url": "https://arxiv.org/abs/2611.16991",
+          "publisher": "AnalogLayoutWorld 研究团队",
+          "publishedAt": "2026-11-12T15:56:13Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "模拟电路",
+            "EDA",
+            "智能体评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "seeeeg-frozen-vision-encoder",
+          "title": "SeeEEG 将脑电信号转成图像交给冻结的视觉模型",
+          "summary": "研究者把多通道脑电表示为波形或时频图，让冻结的 DINOv3 编码。对照实验冻结全部编码器并使用相同预测头，SeeEEG 在八个受测数据集的平衡准确率上均超过参测脑电基础模型。",
+          "whyItMatters": "这一结果让研究者可以单独检查输入表示的价值，并重新评估专用预训练对传感器数据任务的收益。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 16:17 UTC。读取正文的实验条件、对照表和可视化消融。结果对应论文指定的数据划分与冻结编码器设置。",
+          "url": "https://arxiv.org/abs/2611.17031",
+          "publisher": "SeeEEG 研究团队",
+          "publishedAt": "2026-11-12T16:17:16Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "脑电",
+            "迁移学习",
+            "视觉模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ropedia-xperience-2",
+          "title": "Ropedia Xperience 2 将三维场景与人类操作示范配对",
+          "summary": "项目公布 1589 份带真实尺度的三维扫描，并整理 74 类任务的 4230 段第一视角记录，共 131 小时。论文展示如何把场景转为可交互仿真，并把人类动作重定向为机器人轨迹。",
+          "whyItMatters": "同时采集场景和动作，可让同一份现场记录用于生成训练环境、动作示范与闭环评测。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 16:37 UTC。仅读原论文摘要与提交记录。数据规模和处理能力采用作者报告。",
+          "url": "https://arxiv.org/abs/2611.17060",
+          "publisher": "Ropedia Xperience 2 研究团队",
+          "publishedAt": "2026-11-12T16:37:21Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "数据集",
+            "仿真"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "foam-soap-optimizer-state",
+          "title": "FOAM 在语言模型预训练实验中把 SOAP 优化器状态减半",
+          "summary": "FOAM 以单侧因子化估计简化二阶优化。在 1.24 亿至 7.6 亿参数模型的 FineWeb 预训练对照中，作者报告它使用约一半的 SOAP 优化器状态，验证损失与 SOAP 接近。",
+          "whyItMatters": "优化器状态会占用训练显存。将验证损失、状态大小和训练时间放在同一个对照里，有助于判断优化器是否值得替换。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 14:59 UTC。读取正文训练设置、图 1 和对照讨论。比较对应论文里的模型规模和单独调优设置。",
+          "url": "https://arxiv.org/abs/2611.16905",
+          "publisher": "FOAM 研究团队",
+          "publishedAt": "2026-11-12T14:59:01Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "训练优化",
+            "显存",
+            "可复现研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nebius-q3-2026-capacity-growth",
+          "title": "Nebius 披露三季度收入 9.81 亿美元",
+          "summary": "AI 云服务商 Nebius 公布截至 9 月 30 日的未经审计业绩，季度收入为 9.808 亿美元，上年同期为 1.461 亿美元。",
+          "whyItMatters": "AI 云商的收入增长可与资本开支、亏损和新增容量一并观察，用来区分客户需求与扩建带来的财务压力。",
+          "context": "近期精选补充。原文发布于 2026-11-12。读取公司公告及美国 SEC 收录的财务报表，核对收入与比较期间。",
+          "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results",
+          "publisher": "Nebius",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "business",
+          "tags": [
+            "AI 云",
+            "财报",
+            "算力"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "coremem-successive-coding-tasks",
+          "title": "CoReMem 用下一项代码任务检验哪些记忆值得保留",
+          "summary": "研究者比较带与不带前序轨迹片段的执行结果，将更有用的信息压缩成仓库位置和可运行的检查。在 ChainSWE 的 27B 模型实验中，相比无记忆且未训练的基线，解决率从 21.0% 升至 25.7%，计入记忆模块后的总 token 成本低 11%。",
+          "whyItMatters": "把写入和读取记忆的成本计入实验，能更直接地衡量连续维护同一代码库时是否节省了工作量。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:58 UTC。读取摘要及正文结果表。结果依赖 ChainSWE 的连续任务设计和论文中的缓存计量方式。",
+          "url": "https://arxiv.org/abs/2611.17316",
+          "publisher": "CoReMem 研究团队",
+          "publishedAt": "2026-11-12T18:58:22Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "research",
+          "tags": [
+            "编程智能体",
+            "记忆",
+            "成本评测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "primer-instructor-led-simulation",
+          "title": "Primer 开放由教师主导的教学仿真创作框架",
+          "summary": "Primer 先通过访谈整理教师提供的学习目标、学生背景和材料，再生成可审阅的设计，由多个专门智能体制作可交互练习。框架可接入不同模型，论文附代码仓库。",
+          "whyItMatters": "教师可以先修订教学设计再生成仿真，也可以按教学机构的数据要求选择模型。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 15:50 UTC。读取正文的教师访谈、设计审阅和生成流程。论文主要展示系统设计，学习成效仍需课堂验证。",
+          "url": "https://arxiv.org/abs/2611.16986",
+          "publisher": "Primer 研究团队",
+          "publishedAt": "2026-11-12T15:50:46Z",
+          "retrievedAt": "2026-11-13T23:05:42Z",
+          "category": "opensource",
+          "tags": [
+            "教育",
+            "仿真",
+            "教师审阅"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-13T23:05:43.381Z"
+}
