@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-13T11:00:30Z",
+      "searchCount": 44,
+      "collectionWindow": {
+        "start": "2026-11-10T11:00:30.000Z",
+        "end": "2026-11-13T11:00:30Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "nvidia-ceo-transition-20261112",
+          "title": "英伟达任命财务长 Colette Kress 为临时 CEO",
+          "summary": "英伟达公告称，黄仁勋辞去总裁、首席执行官和董事职务。董事会任命财务长 Colette Kress 兼任临时 CEO，并启动正式继任者遴选。董事会主席由长期董事 Harvey C. Jones 担任。",
+          "whyItMatters": "这是主要 AI 加速芯片供应商的管理层交接。临时领导安排与永久继任者遴选是接下来可跟踪的具体进展。",
+          "context": "公司新闻稿发布于 2026-11-12。已读取官方公告，并核对同日签署的 SEC 8-K 第 5.02 项。8-K 将董事会接受辞任及任命的日期列为 11 月 11 日。申报原文 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/",
+          "publisher": "NVIDIA",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "business",
+          "tags": [
+            "AI芯片",
+            "公司治理",
+            "管理层变动"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "volcengine-seedance-25-flash-20261112",
+          "title": "火山引擎公开 Seedance 2.5 flash，方舟 API 定于 11 月 15 日开放",
+          "summary": "火山引擎公开 Seedance 2.5 flash 模型详情，将其定位为面向高频制作和批量生产的多模态视频模型。中文文档列出的方舟在线体验和 API 开放时间为北京时间 11 月 15 日 14:00。",
+          "whyItMatters": "视频创作团队可以针对同一批素材比较旗舰版与 flash 版的生成耗时、成片质量和单次成本。",
+          "context": "发布消息见 2026-11-12 的 IT之家报道，火山方舟中文教程标注更新于 2026-11-13。已读取报道正文、官方模型详情及开放说明。发布时间以发布消息为准，方舟开放时间按官方文档。",
+          "url": "https://console.volcengine.com/ark/region%3Acn-beijing/docs/seedance-2-5",
+          "publisher": "火山引擎",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "product",
+          "tags": [
+            "中文原文",
+            "视频生成",
+            "火山方舟"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "baidu-token-exchange-20261112",
+          "title": "百度在百度世界正式推出多供应商模型平台「词元所」",
+          "summary": "百度在 11 月 12 日大会上正式推出词元所。平台以统一 API 对接多个模型资源，提供效果、时延和成本对比，以及运行状态监测。大会介绍了通过指纹比对、能力测试和定期抽检核验供应资源的做法。",
+          "whyItMatters": "同一模型可能经由多个供应商提供，公开时延、稳定性和核验机制有助于采购方判断各路由之间的差异。",
+          "context": "大会正式发布于 2026-11-12。官方产品页未标发布日期，已读取其平台功能、接入和排行说明，并用新华财经大会报道核对日期及资源核验描述。",
+          "url": "https://cloud.baidu.com/product-s/token_exchange.html?from=article",
+          "publisher": "百度智能云",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "business",
+          "tags": [
+            "中文原文",
+            "模型市场",
+            "模型路由"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-self-hosted-managed-agents-20261112",
+          "title": "Anthropic 开始私测可在企业环境运行的 Claude Managed Agents",
+          "summary": "自托管版将智能体服务端、工作进程、沙盒、凭据和会话历史交由客户在自有云或本地环境运维。模型推理请求可按部署选择发往 Anthropic、云模型平台或自有网关。",
+          "whyItMatters": "此前可自托管的范围已涵盖沙盒，这次扩展到完整运行服务，让企业能分别决定执行、凭据和历史数据放在哪里，以及模型请求走哪条路径。",
+          "context": "原文发布于 2026-11-12。已读取官方公告的架构、凭据管理和可用性部分。当前处于受邀私测，未实测部署或访问权限。",
+          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "product",
+          "tags": [
+            "智能体",
+            "自托管",
+            "企业软件"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-a2ui-1-20261111",
+          "title": "Google 发布 A2UI 1.0 稳定规范，增加双向函数调用",
+          "summary": "A2UI 将智能体输出的界面描述交给客户端用已注册组件渲染。1.0 版加入双向函数调用、无障碍支持和扩展元数据，让交互组件可以在界面内请求额外数据，例如查询某个预约时段是否可用。",
+          "whyItMatters": "表单和确认卡片可以保留应用自己的组件与交互规范，也让同一业务流程更容易跨不同客户端呈现。",
+          "context": "近期精选补充。原文发布于 2026-11-11。已读取开发者公告的规范、渲染库与示例，并打开项目仓库。公告列出的 Jetpack Compose 渲染器当时仍为 0.9.1。",
+          "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+          "publisher": "Google Developers",
+          "publishedAt": "2026-11-11",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "opensource",
+          "tags": [
+            "开放协议",
+            "生成式界面",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-gemini-eyewear-preorder-20261112",
+          "title": "Google 与三星合作的 Gemini 智能眼镜开始预售",
+          "summary": "Google 宣布 Gentle Monster 和 Warby Parker 的两组智能眼镜开放预订，并计划于 12 月 10 日上市。眼镜借助兼容手机提供 Gemini 语音帮助、翻译和视觉描述。",
+          "whyItMatters": "预售和上市日期为此前公布的合作项目提供了明确的商业化节点，首发区域和兼容条件也更清楚。",
+          "context": "原文发布于 2026-11-12。已读取 Google 公告的预购、上市和兼容性说明。首发仅支持美国或韩国地区的符合条件的 Google 账户，具体款式和市场供应不同。",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "product",
+          "tags": [
+            "可穿戴设备",
+            "多模态",
+            "智能眼镜"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-agentssl-2611-17323",
+          "title": "AgentSSL 用 16977 个候选程序研究如何利用无标签数据",
+          "summary": "AgentSSL 把半监督学习流程设计拆成候选程序生成与选择。在匹配计算资源的实验中，作者报告智能体在 12 种设置中的 8 种超过最强人工设计基线，但缺少足够标签时，选出表现好的程序仍是瓶颈。作者还整理了包含 16977 个已评估程序实例的 ProgramSelectBench。",
+          "whyItMatters": "把候选生成和选择分开评测，可以检验额外的人工标注应该用于训练，还是用于识别更可靠的方案。",
+          "context": "arXiv v1 提交于 2026-11-12 18:59:06 UTC。已读取摘要、引言及附录 C 的数据说明。候选规模包括智能体生成方案和人工基线，实验结果未独立复现。",
+          "url": "https://arxiv.org/abs/2611.17323",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T18:59:06Z",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "research",
+          "tags": [
+            "半监督学习",
+            "机器学习自动化",
+            "科研评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-livegeo-2611-17267",
+          "title": "LiveGeo 用可回放的城市变化检验智能体能否及时改计划",
+          "summary": "新加坡国立大学、浙江大学、北京邮电大学和牛津大学的研究者提出 GeoWorld 环境与 LiveGeo 基准。动态任务让各模型面对同样的事件序列，评估它们能否重新查证旧方案依据，在条件改变时修订计划。作者发现，静态任务表现强的模型在动态任务中仍可能失误。",
+          "whyItMatters": "固定世界里的正确答案无法覆盖道路、设施和营业状态变化。可回放的时间线让不同智能体能在同一变动条件下比较。",
+          "context": "arXiv v1 提交于 2026-11-12 18:45:58 UTC。已读取摘要、作者机构、动态任务与评估协议。论文结果来自按预设事件推进的地理环境，每个任务实例重复运行三次。",
+          "url": "https://arxiv.org/abs/2611.17267",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T18:45:58Z",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "research",
+          "tags": [
+            "地理智能体",
+            "动态环境",
+            "高校研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-ai-datacenter-power-2611-17098",
+          "title": "数据中心供电研究将等待通电的算力机会成本纳入比较",
+          "summary": "研究比较美国本土数据中心的电网接入、天然气自供电和光储微网等方案。计入等待通电时损失的算力价值后，基线工期情景下，直流耦合光储微网在约 85% 的模拟地点成为所比较方案中成本最低的选择。加快天然气项目工期后，这一比例约为 55%。",
+          "whyItMatters": "供电方案比较往往只看度电成本。模型显示，通电速度及等待期间的算力损失可能改变选型，且结果对建设周期假设敏感。",
+          "context": "arXiv v1 提交于 2026-11-12 16:58:53 UTC。已读取摘要、结果第 3.2 节及数据可用性声明。比例为模型情景结果，适用于研究设定的美国地点和工期。",
+          "url": "https://arxiv.org/abs/2611.17098",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T16:58:53Z",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "research",
+          "tags": [
+            "算力基础设施",
+            "能源",
+            "情景分析"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-ballad-2611-17241",
+          "title": "Ballad 随搜索进展选择模型，测试自动发现组合优化启发式",
+          "summary": "Ballad 在迭代生成启发式策略时，用在线多臂老虎机算法在四个语言模型间选择，并把高分方案的部分贡献回溯到祖先方案。论文在五项组合优化问题上比较了固定模型和自适应选择，后者在部分任务中超过最佳单模型。",
+          "whyItMatters": "自动发现算法会反复调用模型。按各模型在当前搜索阶段的实际贡献来选择，可以同时评估解的质量和 API 开销。",
+          "context": "arXiv v1 提交于 2026-11-12 18:28:08 UTC。已读取摘要与结果第 4 节中的模型调用分布和成本比较。成本按研究所用模型的公开定价估算，比较限于所选任务。",
+          "url": "https://arxiv.org/abs/2611.17241",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T18:28:08Z",
+          "retrievedAt": "2026-11-13T11:00:01Z",
+          "category": "research",
+          "tags": [
+            "组合优化",
+            "模型路由",
+            "自动算法发现"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-12T23:02:53.808Z"
+  "updatedAt": "2026-11-13T11:00:32.868Z"
 }
