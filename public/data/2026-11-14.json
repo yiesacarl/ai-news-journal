@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-14T11:03:52Z",
+      "searchCount": 28,
+      "collectionWindow": {
+        "start": "2026-11-11T11:03:52.000Z",
+        "end": "2026-11-14T11:03:52Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "deepseek-application-apis-20261113",
+          "title": "DeepSeek 开放搜索、文件读取与语音等应用 API",
+          "summary": "DeepSeek 将网页与 App 的部分交互能力接入 V4.1-Flash 的三个对话接口，由服务端处理工具调用和上下文拼接。同时提供搜索、网页读取、OCR、语音识别和语音合成的独立接口，并公开一个示例聊天前端。",
+          "whyItMatters": "开发者可选择组合独立接口，或把搜索和文件处理交给服务端，减少为每个应用重复搭建对话工具链的工作。",
+          "context": "原文发布于 2026-11-13。已读取中文公告的接口范围、示例及计费说明，并打开官方 Chatbot 指南。部分扩展工具另计调用费用。",
+          "url": "https://api-docs.deepseek.com/zh-cn/news/news261113/",
+          "publisher": "DeepSeek",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "product",
+          "tags": [
+            "中文原文",
+            "国产模型",
+            "开发工具"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "tencent-hy-realtime-20261113",
+          "title": "腾讯混元推出 Hy Realtime，元宝语音通话接入工具调用",
+          "summary": "腾讯混元发布实时语音模型 Hy Realtime。根据公开介绍，模型可在语音对话中判断是否需要联网搜索，并将查询结果用于回答，也新增了歌唱功能。模型已接入元宝语音通话与腾讯客服，腾讯云 API 仍待开放。",
+          "whyItMatters": "语音助手若能在通话中查证信息，就可以处理超出模型已有知识的提问。此次已有面向用户的产品入口，便于观察真实交互。",
+          "context": "近期精选补充。原消息发布于 2026-11-13。已读取 IT之家刊载的官方介绍与上线说明，并核对第一财经报道。原始公众号链接无法读取，原文链接采用可访问的中文转载。未独立测试语音或工具调用。",
+          "url": "https://www.ithome.com/1/026/825.htm",
+          "publisher": "腾讯混元（IT之家刊载）",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "product",
+          "tags": [
+            "中文来源",
+            "实时语音",
+            "工具调用"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-chatgpt-wallet-20261113",
+          "title": "OpenAI 推出 ChatGPT Wallet，试行逐笔授权的智能体支付",
+          "summary": "ChatGPT Wallet 初期通过 dots 向美国 ChatGPT Pro 用户有限开放。每笔购买前，用户需查看商品、总价和所选卡片并完成安全验证。支付网络随后提供代替原始卡片资料的支付令牌。",
+          "whyItMatters": "智能体从比较商品进入代为结账，实际落地取决于逐笔授权、商户系统识别和争议处理能否衔接。",
+          "context": "原文发布于 2026-11-13。已读取官方公告的可用范围、单笔购买流程和商户兼容说明。更广泛的预授权机制仍是后续设想。",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "product",
+          "tags": [
+            "智能体支付",
+            "电子商务",
+            "用户授权"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "ggml-llamacpp-libraries-v1-20261113",
+          "title": "llama.cpp 与 ggml 库发布 1.0，明确下游兼容规则",
+          "summary": "ggml-org 为本地推理库 libllama 和张量库 libggml 发布 1.0.0，并将通过主版本号提示 API 或 ABI 的不兼容变化。公告区分了公共 C 接口的破坏性变化、向后兼容的功能与后端更新，以及修复类更新。",
+          "whyItMatters": "本地推理引擎被多种应用嵌入。明确的版本边界让维护方更容易判断何时需要更新适配层、重编译或运行回归测试。",
+          "context": "原文发布于 2026-11-13。已读取原维护团队的发布声明、库列表、版本规则和分发说明。此处所指 1.0 是两个库的发布。",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "publisher": "ggml-org",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "opensource",
+          "tags": [
+            "本地推理",
+            "开源工具",
+            "兼容性"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "sierra-poppy-v1-20261113",
+          "title": "Sierra 发布 Poppy 1.0，定义个人智能体与商家的接入和授权",
+          "summary": "个人智能体协议 Poppy 1.0 规定了代理如何发现企业提供的服务，并经 OAuth 获得用户授权。Sierra 表示 Shopify 店铺已自动发布 Poppy 文件，Meta Muse 会在访问网站时优先查找该文件。",
+          "whyItMatters": "将服务发现和可执行权限放到公开协议中，有助于让不同代理使用同一套商户入口，也便于开发者区分发现流程与后续购物流程。",
+          "context": "原文发布于 2026-11-13。已读取 Sierra 公告的协议、实施工具和 Shopify 集成部分。部署范围依据发布方说明。",
+          "url": "https://sierra.ai/blog/releasing-poppy",
+          "publisher": "Sierra",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "opensource",
+          "tags": [
+            "开放协议",
+            "个人智能体",
+            "授权"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "langchain-series-c-20261113",
+          "title": "LangChain 披露 3 亿美元 C 轮，估值 30 亿美元",
+          "summary": "LangChain 公布新一轮融资，CapitalG 领投，GIC、DFJ Growth、IVP 和 Sapphire Ventures 参与。公司在公告中把智能体运行、持续评估和治理列为产品布局的三项重点。",
+          "whyItMatters": "融资规模反映了投资者对智能体生产工具的关注。后续可观察相关资金如何转化为部署、评测和管理能力。",
+          "context": "原文发布于 2026-11-13。已读取公司公告的融资条款和产品布局段落，估值及投资方以公司披露为准。",
+          "url": "https://www.langchain.com/blog/series-c",
+          "publisher": "LangChain",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "智能体平台",
+            "开发基础设施"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-open-vision-banana-2611-15844",
+          "title": "Open Vision Banana 公布将图像生成器改造成视觉感知模型的材料",
+          "summary": "研究以开放权重的 FLUX.2 Klein 为起点，用公开数据训练模型生成带分割或几何信息的图像，再以确定性解码读出预测。作者公开训练与评测代码、数据构建流程和多个检查点。分割时改变类别配色并对多轮结果投票，可在部分测试中提高成绩。",
+          "whyItMatters": "把分割和深度等任务转成图像生成，再公开训练材料，让研究者能检验图像生成模型学到的视觉结构，以及这种用法的适用范围。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-11 18:57:34 UTC。已读取摘要、论文的分割对照部分及项目发布页。不同系统的训练和推理条件并不相同，未独立复现。项目 https://openvisionbanana.github.io/",
+          "url": "https://arxiv.org/abs/2611.15844",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-11T18:57:34Z",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "research",
+          "tags": [
+            "计算机视觉",
+            "可复现研究",
+            "图像分割"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-unbundling-vision-2611-17334",
+          "title": "等算力实验拆解多模态模型的视觉编码器设计",
+          "summary": "研究分开考察视觉预训练、专用视觉容量与其放置位置。作者在相同数据和匹配总训练算力的对照中发现，从头联合训练的编码器可达到单独预训练编码器的水平。将专用视觉模块放在主干前几层，也能取得相近的视觉理解表现。",
+          "whyItMatters": "分别控制预训练和模型结构，有助于判断性能差异来自算力、训练先验还是视觉容量，为设计多模态模型提供更直接的对照。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:59:54 UTC。已读取摘要与等算力实验设置。测试主干规模为 6 亿至 64 亿参数，证据来自作者所用视觉问答与语言基准。",
+          "url": "https://arxiv.org/abs/2611.17334",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T18:59:54Z",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "research",
+          "tags": [
+            "多模态",
+            "视觉编码",
+            "对照实验"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-unispark-2611-16517",
+          "title": "UniSpark 用混合注意力统一视觉理解、生成和编辑",
+          "summary": "UniSpark 将全注意力与 GatedDeltaNet 线性注意力组合，用同一模型处理视觉问答、文生图和指令编辑。分阶段训练将图像生成分辨率扩展至 2K，同时保留视觉理解监督。",
+          "whyItMatters": "图文交错任务需要既能复用前面的内容，也能处理当前图像的迭代生成。该报告给出了可供对照的混合注意力架构与训练路线。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 09:16:10 UTC。已读取摘要及架构、分阶段训练的有关段落。视频结果属于探索性微调示例。",
+          "url": "https://arxiv.org/abs/2611.16517",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T09:16:10Z",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "research",
+          "tags": [
+            "多模态",
+            "混合注意力",
+            "图像编辑"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-so-arena-2611-15777",
+          "title": "SO-Arena 分别测量快速决策模型的正确率和稳定性",
+          "summary": "SO-Arena 覆盖 11 个领域和 5 类能力。除了检查答案是否正确，研究还重排选项或移除正确选项，测试模型是否坚持合理判断或能识别无解。在作者的比较中，综合表现最好的快速决策模型在可靠性指标上排第七。",
+          "whyItMatters": "当模型用于高频分类、分流或筛选时，输入选项稍变是否会改变判断，是综合准确率之外可以单独测量的指标。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-11 17:53:45 UTC。已读取摘要、导论与评测示意。论文比较 21 个模型，其中 19 个有选项重排稳定性测量。",
+          "url": "https://arxiv.org/abs/2611.15777",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-11T17:53:45Z",
+          "retrievedAt": "2026-11-14T11:03:23Z",
+          "category": "research",
+          "tags": [
+            "模型评测",
+            "快速决策",
+            "可靠性"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-13T23:05:43.381Z"
+  "updatedAt": "2026-11-14T11:03:53.402Z"
 }
