@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-15",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-14T23:05:25Z",
+      "searchCount": 30,
+      "collectionWindow": {
+        "start": "2026-11-11T23:05:25.000Z",
+        "end": "2026-11-14T23:05:25Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "salesforce-sov-transcribe-1",
+          "title": "Salesforce 开放 SOV-Transcribe-1 语音识别权重",
+          "summary": "Salesforce 以 Apache 2.0 发布 SOV-Transcribe-1，模型有 40 亿活跃参数。团队报告，在 Artificial Analysis 的非流式语音转写评测中，词错误率为 2.28%。",
+          "whyItMatters": "开放权重允许团队在自己的语音数据和硬件上复测准确率、吞吐与资源开销。",
+          "context": "近期精选补充。原文发布于 2026-11-12。读取发布文章的基准比较、许可和模型卡。2.28% 对应所列非流式基准。",
+          "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+          "publisher": "Salesforce",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "opensource",
+          "tags": [
+            "语音识别",
+            "开放权重",
+            "转写"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "edge0-open-145b-120b",
+          "title": "Edge0 公开 145B 和 120B 模型及端侧推理工具",
+          "summary": "Edge0 同时发布两种规模的模型权重、推理框架与部署指南。团队称，145B 模型在其笔记本对照测试中的峰值内存约为 28 GB。",
+          "whyItMatters": "一起提供模型和运行工具，让团队能在兼容设备上衡量本地推理的速度、内存占用与质量。",
+          "context": "近期精选补充。原文发布于 2026-11-12。读取厂商公告的实测说明和发布清单，并打开 145B 模型页。内存数据来自厂商指定配置。",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "publisher": "Edge0",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "opensource",
+          "tags": [
+            "端侧推理",
+            "开放权重",
+            "内存"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "archspace-architecture-validation",
+          "title": "ArchSpace 用多档算力对照记录模型架构改动",
+          "summary": "研究团队提出 ArchSpace，记录架构提案、训练过程和结果，供社区复核与引用。验证框架在多个算力预算上对照模型，并给出以 Qwen3.5、OLMo3 为基础的参考设置。",
+          "whyItMatters": "同一架构在不同规模下的排名可能变化。公开训练设置和完整实验结果，有助于后续研究重做对照。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:59 UTC。读取正文的研究动机、验证流程及学习率与批量大小搜索说明。",
+          "url": "https://arxiv.org/abs/2611.17332",
+          "publisher": "ArchSpace 研究团队",
+          "publishedAt": "2026-11-12T18:59:52Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "research",
+          "tags": [
+            "模型架构",
+            "缩放规律",
+            "可复现研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "rag-cited-but-unused-provenance",
+          "title": "研究用反事实替换检验检索增强系统是否真正使用引文",
+          "summary": "研究者替换检索段落中的事实并重新提问，看模型回答是否随证据改变。在所测模型中，作者估计 1.2% 至 15.7% 的可引证主张来自模型记忆；对两款模型采用更保守的替换设置时，估计值分别为 4.6% 和 8.5%。",
+          "whyItMatters": "引文与答案相符只证明两者一致。重新测试证据变化后的回答，可以帮助评估实际来源与引用之间的差距。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:39 UTC。读取原文的反事实设计与结果说明。区间对应论文选择的模型和实验设置。",
+          "url": "https://arxiv.org/abs/2611.17161",
+          "publisher": "研究论文作者",
+          "publishedAt": "2026-11-12T17:39:14Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "research",
+          "tags": [
+            "检索增强生成",
+            "引用溯源",
+            "反事实评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "metal-sandbox-apple-silicon-gpu-scheduling",
+          "title": "Metal Sandbox 用多台 Mac 调度 GPU 编程智能体的命令",
+          "summary": "Metal Sandbox 将智能体工作区分开，并把部分等待执行的命令移交给空闲节点。在四台 Mac mini M4 的受控实验中，集中提交命令时的吞吐量达到基线的 1.68 至 2.05 倍。",
+          "whyItMatters": "编程智能体在模型调用、构建和 GPU 验证间切换。命令级调度可以填补设备等待的空档。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:54 UTC。读取系统设计、四节点实验和结果。实际实测与论文基于静态轨迹的吞吐估计分别报告。",
+          "url": "https://arxiv.org/abs/2611.17294",
+          "publisher": "Metal Sandbox 研究团队",
+          "publishedAt": "2026-11-12T18:54:42Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "opensource",
+          "tags": [
+            "Apple Silicon",
+            "GPU 调度",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "origami-discrete-hinge-basin-selection",
+          "title": "机械折纸研究用物理约束改善离散铰链设计",
+          "summary": "研究先连续优化，再把每条折痕映射到四种铰链之一。在论文的导流结构设计实验中，加入偏向刚性平铰链的初始化先验后，离散设计成功率从 49% 升至 69%；对柔软性和弯曲不相容加入惩罚的方案达到 78%。",
+          "whyItMatters": "工程优化最终常要从有限器件中选型。这个实验展示了如何用可解释的物理特征识别离散化后容易失效的方案。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:59 UTC。读取正文的基线、初始化及损失惩罚实验。结果限于受测结构和任务。",
+          "url": "https://arxiv.org/abs/2611.17196",
+          "publisher": "机械折纸设计研究团队",
+          "publishedAt": "2026-11-12T17:59:43Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "research",
+          "tags": [
+            "科学计算",
+            "机械设计",
+            "可微优化"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "copilot-app-ghes-ga",
+          "title": "GitHub Copilot 应用正式支持 GitHub Enterprise Server",
+          "summary": "GitHub 将 Copilot 应用中的 Enterprise Server 支持从自愿加入的预览转为正式可用。用户可添加企业服务器账户，在应用中处理远程仓库、议题和拉取请求。",
+          "whyItMatters": "使用自托管 GitHub 的团队可以把已有的仓库协作带入 Copilot 应用，少在客户端之间切换。",
+          "context": "近期精选补充。原文发布于 2026-11-13。读取官方更新日志正文。接入前需先登录 GitHub.com 或 GHE.com 账户。",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+          "publisher": "GitHub",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "product",
+          "tags": [
+            "Copilot",
+            "企业开发",
+            "GitHub Enterprise Server"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "fedbrew-federated-experiment-checks",
+          "title": "FedBrew 给联邦学习实验添加可复查的协议检查",
+          "summary": "FedBrew 在受控仿真中记录客户端数据划分，并检查聚合权重、配置和中断恢复等条件。每次运行保存可识别数据划分的记录，帮助复用同一组实验条件。",
+          "whyItMatters": "联邦学习程序即使顺利跑完，数据划分或聚合规则仍可能与论文设定有偏差。显式检查能让复验更容易定位差异。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:22 UTC。读取正文实验设计和数据清单机制，并打开代码仓库。工具面向受控仿真。",
+          "url": "https://arxiv.org/abs/2611.17129",
+          "publisher": "FedBrew 研究团队",
+          "publishedAt": "2026-11-12T17:22:17Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "opensource",
+          "tags": [
+            "联邦学习",
+            "实验复现",
+            "工具"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "cram-puzzle-energy-loop-comparison",
+          "title": "CRAM 用学习出的能量函数求解数独与迷宫",
+          "summary": "研究者用已解谜题学习约束的能量表示，并在搜索时用它决定何时停止。作者报告，在单张 H200 上，数独与迷宫基准的模型拟合分别耗时 42 毫秒和 132 毫秒，在这两类任务上比所对比的循环模型训练更快。",
+          "whyItMatters": "明确的结构先验可以改变基准的算力需求，也提醒评测者检查模型是否只擅长题型本身。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:56 UTC。读取正文图 1、基线、实验计时和适用边界。拟合耗时限于论文所用硬件和题型。",
+          "url": "https://arxiv.org/abs/2611.17309",
+          "publisher": "CRAM 研究团队",
+          "publishedAt": "2026-11-12T18:56:56Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "research",
+          "tags": [
+            "结构化推理",
+            "能量模型",
+            "实验评测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "decision-model-actor-judge-teacher",
+          "title": "决策模型研究比较直接操作与事后指导训练的效果",
+          "summary": "研究比较决策模型直接选择行动、复盘和指导策略训练的表现。在 ALFWorld 中，JEV 看到完整轨迹后为各步进展评分，用这些评分训练的 Qwen2.5-1.5B 策略成功率为 82.9%，仅用结果奖励的 GRPO 对照为 72.8%。",
+          "whyItMatters": "执行时要预测还未发生的后果，复盘时可以看到结果。两种角色分别评估，有助于找到决策模型更合适的用途。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:42 UTC。读取实验设置、表 3 和角色对照结果。数值对应指定模型、模拟环境和训练方案。",
+          "url": "https://arxiv.org/abs/2611.17167",
+          "publisher": "决策模型研究团队",
+          "publishedAt": "2026-11-12T17:42:46Z",
+          "retrievedAt": "2026-11-14T23:05:25Z",
+          "category": "research",
+          "tags": [
+            "决策模型",
+            "强化学习",
+            "智能体评测"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-14T23:05:26.089Z"
+}
