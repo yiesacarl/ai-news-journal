@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-15T11:04:50Z",
+      "searchCount": 32,
+      "collectionWindow": {
+        "start": "2026-11-12T11:04:50.000Z",
+        "end": "2026-11-15T11:04:50Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "coscon-ai-ecosystem-bluebook-20261114",
+          "title": "中国开源年会发布《中国人工智能开源生态蓝皮书》",
+          "summary": "开源社与 Datawhale 主办的第十一届中国开源年会在杭州举行。11 月 14 日主论坛安排了《中国人工智能开源生态蓝皮书》的发布和解读。大会另设工业 AI 开源、具身智能开源和开源教育等分论坛。",
+          "whyItMatters": "这次发布把国内 AI 开源生态作为单独议题，提供了观察技术社区、人才培养和产业应用如何协作的窗口。",
+          "context": "近期精选补充。发布环节为北京时间 2026-11-14。已读主办方议程并用 11 月 15 日浙江日报现场报道核对发布情况。蓝皮书完整正文未能打开，本文仅报道发布事实。现场报道 https://zjnews.zjol.com.cn/zjnews/202611/t20261115_32028567.shtml",
+          "url": "https://www.bagevent.com/event/coscon26",
+          "publisher": "开源社与 Datawhale",
+          "publishedAt": "2026-11-14",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "community",
+          "tags": [
+            "中文原文",
+            "开源生态",
+            "中国开源年会"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cloudflare-kitesurf-open-source-20261112",
+          "title": "Cloudflare 开放实验性浏览器引擎 Kitesurf 源码",
+          "summary": "Cloudflare 以 Apache 2.0 许可开放 Kitesurf。它在 Workers 上运行，可以解析 HTML、应用 CSS、执行页面 JavaScript 和生成截图，并提供 Chrome DevTools Protocol 接口。源码可供本地运行，也可部署至自有 Workers 账户。",
+          "whyItMatters": "开发者可以检查并对照这个面向网页渲染的轻量引擎与传统浏览器容器，尤其是页面兼容性和渲染开销。",
+          "context": "近期精选补充。官方变更日志发布于 2026-11-12，技术博客发布于 11 月 13 日。已读取两份原文的架构、许可和部署条件。项目仍属实验性，在 Cloudflare 上部署需要支持 Dynamic Workers 的计划。",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/",
+          "publisher": "Cloudflare",
+          "publishedAt": "2026-11-12",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "opensource",
+          "tags": [
+            "开源工具",
+            "浏览器引擎",
+            "WebAssembly"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "apple-homeview-retail-20261113",
+          "title": "Apple HomeView 在七个市场开售，将 Siri AI 带到家用屏幕",
+          "summary": "苹果宣布搭载 7 英寸屏幕和 Siri AI 的家用设备 HomeView 正式发售，首发市场包括美国、英国、加拿大和印度等七个国家。设备可结合屏幕内容回答问题，也可通过语音控制智能家居功能。",
+          "whyItMatters": "家用屏幕把语音助手放到多人共用的环境里，家庭成员识别、个性化展示和语音控制能否顺畅衔接成为可观察的产品问题。",
+          "context": "近期精选补充。原文发布于 2026-11-13。已读取苹果公告的开售地区、屏幕感知和语言支持说明。首发 Siri AI 为英语支持，具体功能依地区与设置而异。",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/",
+          "publisher": "Apple",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "product",
+          "tags": [
+            "Siri",
+            "智能家居",
+            "终端"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "mirendil-series-a-20261112",
+          "title": "Mirendil 披露 10 亿美元 A 轮，研发协作平台处于私测",
+          "summary": "Mirendil 宣布完成 10 亿美元 A 轮，由 Kleiner Perkins 和 Clearlake Capital 领投，Google 等机构参与。公司同时介绍面向长期实验和编码协作的 Lor 平台，当前为封闭测试。",
+          "whyItMatters": "这轮融资聚焦 AI 研发基础设施。值得观察的是长期实验能否留下可追踪的配置、比较和失败记录，让研发协作更容易复查。",
+          "context": "近期精选补充。公司新闻稿发布于 2026-11-12 12:30（美国东部时间）。已读取 PR Newswire 刊发的公司原稿，核对融资金额、投资方及私测状态。厂商披露的模型表现未独立核验。",
+          "url": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html",
+          "publisher": "Mirendil",
+          "publishedAt": "2026-11-12T12:30:00-05:00",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "研发工具",
+            "科研智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cursor-security-incident-report-20261113",
+          "title": "Cursor 发布安全事件调查更新，说明受影响数据和处置进展",
+          "summary": "Cursor 公布近期安全事件调查结果，确认涉及部分历史编码智能体记录及未经授权的扩展副本。公司称已撤销和轮换相关凭据，并向可能受影响的客户发出通知。",
+          "whyItMatters": "编码助手的历史记录可能携带敏感信息，事件也说明扩展分发、日志留存与外部服务接入需要分别纳入安全治理。",
+          "context": "近期精选补充。原文发布于 2026-11-13。已读取 Cursor 调查更新的影响范围和处置部分，并核对 BleepingComputer 11 月 14 日报道。此次收录的是调查披露，并非旧事件再次发生。",
+          "url": "https://cursor.com/blog/security-incident-update",
+          "publisher": "Cursor",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "community",
+          "tags": [
+            "安全披露",
+            "扩展供应链",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-safety-evaluations-guide-20261113",
+          "title": "Anthropic 发布安全评测指南，强调用人工判断校准自动评分",
+          "summary": "Anthropic 总结模型安全评测方法，建议先定义测量对象，用人工判断交叉校验评分器，并随结果报告不确定性。指南指出，换用底层模型后，即使评分程序仍正常运行，判定标准也可能发生漂移。",
+          "whyItMatters": "同一项评测跨模型和版本比较时，评分方式变化可能被误认为能力变化。人工复核和不确定性报告能帮助读者判断差异是否可靠。",
+          "context": "近期精选补充。原文发布于 2026-11-13。已读取官方研究文章的测量设计、评分器校准和结论段落。内容为方法建议与案例，未独立运行其评测。",
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "research",
+          "tags": [
+            "安全评测",
+            "统计可靠性",
+            "人工复核"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-physloop-2611-16748",
+          "title": "PhysLoop 用可控生成与局部修复评测视频中的物理行为",
+          "summary": "PhysLoop 将视频生成、筛选和纠错串联起来，让语言模型为生成过程提供物理约束。论文报告开放约 10 万段视频和生成工具，并设置 PhysLoop-Gen 与 PhysLoop-Repair，分别测量可控生成和局部修复。",
+          "whyItMatters": "把生成和修复拆成独立测试，有助于观察系统能否识别并纠正局部物理错误，以及改动是否保留其他画面内容。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 12:59:35 UTC。仅读取摘要与提交记录。数据规模、工具发布和试验范围为作者所述，未独立下载或复现。",
+          "url": "https://arxiv.org/abs/2611.16748",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T12:59:35Z",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "research",
+          "tags": [
+            "视频生成",
+            "物理一致性",
+            "数据集"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-test-time-baking-2611-17331",
+          "title": "Test-Time Baking 将跨视角注意力压入轻量网络以加速渲染",
+          "summary": "研究先用已有视角的跨视角注意力生成监督，再将场景信息拟合到轻量多层感知机，用于生成新视角。其设计把相机条件与场景图像内容拆开，减少两阶段输入不一致带来的负担。",
+          "whyItMatters": "对同一场景渲染许多新视角时，可以权衡一次性拟合的开销与后续逐帧解码的收益。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:59:52 UTC。仅读取摘要和提交记录。论文将结果定位为在所选新视角合成基准中的比较，未实测性能。",
+          "url": "https://arxiv.org/abs/2611.17331",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T18:59:52Z",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "research",
+          "tags": [
+            "三维视觉",
+            "新视角合成",
+            "渲染"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-worlddraft-2611-16217",
+          "title": "WorldDraft 用同一套四维场景对照测试视频模型的渲染能力",
+          "summary": "WorldDraft 从 48 类可运行四维场景构建 432 个配对测试案例，在保持运动条件相同的情况下改变场景草稿细节及外观条件。作者比较 12 个模型，发现更详细的草稿能帮助保留结构，但在部分条件下会让模型更难遵循目标外观。",
+          "whyItMatters": "程序化草稿能把物体轨迹和相机运动变成已知条件，因此可分别检查视频模型是否保留了运动、是否遵循了文字外观要求。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 03:09:18 UTC。仅读取摘要与提交记录。结果限于论文中的配对测试与所选模型。",
+          "url": "https://arxiv.org/abs/2611.16217",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T03:09:18Z",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "research",
+          "tags": [
+            "视频评测",
+            "四维场景",
+            "可执行基准"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-value-of-thinking-2611-16961",
+          "title": "混合决策模型学习何时为显式推理付出额外计算",
+          "summary": "论文在同一个冻结主干上加入轻量路由模块，在单次前向决策与逐 token 推理之间选择。模块估计慢速模式带来的预期收益，并与每次请求设定的成本阈值比较。作者在多种问答、分类和交互任务上测试了这一取舍。",
+          "whyItMatters": "一些问题可以快速确定，另一些需要多步推理。把是否进入慢速模式变成单独决策，可衡量延迟、用量和正确率之间的实际关系。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 15:32:47 UTC。仅读取摘要与提交记录。论文的延迟和用量变化均基于所选模型与基准。",
+          "url": "https://arxiv.org/abs/2611.16961",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-12T15:32:47Z",
+          "retrievedAt": "2026-11-15T11:04:22Z",
+          "category": "research",
+          "tags": [
+            "推理路由",
+            "计算预算",
+            "模型评测"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-14T23:05:26.089Z"
+  "updatedAt": "2026-11-15T11:04:51.525Z"
 }
