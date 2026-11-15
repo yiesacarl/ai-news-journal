@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-15T23:06:40Z",
+      "searchCount": 35,
+      "collectionWindow": {
+        "start": "2026-11-12T23:03:36.000Z",
+        "end": "2026-11-15T23:06:40Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "deepmind-pardig-satweave-open-data",
+          "title": "DeepMind 开放 SatWeave 卫星数据和 PARDIG 降水数据",
+          "summary": "DeepMind 公开 WeatherNext 研究使用的两套数据。SatWeave 将不同卫星观测拼成每小时更新的全球影像，并提供历史档案；PARDIG 结合卫星影像、大气场与星载雷达观测，估算全球降水。",
+          "whyItMatters": "研究者可以分别使用统一的卫星输入与高时空分辨率的降水估计，复查预报，也能探索水文等新用途。",
+          "context": "近期精选补充。原文发布于 2026-11-13。读取 DeepMind 公告中数据构建、开放范围和降水验证章节。PARDIG 是模型生成的估计数据。",
+          "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "天气预报",
+            "遥感",
+            "开放数据"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "huawei-openpangu-21-pro-maas",
+          "title": "华为云上线 openPangu-2.1-Pro 模型服务",
+          "summary": "华为云 MaaS 接口文档已列出 openPangu-2.1-Pro，接入区域为西南-贵阳一。此前华为云预告，这一版本着重提升 ArkTS 代码生成并适配昇腾算子开发。",
+          "whyItMatters": "模型进入托管接口后，团队可以用自身鸿蒙应用和算子任务检验升级效果。",
+          "context": "上线消息发布于 2026-11-15。读取华为云当日更新的接口文档、11 月 6 日的官方预告和 IT 之家当晚报道；本条确认的是 MaaS 接入。",
+          "url": "https://support.huaweicloud.com/model-call-maas/model-call-019.html",
+          "publisher": "华为云",
+          "publishedAt": "2026-11-15",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "product",
+          "tags": [
+            "盘古",
+            "MaaS",
+            "ArkTS"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "bessent-nvidia-export-compliance-questions",
+          "title": "贝森特公开要求英伟达董事会解释出口合规问题",
+          "summary": "美国财长斯科特·贝森特在 11 月 15 日电视采访中表示，英伟达董事会与外部律师应在 10 天内回答出口限制合规方面的问题，并建议董事会从公司外部寻找新任 CEO。",
+          "whyItMatters": "这给此前的人事变动增加了一个可跟踪的进展，即董事会如何回应出口合规方面的公开要求。",
+          "context": "路透原文发布于 2026-11-15。读取路透与 Axios 对同场采访的正文，并核对 Fox 节目页。10 天来自受访发言。",
+          "url": "https://www.reuters.com/world/bessent-says-nvidia-must-go-outside-company-find-new-ceo-2026-11-15/",
+          "publisher": "路透社",
+          "publishedAt": "2026-11-15",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "policy",
+          "tags": [
+            "AI 芯片",
+            "出口合规",
+            "英伟达"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "allenai-xybench-misconceptions",
+          "title": "Allen AI 开放 XYBench，测试模型能否识别问题背后的误解",
+          "summary": "XYBench 收录 8000 多道含误解的问题。五个受测模型在单轮回答中常能提出办法，但比人工参考回答更少引导用户转离原本有误的思路。",
+          "whyItMatters": "应答质量还取决于模型能否识别用户真正要解决的问题。这个基准把是否提出办法和是否纠正错误前提分开考察。",
+          "context": "近期精选补充。原文发布于 2026-11-13。读取 Allen AI 公告的题目构造、单轮结果和人工复核。两名审阅者各自评估 500 个回答，评分一致性随指标而异。",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "publisher": "Allen AI",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "评测",
+            "用户意图",
+            "人工复核"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "loom-strix-halo-model-porting-study",
+          "title": "Loom 团队公开端侧模型移植实验与验证记录",
+          "summary": "项目使用智能体将一批热门 Hugging Face 模型适配到 AMD Strix Halo，并公开可运行的模型包、生成内核与对照测试记录。预填充和解码分别计量，测试含单流和并发设置。",
+          "whyItMatters": "把模型包和验证记录一并公开，使开发者能复查移植正确性，并根据自己的负载比较引擎。",
+          "context": "近期精选补充。实验发生于 2026-11-06 至 11-09，报道发布于 11-13。读取 Phoronix 正文及项目测试页、仓库中的对照流程；吞吐结果对应 Strix Halo。",
+          "url": "https://loom-fun.github.io/loom-skills/",
+          "publisher": "Loom 项目",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "opensource",
+          "tags": [
+            "端侧推理",
+            "AMD",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "final-bench-daily-weather-leaderboard",
+          "title": "FINAL-Bench 发布每日天气模型对照榜及预测档案",
+          "summary": "项目在公开榜单上比较 AI 与物理天气模型，覆盖全球 24 个城市的温度、风和降水等变量，并公开逐日预报与参考值。",
+          "whyItMatters": "逐日数据能让读者按城市、变量和预报提前量复核模型表现，而无需依赖单一总榜。",
+          "context": "近期精选补充。原文发布于 2026-11-13。读取项目公告的评测口径、误差表和档案说明。参照数据为 ERA5 再分析，结论受城市和预报时段限制。",
+          "url": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
+          "publisher": "FINAL-Bench",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "气象评测",
+            "开放数据",
+            "ERA5"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "jiuwenmemory-v021-hierarchical-retrieval",
+          "title": "JiuwenMemory 加入分层记忆和时间、实体检索",
+          "summary": "openJiuwen 发布 v0.2.1，新增可按需展开证据的树状记忆、支持时间与实体维度的检索和可读的 Markdown 记忆文档，并补齐 MCP 接入。",
+          "whyItMatters": "在跨项目或长时间运行的智能体应用中，开发者可以用同一套接口检查记忆究竟来自哪条证据、在哪个时间点有效。",
+          "context": "近期精选补充。版本发布于 2026-11-13。读取 GitHub 发布说明中的新能力、接口一致性与兼容性。分层记忆和时序检索需要显式开启。",
+          "url": "https://github.com/openJiuwen-ai/agent-memory/releases/tag/v0.2.1",
+          "publisher": "openJiuwen",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "opensource",
+          "tags": [
+            "智能体记忆",
+            "时序检索",
+            "MCP"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "vit-objects-as-attention-addresses",
+          "title": "研究发现视觉 Transformer 的注意力路由有助于区分同类物体",
+          "summary": "研究比较八个预训练视觉 Transformer，发现部分注意力头会把同一个物体的不同图像块指向共同区域。即使画面里两个物体外观相同，这些区域也可能将它们分开。",
+          "whyItMatters": "这种实验能帮助研究者区分模型识别物体类别的能力与分清不同实例的能力。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 18:27 UTC，见 11 月 13 日公开目录。仅读原论文摘要和提交记录，结果针对所测模型。",
+          "url": "https://arxiv.org/abs/2611.17240",
+          "publisher": "Sabri 等",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "视觉 Transformer",
+            "可解释性",
+            "物体实例"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "skill-adapter-online-routing",
+          "title": "Skill Adapter 比较按任务修改和动态选择智能体技能的效果",
+          "summary": "研究先按任务调整通用技能，再在执行中选择技能。论文在 ALFWorld、WebShop 和 SkillsBench 比较多种方案；使用同一执行器、初始技能集合和交互预算时，WebShop 任务评分由 SkillRL 的 85.20 提高到 92.67。",
+          "whyItMatters": "检索到相关技能只是第一步。研究把技能改写和执行时选择拆开，为分析增益来自哪里提供了实验设计。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 16:05 UTC，见 11 月 13 日公开目录。读取正文实验设置与主要结果，数值限于所用环境和评分方式。",
+          "url": "https://arxiv.org/abs/2611.17007",
+          "publisher": "Zhuang、Gou 等",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "智能体技能",
+            "在线路由",
+            "对照实验"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "lora-effective-rank-learning-retention",
+          "title": "研究用有效秩衡量 LoRA 微调中实际用到的容量",
+          "summary": "研究者发现，LoRA 更新的有效秩可显著低于预设秩，因此在原训练目标中加入鼓励提高有效秩的正则项。作者称，在三款模型的混合领域实验中，部分配置对旧域的保留表现有所改善。",
+          "whyItMatters": "提高预设秩会增加适配器体积。有效秩可作为诊断指标，判断新增容量是否真正参与了更新。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-12 17:55 UTC，见 11 月 13 日公开目录。仅读原论文摘要及提交记录，报告的改善对应论文指定的正则权重和秩配置。",
+          "url": "https://arxiv.org/abs/2611.17191",
+          "publisher": "Sawada 等",
+          "publishedAt": "2026-11-13",
+          "retrievedAt": "2026-11-15T23:06:40Z",
+          "category": "research",
+          "tags": [
+            "LoRA",
+            "持续学习",
+            "模型微调"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-15T23:06:41.272Z"
+}
