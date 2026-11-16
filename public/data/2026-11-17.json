@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-17",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-16T23:03:41Z",
+      "searchCount": 26,
+      "collectionWindow": {
+        "start": "2026-11-15T23:03:41.000Z",
+        "end": "2026-11-16T23:03:41Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "bis-remote-advanced-chip-access-ifr",
+          "title": "美国 BIS 公布针对先进 AI 芯片远程访问的临时最终规则",
+          "summary": "美国商务部工业与安全局发布规则文本，拟将特定海外数据中心提供的远程先进计算纳入出口管制框架，并设置许可要求。",
+          "whyItMatters": "数据中心运营商除了核对设备去向，还需要关注远程客户和服务是否落入许可范围。",
+          "context": "原文发布于 2026-11-16（BIS 网页日期）。读取公告及随附规则的摘要和生效条款，并与路透报道交叉核验。公开文本把生效日设为联邦公报刊登日，尚留日期占位。",
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+          "publisher": "美国商务部 BIS",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "policy",
+          "tags": [
+            "出口管制",
+            "云算力",
+            "AI 芯片"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "tensorwave-openai-457mw",
+          "title": "TensorWave 与 OpenAI 签署 457 兆瓦算力供应协议",
+          "summary": "TensorWave 宣布将通过一项多年协议向 OpenAI 提供 457 兆瓦的 AMD 平台 AI 基础设施。",
+          "whyItMatters": "协议把芯片平台与算力交付挂钩。后续可追踪容量何时投产，以及供应能否按计划分批交付。",
+          "context": "原文发布于 2026-11-16。读取 TensorWave 官方发布页，并与 Unite.AI 报道交叉确认协议规模。457 兆瓦为协议容量。",
+          "url": "https://tensorwave.com/blog/tensorwave-to-provide-openai-with-457-megawatts-of-amd-powered-ai-infrastructure",
+          "publisher": "TensorWave",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "business",
+          "tags": [
+            "AMD",
+            "AI 基础设施",
+            "容量协议"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "openai-child-safety-image-classifier",
+          "title": "OpenAI 推出面向获准机构的儿童安全图像分类器",
+          "summary": "OpenAI 发布图像分类器，为可能涉及儿童性虐待的图像提供风险评分，并单独标记可能由 AI 生成的内容。通过审核的机构可免费接入，用于安排人工复核。",
+          "whyItMatters": "已知图像的哈希匹配可能遗漏新出现的内容。分类器提供补充信号，复核仍由专业人员完成。",
+          "context": "原文发布于 2026-11-16。读取 OpenAI 公告中的检测与访问说明，并核对模型卡的预期用途及局限。",
+          "url": "https://openai.com/index/strengthening-online-child-safety/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "product",
+          "tags": [
+            "儿童安全",
+            "内容审核",
+            "人工复核"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-academic-researcher-grants-expansion",
+          "title": "OpenAI 宣布新增 5 万份科研人员使用资助",
+          "summary": "下一轮将于 11 月 23 日开放，符合条件的申请按先到先得处理。每份资助为获选者及最多两名合作者提供 ChatGPT Plus，同日公布了对夏季试点使用情况的研究。",
+          "whyItMatters": "同一份资助可覆盖合作团队。试点研究也记录了参与者如何将工具用于文献、代码和数据分析。",
+          "context": "原文发布于 2026-11-16。读取开放日期、资格与试点回顾，并核对配套研究的数据处理说明。试点对节省时间的估计来自受访者自报。",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "research",
+          "tags": [
+            "科研工具",
+            "学术访问",
+            "试点"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nvidia-vera-hpc-rack",
+          "title": "英伟达公布面向科学计算的 Vera CPU 机架平台",
+          "summary": "平台在单机架集成 192 颗 Vera CPU，通过 Quantum-X800 InfiniBand 互连，用于流体、天气与气候等计算。德国气候计算中心已选定 Vera 用于 HLRE-5。",
+          "whyItMatters": "CPU 密集型科学负载对内存带宽和节点通信有较高要求，整机架方案提供了一个可按应用比较的配置。",
+          "context": "原文发布于 2026-11-16。读取平台配置、基准及交付章节。性能数据来自厂商测试，英伟达预计供应商从 2027 年初开始提供机架。",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+          "publisher": "NVIDIA",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "product",
+          "tags": [
+            "科学计算",
+            "HPC",
+            "Vera"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "noeri-launch-110m",
+          "title": "Noeri 宣布融资 1.1 亿美元，面向企业工作流改进",
+          "summary": "由 Yejin Choi 和 Carlos Guestrin 创办的 Noeri 披露 1.1 亿美元融资，由 Menlo Ventures 领投。公司称，其系统从企业现有数据和流程中提出工具、指令或模型改进，并交由人工审批。",
+          "whyItMatters": "把每项改动交给人工审核，给持续优化中的改动归因和回滚保留了操作空间。",
+          "context": "原文发布于 2026-11-16。读取公司通过 Business Wire 发布的通稿，并与公司主页和 GeekWire 正文交叉核验。工作流描述为公司披露。",
+          "url": "https://www.businesswire.com/news/home/20261116056631/en/Noeri-Founded-by-Leading-Stanford-AI-Professors-Launches-with-$110-Million-to-Empower-Companies-to-Build-and-Own-Their-AI",
+          "publisher": "Noeri",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "企业 AI",
+            "人工审批"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "mmflash-visual-dependent-speculation",
+          "title": "MMFlash 优先训练视觉依赖强的词元，加速视觉语言模型解码",
+          "summary": "研究发现，投机解码草稿对视觉依赖最高四分位词元的接受率为 22%，低于最低四分位的 46%。研究据此调整草稿训练权重，并对长视频采用稀疏注意力。在 SGLang 上，Qwen3.5-9B 的受测配置最高加速 3.58 倍。",
+          "whyItMatters": "对图片和视频任务，文本推理的草稿策略可能难以处理真正依赖视觉的输出。该实验给出了可分组检查的误差来源。",
+          "context": "arXiv v1 提交于 2026-11-13 17:54 UTC，列于 11 月 16 日公开目录。读取正文方法、加速表与并发对照。3.58 倍为特定配置的峰值。",
+          "url": "https://arxiv.org/abs/2611.18482",
+          "publisher": "Feng 等",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "research",
+          "tags": [
+            "多模态",
+            "投机解码",
+            "推理性能"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "jvt-pixel-space-video-diffusion",
+          "title": "JVT 直接在像素空间联合生成视频画面和视差",
+          "summary": "研究者用大图块 Transformer 直接在像素空间做视频扩散。给定初始画面和目标相机轨迹时，联合生成 RGB 与视差的版本在受测任务中比仅生成 RGB 的版本更贴近目标轨迹。",
+          "whyItMatters": "视差与画面逐像素对齐，可直接用于恢复场景几何，为需要控制视角的视频生成提供了可检验的设计。",
+          "context": "arXiv v1 提交于 2026-11-13 18:55 UTC，列于 11 月 16 日公开目录。读取正文模型设计及表 5；相机跟随指标依据估计位姿，联合模型的 FVD 略高于仅生成 RGB 的版本。",
+          "url": "https://arxiv.org/abs/2611.18549",
+          "publisher": "Zhou、Geng 与 Guo",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "research",
+          "tags": [
+            "视频生成",
+            "像素空间",
+            "相机轨迹"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sap-techwolf-acquisition-completed",
+          "title": "SAP 完成收购 TechWolf，计划引入技能与工作图谱",
+          "summary": "SAP 和 TechWolf 确认交易完成。SAP 计划将 TechWolf 的工作与技能关系图接入 SuccessFactors，作为人才规划和人力资源智能体回答问题时的背景数据。",
+          "whyItMatters": "企业智能体能否给出相关建议，取决于是否能读取具体的岗位、技能和组织信息。此次收购明确了 SAP 计划采用的数据来源。",
+          "context": "原文发布于 2026-11-16。读取 SAP 与 TechWolf 双方通告的交易状态和整合方向。产品整合及降成本属于预期。",
+          "url": "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+          "publisher": "SAP",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "business",
+          "tags": [
+            "并购",
+            "企业智能体",
+            "人力资源"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "corma-series-a-nea",
+          "title": "Corma 完成 1.25 亿美元 A 轮，面向安全防御",
+          "summary": "Corma 宣布完成 1.25 亿美元 A 轮，估值 10 亿美元，由 NEA 领投，现有投资者继续参与。公司将研发方向定位为防御型安全智能体。",
+          "whyItMatters": "融资体现了企业安全运营对专用 AI 的投入。产品的实际价值还需结合误报率、处置时效和审计能力来验证。",
+          "context": "原文发布于 2026-11-16。读取创始团队公告的金额、估值、领投方和产品方向。",
+          "url": "https://www.corma.ai/blog/three-months-in",
+          "publisher": "Corma",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T23:03:41Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "安全运营",
+            "防御型智能体"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-16T23:03:42.280Z"
+}
