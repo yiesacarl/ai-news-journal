@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-16T11:46:20Z",
+      "searchCount": 32,
+      "collectionWindow": {
+        "start": "2026-11-13T11:46:20.000Z",
+        "end": "2026-11-16T11:46:20Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "qwen4-max-ga-20261116",
+          "title": "阿里云上线 Qwen4-Max 正式版，开放按量 API",
+          "summary": "百炼已提供独立模型 ID qwen4-max，支持文本、图像、视频输入以及工具调用和结构化输出，文档列出北京、新加坡等部署区域。正式版列出按量计费，并维持 100 万 token 上下文规格。",
+          "whyItMatters": "此前的限期预览和正式 API 在接入与计费方式上有实质区别。使用方可据正式文档核对部署区域、输出上限和协议兼容性。",
+          "context": "正式版上线日期为 2026-11-16。已读取阿里云中文产品文档的规格、部署范围和计费章节。该文档未展示单独发布日期，本文日期对应正式上线。",
+          "url": "https://help.aliyun.com/zh/model-studio/qwen4-max",
+          "publisher": "阿里云百炼",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "product",
+          "tags": [
+            "中文原文",
+            "国产模型",
+            "多模态"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "huawei-cloudrobo-wm12-20261116",
+          "title": "华为云发布 CloudRobo-WM1.2，宣布开放具身世界模型",
+          "summary": "华为云于 11 月 16 日发布在昇腾算力上训练的具身世界模型 CloudRobo-WM1.2，并在发布会上宣布开源。发布会同时安排了模型解读和具身智能生态合作环节。",
+          "whyItMatters": "本次发布与早报里的盘古模型服务是两项独立进展。具身世界模型面向机器人任务，后续可通过开放材料查看其场景预测和动作生成如何结合。",
+          "context": "发布会日期为 2026-11-16。已读取华为云中文议程，并核对澎湃新闻同日现场报道。开源为发布方宣布，未验证权重下载或复现实验。",
+          "url": "https://www.huaweicloud.com/about/live/261116.html",
+          "publisher": "华为云",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "opensource",
+          "tags": [
+            "中文原文",
+            "具身智能",
+            "世界模型"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "agnes-pro-theta-weights-20261115",
+          "title": "Agnes AI 开放 1878 亿参数的多模态 MoE 权重",
+          "summary": "Agnes 2.5 Pro Theta 随模型实现、分词器及图像和视频处理器发布 BF16 权重。中文模型卡列出文本、图像与视频帧输入，输出为文本。上下文配置上限为 262,144 token，权重张量约 375.5 GB，采用 Apache 2.0 许可。",
+          "whyItMatters": "公开权重与模型实现便于独立检查多模态模型。权重体积和上下文验证范围也为部署比较提供了具体条件。",
+          "context": "近期精选补充。模型仓库发布提交为 2026-11-15 02:47:18 UTC。已读取官方中文版和英文版模型卡，以及提交历史。上下文为配置上限，未验证实际吞吐或复现榜单。",
+          "url": "https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Theta/raw/main/README_zh.md",
+          "publisher": "Agnes AI",
+          "publishedAt": "2026-11-15T02:47:18Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "opensource",
+          "tags": [
+            "中文原文",
+            "开放权重",
+            "多模态"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-craig-lattice-collaboration-20261115",
+          "title": "物理学家公开与 GPT-6 Astra 推进格点标准模型候选构造的过程",
+          "summary": "物理学家 Nathaniel Craig 在 OpenAI 科学博客首篇客座文章中回顾，他提出细化格点的研究思路，模型帮助形成具体构造和证明，外部领域专家参与审阅及提问。相关预印本提出候选非微扰定义，在有限格距下是否满足反射正性仍是开放问题。",
+          "whyItMatters": "这份协作记录把研究者的问题设定、模型参与和专家复核区分开，为理解 AI 在理论研究中的作用提供了具体案例。",
+          "context": "近期精选补充。协作详解发布于 2026-11-15。已读取文章的协作过程和未解决问题，并对照 arXiv 摘要。预印本发表于 2026-10-06，本条记录新披露的协作方法。",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model/",
+          "publisher": "Nathaniel Craig／OpenAI",
+          "publishedAt": "2026-11-15",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科学发现",
+            "理论物理",
+            "科研协作"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-velserve-2611-18392",
+          "title": "VelServe 用尾延迟校准流式模型的解码调度",
+          "summary": "VelServe 根据实测迭代尾延迟，为解码步骤预留余量，并据此调整同一轮可执行的提示词预填充量。在预填充与解码分离的部署中，它也控制新请求进入的时机。作者在八卡分离部署实验中报告，满足服务延迟目标的请求数超过所比较基线两倍。",
+          "whyItMatters": "流式生成中少数卡顿也会被长响应放大。关注尾延迟能让吞吐量比较更接近用户感受到的响应稳定性。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 16:34:37 UTC。已读取摘要及正文方法概述。倍数为论文特定八卡配置和服务目标下的测量。",
+          "url": "https://arxiv.org/abs/2611.18392",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T16:34:37Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "推理调度",
+            "流式推理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-vlan-2611-18346",
+          "title": "VLAN 论文评测不同出行需求下的无障碍导航",
+          "summary": "VLAN 用 1000 个场景、2 万条轨迹评测视觉语言模型是否会根据轮式、步行及视障等不同需求调整路线。指标同时检查是否到达目的地、避碰及是否符合对应出行约束。作者发现被测模型对用户条件的适应并不稳定。",
+          "whyItMatters": "同一个台阶对不同出行者可能表示不同风险。将使用者约束纳入基准，有助于识别只检查到达结果会漏掉的问题。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 15:54:23 UTC。已读取摘要、论文的基准概述和项目仓库说明。本条记录预印本公开，项目仓库标注数据和工具已于 6 月发布。项目 https://github.com/InSAI-Lab/VLAN",
+          "url": "https://arxiv.org/abs/2611.18346",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T15:54:23Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "无障碍导航",
+            "公开基准"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-typing-matters-2611-18464",
+          "title": "肌电输入研究让解码器结合已输入文本实时判断按键",
+          "summary": "研究以腕部表面肌电为输入，用因果状态空间模型跨帧保留上下文，并把已输入的语言信息用于实时按键预测。论文强调评估应保留删除、纠错等实际输入行为，并使用只依赖当前和过去信号的解码。",
+          "whyItMatters": "面向实时辅助输入的系统需要在人体信号到来时持续响应。保留真实纠错行为，可以发现仅在静态转写测试中看不到的问题。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 17:33:20 UTC。已读取摘要与正文的训练、推理架构段落。工作为研究解码器，未核验临床辅助效果。",
+          "url": "https://arxiv.org/abs/2611.18464",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T17:33:20Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "肌电",
+            "人机交互"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-lecat-2611-18419",
+          "title": "LECAT 分开检验类别知识的记忆、泛化和灵活使用",
+          "summary": "LECAT 以 199 组人工整理的类别与属性配对评估开源模型，并用从头训练的 6800 万参数模型控制训练语料中的表达方式。作者发现，在其设置下，逐字重复规则会削弱灵活使用类别知识的表现，混合不同表达方式的结果更稳健。",
+          "whyItMatters": "让训练语料的表达方式成为可操纵变量，有助于区分模型是在背诵规则，还是能在新情境下处理例外。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 16:59:46 UTC。仅读取摘要和提交记录。因果对照来自论文设定的小模型训练实验。",
+          "url": "https://arxiv.org/abs/2611.18419",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T16:59:46Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预训练",
+            "泛化"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-archer-2611-18494",
+          "title": "ARCHER 用可执行动作轨迹训练小模型进行数学推理",
+          "summary": "ARCHER 把解释文本转为含推理步骤、计算器调用与验证操作的动作轨迹，再用强化学习调整策略。作者在五个不足 100 亿参数的主干模型上报告，相比最强工具增强基线，所用基准的宏平均准确率提高 5.51 个百分点。",
+          "whyItMatters": "可执行轨迹把算术和检查环节变成能重复核对的步骤，也让小模型的推理改进更容易定位。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 18:05:33 UTC。仅读取摘要和提交记录。准确率差值限于所用主干与基准。",
+          "url": "https://arxiv.org/abs/2611.18494",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T18:05:33Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "数学推理",
+            "小模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-moregt-2611-18315",
+          "title": "MoREGT 用列元数据路由专家，测试模型跨数据库迁移",
+          "summary": "MoREGT 将关系数据库的行、单元格与关系信息编码到图模型中，按列的元数据将输入交给不同专家。论文还用只能查看模式和列统计的助手生成衍生列。在从六个数据库中轮流留出一个的 RelBench 设置下，作者报告加入衍生列能进一步改善平均指标。",
+          "whyItMatters": "跨库迁移常遇到表结构不同和目标库数据不足的问题。分别对比结构建模与衍生特征，有助于判断改进来自哪一环。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-13 15:32:09 UTC。仅读取摘要与提交记录。比较限于作者的 21 项 RelBench 任务。",
+          "url": "https://arxiv.org/abs/2611.18315",
+          "publisher": "arXiv",
+          "publishedAt": "2026-11-13T15:32:09Z",
+          "retrievedAt": "2026-11-16T11:45:55Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "关系数据库",
+            "跨域泛化"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-15T23:06:41.272Z"
+  "updatedAt": "2026-11-16T11:46:22.395Z"
 }
