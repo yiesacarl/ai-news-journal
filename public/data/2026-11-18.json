@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-18",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-17T23:08:36Z",
+      "searchCount": 26,
+      "collectionWindow": {
+        "start": "2026-11-14T23:05:38.000Z",
+        "end": "2026-11-17T23:08:36Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "gpt-62-astra-sol-launch",
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+          "summary": "OpenAI 开始在 ChatGPT Work、Codex 和 API 提供两款模型。Astra 面向复杂专业任务，Sol 面向常规工作。OpenAI 报告 Astra 在内部 GDPval v2 上较 GPT-6 Astra 高 6.2 个百分点，输出 token 少 22%。",
+          "whyItMatters": "同一代提供不同成本的选择，团队可以按任务复杂度与交付质量比较两款模型。",
+          "context": "原文发布于 2026-11-17。读取发布公告的评测、开放范围及系统卡。GDPval v2 数值来自厂商评测，部分工作区需要管理员启用。",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "product",
+          "tags": [
+            "模型发布",
+            "专业工作流",
+            "推理成本"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "microsoft-ignite-2026-mai-models",
+          "title": "微软在 Ignite 公布七款新模型，覆盖编码、图像与语音",
+          "summary": "微软公布 MAI Code 2、Code 2 Flash、Image 2.7 和首款实时语音对话模型 MAI Realtime 1 等。发布时 Code 2 可在 GitHub Copilot 试用，Realtime 1 可在 MAI Labs 体验。",
+          "whyItMatters": "同一厂商按用途拆分模型，便于企业比较日常开发、图像编辑与实时对话的成本和响应速度。",
+          "context": "原文发布于 2026-11-17。读取微软发布正文的编码、语音与试用渠道章节。成本和效果比较对应公告中的任务及价格设置。",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "publisher": "Microsoft AI",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "product",
+          "tags": [
+            "Ignite",
+            "编码模型",
+            "实时语音"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "isomorphic-labs-5b-series-c",
+          "title": "Isomorphic Labs 宣布 50 亿美元 C 轮融资",
+          "summary": "AI 药物研发公司 Isomorphic Labs 披露 50 亿美元 C 轮，Greenoaks 和 Sequoia Capital 共同领投，Alphabet 继续投资。公司计划推进内部和合作研发项目并扩充基础设施。",
+          "whyItMatters": "这轮投入可用后续研发项目推进情况来衡量，融资金额体现的是资本承诺。",
+          "context": "原文发布于 2026-11-17。读取公司公告及附带新闻稿的融资与资金用途段落，并核对路透的融资报道。研发进展来自公司披露。",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+          "publisher": "Isomorphic Labs",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "药物研发"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "genesis-ai-series-a-robotics",
+          "title": "Genesis AI 完成 5 亿美元 A 轮",
+          "summary": "通用机器人公司 Genesis AI 宣布以 35 亿美元投后估值融资 5 亿美元，由 Premji Invest、Khosla Ventures 和 Eclipse 共同领投。公司计划扩大 Eno 生产、数据采集和训练。",
+          "whyItMatters": "资金用途同时涉及制造和训练。后续部署规模与操作任务表现，可以用来检验扩产是否带来实际应用。",
+          "context": "原文发布于 2026-11-17。读取公司通过 PR Newswire 发布的声明，并与路透对融资、客户测试和部署计划的报道交叉核验。",
+          "url": "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html",
+          "publisher": "Genesis AI",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "business",
+          "tags": [
+            "机器人",
+            "融资",
+            "制造"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tacc-horizon-early-science-access",
+          "title": "德州先进计算中心向首批研究用户开放 Horizon",
+          "summary": "得州大学奥斯汀分校宣布，其计算中心已向首批研究人员开放 Horizon 的约 4000 颗 GPU。现阶段该系统在 HPL 双精度基准测得 132 petaflops。",
+          "whyItMatters": "研究团队可以在同一系统结合大规模数值模拟、训练和推理，适用于对数据和计算都有高要求的项目。",
+          "context": "原文发布于 2026-11-17。读取校方公告的早期开放、HPL 口径和系统配置。CPU 扩容预计在 2027 年初进行。",
+          "url": "https://news.utexas.edu/2026/11/17/horizon-opens-to-early-users-americas-most-powerful-academic-supercomputer-begins-serving-science/",
+          "publisher": "得州大学奥斯汀分校",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "research",
+          "tags": [
+            "科研算力",
+            "超级计算",
+            "数值模拟"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "amd-taalas-acquisition-completed",
+          "title": "AMD 完成收购推理芯片企业 Taalas",
+          "summary": "AMD 确认完成对 Taalas 的收购，计划将其专用推理芯片技术纳入加速器路线图，并与 Instinct GPU 一起开发系统级方案。",
+          "whyItMatters": "专用推理技术将如何与通用 GPU 配合，会影响使用同一基础设施部署不同模型的选择。",
+          "context": "原文发布于 2026-11-17。读取 AMD 新闻稿的交割状态和整合方向。系统方案属于后续计划。",
+          "url": "https://newsroom.amd.com/news/amd-completes-acquisition-taalas-advance-ai-inference-innovation/",
+          "publisher": "AMD",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "business",
+          "tags": [
+            "并购",
+            "专用芯片",
+            "模型推理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "accelerate-bench-scientific-cpu-programs",
+          "title": "Accelerate Bench 用可执行科研程序评测代码优化智能体",
+          "summary": "基准从科研应用和超算竞赛中构建 32 项 CPU 优化任务，每项都有正确性与计时规则。v1.1 的 16 种模型与运行框架组合中，Score@1 从 25.5% 到 67.4%。",
+          "whyItMatters": "程序通过测试之后，还要确认是否更快。固定负载和独立验证器让优化结果更容易复查。",
+          "context": "arXiv v1 提交于 2026-11-16 10:52 UTC，11 月 17 日列入公开论文目录。读取论文正文的任务规范、评分和 v1.1 结果。Score@1 是该基准定义的分数。",
+          "url": "https://arxiv.org/abs/2611.20882",
+          "publisher": "Liu 等",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "research",
+          "tags": [
+            "科研软件",
+            "性能优化",
+            "可复现评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "scalevla-robotics-backbone-scaling",
+          "title": "ScaleVLA 在统一训练设置下比较机器人模型底座规模",
+          "summary": "研究者将 5520 亿参数视觉语言底座接入动作模型，并与较小底座比较。在 LIBERO-PRO 模拟评测中，大底座成功率为 45.1%，较小底座最高为 31.3%。",
+          "whyItMatters": "统一训练设置有助于隔离底座规模的影响。团队同时报告了动作块延迟，便于比较准确率和推理代价。",
+          "context": "arXiv v1 提交于 2026-11-16 18:59 UTC，11 月 17 日进入公开论文目录。读取技术报告摘要与正文评测设计和图 1。数值限于论文指定模拟配置。",
+          "url": "https://arxiv.org/abs/2611.21607",
+          "publisher": "Yu 等",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "research",
+          "tags": [
+            "具身智能",
+            "机器人控制",
+            "模型规模"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "giga-energy-project-clay-lease",
+          "title": "Giga Energy 为得州 60 兆瓦 AI 数据中心签下十年租约",
+          "summary": "Giga Energy 宣布，就得州亨特县在建的 Project Clay 与一家未公开名称的美国 AI 云服务商签约，租期十年、金额约 10 亿美元。",
+          "whyItMatters": "长期租约为在建项目锁定了客户需求，也提供了可跟踪的项目规模和交付节点。",
+          "context": "原文发布于 2026-11-17。读取 Giga Energy 公告并与路透正文核对合同金额、租期及容量。60 兆瓦为项目规模。",
+          "url": "https://www.gigaenergy.com/news/giga-news-hunt-county-deal",
+          "publisher": "Giga Energy",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "business",
+          "tags": [
+            "数据中心",
+            "租约",
+            "算力"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "ornl-lux-science-access",
+          "title": "橡树岭国家实验室向科研用户开放 Lux",
+          "summary": "AMD 宣布由 HPE 构建、搭载 AMD EPYC 与 Instinct MI355X 的 Lux 开始服务科研用户。已分配的项目包括材料与制造建模，以及水资源和河温预测。",
+          "whyItMatters": "实验室有了可同时运行模型训练与高性能模拟的科研平台。项目分配给出了可以跟踪的实际用途。",
+          "context": "近期精选补充。AMD 原文发布于 2026-11-16 13:00 美国中部时间。读取配置、已分配研究项目及访问方式。",
+          "url": "https://newsroom.amd.com/news/amd-powered-lux-supercomputer-opens-scientific-users/",
+          "publisher": "AMD",
+          "publishedAt": "2026-11-16T19:00:00Z",
+          "retrievedAt": "2026-11-17T23:08:36Z",
+          "category": "research",
+          "tags": [
+            "超级计算",
+            "材料科学",
+            "地球系统"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-17T23:08:36.557Z"
+}
