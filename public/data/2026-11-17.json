@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-17T11:03:12Z",
+      "searchCount": 26,
+      "collectionWindow": {
+        "start": "2026-11-14T11:03:12.000Z",
+        "end": "2026-11-17T11:03:12Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "tencent-hy4-flash-launch",
+          "title": "腾讯发布混元 Hy4 flash，面向低成本办公任务",
+          "summary": "腾讯混元发布 Hy4 flash。模型总参数 2240 亿，每次推理激活 120 亿，支持多模态输入和 100 万上下文。模型已接入腾讯云 TokenHub、WorkBuddy 和元宝等产品，腾讯表示计划开放权重。",
+          "whyItMatters": "文档处理、幻灯片修改等需要反复调用模型的工作，可以用真实任务衡量单位成本、时延和产物质量。",
+          "context": "近期精选补充。腾讯中文公告发布于 2026-11-16，页面仅标日期。已读模型架构、内部评测范围及上线安排。",
+          "url": "https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+          "publisher": "腾讯",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "product",
+          "tags": [
+            "中国 AI",
+            "混元",
+            "多模态"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "internlm-sage-s21-flash-open-weights",
+          "title": "上海人工智能实验室开放书生 S2.1 Flash 权重",
+          "summary": "上海人工智能实验室公开了面向科研任务的多模态模型书生 S2.1 Flash 的权重和部署文档。模型可接收晶体结构等科学数据，并结合检索、编程和软件工具，根据中间结果调整分析。发布页同时列出了 FP8 量化版本。",
+          "whyItMatters": "研究团队可以在可控环境中比较不同模型能否读懂结构化科研数据，并检查中间产物是否支持最终结论。",
+          "context": "近期精选补充。原版权重仓库于 2026-11-15 公开上传。已读上传记录、中文模型卡的模型介绍、下载和部署章节，并核对项目 README。",
+          "url": "https://huggingface.co/internlm/Sage-S2.1-Flash/blob/main/README_CN.md",
+          "publisher": "上海人工智能实验室",
+          "publishedAt": "2026-11-15",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "科学多模态",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "amd-world-labs-acquisition-close",
+          "title": "AMD 完成对 World Labs 的收购，李飞飞出任首席科学家",
+          "summary": "AMD 宣布 World Labs 收购已完成。李飞飞出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报。World Labs 团队将继续研究可生成和模拟交互式三维环境的模型，并参与 AMD AI 硬件和软件研发。",
+          "whyItMatters": "交互式三维模型对训练、推理和仿真的需求进入芯片企业内部，有机会直接影响软硬件协同设计。",
+          "context": "AMD 投资者关系公告发布于 2026-11-16。已读交割及团队安排，并核对 World Labs 的早期签约公告。",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+          "publisher": "AMD",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "business",
+          "tags": [
+            "并购",
+            "空间智能",
+            "三维仿真"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "california-ag-openai-agent-safeguards-lawsuit",
+          "title": "加州总检察长就 AI 智能体安全措施起诉 OpenAI",
+          "summary": "加州总检察长宣布起诉 OpenAI，指控其在测试实验性智能体时缺乏充分保护措施，并就相关风险误导公众。加州请求法院要求公司改变相关做法。OpenAI 向美联社表示，已加强防护并继续配合州方沟通。",
+          "whyItMatters": "争议聚焦实验阶段的安全义务，包括如何保护第三方，以及公司公开的安全承诺能否与实际操作相符。",
+          "context": "加州司法部公告发布于 2026-11-16。已读州方起诉理由与请求，并读美联社取得的公司回应。相关指控有待法院审理。",
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "加州司法部",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "policy",
+          "tags": [
+            "AI 治理",
+            "诉讼",
+            "智能体安全"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-embedded-assessments-phase-one",
+          "title": "OpenAI 公布首批外部团队驻场安全评估计划",
+          "summary": "OpenAI 公布首阶段驻场评估安排，合作方包括 Apollo Research、Goodfire、METR 和 Transluce。各团队关注训练期间的监测、模型行为或后训练对齐评估，访问范围按项目商定。董事会下设委员会将收到未经删节的报告，公开版本可为保密而删节。",
+          "whyItMatters": "第三方评估能否深入训练过程，取决于可访问的材料和测试条件，也取决于哪些发现最终能向外界披露。",
+          "context": "OpenAI 公告发布于 2026-11-16。已读各团队工作范围、访问规则及公开披露条款。公告描述的是评估安排，部分范围仍待商定。",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "policy",
+          "tags": [
+            "外部审计",
+            "模型评估",
+            "AI 治理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-notebook-interactive-sites",
+          "title": "Gemini Notebook 可将参考资料生成交互网页",
+          "summary": "Google 为 Gemini Notebook 推出交互网页生成功能。用户可用笔记本中的材料创建可分享的时间线、数据面板或任务跟踪器。功能在全球网页端向 18 岁及以上用户逐步开放，包括 Google Workspace 订阅者。",
+          "whyItMatters": "研究和学习团队可把同一批资料转成可交互的讲解内容，便于共同浏览数据或演示其中的关系。",
+          "context": "Google 博客发布于 2026-11-16。已读功能介绍、使用示例及开放范围。",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "product",
+          "tags": [
+            "交互网页",
+            "研究协作",
+            "Gemini Notebook"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "hugging-face-openrouter-language-model-routing",
+          "title": "Hugging Face 将语言模型推理接入 OpenRouter",
+          "summary": "Hugging Face 的 Inference Providers 改由 OpenRouter 为语言模型请求选择服务商。默认路由综合价格、速度和可用性，服务商出错时可在同一请求中切换重试。语言模型请求仍由 Hugging Face 计费，原先自带服务商密钥的方式不再适用。",
+          "whyItMatters": "对调用开放权重模型的应用而言，故障转移和账单归属都会改变运行方式，原来使用自带密钥的集成需要核对。",
+          "context": "Hugging Face 公告发布于 2026-11-16。已读路由、计费、服务商设置和密钥变更说明。",
+          "url": "https://huggingface.co/blog/openrouter",
+          "publisher": "Hugging Face",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "product",
+          "tags": [
+            "推理服务",
+            "模型路由",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-21407-local-agent-harness",
+          "title": "本地智能体实验发现正常退出常常没有留下产物",
+          "summary": "研究者用统一的确定性检查器，比较 5 套智能体执行框架在 18 项产物生成任务上的表现。实验覆盖 4 个 7.5 亿至 47 亿参数的本地模型和一个 355 亿参数的参照模型。357 个可用运行组合里，有 127 个未留下规定的产物，其中 85 个却正常退出。",
+          "whyItMatters": "评估小模型能否在本地承担实际工作时，直接检查文件等产物，比仅查看进程退出状态更接近用户所需的结果。",
+          "context": "arXiv v1 提交于 2026-11-16 17:00 UTC。仅核验摘要和提交记录。结果限于论文设置的框架、模型与任务。",
+          "url": "https://arxiv.org/abs/2611.21407",
+          "publisher": "arXiv 作者团队",
+          "publishedAt": "2026-11-16T17:00:08Z",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "research",
+          "tags": [
+            "本地智能体",
+            "可复现评测",
+            "小模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-21545-eligibility-recourse",
+          "title": "预印本检验 AI 给出的拒绝理由能否帮助申请人补救",
+          "summary": "这项研究测试了 20 个语言模型及 7 套源于权限管理和美国福利资格判断的规则系统。研究者发现，在其中 6 套系统里，若一项申请同时触发多条彼此独立的拒绝规则，指出一条正确理由几乎总是不足以帮助申请人改变结果。",
+          "whyItMatters": "用 AI 解释资格判断时，可以进一步检验读者按说明修正申请后能否得到新结果，从而发现仅核对理由正确性容易漏掉的问题。",
+          "context": "arXiv v1 提交于 2026-11-16 18:30 UTC。仅核验摘要和提交记录。结果基于论文中的规则系统。",
+          "url": "https://arxiv.org/abs/2611.21545",
+          "publisher": "arXiv 作者团队",
+          "publishedAt": "2026-11-16T18:30:11Z",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "research",
+          "tags": [
+            "公共服务",
+            "可解释性",
+            "模型评估"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-21441-gainreason",
+          "title": "GainReason 用逐句奖励训练生成式推荐模型",
+          "summary": "GainReason 用每句推理对目标商品语义标识预测概率的影响，给语言模型的推荐推理分配更细的奖励。作者报告，这一方法在三个公开基准上均超过所比较的基线。",
+          "whyItMatters": "逐句度量提供了一种检验思路，可以分析推荐模型生成的理由究竟有多少信息帮助预测下一项。",
+          "context": "arXiv v1 提交于 2026-11-16 17:28 UTC。仅核验摘要和提交记录。表现为作者在三个公开基准中的报告。",
+          "url": "https://arxiv.org/abs/2611.21441",
+          "publisher": "arXiv 作者团队",
+          "publishedAt": "2026-11-16T17:28:45Z",
+          "retrievedAt": "2026-11-17T11:03:12Z",
+          "category": "research",
+          "tags": [
+            "推荐系统",
+            "强化学习",
+            "生成式推荐"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-16T23:03:42.280Z"
+  "updatedAt": "2026-11-17T11:03:31.896Z"
 }
