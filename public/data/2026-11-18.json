@@ -191,7 +191,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-18T11:08:45Z",
+      "searchCount": 43,
+      "collectionWindow": {
+        "start": "2026-11-15T11:08:45.000Z",
+        "end": "2026-11-18T11:08:45Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "matos-materials-agent-source-release",
+          "title": "中关村两院公开材料科研智能体 MatOS 源码",
+          "summary": "北京中关村学院与中关村人工智能研究院的团队公开了 MatOS 源码。它将数据、工具和实验流程等组织成带版本的资产，记录长任务的执行轨迹与产物，并提供三个基准的运行和评分入口。代码采用 PolyForm Noncommercial 1.0.0 许可。",
+          "whyItMatters": "材料项目常在计算结果出来后调整路线。带版本的流程与实验记录让其他研究人员能够追溯改动，也便于在同一基准上比较不同底座模型。",
+          "context": "近期精选补充。量子位于 2026-11-17 报道源码已公开，区别于更早的项目介绍和技术报告。已读项目中文 README 的架构、许可和基准运行章节。",
+          "url": "https://github.com/DingyangLyu/MatOS/blob/main/README_zh.md",
+          "publisher": "中关村两院 MatOS 团队",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "材料科学",
+            "科研工作流"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tencent-hy4-flash-weight-release",
+          "title": "腾讯公开混元 Hy4 flash 权重，含基础版和 FP8 版",
+          "summary": "腾讯在 11 月 16 日上线 Hy4 flash API 后，现公开指令版、预训练基础版和 FP8 量化版权重，采用 Tencent Hy License。官方模型卡列出了不同版本的下载入口和推理框架。",
+          "whyItMatters": "此前使用 API 的团队现在可以自行部署和测试模型，并根据任务在指令版、基础版和量化版之间选择。",
+          "context": "2026-11-18 开放权重消息已见公开报道。核对腾讯官方模型卡的版本与许可，并查看文件和 11 月 17–18 日提交记录。本条聚焦权重交付。",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "publisher": "腾讯混元",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "混元",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-tasks-free-six-market-rollout",
+          "title": "Google 在六个市场逐步免费开放 Gemini Tasks",
+          "summary": "Google 开始向美国、印度、加拿大、澳大利亚、日本和韩国的用户免费开放 Gemini Tasks。该功能由 Gemini 4 Hydrogen 驱动，能在后台运行多步任务和例行工作。支持 Google Pay 的购物任务会先给出结算清单，由用户确认后付款。",
+          "whyItMatters": "更广泛的免费开放让用户能检验后台智能体在日常任务中的实用性。购物确认也提供了一个观察实际授权如何落地的案例。",
+          "context": "Google 官方更新日志日期为 2026-11-17。已读免费开放、购物确认和地区说明。电话与邮件入口各有单独开放范围。",
+          "url": "https://gemini.google/gl/release-notes/?hl=en",
+          "publisher": "Google",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "product",
+          "tags": [
+            "后台智能体",
+            "Gemini",
+            "任务自动化"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sagemaker-ai-data-preparation",
+          "title": "SageMaker 增加自动标注、合成数据和人工复核工具",
+          "summary": "AWS 为 SageMaker AI 增加可独立调用的数据准备模块，包括自动标注、合成样本、质量评估和数据转换。部分固定答案任务可用多个模型的意见一致程度给出置信度，低于阈值的记录可送进人工复核队列。",
+          "whyItMatters": "训练和评测数据往往需要反复回查来源和标注规则。公开给使用者的规格与生成代码便于审查、修改和重跑这些环节。",
+          "context": "AWS 技术公告发布于 2026-11-17。已读功能说明、置信度与人工复核流程。",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+          "publisher": "AWS",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "product",
+          "tags": [
+            "训练数据",
+            "合成数据",
+            "人工复核"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "model-ml-series-b-250m",
+          "title": "Model ML 完成 2.5 亿美元 B 轮，面向金融工作流",
+          "summary": "Model ML 宣布完成 2.5 亿美元 B 轮，估值 15 亿美元，由 General Atlantic 与 QED Investors 共同领投。公司开发面向银行、咨询机构与投资机构的智能体，计划扩充伦敦和纽约的研发与工程团队。",
+          "whyItMatters": "金融机构的分析常依赖专有数据和特定交付格式。融资去向可用于观察垂直智能体团队如何把研发投入转化为机构部署。",
+          "context": "公司新闻稿发布于 2026-11-17。已读交易条款、资金用途和公司对部署方式的介绍。",
+          "url": "https://modelml.com/articles/model-ml-raises-250-million-at-1.5-billion-valuation-18-months-after-launching-from-stealth",
+          "publisher": "Model ML",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "金融科技",
+            "企业智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "tus-topological-ml-magnetic-domain-walls",
+          "title": "拓扑机器学习定位软磁材料高频磁化时的能垒来源",
+          "summary": "东京理科大学团队用富岳超算模拟理想化铁基纳米晶软磁材料，在 100 kHz、1 MHz 和 10 MHz 下跟踪磁畴变化。拓扑分析和能量映射显示，能垒贡献集中在反转磁畴的前端和部分细畴壁。研究估计的是交换能相关的结构能垒，尚需实测评估散热损耗。",
+          "whyItMatters": "定位贡献较大的微观结构，可为研究材料成分、加工工艺和高频损耗之间的关系提供可检验的假设。",
+          "context": "校方原文与所引 NPG Asia Materials 论文均发布于 2026-11-17。已读校方稿的模拟方法、结果和限制，论文全文未核验。",
+          "url": "https://www.tus.ac.jp/en/mediarelations/archive/20261111_0111.html",
+          "publisher": "东京理科大学",
+          "publishedAt": "2026-11-17",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "research",
+          "tags": [
+            "科学发现",
+            "软磁材料",
+            "拓扑机器学习"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "eu-ai-gcsa-ege-joint-safeguards",
+          "title": "欧盟两顾问组联合建议建立独立的 AI 评估能力",
+          "summary": "欧委会首席科学顾问组与欧洲科学与新技术伦理小组联合建议，按潜在风险调节 AI 开发与部署节奏，保障有实际作用的人类监督，并建立欧盟自己的独立模型评估能力。",
+          "whyItMatters": "建议把独立测试能力列为监管执行的一项基础设施，给后续讨论评估机构、证据标准和资源投入提供了明确方向。",
+          "context": "近期精选补充。欧盟出版物办公室于 2026-11-16 发布联合声明。已读出版信息和欧委会研究与创新总司公告中的四项建议。文件属于顾问建议。",
+          "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+          "publisher": "欧盟委员会研究与创新总司",
+          "publishedAt": "2026-11-16",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "policy",
+          "tags": [
+            "欧盟",
+            "独立评估",
+            "人工监督"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-22075-agent-action-reversibility",
+          "title": "预印本用五级分类描述智能体操作能否撤销",
+          "summary": "研究者为智能体工具操作提出五级可逆性分类，按参数和已保存的操作前状态判断恢复条件。论文所用工具登记表覆盖 20 个 MCP 服务的 536 项工具。文件、Git、SQLite 和浏览器的受控试验显示，后续写入或编辑器的存储行为都可能影响恢复。",
+          "whyItMatters": "智能体在修改数据之前，可以把恢复所需的状态和条件纳入授权判断，让撤销能力本身成为可测试的要求。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-17 01:55 UTC。仅读摘要与提交记录。受控实验的结论适用于论文列出的设置。",
+          "url": "https://arxiv.org/abs/2611.22075",
+          "publisher": "Deepak Waghmare、Shaad Sufi",
+          "publishedAt": "2026-11-17T01:55:26Z",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "research",
+          "tags": [
+            "智能体",
+            "可逆操作",
+            "MCP"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-21948-us-ai-rulemaking-evidence",
+          "title": "研究追踪美国 AI 规则征询中不同群体提交的证据",
+          "summary": "研究者分析了 40 个美国拟议监管事项和 2,664 份公众意见，从中提取正式引用与非正式参考。控制意见长度后，样本中的商业评论者提交的证据整体较少，政府、高校和民间组织则提供了更多研究与法律来源。",
+          "whyItMatters": "公众意见的数量与它们向监管者提供的新信息是两个可分别衡量的指标，能帮助研究者观察政策证据来自哪里。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-16 22:10 UTC。仅读摘要及提交记录。结果限于所建语料库。",
+          "url": "https://arxiv.org/abs/2611.21948",
+          "publisher": "Sarah Tran 等",
+          "publishedAt": "2026-11-16T22:10:18Z",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "research",
+          "tags": [
+            "AI 治理",
+            "公众征询",
+            "证据分析"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-21176-finite-element-code-verification",
+          "title": "有限元编程评测将代码实现和数值验证分开检验",
+          "summary": "研究者用 17 项有限元任务比较 15 个语言模型，分别检验生成的实现能否和参考计算一致、生成的测试能否区分正确与预设错误实现。在 Claude Opus 5 的实现实验中，SimpleAgent 的三次尝试至少成功一次的估计概率为 96.5%，单次生成配置对应值为 90.6%。不同模型和智能体框架的收益有差异。",
+          "whyItMatters": "科研代码可能运行正常却算错。让测试面对已知错误实现，有助于检查它能否发现物理或数值上的偏差。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-16 14:35 UTC。阅读了实验任务、评测流程和论文列出的主要结果，并核对提交记录。",
+          "url": "https://arxiv.org/abs/2611.21176",
+          "publisher": "S. Mohammadzadeh 等",
+          "publishedAt": "2026-11-16T14:35:30Z",
+          "retrievedAt": "2026-11-18T11:08:45Z",
+          "category": "research",
+          "tags": [
+            "有限元",
+            "科研编程",
+            "数值验证"
+          ],
+          "importance": 4
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-17T23:08:36.557Z"
+  "updatedAt": "2026-11-18T11:09:07.640Z"
 }
