@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-19",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-18T23:10:31Z",
+      "searchCount": 33,
+      "collectionWindow": {
+        "start": "2026-11-15T23:05:07Z",
+        "end": "2026-11-18T23:10:31Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "ca-ai-safety-recommendations-20261118",
+          "title": "加州提出强化 AI 安全框架的新建议，涉及独立测试与紧急停机",
+          "summary": "加州州长办公室发布新建议，主张由州政府制定基础标准，要求模型训练、开发和部署阶段接受独立安全验证，并扩展事件报告、风险控制及紧急停机权限。文件还建议允许限制递归自我改进。",
+          "whyItMatters": "解读：监管讨论正从披露义务走向持续监督，开发商需要关注后续立法和实施细则。",
+          "context": "原文发布日期：2026-11-18；已读州长办公室公告正文及建议清单，未通读所链接的完整报告。这是政策建议，不代表新增要求已经生效；未采用公告中未经独立核验的风险事件数量。",
+          "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+          "publisher": "加州州长办公室",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "policy",
+          "tags": [
+            "AI安全",
+            "独立评估",
+            "美国"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "panw-applied-compute-acquisition-20261118",
+          "title": "Palo Alto Networks 拟以45亿美元股票收购 Applied Compute",
+          "summary": "Palo Alto Networks 宣布签署收购协议，交易为全股票形式，估值45亿美元并可能调整。Applied Compute 提供开放权重模型的后训练与推理平台；收购方计划将其引入企业安全部署体系。",
+          "whyItMatters": "解读：企业模型适配、推理与安全正在形成更紧密的产品组合，开放权重模型的部署服务成为并购对象。",
+          "context": "原文发布日期：2026-11-18；已读公司投资者关系公告正文、交易条款与前瞻声明。交易尚待监管批准等条件，预计于公司2027财年第三季度完成，不能写成已完成收购；协同收益是公司预期。",
+          "url": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+          "publisher": "Palo Alto Networks",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "business",
+          "tags": [
+            "企业AI",
+            "开放权重",
+            "并购"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "agent-framework-malware-advisory-20261118",
+          "title": "GitHub 发布 agent-framework 恶意版本公告，涉及两次 PyPI 发布",
+          "summary": "GitHub 安全公告确认 agent-framework 的1.26.1和1.26.2含凭据窃取代码，两个版本已从 PyPI 移除。Wiz 的调查更新交叉确认了上传和隔离时间；公告建议安装者按环境已暴露处理并轮换可访问凭据。",
+          "whyItMatters": "解读：AI 开发框架的依赖发布链会直接连接云端与持续集成凭据，版本审计和环境隔离具有实际价值。",
+          "context": "公告发布日期：2026-11-18；恶意版本上传发生于11月17日20:35和21:08 UTC。已读GitHub公告及Wiz调查正文，Wiz原文11月17日发布、11月18日14:00 UTC更新。入选依据为新公告和调查更新；未将根因推断写成已确认事实。",
+          "url": "https://github.com/advisories/GHSA-764m-3ppc-5m73",
+          "publisher": "GitHub Advisory Database / Wiz",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "community",
+          "tags": [
+            "供应链安全",
+            "Python",
+            "智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "snap-easy-lens-cli-20261118",
+          "title": "Snap 推出 Easy Lens CLI，让编码助手创建和发布 AR 镜头",
+          "summary": "Snap 发布 Easy Lens CLI，可接入 Claude Code、Codex、Cursor 等编码助手，完成构建、预览测试和发布 Snapchat Lens 的流程。官方称工具已可用，支持 Mac、Windows、Linux，需使用 Snapchat 账户。",
+          "whyItMatters": "解读：通用编码助手开始通过专用命令行工具进入 AR 创作流程，作品预览和发布形成更完整的闭环。",
+          "context": "原文发布日期：2026-11-18；网页搜索读取失败后，在云端直接获取并阅读Snap官方新闻页完整正文及日期。未实际安装或试用；作品仍须走既有内容检查、Lens审核和发布流程，效率描述属于厂商陈述。",
+          "url": "https://newsroom.snap.com/introducing-easy-lens-cli",
+          "publisher": "Snap",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "product",
+          "tags": [
+            "AR",
+            "开发工具",
+            "编码助手"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "fastframes-arxiv-2611-23226",
+          "title": "FastFrames 以端到端推理优化降低交互式视频生成延迟",
+          "summary": "研究将视频生成中的 VAE 解码和 KV 缓存更新视为可重新设计的环节。作者报告，13亿参数版本在单张 B200 上达到每帧36毫秒；140亿参数版本在8张 B200 节点上为45毫秒，演示相机与物理条件控制。",
+          "whyItMatters": "解读：交互体验取决于整个推理管线，减少模型之外的延迟可能与优化去噪过程同样关键。",
+          "context": "近期精选补充。arXiv v1提交时间：2026-11-17 18:59:13 UTC；已读摘要及提交记录，未通读全文、未复现实验。数值是作者特定硬件和设置下的报告，不能外推到消费级显卡或任意分辨率；未审稿预印本。",
+          "url": "https://arxiv.org/abs/2611.23226",
+          "publisher": "Gene Chou 等 / arXiv",
+          "publishedAt": "2026-11-17T18:59:13Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "research",
+          "tags": [
+            "视频生成",
+            "推理加速",
+            "交互"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "hubego-v1-arxiv-2611-21938",
+          "title": "HubEgo-100K 首批开放约一万小时真实工作第一视角视频",
+          "summary": "HubEgo-100K 的v1.0实际包含10,124小时1080p视频及同步100 Hz惯性数据，来自12,227名贡献者，83%的时长属于工作场所。数据提供机器生成的动作和语言标注，采用 LeRobot、MCAP 格式及 CC BY 4.0许可。",
+          "whyItMatters": "解读：真实技能劳动的视频多样性可补充机器人示范数据；明确首批规模和标注性质，有助于使用者判断适用范围。",
+          "context": "近期精选补充。arXiv v1提交时间：2026-11-16 21:56:17 UTC；已读摘要、数据版本说明和提交记录，未下载数据、未通读论文。100K是项目目标，当前不是十万小时；作者说明后续版本才加入基准评测，不能声称已证明机器人性能提升。",
+          "url": "https://arxiv.org/abs/2611.21938",
+          "publisher": "Javad Amirian 等 / arXiv",
+          "publishedAt": "2026-11-16T21:56:17Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "research",
+          "tags": [
+            "具身智能",
+            "开放数据",
+            "第一视角"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "millbill-arxiv-2611-22565",
+          "title": "MillBill 开放加工智能体，用几何执行与仿真反馈约束语言模型",
+          "summary": "MillBill 将加工决策交给本地开放模型，把刀路生成、材料去除仿真和几何验证交给专门执行框架。项目已开放代码、示例和评测工具；论文以仿真加工后目标表面在公差内的面积比例衡量结果。",
+          "whyItMatters": "解读：将数值执行交给可检查工具，是让智能体进入 CAD/CAM 等精度敏感流程的一种可复现路线。",
+          "context": "近期精选补充。论文v1提交时间：2026-11-17 10:52:45 UTC；仓库于同日创建，11月18日仍有推送。已读论文摘要、提交记录和GitHub README的运行、评测、许可部分，未执行工具。开源许可为MIT；结果来自仿真，不能等同实机加工安全认证。",
+          "url": "https://arxiv.org/abs/2611.22565",
+          "publisher": "Kulibin AI / arXiv",
+          "publishedAt": "2026-11-17T10:52:45Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "opensource",
+          "tags": [
+            "可复现工具",
+            "制造",
+            "几何验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tcp4d-arxiv-2611-23143",
+          "title": "TCP4D 联合恢复夹爪运动并预测未来轨迹",
+          "summary": "TCP4D 以工具中心点位姿作为动作表示，从单目视频及初始二维查询恢复运动与夹爪状态，再结合机器人观测和语言指令预测未来轨迹。作者还提出把已有视频转换成其他机器人形态示范的数据增强方法。",
+          "whyItMatters": "解读：统一观察到的动作恢复与未来控制，有望减少跨机器人复用示范时对原始状态记录的依赖。",
+          "context": "近期精选补充。arXiv v1提交时间：2026-11-17 17:59:42 UTC；已读摘要及提交记录，未通读正文或复现实验。摘要中的69.19%是RoboTwin平均成功率，不能外推为通用机器人成功率；预印本，真实任务测试范围有限。",
+          "url": "https://arxiv.org/abs/2611.23143",
+          "publisher": "Haosong Peng 等 / arXiv",
+          "publishedAt": "2026-11-17T17:59:42Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "跨本体",
+            "动作学习"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "visualartifactspec-arxiv-2611-21382",
+          "title": "VisualArtifactSpec 用211项任务分别评测交付合规与视觉表现",
+          "summary": "VisualArtifactSpec 1.0覆盖演示文稿、静态图形、动画视频和网页的创建与修改。其将明确要求是否满足与内容、组织、视觉、交付表现分开评分，避免把能生成文件直接等同于交付质量。",
+          "whyItMatters": "解读：面向实际产物的评估，需要同时检查需求、功能和面向受众的表达，单一美观评分或是否完成都不充分。",
+          "context": "近期精选补充。arXiv v1提交时间：2026-11-16 16:42:59 UTC；已读摘要、提交记录及附件目录，未运行评分脚本或通读正文。九种模型与执行框架组合在211任务上的结果由作者报告，不是脱离执行环境的模型能力排名；预印本。",
+          "url": "https://arxiv.org/abs/2611.21382",
+          "publisher": "Shuyi Ouyang 等 / arXiv",
+          "publishedAt": "2026-11-16T16:42:59Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "research",
+          "tags": [
+            "智能体评测",
+            "视觉产物",
+            "交付质量"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "forceharness-arxiv-2611-21099",
+          "title": "ForceHarness 让冻结多模态模型通过工具理解接触力",
+          "summary": "ForceHarness 用底层力控制动作快速闭环，再把力传感轨迹转成带不确定性的物理量，供冻结的 API 模型决策。作者同时提出含七项任务的 HiddenPhys 仿真基准，测试隐藏物理变量下的操作。",
+          "whyItMatters": "解读：把快速控制留在底层、把可解释反馈交给模型，为无法微调的通用模型接入机器人触觉提供了一种系统设计。",
+          "context": "近期精选补充。arXiv v1提交时间：2026-11-16 13:44:23 UTC；已读摘要及提交记录，未通读全文或复现实验。真实机械臂与MuJoCo仿真分属不同实验，不能混合其成功率；本文为未审稿预印本，未声称普遍优于专用控制器。",
+          "url": "https://arxiv.org/abs/2611.21099",
+          "publisher": "Ke Sun 等 / arXiv",
+          "publishedAt": "2026-11-16T13:44:23Z",
+          "retrievedAt": "2026-11-18T23:10:31Z",
+          "category": "research",
+          "tags": [
+            "力反馈",
+            "机器人",
+            "物理推理"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-18T23:10:46.512Z"
+}
