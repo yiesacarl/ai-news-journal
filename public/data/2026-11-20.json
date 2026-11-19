@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-20",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-19T23:04:20Z",
+      "searchCount": 25,
+      "collectionWindow": {
+        "start": "2026-11-16T23:00:13Z",
+        "end": "2026-11-19T23:04:20Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "nvidia-microsoft-ignite-platform-20261119",
+          "title": "英伟达与微软扩展模型定制、边缘部署和科研工具接入",
+          "summary": "双方公布 Microsoft Foundry 的开放模型定制与部署扩展，并将部署范围延伸至 Azure Local、Jetson 和 Windows PC。BioNeMo Agent Toolkit 与 ALCHEMI Toolkit 也正接入 Microsoft Discovery，支持生命科学及材料研究工作流。",
+          "whyItMatters": "解读：企业与科研团队可在云端、内部设施和边缘设备之间选择执行位置；模型、工具与数据所在环境的衔接比单项性能演示更具实际意义。",
+          "context": "原文发布于2026-11-19。已读英伟达官方博客的Foundry、本地部署及科研接入章节。不同功能开放阶段不同，部分仍属即将推出或预览；未将全部能力写成已普遍可用，未采用未经独立复核的客户性能增幅。",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "publisher": "NVIDIA",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "product",
+          "tags": [
+            "企业AI",
+            "科学计算",
+            "边缘部署"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-chip-design-20261118",
+          "title": "OpenAI 公布芯片电路优化与 RISC-V 设计评测",
+          "summary": "OpenAI 披露用模型改写 RTL 电路、再由 EDA 工具核验行为和功耗性能面积取舍的流程。公司报告 Jalapeño 两个计算单元的标准单元面积分别减少约13%和10%，并介绍与 AMD 的优化合作及两个开源 RISC-V 内核的评测。",
+          "whyItMatters": "解读：硬件设计中的模型输出需要经过等价性与实现约束检查，这份材料提供了比单纯生成代码更具体的工程证据。",
+          "context": "近期精选补充。原文发布于2026-11-18。已读计算单元、AMD合作、RISC-V评测及限制章节，并打开Synopsys合作公告。数值来自OpenAI报告，面积节省不等于整芯片性能同比提升；RISC-V实验允许较宽面积上限且以估计时钟评估，不能直接当作量产结果。",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "research",
+          "tags": [
+            "芯片设计",
+            "RTL",
+            "工程验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-research-acceleration-20261118",
+          "title": "OpenAI 报告显示科研智能体的自主完成能力随任务类型显著变化",
+          "summary": "OpenAI 发布内部研究流程测量：在估计需人类工作两至四小时的任务中，无人工介入成功率从3月的23%升至10月的46%。监控运行、启动运行和编写推理服务代码的表现差异明显，报告同时记录了人工审查与纠错仍然必要。",
+          "whyItMatters": "解读：科研自动化适合按具体环节评估，代码量、实验数量或模型使用时长增长，都不能单独证明整体科学进展加速。",
+          "context": "近期精选补充。原文发布于2026-11-18。已读主要发现、任务分类、研究者访谈、产出指标和结论；未访问内部数据或复现。成功率为公司内部估计，委派任务构成也可能改变，属于观察性测量，不能据此推断因果或外推到所有研究机构。",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "research",
+          "tags": [
+            "科研智能体",
+            "生产率测量",
+            "人类监督"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "chatgpt-health-platform-expansion-20261119",
+          "title": "ChatGPT Health 扩展至 Android、桌面与站点，接入 Health Connect",
+          "summary": "OpenAI 更新说明称，Health 正逐步扩展到 Android、桌面应用、dots 和 sites，并支持 Android Health Connect。服务面向美国 Free、Go、Plus、Pro 用户，dots 仍面向 Pro；不同账户可能尚未收到更新。",
+          "whyItMatters": "解读：健康数据接入与跨入口使用正在结合，实际可用范围、账户条件和逐步推送状态是读者需要先确认的信息。",
+          "context": "原文发布于2026-11-19。已读官方更新日志当日Health章节与开放范围；未连接健康账户或测试功能。本文仅报道产品开放变化，不对健康建议效果或临床有效性作判断。",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "product",
+          "tags": [
+            "健康数据",
+            "Android",
+            "产品开放"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "acus-adjudication-genai-comments-20261119",
+          "title": "美国 ACUS 就行政裁决中使用生成式 AI 征求意见",
+          "summary": "美国行政会议公开征询行政裁决参与者对生成式 AI 使用政策的意见，涵盖证据归纳、法律研究、文书起草，以及是否应披露 AI 使用、核查生成内容和处理误用。项目拟形成供机构参考的最佳实践。",
+          "whyItMatters": "解读：程序公平与证据可靠性是公共部门采用生成式工具的具体落点，征询也将自助当事人与专业代理人的不同处境纳入讨论。",
+          "context": "公报发布日期为2026-11-19，文件署期11月16日、11月18日预公开。已在云端读取官方预公开PDF全文及十项征询问题；当前是征求意见，并非新强制规则。原文按行政命名要求使用GenSI，本文依其定义称生成式AI；未从占位日期推算截止日。",
+          "url": "https://public-inspection.federalregister.gov/2026-23539.pdf",
+          "publisher": "Administrative Conference of the United States",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "policy",
+          "tags": [
+            "行政裁决",
+            "证据核验",
+            "公开征询"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "tabbiomed-2611-23779",
+          "title": "TabBioMed 整合94个生物医学表格数据集，比较23种模型",
+          "summary": "TabBioMed 覆盖电子病历、药物发现与多类组学数据，统一预处理、数据切分和评估流程。作者发现表格基础模型整体表现较强，但在推理时间和训练预算受限时，树模型与调优后的多层感知机仍有竞争力。",
+          "whyItMatters": "解读：生物医学表格任务的模型选择不能只看总体排名，数据规模、缺失值、类别不平衡和算力预算都需要纳入比较。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-18 03:35:35 UTC。已读论文摘要、提交记录，以及项目README的数据校验、评估和结果复现说明，未运行实验。代码采用Apache 2.0，数据保留各自原始许可；这是预测基准，不能等同临床有效性证明。",
+          "url": "https://arxiv.org/abs/2611.23779",
+          "publisher": "Pau Mateo-Bernadó 等 / arXiv",
+          "publishedAt": "2026-11-18T03:35:35Z",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "research",
+          "tags": [
+            "生物医学",
+            "表格学习",
+            "可复现研究"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "drawscore-2611-24681",
+          "title": "DrawScore 开放工程图评分工具，识别 CAD 局部错误",
+          "summary": "DrawScore 将三维零件投影为带可见线与隐藏线的正交工程视图，再度量曲线差异。研究指出，孔位错移或槽开在错误表面等局部缺陷，可能被体积和表面积指标弱化；项目提供可在 CPU 上运行的 STEP 文件比较命令。",
+          "whyItMatters": "解读：生成式 CAD 的评估需要关注工程语义上的局部错误，而不只是整体形状接近程度；开放实现方便对自己的生成结果进行复查。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-18 16:14:30 UTC。已读摘要、提交记录及官方仓库README的安装、算法、公差与超时说明。代码采用Apache 2.0，未安装或运行；评分不替代尺寸、材料和制造安全验证。",
+          "url": "https://arxiv.org/abs/2611.24681",
+          "publisher": "Haorui Chen 等 / UESTC-Simon",
+          "publishedAt": "2026-11-18T16:14:30Z",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "opensource",
+          "tags": [
+            "CAD",
+            "工程评测",
+            "开源工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "modern-industrials-seed-20261119",
+          "title": "Modern Industrials 宣布600万美元种子轮，服务工业分销工作流",
+          "summary": "Modern Industrials 宣布由 Glasswing Ventures 领投、TMV 联合领投的600万美元种子融资，a16z speedrun 等参与。公司围绕制造商和分销商已有系统定制 AI 智能体，覆盖报价、订单录入、采购与运营。",
+          "whyItMatters": "解读：工业智能体落地需要处理不同客户的目录、业务规则和遗留系统，融资去向体现了垂直行业流程集成的商业机会。",
+          "context": "公司新闻稿发布于2026-11-19 07:00 ET，即12:00 UTC。已在云端读取GlobeNewswire所载公司公告全文，包括融资方、用途和客户引述。节省成本及效率属于公司和客户陈述，未据此计算经核验的投资回报。",
+          "url": "https://www.globenewswire.com/news-release/2026/11/19/3406448/0/en/modern-industrials-raises-6m-to-deploy-custom-ai-solutions-to-manufacturers-and-distributors.html",
+          "publisher": "Modern Industrials / GlobeNewswire",
+          "publishedAt": "2026-11-19T12:00:00Z",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "工业分销",
+            "企业智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "google-water-commitments-20261119",
+          "title": "Google 公布数据中心用水承诺，强调高风险流域采用替代冷却",
+          "summary": "Google 公布五项水资源承诺，包括2030年前使补水量超过站点消耗量、持续披露年度用水，以及在高风险水源地区选择空气冷却或再生水。公司还称正评估水资源项目征集收到的700多个方案。",
+          "whyItMatters": "解读：AI 算力扩张会受到当地水资源和冷却条件制约，按流域评估与公开数据有助于检验承诺是否转化为实际改善。",
+          "context": "原文发布于2026-11-19，项目清单同日更新。已读官方承诺、项目征集与各州举措章节；未审计项目成效。补水目标和资金承诺不等于已经实现，也不能据总体补水量推断每个数据中心所在地都无缺水压力。",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "business",
+          "tags": [
+            "数据中心",
+            "水资源",
+            "算力基础设施"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "qda-2611-23388",
+          "title": "QDA 以快速候选评估搜索量化方案，再用长生成检查失效",
+          "summary": "QDA 让智能体迭代组合训练后量化方法，用未向智能体展示的推理轨迹衡量与原模型的输出差异，再对有希望的候选做长文本生成检查。作者在四个推理模型和多档精度上报告了对公开量化方案的改进。",
+          "whyItMatters": "解读：量化方案的探索同时受评估成本与兼容性制约，先快速筛选再检查重复循环等失败，为自动化部署优化提供了可研究路径。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-17 19:00:09 UTC。仅读摘要与提交记录，未通读全文或复现实验。作者的搜索预算为每次64 GPU小时，收益依模型和精度而变；原文称将发布库、评估器和执行框架，本文不将其写成已核验的完整开源发布。",
+          "url": "https://arxiv.org/abs/2611.23388",
+          "publisher": "Xingyang Li 等 / arXiv",
+          "publishedAt": "2026-11-17T19:00:09Z",
+          "retrievedAt": "2026-11-19T23:04:20Z",
+          "category": "research",
+          "tags": [
+            "量化",
+            "推理成本",
+            "智能体优化"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-19T23:04:20.395Z"
+}
