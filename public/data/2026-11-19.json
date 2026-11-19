@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-19T11:06:09Z",
+      "searchCount": 38,
+      "collectionWindow": {
+        "start": "2026-11-16T11:06:09.000Z",
+        "end": "2026-11-19T11:06:09Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "xing4-ascend-training-report",
+          "title": "中国电信星辰团队披露在 8192 张昇腾卡上训练 2850 亿参数模型",
+          "summary": "星辰团队发布 Xing 4 技术报告，介绍基于 MindSpore HyperParallel 在 8192 张昇腾 910C 卡上预训练 2850 亿参数模型的工程方案。报告还介绍 TeleGym，将智能体执行、评估和训练轨迹构建接入策略优化。",
+          "whyItMatters": "国产芯片上的大规模训练需要同时处理并行切分、内存和长序列负载。这份报告提供了可供研究者分析的系统设计。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-17 02:58 UTC。已读摘要、引言及长序列负载分配章节。2850 亿参数训练案例与文中另述的 290 亿参数开放模型各有独立配置。",
+          "url": "https://arxiv.org/abs/2611.22115",
+          "publisher": "中国电信星辰 AGI 实验室等",
+          "publishedAt": "2026-11-17T02:58:31Z",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "research",
+          "tags": [
+            "中国 AI",
+            "昇腾",
+            "大规模训练"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "radixark-daisyrose-27b-release",
+          "title": "RadixArk 开放 DaisyRose-27B，公布长程任务后训练方法",
+          "summary": "RadixArk 发布基于 Qwen3.8-27B 的 DaisyRose-27B，采用 Miles 进行强化学习后训练。团队称在 144 张 H200 上用约 1200 项任务训练了 18 天。权重按 Apache 2.0 许可提供 BF16、FP8 和 NVFP4 版本，保留底座的图像理解和 25.6 万上下文能力。",
+          "whyItMatters": "开放权重及后训练方法，便于团队检验少量经过筛选的长程任务能否改善自身工作流，也能比较不同精度部署的效果。",
+          "context": "官方博客发布于 2026-11-18。已读训练任务、运行条件及模型版本说明，并核对模型卡。训练中的百万词元会话使用了框架摘要。",
+          "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "publisher": "RadixArk",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "强化学习",
+            "长程智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-gemini-4-neon-launch",
+          "title": "Google 发布 Gemini 4 Neon，面向编程与分析任务",
+          "summary": "Google 发布 Gemini 4 Neon，支持 100 万词元上下文，提供四档思考强度。模型开始在 Gemini API、企业服务、Antigravity 和 Gemini 应用中推送，各入口按相应订阅条件开放。官方强调多步工具工作流和中途修正指令的能力。",
+          "whyItMatters": "开发者可按任务复杂程度调整思考开销，并在自己的多文件编程、数据分析和资料整合任务上比较质量与时延。",
+          "context": "Google 公告发布于 2026-11-18。已读上下文、思考档位、开放渠道和工作流说明。榜单与演示表现取决于所用框架及设置。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "product",
+          "tags": [
+            "Gemini",
+            "模型发布",
+            "编程"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-genie4-project-genie-release",
+          "title": "Project Genie 接入 Genie 4，支持探索中改写场景",
+          "summary": "Google 在 Project Genie 中开放 Genie 4，用户可在探索过程中用提示改变天气、加入角色，并获得随场景变化的实时音频。新版同时提供创作助手和社区画廊，符合条件的 Google AI Ultra 用户可使用，Pro 用户可加入候补名单。",
+          "whyItMatters": "交互式场景创作可用于快速检验叙事与游戏想法。实时修改也让创作者能观察模型对连续操作的响应与场景保持能力。",
+          "context": "Google 官方公告发布于 2026-11-18。已读功能、订阅范围及限制。官方列出的待解决问题包括相机延迟、精细物理交互和长期场景保持。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "product",
+          "tags": [
+            "世界模型",
+            "交互创作",
+            "生成音频"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-ipo-pricing-83",
+          "title": "Anthropic 将 IPO 定价为每股 83 美元",
+          "summary": "Anthropic 宣布首次公开发行定价为每股 83 美元，发行 9.8 亿股，其中约 9.56 亿股由公司出售，其余由现有股东出售。公司预计于 11 月 19 日在纳斯达克开始交易，代码 ANT，交割预计于 11 月 20 日完成。",
+          "whyItMatters": "公开市场融资将改变前沿模型公司的资金来源，也使其算力投入、收入和经营结果受到更持续的披露要求约束。",
+          "context": "公司定价公告发布于 2026-11-18，已读发行结构、预计交易和交割安排，并交叉核对路透报道。采集时美国 11 月 19 日常规交易尚未开始。",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "business",
+          "tags": [
+            "IPO",
+            "融资",
+            "Anthropic"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "uk-parliament-ai-safety-security-report",
+          "title": "英国议会委员会建议立法建立 AI 安全监管权力",
+          "summary": "英国议会商业、创新、科学与贸易委员会建议在下一议会会期提出 AI 安全与保障法案，赋予监管机构独立核验安全声明、暂停高风险训练和限制部署的权力。报告还建议强制事故报告、保护举报人，并要求开发者向独立评估人员提供实质访问。",
+          "whyItMatters": "这些建议把研究机构的测试能力与监管执行所需的法定权限联系起来，可用于跟踪英国后续立法和独立评估制度建设。",
+          "context": "委员会原文发布于 2026-11-18。已读十项问题、立法建议及对评估访问的要求。当前状态为委员会向政府提出的建议。",
+          "url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/219006/close-ai-safety-gaps-to-secure-britains-400-billion-ai-growth-opportunity-mps-urge/",
+          "publisher": "英国议会",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "policy",
+          "tags": [
+            "英国",
+            "AI 治理",
+            "独立评估"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-23398-hardwaredx",
+          "title": "HardwareDx 用图模型诊断数据中心硬件故障",
+          "summary": "Google 研究团队介绍已在生产环境部署的 HardwareDx，以图基础模型诊断多种计算平台的故障。作者报告，在所评估环境中，GPU 平台停机时间降低 18.3%，TPU 平台降低 16.1%，新硬件质检耗时也有所下降。",
+          "whyItMatters": "AI 集群中的单机故障会拖累整组训练任务。跨硬件诊断模型提供了一个观察 AI 如何用于算力设施运维的实际案例。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-17 19:01 UTC，页面注明已获 NeurIPS 2026 接收。仅读摘要和提交记录，百分比为作者报告的生产评估结果。",
+          "url": "https://arxiv.org/abs/2611.23398",
+          "publisher": "Yuanlin Wen 等",
+          "publishedAt": "2026-11-17T19:01:11Z",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "research",
+          "tags": [
+            "数据中心",
+            "图模型",
+            "硬件诊断"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-23410-rfbench",
+          "title": "RFBench 用电磁仿真检验模型对射频版图的理解",
+          "summary": "RFBench 包含一万个双端口平面版图，每项配对可编辑几何、图像及电磁仿真结果。研究设置了七类任务，检验模型能否从设计意图生成版图、预测响应并诊断问题。七个多模态模型的基线测试显示，结构有效性和响应预测仍有明显不足。",
+          "whyItMatters": "把版图与物理仿真结果配对，可以检验模型生成的设计是否满足实际工程要求，并观察领域微调带来的变化。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-17 19:10 UTC。仅读摘要和提交记录。论文所链代码与数据未能公开读取，复现材料尚待核验。",
+          "url": "https://arxiv.org/abs/2611.23410",
+          "publisher": "Jiarui Cui、Boxun Yan",
+          "publishedAt": "2026-11-17T19:10:14Z",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "research",
+          "tags": [
+            "射频设计",
+            "电磁仿真",
+            "多模态评测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-23639-galaxy-multimodal-retrieval",
+          "title": "星系检索研究保留不同观测信号各自的相似性",
+          "summary": "研究者在星系检索任务中，把恒星形成历史、光谱和多波段图像的独立表征，通过多目标优化组合起来。作者报告，按六项原始数据属性计算，找到的近邻平均比基础模型表征空间检索的结果接近约 8%。",
+          "whyItMatters": "不同天文观测覆盖并不均匀。保留各信号的距离信息，有助于研究者检查一次相似星系检索究竟依据了哪些物理特征。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 00:03 UTC。仅读摘要和提交记录。8% 为该星系任务及所选六项属性下的作者结果。",
+          "url": "https://arxiv.org/abs/2611.23639",
+          "publisher": "Song Young Oh 等",
+          "publishedAt": "2026-11-18T00:03:22Z",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "research",
+          "tags": [
+            "天文学",
+            "多模态检索",
+            "科学数据"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-23678-experiment-trial-ledgers",
+          "title": "研究公开 1445 次机器学习试验账本，追踪失败与决策依据",
+          "summary": "研究者提出由独立控制程序管理智能体试验的生命周期，记录编辑范围、保留或丢弃的决定及其证据。在六项机器学习任务的 1445 次试验中，账本暴露了无效提案、重置失败和只记录成功试验所遗漏的信息。",
+          "whyItMatters": "检查完整试验过程，可以发现最高分背后是否存在遗漏或难以追溯的选择，也便于重新计算报告中的结果。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 01:06 UTC。已读摘要和提交记录，并打开所链项目 README 核对试验记录入口。未重跑实验。",
+          "url": "https://arxiv.org/abs/2611.23678",
+          "publisher": "Dowling Wong",
+          "publishedAt": "2026-11-18T01:06:35Z",
+          "retrievedAt": "2026-11-19T11:06:09Z",
+          "category": "research",
+          "tags": [
+            "科研智能体",
+            "可复现研究",
+            "试验记录"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-18T23:10:46.512Z"
+  "updatedAt": "2026-11-19T11:06:32.017Z"
 }
