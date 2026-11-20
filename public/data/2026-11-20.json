@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-20T11:00:17Z",
+      "searchCount": 35,
+      "collectionWindow": {
+        "start": "2026-11-17T11:00:17.000Z",
+        "end": "2026-11-20T11:00:17Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "tencent-hy4-full-weight-release",
+          "title": "腾讯开放 Hy4 权重，提供多框架部署说明",
+          "summary": "腾讯混元正式开放旗舰模型 Hy4 权重，官方仓库提供下载入口、量化和推理框架说明。其语言主干总参数 7700 亿，每个词元激活 490 亿，支持文本、图像和视频理解，以及百万词元上下文。模型按 Tencent Hy License 发布。",
+          "whyItMatters": "自行部署的团队可以检验旗舰模型在多模态理解、办公和长程工具任务中的表现，并比较量化、推理框架及硬件配置的成本。",
+          "context": "权重开放消息发布于 2026-11-20。已读官方中文 README 的模型配置、下载、部署与许可章节，并核对仓库提交及中文报道。本条记录完整 Hy4 权重交付，与此前 Hy4 flash 版本不同。",
+          "url": "https://github.com/Tencent-Hunyuan/Hy4/blob/main/README_CN.md",
+          "publisher": "腾讯混元",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "混元",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "alibaba-september-2026-ai-cloud-results",
+          "title": "阿里披露 AI 云与算力服务季度收入同比增长 53%",
+          "summary": "阿里巴巴公布截至 2026 年 9 月 30 日止季度业绩，AI 云与算力服务收入为 609.73 亿元，同比增长 53%，外部客户收入增长 64%。其中 AI 相关产品收入为 179.18 亿元。集团本季自由现金流净流出 344.72 亿元，公司将增加云基础设施支出列为主要原因之一。",
+          "whyItMatters": "收入增长和基础设施投入可以放在同一份财报中观察，帮助读者判断 AI 商业化与资本需求如何同时变化。",
+          "context": "阿里巴巴中文业绩公告发布于 2026-11-19。已读季度概要、云业务和现金流章节。自由现金流是公司列示的非公认会计准则指标，集团现金流与云分部收入采用各自口径。",
+          "url": "https://www.alibabagroup.com/zh-HK/document-2060147792046718976",
+          "publisher": "阿里巴巴集团",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "business",
+          "tags": [
+            "中国 AI",
+            "财报",
+            "云计算"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-mac-computer-use-rollout",
+          "title": "Gemini Mac 应用增加跨桌面软件的电脑操作功能",
+          "summary": "Google 在美国以英语逐步开放 Gemini Mac 应用的电脑操作功能，覆盖本地文件、桌面软件和网页。功能在隔离的后台窗口执行，用户可选择允许访问的软件、查看过程和暂停。重要操作需事先批准。",
+          "whyItMatters": "桌面任务常跨越 PDF、表格和网页。应用级操作让读者能观察多步智能体在真实软件中的交付能力，以及授权与预览如何结合。",
+          "context": "Google 公告发布于 2026-11-19。已读功能示例与脚注。要求 Apple Silicon、macOS 15.0 及以上，面向 18 岁以上个人账号的 Google AI Plus、Pro 和 Ultra 用户。",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "product",
+          "tags": [
+            "电脑操作",
+            "Gemini",
+            "桌面智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ai2-theorizer-asta-launch",
+          "title": "Ai2 将 Theorizer 接入 Asta，开放文献驱动的假说生成工具",
+          "summary": "Ai2 把 Theorizer 加入科研智能体平台 Asta，并公开代码。研究者可提交尚未解释的观察，工具综合论文中的证据提出候选解释，并把主张关联到支持文献。官方气候数据案例展示，检验一条最终被排除的假说，也可能引出新的数据诊断。",
+          "whyItMatters": "文献线索与可检验机制的连接，有助于研究者组织下一轮分析。候选解释的条件和来源也便于同行逐项检查。",
+          "context": "Ai2 发布于 2026-11-19。已读功能、气候数据案例和限制，并打开官方仓库核对使用入口。工具可能遗漏文献或误判原创性，假说仍需研究者验证。",
+          "url": "https://allenai.org/blog/theorizer-in-asta",
+          "publisher": "Allen Institute for AI",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "opensource",
+          "tags": [
+            "科研智能体",
+            "假说生成",
+            "文献证据"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "apple-depth-pro2-code-paper-release",
+          "title": "Apple 公开 Depth Pro 2 论文与推理代码，支持视频深度估计",
+          "summary": "Apple 发布 Depth Pro 2 论文及推理工具，可从普通图像、视频和实时相机估计以米为单位的逐像素深度。官方提供四档模型及焦距估计器，视频模式联合处理多帧以改善时间一致性。权重许可限非商业科研与学术开发。",
+          "whyItMatters": "研究和视觉制作团队可以在完整分辨率下比较物体边缘、深度尺度和跨帧稳定性，并按硬件能力选择模型与时间窗口。",
+          "context": "论文 v1 提交于 2026-11-19 18:55 UTC。已读摘要，以及官方 README 的输出、模型、视频设置和许可章节。仓库提供推理代码，训练与评测代码尚未随该仓库提供。",
+          "url": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+          "publisher": "Apple",
+          "publishedAt": "2026-11-19T18:55:41Z",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "opensource",
+          "tags": [
+            "计算机视觉",
+            "视频深度",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sakana-security-research-group-launch",
+          "title": "Sakana AI 成立安全研究组，研究协同防御与智能体约束",
+          "summary": "Sakana AI 宣布成立独立研发团队 Security Research Group，研究 AI 驱动的集体防御与 AI 系统自身的安全。团队计划把防护要求前移到设计和开发阶段，并研究跨组织共享防御信号的可信性、授权与责任。",
+          "whyItMatters": "高权限防御智能体需要可核验的修复依据和清晰的操作边界。团队提出的研究议程覆盖这些部署中的实际问题。",
+          "context": "官方公告日期为 2026-11-20。已读研究方向、团队运作与披露原则。公告列示的方向和待解问题仍需后续研究结果检验。",
+          "url": "https://sakana.ai/security-research-group/",
+          "publisher": "Sakana AI",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "community",
+          "tags": [
+            "安全研究",
+            "AI 防御",
+            "智能体治理"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-25651-matverse",
+          "title": "MatVerse 通过领域后训练整合材料科学多模态任务",
+          "summary": "MatVerse 基于 Intern-S2-Preview，使用材料知识、科学推理、结构理解和多模态解释数据进行后训练。作者在 OmniMatBench、MatSciBench 和 MaCBench 三项材料基准中，报告相对底座的持续改进，并观察到计算密集型问题的推理效率改善。",
+          "whyItMatters": "材料工作涉及文本、晶体结构和表征图像。统一的评测接口可用于检查通用模型经过领域训练后，哪些材料任务确有收益。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 07:33 UTC。仅读摘要和提交记录。性能表述为作者在所列三项基准中的报告。",
+          "url": "https://arxiv.org/abs/2611.25651",
+          "publisher": "Xuanyu Zhu 等",
+          "publishedAt": "2026-11-19T07:33:20Z",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "research",
+          "tags": [
+            "材料科学",
+            "多模态模型",
+            "领域后训练"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-25146-everydaybench",
+          "title": "EverydayBench 用实时网页证据检验日常任务是否完整交付",
+          "summary": "EverydayBench 提出 77 项人工编写任务，覆盖八类生活与工作领域。每项任务预先定义成功条件，评测再结合明确约束、当时网页证据与交付质量。论文比较 23 种智能体模型配置，最高严格通过率为 54.55%。",
+          "whyItMatters": "查到相关信息之后，还需满足用户条件并交出可用结果。用实时证据验证产物，有助于定位日常智能体实际遗漏的环节。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 20:25 UTC。仅读摘要和提交记录。54.55% 为该任务集及所列配置的最高严格通过率。",
+          "url": "https://arxiv.org/abs/2611.25146",
+          "publisher": "Fangrui Huang 等",
+          "publishedAt": "2026-11-18T20:25:44Z",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "research",
+          "tags": [
+            "智能体评测",
+            "交付质量",
+            "实时网页"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-25171-time-series-bgga",
+          "title": "时间序列研究用历史回测筛选推理时的数据变换",
+          "summary": "BGAA 方法在预测时，从序列自身的历史滚动回测中评估不同输入变换，剔除表现差于原始输入的方案，再平均保留下来的预测分布。作者报告，在 GIFT-Eval、fev-bench 和 BOOM 的所测模型与基准组合中，MASE 预测误差均有所下降。",
+          "whyItMatters": "预测场景无法用未来真值挑选当前答案。历史回测提供了一种可检验的选择依据，让额外推理计算用于筛选输入表示。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 20:52 UTC。仅读摘要和提交记录。收益因模型和基准而异，逐预测窗口选择变换仍是论文指出的难点。",
+          "url": "https://arxiv.org/abs/2611.25171",
+          "publisher": "Arjun Choudhry 等",
+          "publishedAt": "2026-11-18T20:52:30Z",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "research",
+          "tags": [
+            "时间序列",
+            "推理计算",
+            "历史回测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-25360-appsci-bench",
+          "title": "AppSci-Bench 测试模型能否为企业构建并改进智能体",
+          "summary": "AppSci-Bench 让模型先向模拟业务方澄清需求，再探索基础设施、设计内部测试并构建智能体。七个领域各设独立保留测试，覆盖幻灯片、订单到收款、合规等任务。作者比较七款模型，发现内部测试表现良好时，交付物仍可能在保留测试中失败。",
+          "whyItMatters": "模型不仅被用来执行工作，也开始编写执行工作的系统。这个基准把需求获取与评测设计一并纳入检查，能暴露仅看内部得分容易遗漏的问题。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 01:58 UTC。已读摘要和提交记录，并打开项目 README 核对任务运行与保留评测入口。未运行其付费模型评测。",
+          "url": "https://arxiv.org/abs/2611.25360",
+          "publisher": "Sanjari Srivastava 等",
+          "publishedAt": "2026-11-19T01:58:31Z",
+          "retrievedAt": "2026-11-20T10:59:00Z",
+          "category": "research",
+          "tags": [
+            "企业智能体",
+            "需求澄清",
+            "独立评测"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-19T23:04:20.395Z"
+  "updatedAt": "2026-11-20T11:00:17.591Z"
 }
