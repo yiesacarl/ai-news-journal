@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-21",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-20T23:06:14Z",
+      "searchCount": 24,
+      "collectionWindow": {
+        "start": "2026-11-17T23:02:58Z",
+        "end": "2026-11-20T23:06:14Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "anthropic-ipo-close-20261120",
+          "title": "Anthropic 完成 IPO 交割及260亿美元并行私募",
+          "summary": "Anthropic 宣布完成首次公开发行交割，承销商全额行使增购权，合计发行11.27亿股。公司称公开发行总募资约935亿美元，其中公司获得约916亿美元；另完成向七家产业公司的约260亿美元私募。",
+          "whyItMatters": "解读：新增进展是资金交割及增购权落实，区别于此前定价公告；大规模资本投入将使算力、研发与商业回报之间的关系更受关注。",
+          "context": "原文发布于2026-11-20。网页搜索读取失败后，在云端直接获取并阅读公司公告全文。金额均为扣除费用前的约数，公开发行总额包含老股出售，公司不获得该部分收益；本条报道交割进展，不重复此前11月18日定价事件。",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "business",
+          "tags": [
+            "IPO交割",
+            "产业资本",
+            "融资"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "medchembench-release-20261120",
+          "title": "MedChemBench 用99道药物化学问题检验结构理解与候选选择",
+          "summary": "OpenAI 发布 MedChemBench，依据117篇论文和专利构建99道问题、涉及761种分子结构。评估区分结构重建、证据推理、化合物排序选择与性质预测，强调活性、吸收和代谢等性质之间的取舍。",
+          "whyItMatters": "解读：药物研究助手需要把结构与实验结果联系起来，拆分能力评分有助于识别“解释合理”与“选对下一步实验”之间的差距。",
+          "context": "原文发布于2026-11-20。已读官方研究介绍的任务、评分、案例与限制章节，未阅读所链接论文全文或复现实验。基准采用历史资料，不能排除训练时接触来源；单次无工具作答的分数不证明新药发现或改善真实实验决策。",
+          "url": "https://openai.com/index/introducing-medchembench/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "research",
+          "tags": [
+            "药物化学",
+            "科研评测",
+            "分子结构"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-distillation-defenses-20261120",
+          "title": "OpenAI 披露推理轨迹保护与反蒸馏评估方法",
+          "summary": "OpenAI 介绍结合模型训练、输入输出分类器、API边界控制和跨账户活动调查的防护方案。其内部自适应黑盒测试中，提取先前请求受保护推理的平均成功率，从原版防护GPT-6 Astra的54.0%降至更新防护GPT-6.2 Astra的0.2%。",
+          "whyItMatters": "解读：防护评估需要覆盖最终回答和工具参数，并结合单请求测试与持续攻击活动检测；这些口径可供后续独立研究比较。",
+          "context": "原文发布于2026-11-20。已读技术防护、测量方法及限制相关正文。数值来自厂商内部测试、跨六个攻击模型聚合，比较同时涉及模型与防护变化，不能单独归因于某项机制或视为真实环境绝无泄露；未采用对第三方公司的未经独立核验指控。",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "community",
+          "tags": [
+            "模型安全",
+            "蒸馏",
+            "推理保护"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gpt-live-api-release-20261120",
+          "title": "GPT-Live-1.1 向开发者开放 API，加入静默待机设置",
+          "summary": "OpenAI 开发者公告宣布 GPT-Live-1.1 可经API使用，支持边听边说，并把复杂工作流交给后端模型。GPT-Live-1与1.1同时获得standby设置：静默5至60秒后暂停模型，保持WebRTC通话连接，用户再次说话时恢复。",
+          "whyItMatters": "解读：此次实质变化是把此前ChatGPT中的语音能力开放给第三方应用，并提供长通话中管理空闲时段的机制。",
+          "context": "开发者社区公告日期为2026-11-20。已读首帖功能、开放范围及待机说明，并打开官方模型文档核对入口；未调用API或测试。模型自10月15日起已用于ChatGPT Plus和Pro，不能将本次API开放写成模型首次出现；可靠性提升为厂商陈述。",
+          "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+          "publisher": "OpenAI Developer Community",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "product",
+          "tags": [
+            "语音智能体",
+            "API开放",
+            "全双工"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gemini-tool-retrieval-preview-20261119",
+          "title": "Gemini API 预览工具检索，按需加载函数参数结构",
+          "summary": "Google 在 Interactions API 预览 Tool Retrieval。开发者可延迟加载工具的参数结构，模型仍看到名称与描述，需要时按名称请求完整定义，再在同一请求中调用函数；相关步骤保留在交互记录中。",
+          "whyItMatters": "解读：工具库扩大后，按需载入参数定义有助于控制上下文开销，也提供了检查工具选择过程的调试线索。",
+          "context": "近期精选补充。原文发布于2026-11-19。已读官方公告的工作机制、代码示例和交互步骤，未运行示例。功能仍为预览；减少时延和输入词元的效果依工具规模与任务而变，未将厂商概括当作固定收益。",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "product",
+          "tags": [
+            "工具调用",
+            "上下文管理",
+            "开发工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "cloudflare-clairic-open-weights-20261118",
+          "title": "Cloudflare 开放 Clairic 与 Clairic-flash 权重，增加 PDF 提取",
+          "summary": "Cloudflare 发布重新设计的Clairic及90亿参数Clairic-flash，面向结构化提取与预测。新版支持最多四张图像或PDF页联合提取，并可把明细项按行返回；官方称两款模型已在Workers AI提供服务并开放权重。",
+          "whyItMatters": "解读：专用提取模型为文档流程提供了通用大模型之外的部署选择，但表格、日期和来源对应仍需按业务数据验证。",
+          "context": "近期精选补充。原文发布于2026-11-18。已读官方博客的架构、PDF支持、端点和权重发布章节，未下载权重或核验许可证细项。内部评测与延迟属于厂商自报，不等同公开独立基准；本文称开放权重，不推断训练数据或全部代码均已开放。",
+          "url": "https://blog.cloudflare.com/open-clairic/",
+          "publisher": "Cloudflare",
+          "publishedAt": "2026-11-18",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "opensource",
+          "tags": [
+            "文档提取",
+            "开放权重",
+            "专用模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "twinlab-bench-2611-26248",
+          "title": "TwinLab-Bench 用真实实验室记录构建自主实验设计评测",
+          "summary": "TwinLab-Bench 设置52项任务，覆盖物理科学、生命科学与工程，允许智能体自行设计实验并请求执行。环境代理依据实验室原始记录和配套计算器返回结果，最终报告对照隐藏的真实后续发现评分。",
+          "whyItMatters": "解读：它把“照既定流程执行”与“决定做什么实验”区分开来，为科研智能体的开放决策能力提供了更接近研究过程的测试。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 15:25:34 UTC。已读摘要、提交记录、项目页及GitHub README的任务和运行说明，未通读论文或运行基准。所谓实验发生在记录驱动的数字孪生环境，并非智能体直接操作真实湿实验室；作者报告最佳均分45/100，非成功率。",
+          "url": "https://arxiv.org/abs/2611.26248",
+          "publisher": "Yang Wan、Linchao Zhu / arXiv",
+          "publishedAt": "2026-11-19T15:25:34Z",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "research",
+          "tags": [
+            "AI科学家",
+            "实验设计",
+            "可复现评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "simaudit-success-checkers-2611-25179",
+          "title": "SimAudit 审计机器人仿真判定器，发现“假成功”与“静默失败”",
+          "summary": "SimAudit 先比对任务指令与成功判定代码，再在仿真中构造可能不一致的场景，结合多视角图像检查。作者在三个机器人操作基准中报告49项任务存在61种不同缺陷，其中既有未完成却过关，也有满足指令却被拒。",
+          "whyItMatters": "解读：策略成功率依赖判定器是否准确，测试部分完成与合法替代动作，是评估机器人基准可信度的重要步骤。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-18 21:02:31 UTC。仅读摘要和提交记录，未通读论文、复跑场景或核验每个缺陷。报告涉及RoboTwin 2.0、RoboCasa365与RoboDojo的特定测试案例，不能据此推断所有任务或政策的整体错误率；预印本。",
+          "url": "https://arxiv.org/abs/2611.25179",
+          "publisher": "Zirui Song 等 / arXiv",
+          "publishedAt": "2026-11-18T21:02:31Z",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "基准审计",
+            "成功判定"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "fca-ai-observatory-20261119",
+          "title": "英国 FCA 上线金融 AI 应用观察平台，区分用例与实际实施",
+          "summary": "英国金融行为监管局推出AI Spotlight Observatory，汇集200多家组织、150个活动领域的应用案例，并提供共同分类、用例与实施区分和趋势观察。平台面向公众开放，部分详细资料和演示联系需要注册。",
+          "whyItMatters": "解读：统一整理采用案例可帮助企业比较金融犯罪防治、合规和智能体支付等场景，也便于识别概念方案与实际部署之间的差别。",
+          "context": "近期精选补充。官方公告首次发布及更新均为2026-11-19，相关媒体在11月20日报道。已读FCA公告正文及编辑说明，未注册或逐项验证平台案例。平台是信息资源，不是新增强制监管规则，也不意味着FCA为其中每种方案背书。",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+          "publisher": "英国金融行为监管局（FCA）",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "policy",
+          "tags": [
+            "金融AI",
+            "应用治理",
+            "案例平台"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "peer-review-overlap-2611-26286",
+          "title": "预印本发现 AI 检测标记审稿之间的批评内容更相似",
+          "summary": "研究从会议与期刊评审中测量同一论文不同审稿的批评重合度，发现被MELD检测器同时标记为LLM生成的两份评审，比未标记评审更相似。作者还报告跨年度新增批评数量和重合度的变化。",
+          "whyItMatters": "解读：同行评审的价值包含多名读者发现不同问题，使用AI辅助时，需要关注独立判断是否被相似的评述模式替代。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 15:45:51 UTC。仅读摘要及提交记录，未通读全文或审计检测器。LLM文本检测存在误判，相关性不能证明AI使用导致同质化，也不能据标记认定某位审稿人使用了AI；未审稿预印本。",
+          "url": "https://arxiv.org/abs/2611.26286",
+          "publisher": "Ilya Gusev / arXiv",
+          "publishedAt": "2026-11-19T15:45:51Z",
+          "retrievedAt": "2026-11-20T23:06:14Z",
+          "category": "research",
+          "tags": [
+            "同行评审",
+            "科研质量",
+            "AI文本检测"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-20T23:06:14.658Z"
+}
