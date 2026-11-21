@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-21T11:07:16Z",
+      "searchCount": 33,
+      "collectionWindow": {
+        "start": "2026-11-18T11:07:16.000Z",
+        "end": "2026-11-21T11:07:16Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "tencent-wemm-video-public-release",
+          "title": "腾讯微信开放 WeMM-Video，联合理解视频画面与原声",
+          "summary": "腾讯微信视觉团队公开 WeMM-Video 系列及推理说明，提供 2B、4B、9B 稠密模型与 35B-A3B 混合专家模型。模型接收文本、图像、音频和视频，输出文本，视频任务可同时使用画面与原始音轨，支持直接作答和显式推理模式。",
+          "whyItMatters": "音画联合理解能用于会议、教学和视频检索等场景。多档规模与量化版本让开发者可以按硬件条件测试实际准确率和延迟。",
+          "context": "公开发布说明日期为 2026-11-20，技术报告 v1 于 11 月 19 日提交。已读官方中文 README 的模型、输入、部署及许可章节，并核对论文摘要和日期。",
+          "url": "https://github.com/Tencent/WeMM-Video/blob/main/README_zh.md",
+          "publisher": "腾讯微信视觉团队",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "视频理解",
+            "多模态"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "simplexai-linger-personal-agent-open-release",
+          "title": "Simplex AI 公开 Linger，本地模型接入个人智能体工作流",
+          "summary": "Simplex AI 公开个人智能体 Linger。项目将模型推理、记忆和工具执行部署在个人电脑上，其 PolyStrata 引擎把 MoE 模型常用专家留在 GPU，其余分配到内存或 SSD。官方示例用 12GB 显存与 64GB 内存运行 125B 模型。",
+          "whyItMatters": "对希望本地处理个人资料的开发者，公开代码提供了可检查的模型与智能体集成方案，也便于实测较少显存下的速度和交付质量。",
+          "context": "近期精选补充。公开开源消息于 2026-11-19 宣布，中文报道于 11 月 20 日刊出。已读官方 README 的本地推理、硬件和功能说明及许可。硬件例为团队配置，托管服务另受项目许可条件约束。",
+          "url": "https://github.com/simplexai-labs/linger",
+          "publisher": "Simplex AI",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "opensource",
+          "tags": [
+            "本地智能体",
+            "MoE 推理",
+            "个人助手"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "google-semantic-governance-preview",
+          "title": "Google 预览工具调用前的语义治理检查",
+          "summary": "Google 在 Gemini platform 预览 Semantic governance policies，经 Agent Gateway 在工具调用执行前检查企业自然语言规则和用户原始意图。判断结果与理由写入 Cloud Logging，未通过的调用会替换为拒绝信息。",
+          "whyItMatters": "工具权限无法涵盖每次操作的业务条件。执行前独立检查为企业提供了一处可以审计授权理由、观察误拦截与漏拦截的位置。",
+          "context": "官方开发者博客发布于 2026-11-20。已读工作流程、接入条件和限制。该机制使用概率性模型判断，流式响应暂不评估。",
+          "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/",
+          "publisher": "Google",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "product",
+          "tags": [
+            "智能体治理",
+            "工具调用",
+            "企业应用"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "metr-q4-2026-capability-th2-update",
+          "title": "METR 更新 AI 研发能力评估，将判断力纳入更难任务",
+          "summary": "METR 发布包含 TH2 的能力评估，新增 36 项任务、分为 12 个任务族。报告发现模型在编码和优化任务上常匹敌熟练人类，而在缺少快速明确反馈的判断任务中仍弱于专家。机构同时指出，人类基线招募、评测覆盖及训练环境相似性会影响结论。",
+          "whyItMatters": "研发智能体需要选择研究方向和判断证据。把可自动评分任务与判断任务同时测量，有助于观察编码成绩之外的能力边界。",
+          "context": "METR 报告发布于 2026-11-20。已读概览、方法及 TH2 任务构成。任务与人类基线方法已变化，时间跨度指标需按具体评测集理解。",
+          "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+          "publisher": "METR",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "research",
+          "tags": [
+            "独立评估",
+            "AI 研发",
+            "判断力"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gao-ai-cybersecurity-policy-options-2026",
+          "title": "美国 GAO 提出 AI 网络防御的测试、授权和后备方案",
+          "summary": "美国政府问责局发布 AI 与网络安全报告，结合文献、机构材料、访谈和专家会议整理政策选项，包括在部署前后验证工具输出、对重大自动操作要求人类授权，以及为关键职能准备规则工具或人工后备流程。",
+          "whyItMatters": "防御工具进入生产环境后，需要知道谁批准操作、如何检验效果，以及失效时如何继续工作。这些选项为相关制度建设提供了具体问题清单。",
+          "context": "GAO-27-108458 于 2026-11-20 发布并公开。已读报告网页的发现、政策选项表与研究方法，未逐页读取 70 页全文。内容为政策选项。",
+          "url": "https://www.gao.gov/products/gao-27-108458",
+          "publisher": "美国政府问责局",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "policy",
+          "tags": [
+            "AI 治理",
+            "网络防御",
+            "人工授权"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "mistral-apac-singapore-science-hub",
+          "title": "Mistral 在新加坡设亚太总部，计划扩充科研与工程团队",
+          "summary": "Mistral 在新加坡开设亚太总部，并将办公室作为延伸科研中心。根据 TNGlobal 刊载的公司声明，团队重点面向公共部门、高科技制造和机器人，计划在 2027 年将亚太员工人数扩充至 200 人。",
+          "whyItMatters": "区域科研与交付团队会影响开放权重模型如何进入受监管行业，也让当地客户能够参与模型定制和部署的具体工作。",
+          "context": "TNGlobal 报道发布于 2026-11-20。已读全文，核对其引述的公司声明、首席执行官及新加坡经济发展局回应。200 人为公司计划。",
+          "url": "https://technode.global/2026/11/20/frances-ai-company-mistral-opens-asia-pacific-headquarters-in-singapore-plans-200-staff-by-2027/",
+          "publisher": "TNGlobal",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "business",
+          "tags": [
+            "Mistral",
+            "亚太",
+            "研发投资"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-25087-sailsearch",
+          "title": "SailSearch 用双智能体协助组合优化算法研究",
+          "summary": "SailSearch 提出由人类引导、两个语言模型智能体参与的算法研究流程。在 Market Split 测试中，作者报告找到 33 个此前未解 QOBLIB 实例中 18 个的首批纯 CPU 解答。每个实例使用十个随机种子，每次限两颗 CPU 核、24 小时。",
+          "whyItMatters": "算法研究不仅需要生成代码，还要在固定算力预算下验证收益。公开条件让读者能判断结果来自何种搜索资源与问题规模。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 19:25 UTC。仅读摘要和提交记录。未解实例及首次报告解答均为作者表述。",
+          "url": "https://arxiv.org/abs/2611.25087",
+          "publisher": "Dhriti Verma 等",
+          "publishedAt": "2026-11-18T19:25:57Z",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "research",
+          "tags": [
+            "组合优化",
+            "算法发现",
+            "科研智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-25088-buggymle",
+          "title": "BuggyMLE 向机器学习仓库注入受控错误，构造难度分级",
+          "summary": "BuggyMLE 在可运行的机器学习仓库中注入受控错误，基于 222 个源仓库生成逾 6600 个变体。其分级评测比较 14 款模型，作者报告最高解题率从最易档的 95% 降至最难档的 9%，显示仓库和补丁复杂程度会显著影响表现。",
+          "whyItMatters": "真实模型工程涉及跨文件调试、数据接入和训练运行。可调难度的错误任务能帮助检查智能体在哪些工程环节出现瓶颈。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 19:26 UTC。仅读摘要和提交记录。解题率属于该评测构造及所列模型配置。",
+          "url": "https://arxiv.org/abs/2611.25088",
+          "publisher": "John Wu 等",
+          "publishedAt": "2026-11-18T19:26:15Z",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "research",
+          "tags": [
+            "机器学习工程",
+            "调试",
+            "难度评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-25614-latent-aware-quantization",
+          "title": "LAQ 量化机器人世界动作模型时同时保留未来表征",
+          "summary": "LAQ 针对世界动作模型的权重、激活和缓存进行四位量化，并根据未来表征对动作的影响分配精度。在 LIBERO-Plus 中，作者报告两种策略的平均成功率距十六位模型不超过 1.2 个百分点。真实 PiPER 机械臂三项任务的平均成功率为 47%，十六位模型为 52%。",
+          "whyItMatters": "机器人策略依赖对未来场景的预测。量化时检查未来表征和真实动作的误差，可帮助判断显存节省是否值得承担任务成功率变化。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 06:59 UTC。仅读摘要和提交记录。仿真与真实机械臂结果使用各自设置。",
+          "url": "https://arxiv.org/abs/2611.25614",
+          "publisher": "Yichen Guo 等",
+          "publishedAt": "2026-11-19T06:59:37Z",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "四位量化",
+            "世界动作模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-25135-calibrated-decision-rewards",
+          "title": "研究用校准后的判断概率训练小模型数学推理",
+          "summary": "RLCDR 将模型评审的判断转为经过校准的概率，作为无需标准答案的训练奖励。在 Qwen3-1.7B 的 MATH 训练实验中，作者报告 MATH500 准确率从 72.2% 提升至 76.8%。当训练数据集中于底座难以解答的问题时，评审会变得过度自信，收益也缩小。",
+          "whyItMatters": "自动奖励是否可信会影响后续训练方向。把评审置信度和失效条件一起测量，提供了检查奖励可靠性的具体方法。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-18 20:15 UTC。仅读摘要和提交记录。数值限于所述底座、训练集与评测集。",
+          "url": "https://arxiv.org/abs/2611.25135",
+          "publisher": "Rudransh Agnihotri、Manasvi Kapoor",
+          "publishedAt": "2026-11-18T20:15:18Z",
+          "retrievedAt": "2026-11-21T11:07:16Z",
+          "category": "research",
+          "tags": [
+            "强化学习",
+            "奖励校准",
+            "数学推理"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-20T23:06:14.658Z"
+  "updatedAt": "2026-11-21T11:07:35.323Z"
 }
