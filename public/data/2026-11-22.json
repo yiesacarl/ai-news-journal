@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-22",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-21T23:07:45Z",
+      "searchCount": 25,
+      "collectionWindow": {
+        "start": "2026-11-18T23:03:59Z",
+        "end": "2026-11-21T23:07:45Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "lean-riemann-verification-20261121",
+          "title": "Lean 与 Mathlib 社区发布黎曼猜想形式化核验声明",
+          "summary": "Lean与Mathlib社区发表联合声明，表示已核验Levent Alpöge与Claude合作提交的黎曼猜想形式化证明，包括命题是否对应Mathlib定义、工程编译和独立证明检查。MIT的Andrew Sutherland另公开了核验文件、工具结果与仍在运行的检查。",
+          "whyItMatters": "解读：这次新增进展是独立形式化核验，而不只是作者宣布。形式化命题比对、不同内核重放与人类解释证明思想，承担不同的验证任务。",
+          "context": "社区声明发布于2026-11-21，原作者于11月20日宣布。已在云端读取社区声明全文，并阅读作者PDF前两页及MIT核验页摘要、结果表与命题说明；未下载庞大证明或自行重跑。联合声明认证与Sutherland个人核验任务的完成状态应分开理解；本文不将其表述为奖项授予或完整的人类可读解释已完成。",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "publisher": "Lean 与 Mathlib 社区 / Andrew Sutherland",
+          "publishedAt": "2026-11-21",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "AI数学",
+            "形式化证明",
+            "独立核验"
+          ],
+          "importance": 5
+        },
+        {
+          "id": "mofgen-journal-publication-20261120",
+          "title": "MOFGen 期刊论文公开材料生成与实验合成流程",
+          "summary": "Nature Computational Science发表MOFGen研究，将语言模型提出组成、原子扩散生成结构、量子计算筛选和可合成性预测串联。作者报告通过高通量实验合成四种生成的金属有机框架，并提供计算数据和工作流代码入口。",
+          "whyItMatters": "解读：材料生成的价值需要经过可合成性和真实实验检验；论文把候选结构到实验验证的环节及限制放在同一流程中。",
+          "context": "近期精选补充。期刊原文发布于2026-11-20，研究已有2025年arXiv预印本，本条报道期刊发表及公开材料，不称全部结果于本周首次发现。已在云端读取原文摘要、流程、讨论、数据与代码说明；未复现实验。扩散模型上限256原子，实验验证集中于锌基MOF，合成仍有人参与。",
+          "url": "https://www.nature.com/articles/s43588-026-01058-x",
+          "publisher": "Théo Jaffrelot Inizan 等 / Nature Computational Science",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "材料发现",
+            "MOF",
+            "实验验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "virtual-cell-challenge-results-20261119",
+          "title": "Arc 公布虚拟细胞挑战赛结果，强调分数不能当准确率",
+          "summary": "Arc Institute公布2026虚拟细胞挑战赛结果，Illumina BioInsight AI Lab位列第一。参赛模型依据新细胞系的未扰动对照，预测300项CRISPRi敲低后的转录响应；冠军综合分约0.440，由六项指标和三个测试细胞系平均得到。",
+          "whyItMatters": "解读：跨细胞环境预测仍与重复实验存在距离，强参考迁移基线和多指标拆分，比单一排名更能说明虚拟细胞模型的适用范围。",
+          "context": "近期精选补充。主办方原文发布于2026-11-19。已读任务、指标、结果表及冠军方法章节，并打开Illumina算法介绍。0与1分别对应细胞环境均值和重复实验参照，0.440不是44%准确率；零样本仅指主办方未提供目标细胞系扰动训练数据，不代表模型没见过相关基因。",
+          "url": "https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up",
+          "publisher": "Arc Institute",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "虚拟细胞",
+            "基因扰动",
+            "生物学评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "direct3d-v3-code-models-20261119",
+          "title": "Direct3D-V3 开放推理代码与模型，直接在体素空间生成几何",
+          "summary": "Direct3D-V3移除VAE压缩环节，直接对符号距离场体素建模，通过两级扩散Transformer兼顾整体形状与局部细节。官方仓库已提供推理入口，输入参考图像和对齐的粗网格，输出三维网格。",
+          "whyItMatters": "解读：直接建模几何可用于检验潜空间压缩是否限制细节，公开推理材料也便于设计者用自己的模型与视图对照。",
+          "context": "近期精选补充。官方仓库记载推理代码及模型于2026-11-19发布，论文v1同日17:58:20 UTC提交。已读摘要、项目页及README的发布、输入、安装、权重和推理部分，未执行。粗网格生成模型、纹理模型和训练代码仍列待发布；发布模型与论文评测版本存在差别，不能混用结果。",
+          "url": "https://github.com/DreamTechAI/Direct3D-V3",
+          "publisher": "DreamTech / 南京大学等",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "opensource",
+          "tags": [
+            "三维生成",
+            "开放模型",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-performance-factory-20261119",
+          "title": "OpenAI 介绍云端性能工程流程：诊断、复核、修复后再验证",
+          "summary": "OpenAI披露Performance Factory的任务跟踪、调度、云端Codex执行和事件订阅设计。性能告警触发调查后，独立会话挑战根因判断，智能体提出修复供工程师审核；部署后继续检查指标是否回到基线。",
+          "whyItMatters": "解读：将任务状态、证据和恢复验证保留在会话之外，有助于把智能体从一次性诊断推进到可持续运维，也暴露了修复与因果判断的难点。",
+          "context": "近期精选补充。官方工程文章发布于2026-11-19。已读系统结构、回归流程、人工复核和评估章节；未访问内部系统。文章是内部实践披露，不是面向公众开放的新产品；调查量和根因正确率属于公司自报，不能推断全自动修复已替代工程师。",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-19",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "community",
+          "tags": [
+            "智能体工程",
+            "性能诊断",
+            "部署验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "safi-safe-stopping-2611-26239",
+          "title": "SAFI 在机器人执行中途教会安全停下，而非仅拒绝开始",
+          "summary": "研究发现，能在初始状态抑制某项任务的机器人策略，中途接管后仍可能完成禁止行为；单纯未完成也可能伴随掉落物体。SAFI为适合保持夹持的任务构造静止机械臂及一致夹爪目标，并与允许任务一起训练。",
+          "whyItMatters": "解读：机器人拒绝行为需要考虑已经发生的动作和物理后果，安全终止不能只看任务是否成功。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 15:14:55 UTC。仅读摘要和提交记录，未通读正文或复现实验。作者实验使用OpenVLA-OFT及LIBERO、BadLIBERO；方法适用于保持物体是合适后备动作的情境，不能外推为任意真实机器人紧急停止保证；预印本。",
+          "url": "https://arxiv.org/abs/2611.26239",
+          "publisher": "Zheyuan Liu 等 / arXiv",
+          "publishedAt": "2026-11-19T15:14:55Z",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "机器人安全",
+            "VLA",
+            "后备动作"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "altra-test-2611-26073",
+          "title": "AltRA-Test 检验不同标注员分工时，AI 评分能否替代人工",
+          "summary": "AltRA-Test通过重采样构造全人工和混合人工与LLM的标注面板，检验替换一名人工标注后的一致性是否统计上不劣。方法不要求每个样本由同一组人标注，作者在模拟及多模态数据集上评估。",
+          "whyItMatters": "解读：使用模型评分前，团队可以检验它是否保留人工共有的判断信号，避免因为模型方便调用就默认其可替代标注。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 13:15:13 UTC。仅读摘要及提交记录，未通读证明或重跑测试。研究涉及18个模型、5种提示和20个数据集；一致性不等同客观正确性，所需样本量及替代结论依具体任务而变；预印本。",
+          "url": "https://arxiv.org/abs/2611.26073",
+          "publisher": "Nagham Omar 等 / arXiv",
+          "publishedAt": "2026-11-19T13:15:13Z",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "模型评分",
+            "统计检验",
+            "数据标注"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "egocaptioner-2611-26380",
+          "title": "EgoCaptioner 同时训练第一视角视频描述的事实细节与时间对齐",
+          "summary": "EgoCaptioner把视频整体概述与带时间戳的动作步骤结合，采用先划分事件再细化描述的标注流程。团队从八种第一视角视频来源形成五万训练样本，并以事实覆盖、时间对齐及减少冗余等奖励改进描述。",
+          "whyItMatters": "解读：可用的视频说明需要准确交代短动作及顺序，细粒度时间对齐可帮助后续视频问答与任务回溯。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 16:39:59 UTC。仅读摘要及提交记录，未通读正文、下载数据或复现。作者报告覆盖五项第一视角基准，模型比较依赖描述生成后再问答等指定协议，不能外推为所有视频理解任务排名；预印本。",
+          "url": "https://arxiv.org/abs/2611.26380",
+          "publisher": "Yuqi Tang 等 / arXiv",
+          "publishedAt": "2026-11-19T16:39:59Z",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "第一视角视频",
+            "时间对齐",
+            "多模态"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "dailysafe-2611-26298",
+          "title": "DailySafe 用连续图文对话检查日常任务中逐渐显现的风险",
+          "summary": "DailySafe包含195组多轮、多图像互动，覆盖10个日常领域和42类任务，测试模型能否结合先前动作与视觉线索识别后来出现的风险，同时继续帮助用户完成合理目标。项目公开参考运行和评分代码。",
+          "whyItMatters": "解读：只测试孤立的恶意请求，会遗漏正常任务逐步变得危险的情况；连续证据和安全替代方案应进入评估。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 15:51:12 UTC。已读摘要、提交记录及GitHub README的案例、指标与运行限制，未运行代码或通读论文。测试集为英语，结果受模型快照、提示和评分服务影响；仓库说明运行器本身不含历史模型答复，不能单靠代码重现历史表值。",
+          "url": "https://arxiv.org/abs/2611.26298",
+          "publisher": "Xuankun Rong 等 / arXiv",
+          "publishedAt": "2026-11-19T15:51:12Z",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "动态安全",
+            "多轮对话",
+            "开源评测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "mind2act-world-2611-26444",
+          "title": "Mind2Act World 将机器人推理、执行及二者协同分开诊断",
+          "summary": "Mind2Act World设置30项仿真操作任务，通过难度与场景变化形成180种配置，分别检查基于历史的判断、精确动作，以及动作反馈如何引导后续决策。作者发现单项能力较强，并不意味着组合任务表现同样可靠。",
+          "whyItMatters": "解读：区分“没记住状态”“动作执行失败”与“推理行动衔接失败”，有助于针对不同机器人系统选择改进方向。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-19 17:15:38 UTC。仅读摘要及提交记录，未通读正文或复跑诊断。研究对比多模态智能体、VLA与世界动作模型，结论限定于任务、执行框架及仿真配置，不能直接当作真实工业部署成功率；预印本。",
+          "url": "https://arxiv.org/abs/2611.26444",
+          "publisher": "Yuzhi Huang 等 / arXiv",
+          "publishedAt": "2026-11-19T17:15:38Z",
+          "retrievedAt": "2026-11-21T23:07:45Z",
+          "category": "research",
+          "tags": [
+            "具身智能",
+            "错误诊断",
+            "闭环控制"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-21T23:07:45.886Z"
+}
