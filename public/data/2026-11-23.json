@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-23",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-22T23:07:36Z",
+      "searchCount": 37,
+      "collectionWindow": {
+        "start": "2026-11-19T23:05:39Z",
+        "end": "2026-11-22T23:07:36Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "openai-perplexity-pacing-proposal-20261122",
+          "title": "OpenAI 提议用困惑度辅助比较模型进展与设定开发节奏",
+          "summary": "OpenAI首席科学家Jakub Pachocki公开内部留出代码集上的预训练损失趋势，提议行业建立可比较的进展度量，并将后续开发边界与理解、监测模型行为的安全里程碑联系起来。",
+          "whyItMatters": "解读：共同度量可能帮助讨论开发节奏，但跨实验室数据集不同，且预训练损失无法涵盖推理后训练带来的能力变化。",
+          "context": "原文发布于2026-11-22。已读官方文章正文及脚注，未访问内部评测数据。文中阈值和能力联系属于作者观察及预测；这是行业治理提议，不是已生效规则，也不是通用智力或安全性的单项证明。",
+          "url": "https://openai.com/index/perplexity-and-intelligence/",
+          "publisher": "OpenAI / Jakub Pachocki",
+          "publishedAt": "2026-11-22",
+          "category": "policy",
+          "tags": [
+            "开发节奏",
+            "困惑度",
+            "安全评估"
+          ],
+          "importance": 4,
+          "retrievedAt": "2026-11-22T23:07:36Z"
+        },
+        {
+          "id": "together-prompt-leakage-disclosure-20261121",
+          "title": "Together AI 通报存储提示词泄露，称编码智能体曾提交访问凭据",
+          "summary": "Together AI披露，第三方取得公开仓库中暴露的凭据后，下载了私有仓库内的部分提示词样本。样本来自2026年6至7月的部分serverless请求；公司称已加强凭据检查，并将零数据保留设为新账号默认。",
+          "whyItMatters": "解读：智能体开发流程中的凭据权限和测试数据保存方式，会共同决定一次代码提交失误能暴露多少客户内容。",
+          "context": "近期精选补充。公司通报发布于2026-11-21；泄露涉及历史请求，不能写成11月才生成的数据。已读通报正文，并交叉阅读Dragos于11月19日发表的金丝雀研究。公司确认其中五个被测试凭据来自该实验；受影响数据审查仍在进行，不能据此认定所有客户或其他供应商均受影响。",
+          "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+          "publisher": "Together AI",
+          "publishedAt": "2026-11-21",
+          "category": "community",
+          "tags": [
+            "数据安全",
+            "编码智能体",
+            "凭据管理"
+          ],
+          "importance": 4,
+          "retrievedAt": "2026-11-22T23:07:36Z"
+        },
+        {
+          "id": "minimax-mim-cryptanalysis-research-20261120",
+          "title": "MiniMax 披露内部模型密码分析实验，开放报告与验证材料",
+          "summary": "MiniMax称内部研究模型MIM在历史密码竞赛候选、学术方案和公开挑战实例中找到结构问题及实现缺陷，并将部分分析转为可执行验证。官方Research仓库提供Cryptography目录及支持材料。",
+          "whyItMatters": "解读：密码分析提供了可以运行检查的研究产物，但攻击是否成立、适用参数和安全余量仍需密码学专家独立审查。",
+          "context": "近期精选补充。官方文章及仓库发布记录均为2026-11-20。已读研究文章全文与仓库README，未执行攻击、通读全部技术报告或独立复现。结果为公司报告，模型仍为内部研究系统；原文明确研究不影响已部署的密码标准，不应写成现行加密已全面失守。",
+          "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+          "publisher": "MiniMax",
+          "publishedAt": "2026-11-20",
+          "category": "research",
+          "tags": [
+            "密码分析",
+            "科研验证",
+            "公开研究材料"
+          ],
+          "importance": 4,
+          "retrievedAt": "2026-11-22T23:07:36Z"
+        },
+        {
+          "id": "chatgpt-space-plus-rollout-20261120",
+          "title": "ChatGPT Space 开始向 Plus 用户开放交互页面与协作演示",
+          "summary": "OpenAI宣布向全球18岁及以上Plus用户逐步开放ChatGPT Space，可创建交互页面与演示，邀请有权限的用户协作，并根据连接的应用和工具设置内容自动更新。",
+          "whyItMatters": "解读：把持续更新的页面与共同编辑结合，可用于项目材料和学习资源；实际协作范围取决于参与者的账号资格及访问权限。",
+          "context": "近期精选补充。开放日期依据官方更新日志2026-11-20条目；配套帮助页仅显示相对更新时间，不用它替代事件日期。已读该日志条目及Space帮助页的概览、资格和分享说明，未登录或实测。共享内容要求登录、具备Space访问资格并获得权限；Free用户不能打开共享页面，当前没有公开链接。逐步开放不代表每个账号即时可用。",
+          "url": "https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-20",
+          "category": "product",
+          "tags": [
+            "交互页面",
+            "协作",
+            "ChatGPT Space"
+          ],
+          "importance": 3,
+          "retrievedAt": "2026-11-22T23:07:36Z"
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-22T23:08:22.240Z"
+}
