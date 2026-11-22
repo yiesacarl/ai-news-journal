@@ -192,7 +192,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-22T11:04:27Z",
+      "searchCount": 41,
+      "collectionWindow": {
+        "start": "2026-11-19T11:04:27.000Z",
+        "end": "2026-11-22T11:04:27Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "thinking-machines-inkling-2-mini-release",
+          "title": "Thinking Machines 开放 Inkling 2 Mini，以循环层增加推理计算",
+          "summary": "Thinking Machines 发布 Inkling 2 Mini，模型总参数 264 亿，采用 MoE 与循环 Transformer 架构，中间层对每个词元重复运行三次。官方同时开放可变循环研究版本，便于比较循环深度、能力与推理轨迹可监测性。模型支持本地推理及微调。",
+          "whyItMatters": "公开的循环架构提供了研究推理计算的新材料。开发者可以比较增加内部计算与生成更长推理文本对质量、延迟和监测的影响。",
+          "context": "近期精选补充。公告与模型卡发布于 2026-11-20。已读架构、内存、限制和开放渠道。官方约 20GB 内存占用及 Mac 至少 32GB 内存要求各有对应运行条件。",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "publisher": "Thinking Machines Lab",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "循环 Transformer",
+            "本地推理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "signal-mobile-ai-screen-capture-protection",
+          "title": "Signal 增加移动端截图保护，限制系统级 AI 读取聊天",
+          "summary": "Signal 宣布在 iOS 27 阻止应用内截图，并在能够检测到 AI 助手访问屏幕的 Android 环境中自动开启屏幕保护。用户可在设置中关闭相关保护。Signal 同时要求操作系统提供清晰的应用退出 AI 数据访问接口。",
+          "whyItMatters": "系统级智能体进入应用后，数据访问边界需要跨应用与操作系统共同定义。这次变化展示了独立开发者如何尝试保护聊天内容。",
+          "context": "近期精选补充。Signal 原文发布于 2026-11-20。已读实现、适用范围和脚注，并核对新闻报道。该措施存在平台覆盖和文件系统访问方面的限制。",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "publisher": "Signal",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "product",
+          "tags": [
+            "隐私",
+            "系统级智能体",
+            "应用权限"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "gao-ai-chatbots-mental-health-spotlight",
+          "title": "美国 GAO 梳理心理健康聊天机器人的证据与监管缺口",
+          "summary": "美国政府问责局发布专题，指出截至 2026 年 11 月，FDA 尚未向任何心理健康聊天机器人授予上市授权。报告讨论迎合性、效果证据、隐私和责任划分，并提出应如何研究有效性、持续监测保护措施等政策问题。",
+          "whyItMatters": "心理健康用途需要区分产品宣称、加速审评资格与实际授权状态。报告为评估产品证据和监管责任提供了明确核对项。",
+          "context": "近期精选补充。GAO-27-109184 于 2026-11-20 发布并公开。已读网页全文的关键发现、技术成熟度、挑战及政策问题。内容是专题评估。",
+          "url": "https://www.gao.gov/products/gao-27-109184",
+          "publisher": "美国政府问责局",
+          "publishedAt": "2026-11-20",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "policy",
+          "tags": [
+            "AI 治理",
+            "心理健康",
+            "效果评估"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-26300-photonic-ghz-no-go",
+          "title": "量子光学论文公开借助 AlphaProof Nexus 找到的不可能性证明",
+          "summary": "研究者将一类光子 GHZ 态生成问题写成带复数权重的图，并给出不可能性证明。在论文限定的概率性光子对源与探测条件下，当光子数 N 为不小于 4 的偶数、局部维度 D 不小于 N 时，对应的单色量子图不存在。作者介绍了用 AlphaProof Nexus 在 Lean 中搜索证明的过程。",
+          "whyItMatters": "形式化证明搜索进入物理问题后，可以帮助研究者界定某类实验资源能够实现的状态范围。定理的资源假设与条件也可被逐项审查。",
+          "context": "近期精选补充。论文 v1 发布于 2026-11-19 15:51 UTC。已读摘要、引言与结果时间线。文中注明该证明发现于 2026 年 4 月，本次收录为新公开论文，未独立重跑 Lean 核验。",
+          "url": "https://arxiv.org/abs/2611.26300",
+          "publisher": "Mario Krenn 等",
+          "publishedAt": "2026-11-19T15:51:44Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "科学发现",
+            "量子光学",
+            "形式化证明"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-26586-protodiffusion-layered-design",
+          "title": "ProtoDiffusion 用共享空间表示生成可分层编辑的图像",
+          "summary": "ProtoDiffusion 将图形设计编码为一个共享空间原型和每层一个向量，再联合生成 RGBA 图层。模型支持从图像或文本生成分层设计，也可选用边界框控制布局。作者在 LayerD 的所列测试中报告了重建、图层分离和生成效率结果。",
+          "whyItMatters": "设计工作需要移动和复用图层。共享表示提供了一种降低多层生成开销的方法，也便于研究生成质量与可编辑性之间的关系。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 18:45 UTC。仅读摘要和提交记录。结果限于所述数据划分、对比基线与设置。",
+          "url": "https://arxiv.org/abs/2611.26586",
+          "publisher": "Adrià Ciurana Lanau 等",
+          "publishedAt": "2026-11-19T18:45:31Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "图像生成",
+            "可编辑图层",
+            "扩散模型"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-26509-glide-decision-models",
+          "title": "GLiDE 将推理教师知识蒸馏进单次前向判断模型",
+          "summary": "GLiDE 提出覆盖 4 亿至 270 亿参数的决策模型，直接为候选答案评分。方法结合多个教师的软目标蒸馏，调整注意力交互，并探索不增加参数的循环深度。作者在五档规模的所列决策评测中同时比较质量和概率校准。",
+          "whyItMatters": "分类、路由和选项判断未必需要生成长文本。单次前向评分及校准概率，为低延迟应用提供了可以实测的技术路线。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 17:56 UTC。仅读摘要和提交记录。未将论文中的单 GPU 延迟外推到其他部署。",
+          "url": "https://arxiv.org/abs/2611.26509",
+          "publisher": "Sahibzada Allahyar 等",
+          "publishedAt": "2026-11-19T17:56:44Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "决策模型",
+            "知识蒸馏",
+            "概率校准"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-26491-fluid-task-guidance",
+          "title": "FLUID 按证据与时机评估实时任务指导，允许适时沉默",
+          "summary": "FLUID 利用真实的人际任务指导数据，把一次提示与触发它的动作、证据、必要性和有效时间窗关联起来。框架既评估指导内容，也衡量是否过早、过晚或无需介入，并用这些标准构建实时多模态指导智能体。",
+          "whyItMatters": "指导助手需要等用户完成动作或发言，也需要判断何时不必说话。根据证据确定提示窗口，能更接近日常协作的要求。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 17:45 UTC。已读摘要与项目页的标注、时间窗和评测说明。项目注明仍有避免语音重叠的改进空间。",
+          "url": "https://arxiv.org/abs/2611.26491",
+          "publisher": "Yunqi Zhao 等",
+          "publishedAt": "2026-11-19T17:45:07Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "多模态助手",
+            "交互时机",
+            "任务指导"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-26414-zerovln-navigation",
+          "title": "ZeroVLN 用语义工具接口连接视觉语言模型与导航执行器",
+          "summary": "ZeroVLN 让视觉语言模型以自然语言向动作专家传递移动决策，再通过闭环强化学习共同改进决策和连续执行。作者在相同导航回合数据的比较中，报告超过所列监督微调分层方法，并较多保留了视觉语言底座的通用能力。",
+          "whyItMatters": "导航系统可以把高层语义决策与连续控制分工，再检查这种接口能否减少对底座通用能力的损伤。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 17:01 UTC。仅读摘要及提交记录。框架不对视觉语言部分做导航领域监督微调，后续仍使用强化学习。",
+          "url": "https://arxiv.org/abs/2611.26414",
+          "publisher": "Zixuan Huang 等",
+          "publishedAt": "2026-11-19T17:01:00Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "视觉语言导航",
+            "机器人",
+            "闭环强化学习"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-26366-tailworld-visual-evidence",
+          "title": "TailWorld 检验世界模型会否用常见规律覆盖当前视频证据",
+          "summary": "TailWorld 控制训练样本的不均衡程度和校准视频的信息量，检验模型能否把观察到的物理规则迁移到新的初始状态。研究另提出 RIFT，从运动交互推断当前规则，降低常见训练模式对少见动力学预测的干扰。",
+          "whyItMatters": "世界模型用于仿真时，需要响应当前环境的证据。把训练频率和观察信息分开控制，有助于判断模型究竟用了哪种依据。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 16:33 UTC。仅读摘要和提交记录。改进结果为作者在 TailWorld 的训练不均衡与分布变化设置中的报告。",
+          "url": "https://arxiv.org/abs/2611.26366",
+          "publisher": "Han Xiao 等",
+          "publishedAt": "2026-11-19T16:33:02Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "世界模型",
+            "物理规律",
+            "分布变化"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-26624-playcraft-game-iteration",
+          "title": "PlayCraft 通过智能体试玩记录迭代游戏设计",
+          "summary": "PlayCraft 交替运行试玩和设计修改。视觉智能体多次玩游戏并记录结果、决策与反思，设计智能体据此调整游戏，目标是让玩家能通过更好的决策和操作逐步掌握玩法。作者以三档能力的全新试玩智能体测试学习增益和斜率。",
+          "whyItMatters": "从能运行的游戏到值得反复练习的玩法，需要持续试玩和调参。体验记录为生成式游戏设计提供了一个可检查的反馈环节。",
+          "context": "近期精选补充。arXiv v1 提交于 2026-11-19 18:59 UTC。仅读摘要与提交记录。论文的学习指标来自智能体试玩，尚不能据此推断人类玩家的投入程度。",
+          "url": "https://arxiv.org/abs/2611.26624",
+          "publisher": "Weihao Cheng",
+          "publishedAt": "2026-11-19T18:59:34Z",
+          "retrievedAt": "2026-11-22T11:04:27Z",
+          "category": "research",
+          "tags": [
+            "游戏设计",
+            "智能体试玩",
+            "迭代评测"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-21T23:07:45.886Z"
+  "updatedAt": "2026-11-22T11:04:53.430Z"
 }
