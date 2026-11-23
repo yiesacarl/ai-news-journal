@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-24",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-23T23:08:53Z",
+      "searchCount": 40,
+      "collectionWindow": {
+        "start": "2026-11-20T23:05:32Z",
+        "end": "2026-11-23T23:08:53Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "shirudo-open-source-launch-20261123",
+          "title": "OpenAI 与 Cisco 开放 Shirudo，以临时防护衔接 Linux 补丁部署",
+          "summary": "Shirudo使用eBPF为运行中的Linux系统加载经签名的针对性防护。官方展示了Codex生成的检查在受控实验中阻断Java4Shell利用，同时保持Elasticsearch服务运行；部署决定仍由操作人员控制。",
+          "whyItMatters": "解读：发现漏洞与完成正式补丁部署之间存在空档，带有测试、签名和可验证记录的临时防护，为防御智能体提供了可审查的落地接口。",
+          "context": "公告发布于2026-11-23。已读OpenAI和Cisco公告正文，以及GitHub README的机制、用途、发布状态和许可章节，未运行代码。仓库仍无正式发行版；受控演示不是对任意漏洞或生产负载的保护保证。",
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "publisher": "OpenAI / Cisco",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "opensource",
+          "tags": [
+            "eBPF",
+            "防御智能体",
+            "开源工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "claude-ship-beta-20261123",
+          "title": "Anthropic 推出 Claude Ship，将代码审查、修复与批准分工",
+          "summary": "Claude Ship将已有Code Review与两项测试版智能体PR Steward、Claude Approvals组合。前者处理检查失败、冲突和审查意见；后者依据仓库政策判断哪些变更可批准、哪些需人工签字。",
+          "whyItMatters": "解读：代码生成量增长后，审查和授权成为交付瓶颈；将修改能力与批准权限分开，可让团队按风险选择自动化程度。",
+          "context": "官方原文发布于2026-11-23。已读功能、启用方式和适用范围章节，未连接或试用。面向GitHub仓库的Team及Enterprise计划，PR Steward自身不批准或合并；工具可能漏掉缺陷，且不适用于ZDR、HIPAA配置或客户管理密钥组织，使用可能增加费用。",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "product",
+          "tags": [
+            "代码审查",
+            "工作流",
+            "人工授权"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "crosslingual-brain-meaning-20261123",
+          "title": "多语言模型帮助研究者发现跨21种语言的共同语义表征",
+          "summary": "Nature Neuroscience研究结合12种语言的既有脑成像数据与9种语言的新数据，用多语言神经网络表征预测语言网络活动。用部分语言训练的编码模型能迁移到未见语言，提示存在跨语言共享的意义成分。",
+          "whyItMatters": "解读：多语言模型提供了可比较的表示空间，让神经科学研究能覆盖更多语言；这种迁移能力有助于检验只用英语数据得出的结论。",
+          "context": "期刊论文及MIT机构报道均发布于2026-11-23。已读论文摘要、发表记录及MIT报道正文，未通读订阅正文或复现实验。结果是指定语言任务中的表征与脑活动关联，不证明语言模型等同人脑，也不是可直接应用的临床诊断工具。",
+          "url": "https://www.nature.com/articles/s41593-026-02523-6",
+          "publisher": "Andrea Gregor de Varda 等 / Nature Neuroscience",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "research",
+          "tags": [
+            "神经科学",
+            "多语言",
+            "科学发现"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "amazon-decart-technology-agreement-20261123",
+          "title": "Amazon 签约购买 Decart 优化技术，拟引入创始人与研发团队",
+          "summary": "Amazon宣布签署协议，购买Decart Optimization Stack背后的专有技术，并拟让Decart联合创始人及AI研发团队加入。公司希望把双方自2025年开展的Trainium合作延伸至推理和自研芯片优化。",
+          "whyItMatters": "解读：推理成本既取决于芯片，也取决于编译、运行时和软硬件协同；这项交易将相关技术与人才整合进云平台。",
+          "context": "官方公告发布于2026-11-23。已读公告正文和交割条件，并核对Reuters报道。交易仍须满足监管批准等条件；官方未披露价格，本文不把媒体估价作为已确认金额，也不表述为已完成交割。",
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+          "publisher": "Amazon",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "business",
+          "tags": [
+            "推理优化",
+            "Trainium",
+            "技术收购"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "nvidia-huang-reinstatement-20261123",
+          "title": "英伟达恢复黄仁勋 CEO 职务，独立调查仍继续",
+          "summary": "英伟达董事会宣布一致投票恢复黄仁勋的总裁、CEO及董事职务，即时生效。Harvey Jones继续担任董事长，Colette Kress结束临时CEO职责。公告同时重申独立委员会调查会继续完成。",
+          "whyItMatters": "解读：领导层变化影响AI芯片供应商的战略连续性，但复职与合规调查是两条独立进程，仍需分别观察后续披露。",
+          "context": "原文发布于2026-11-23。已在云端读取官方公告正文，并阅读Reuters同日报道交叉核验。国家安全风险判断属于董事会依据政府意见作出的表述，不是本文独立认定；不将尚未结束的调查写成已结案或已证实违法。",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "publisher": "NVIDIA",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "business",
+          "tags": [
+            "公司治理",
+            "AI芯片",
+            "合规"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sierra-series-f-20261123",
+          "title": "Sierra 宣布17.5亿美元融资，估值300亿美元",
+          "summary": "客户体验智能体公司Sierra宣布以300亿美元估值融资17.5亿美元，由Greenoaks与Lightspeed领投，既有投资者继续参与。公司围绕按业务结果收费的企业智能体平台扩展服务。",
+          "whyItMatters": "解读：这类融资体现了市场对企业工作流的投入力度；估值和融资额仍需与实际收入、客户留存及交付成本分开衡量。",
+          "context": "官方原文发布于2026-11-23。已读融资公告及业务模式说明，并核对TechCrunch报道中的融资事实。公告使用正在融资的措辞，未查验交割文件；客户效果、市场领先与营收指标是公司陈述，本文不据此推算盈利或投资回报。",
+          "url": "https://sierra.ai/blog/series-f-30b",
+          "publisher": "Sierra",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "客户体验",
+            "企业智能体"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "marlowe-seed-disclosure-20261123",
+          "title": "Marlowe 披露2.77亿美元种子融资，建设多芯片推理基础设施",
+          "summary": "Marlowe公布今年筹得2.77亿美元种子资金，Accel领投。团队计划为不同推理负载共同设计芯片选择、网络、数据中心及运行软件，首个站点计划于2026年12月上线。",
+          "whyItMatters": "解读：替代芯片需要完整软件和基础设施才能转化为可用服务，多层协同优化是降低推理成本的一条竞争路线。",
+          "context": "公司与Accel原文均发布于2026-11-23。已读两篇公告正文及站点计划。今天是披露日期，不能推断全部资金当天到账；12月站点和效率优势属于计划及公司主张，未提供独立生产负载验证。",
+          "url": "https://marlowe.ai/introducing-marlowe.html",
+          "publisher": "Marlowe / Accel",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "推理基础设施",
+            "多芯片"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-efs-zdr-public-beta-20261123",
+          "title": "Anthropic 将兼容零数据保留的企业安全监测开放测试",
+          "summary": "Enterprise Frontier Safeguards进入公开测试，可跨请求检测滥用模式。输入和输出写入客户控制的存储，由自动监测系统分析；提供方接收安全案例元数据，案例本身不含输入输出。",
+          "whyItMatters": "解读：多轮滥用检测需要历史证据，将存储控制权与监测功能分离，为有数据驻留要求的企业提供了可评估方案。",
+          "context": "官方原文发布于2026-11-23。已读架构、ZDR保证、部署平台和资格说明，未测试或审计。ZDR不表示客户自己不保存日志；客户存储及读写仍可能产生费用，Microsoft Foundry支持尚待后续，实际开通受资格限制。",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "product",
+          "tags": [
+            "零数据保留",
+            "企业安全",
+            "跨请求监测"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "fairplay-ai-toys-letter-20261123",
+          "title": "儿童权益组织联署，要求 Amazon 与 eBay 暂停儿童 AI 玩具销售",
+          "summary": "Fairplay等组织向Amazon和eBay发出公开信，要求暂停面向16岁以下儿童的生成式聊天玩具，待独立安全测试后再售；同时要求纠正矛盾年龄标签、告知已购家庭并提供退款。",
+          "whyItMatters": "解读：内置聊天模型的玩具会随远程更新改变行为，安全评估因而需要覆盖隐私、互动内容与长期发展影响，不能只检查实体硬件。",
+          "context": "公开信及主办方新闻稿发布于2026-11-23。已读新闻稿和8页公开信前两页正文，未逐项复核所引用的历史产品测试。此条报道的是倡议请求，不是政府禁令或平台已全面执行的政策；风险与商品统计归于联署方。",
+          "url": "https://fairplayforkids.org/amazon-ebay-ai-toy-sales-must-stop-says-global-coalition-of-over-150-groups-and-experts-from-6-continents/",
+          "publisher": "Fairplay / Alliance 4 Children / Set@16",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "policy",
+          "tags": [
+            "儿童保护",
+            "AI玩具",
+            "独立测试"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "agon-series-a-20261123",
+          "title": "Agon 宣布7000万美元 A 轮，投入防务 AI 仿真与验证平台",
+          "summary": "Agon宣布由Northzone领投7000万美元A轮融资，估值4.5亿美元，累计融资1亿美元。UK Sovereign AI Fund与NSSIF参与，公司拟扩充研究工程团队，发展用于训练和验证自主系统的仿真基础设施。",
+          "whyItMatters": "解读：防务AI的资金正流向测试和仿真等基础设施；仿真中的表现仍需与真实环境可靠性、责任和部署边界分开评估。",
+          "context": "公司新闻稿发布于2026-11-23。Business Wire原站不可读取，已在云端完整阅读AFP托管的同一公司新闻稿，AFP注明其非自家新闻报道。融资及用途为公司披露，未审计金额或验证平台效果；不将计划写成实战能力已经成立。",
+          "url": "https://www.afp.com/es/node/3854381",
+          "publisher": "Agon / Business Wire（AFP托管）",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-23T23:08:53Z",
+          "category": "business",
+          "tags": [
+            "融资",
+            "仿真验证",
+            "防务AI"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-23T23:09:05.569Z"
+}

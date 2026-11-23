@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T11:06:23.207Z",
+  "updatedAt": "2026-11-23T23:09:05.569Z",
   "days": [
     {
       "date": "2026-11-04",
@@ -121,6 +121,12 @@
       "updatedAt": "2026-11-23T11:06:23.207Z",
       "morning": 10,
       "evening": 10
+    },
+    {
+      "date": "2026-11-24",
+      "updatedAt": "2026-11-23T23:09:05.569Z",
+      "morning": 10,
+      "evening": 0
     }
   ]
 }
