@@ -192,7 +192,193 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-24T11:05:34Z",
+      "searchCount": 28,
+      "collectionWindow": {
+        "start": "2026-11-21T11:01:43Z",
+        "end": "2026-11-24T11:05:34Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "ling32air-openweights-20261123",
+          "title": "蚂蚁开放 Ling-3.2-air，强化图文文档与工作流任务",
+          "summary": "蚂蚁百灵以MIT许可发布Ling-3.2-air权重，模型沿用原生多模态混合专家架构，总参数124B、每token激活5.5B，提供图像、视频输入以及SGLang和vLLM部署说明。模型卡同时披露法律任务中加入幻觉检查后，全项通过率明显下降。",
+          "whyItMatters": "解读：文档处理和工具任务的改进具有实际用途，细分评测也提示单项指标较高不等于整项工作可靠交付。",
+          "context": "原始权重仓库创建及上传记录为2026-11-23。已读官方模型卡全文并核对提交记录，未下载权重或实测。推荐256K上下文示例使用4张141GB级GPU；不要把激活参数规模当成完整部署内存需求。",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+          "publisher": "蚂蚁百灵 inclusionAI",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "opensource",
+          "tags": [
+            "中国AI",
+            "多模态",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "wall-oss1-native-vla-20261123",
+          "title": "自变量发布 WALL-OSS-1.0，将机器人动作纳入原生预训练",
+          "summary": "自变量公司介绍从Qwen3.5底座联合学习语言、视觉与机器人动作的VLA模型，并配套XR Harness连接规划、动作执行和控制器。公司在312个自由选择的真机任务上报告55.1%的零样本成功率。",
+          "whyItMatters": "解读：统一动作与语言的训练路线值得检验，尤其是陌生物体和多步骤操作能否迁移，而非仅在固定工作站重复演示。",
+          "context": "近期精选补充。公司原始新闻稿发布于2026-11-23 02:44美东时间。已读公司经GlobeNewswire发布的完整稿件，未复现实验。成功率为公司特定任务集结果；稿末称代码和模型权重将随后开放，不能写成权重已经可下载。",
+          "url": "https://www.globenewswire.com/news-release/2026/11/23/3408046/0/en/x-square-robot-introduces-wall-oss-1-0-understand-more-act-better-a-native-foundation-model-for-the-physical-world.html",
+          "publisher": "X Square Robot 自变量",
+          "publishedAt": "2026-11-23T02:44:00-05:00",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "product",
+          "tags": [
+            "中国AI",
+            "机器人",
+            "VLA"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "qtcreator21-agent-mcp-20261123",
+          "title": "Qt Creator 21 扩展智能体工具，MCP 默认要求鉴权",
+          "summary": "Qt Creator 21正式版默认启用ACP智能体聊天集成与MCP服务，外部连接默认需要Bearer令牌，新增工具可逐项配置。聊天界面在智能体支持时显示token用量和费用，并增加结构化用户输入能力。",
+          "whyItMatters": "解读：IDE给智能体更多编辑、构建和调试权限时，工具开关、鉴权和成本可见性能够帮助开发者控制执行范围。",
+          "context": "原文发布于2026-11-23。已读官方发布文章全文，未安装或操作用户电脑。费用展示取决于智能体支持，HarmonyOS与部分调试功能仍标为实验性。",
+          "url": "https://www.qt.io/blog/qt-creator-21-released",
+          "publisher": "Qt / Eike Ziller",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "product",
+          "tags": [
+            "开发工具",
+            "MCP",
+            "智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "deepmind-verified-quantum-circuits-20261123",
+          "title": "DeepMind 用智能体搜索与 Lean 验证改进量子电路",
+          "summary": "DeepMind报告Gemini 4智能体团队提出电路优化，再以Lean验证数学正确性，并开放框架与验证解。惯性约束聚变案例中，结合量子比特与操作的资源成本指标降低11.8倍，所需纠错量子比特由5650降至4338。",
+          "whyItMatters": "解读：形式化验证为算法搜索提供可检查的约束，有助于区分数学上成立的资源优化和未经证实的模型建议。",
+          "context": "原文发布于2026-11-23。已读官方文章正文及案例说明，未读链接论文全文、运行Lean库或测试量子硬件。数字是特定算法的理论资源估算，不是现有机器实测提速，也不意味着已实现聚变模拟或量子优势。",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "科学发现",
+            "量子算法",
+            "形式化验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-openworks-pilot-20261123",
+          "title": "OpenAI 启动 OpenWorks，以本地伙伴协助美国小企业使用 AI",
+          "summary": "OpenWorks在20个美国社区试点，招募技术人员或小型团队为独立小企业提供免费实践支持。官方页面列出伙伴每月最高8000美元津贴、社区工作坊，以及企业三个月免费ChatGPT Business等安排。",
+          "whyItMatters": "解读：计划把模型可用性转向具体流程和员工技能建设，其成效应看业务能否独立持续使用，而非只统计培训参与人数。",
+          "context": "项目于2026-11-23公开推出，官方页面未单列日期，结合当日公开发布报道核对。已读官方项目页的地点、伙伴与企业资格、支持内容，未申请或提交资料。试点仅面向符合条件的美国独立小企业，软件/SaaS、风投支持和私募股权所有的企业不符合该页面资格。",
+          "url": "https://openai.com/openworks/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "business",
+          "tags": [
+            "小企业",
+            "AI应用",
+            "培训"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31033",
+          "title": "科研计算形式化研究梳理 AI 证明何处失败、需要何种专家反馈",
+          "summary": "研究跨科研计算软件栈的不同抽象层检查AI辅助形式化，重点归纳失败模式、恢复数学可靠性所需的专家反馈，以及适合重复使用的证明工作流。作者强调应用数学中的程序和建模转换比独立定理更难形式化。",
+          "whyItMatters": "解读：对科研软件而言，证明代码能通过与原始计算意图被正确表达是两层问题，分层失败分析可帮助安排人工审查。",
+          "context": "原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。本条不将案例研究表述为全自动证明已普遍解决科研计算可靠性。",
+          "url": "https://arxiv.org/abs/2611.31033",
+          "publisher": "论文作者",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "研究精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31132",
+          "title": "研究用基因组语言模型与条件生成，探索大肠杆菌图像合成",
+          "summary": "研究将临床菌株的组装基因组编码为向量，再结合抗生素及耐药标签，用条件Wasserstein GAN合成细胞图像。实验使用22株临床血液分离菌的167356张单细胞图像，作者报告合成图补充少量真实训练数据后可改善分类。",
+          "whyItMatters": "解读：连接基因组表征与形态图像为数据增强提供研究方向，但应检验是否真正跨菌株泛化。",
+          "context": "原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。生成器输入已经包含耐药标签，因此这不是从基因组独立诊断耐药的证明；22株菌规模有限，不能当成临床有效性结论。",
+          "url": "https://arxiv.org/abs/2611.31132",
+          "publisher": "论文作者",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "研究精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-29255",
+          "title": "NoeVera 将论文、代码和实验结果写入带来源的推理服务知识库",
+          "summary": "NoeVera把来源证据、可复用综合与智能体记忆分开，按决策需求检索材料并调用模拟器补充定量证据。在四种服务场景配置搜索中，作者报告中位6至7次模拟调用即可达到距离最优值5%以内的配置。",
+          "whyItMatters": "解读：保存每条结论的适用范围与来源，可能减少历史经验被无条件套到新工作负载的错误。",
+          "context": "近期精选补充。原始提交于2026-11-22。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。配置搜索仅覆盖文中四种场景；模拟结果和指定A100实验不能直接推广至所有硬件和在线负载。",
+          "url": "https://arxiv.org/abs/2611.29255",
+          "publisher": "论文作者",
+          "publishedAt": "2026-11-22",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "研究精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-28881",
+          "title": "FormaFin 用 SMT 求解器奖励训练，把贷款约束转换为可检验公式",
+          "summary": "FormaFin训练小型开放语言模型把财务规则转为可复用SMT公式。在143份贷款协议、2527个问题组成的基准上，作者报告7B形式化模型准确率94.8%，并检验其他模型财务分析中的错误。",
+          "whyItMatters": "解读：可执行公式有助于复核阈值与贷款约束，减少纯自然语言分析中算错或遗漏条件的问题。",
+          "context": "近期精选补充。原始提交于2026-11-21。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。评测限定企业贷款监测；公式正确仍依赖原文规则被准确提取，不能写成自动法律或授信决定。",
+          "url": "https://arxiv.org/abs/2611.28881",
+          "publisher": "论文作者",
+          "publishedAt": "2026-11-21",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "研究精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-30750",
+          "title": "SchemaCaps 检查兼容工具更新是否悄然扩大智能体权限",
+          "summary": "SchemaCaps提出根据输入模式包含关系重新绑定授权的规则，并对39个公开MCP服务的604次发布做试点分析。580次兼容模式变化中，412次扩大至少一个可见维度，作者人工核验至少76次涉及授权相关参数。",
+          "whyItMatters": "解读：接口向后兼容不保证权限范围不变，工具升级时检查参数边界可为智能体权限治理提供更具体的依据。",
+          "context": "原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。研究只覆盖模式可见维度，无法识别相同schema背后的行为改变；早期规则曾漏过扩大权限的变化，摘要称已修正。",
+          "url": "https://arxiv.org/abs/2611.30750",
+          "publisher": "论文作者",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T11:05:34Z",
+          "category": "research",
+          "tags": [
+            "研究精选",
+            "预印本"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-23T23:09:05.569Z"
+  "updatedAt": "2026-11-24T11:05:35.326Z"
 }
