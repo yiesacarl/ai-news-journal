@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-25",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-24T23:07:03Z",
+      "searchCount": 27,
+      "collectionWindow": {
+        "start": "2026-11-21T23:02:59Z",
+        "end": "2026-11-24T23:07:03Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "openai-protein-design-20261124",
+          "title": "OpenAI 报告通用模型蛋白质设计实验，湿实验命中仍依赖专用筛选",
+          "summary": "OpenAI 披露 GPT-6 系列参与蛋白质骨架生成和序列重设计的实验。合作实验室针对五个靶点测试322个小型结合蛋白候选，报告35个结合命中；设计流程仍使用专用序列与结构模型辅助筛选。",
+          "whyItMatters": "解读：通用推理模型正在进入可由实验检验的分子设计环节，但结合命中距离药物有效性仍有很大距离。",
+          "context": "原文发布日期：2026-11-24。已读官方文章的设计流程、实验结果及限制章节，未通读配套预印本、未复现实验。上述结果为发布方报告；零样本端到端独立设计尚未得到证明，特异性、稳定性及治疗安全有效性仍需研究。",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "蛋白质设计",
+            "湿实验",
+            "科学发现"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "openai-astra-exoplanet-candidates-20261124",
+          "title": "AI 辅助公民科学家筛查系外行星信号，候选仍待确认",
+          "summary": "OpenAI 介绍两位非专业天文学者借助 Codex 与 Astra 编写和运行公开望远镜数据搜索程序。其中一项 Kepler 搜索标出200多个信号，包含10颗已确认行星；SETI 天文学者的独立搜索找到了两个相同候选信号。",
+          "whyItMatters": "解读：公开数据与编码助手能降低开展科学检索的门槛，后续观测和独立核验仍是发现成立的关键。",
+          "context": "原文发布日期：2026-11-24。已读官方案例正文、信号描述与行星确认方法；独立复核情况依据文中具名 SETI 专家说明，未读取观测原始数据或运行搜索。候选不是已确认行星，双星和仪器变化等也可能造成亮度下降；确认可能需数月或数年。",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+          "publisher": "OpenAI",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "天文学",
+            "公民科学",
+            "数据分析"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "fca-agentic-finance-expectations-20261124",
+          "title": "英国 FCA 明确金融智能体监管预期，责任仍由机构和管理层承担",
+          "summary": "英国金融行为监管局发布金融智能体说明，提醒开发者：当系统从提供信息发展到发起交易、转移资金、安排借款或作投资决定，须判断实际业务是否需要授权。受监管机构使用第三方智能体也不能转移自身合规责任。",
+          "whyItMatters": "解读：金融智能体的产品边界、用户同意和实时控制，将直接影响部署方式及消费者救济安排。",
+          "context": "原文首次发布及更新日期均为2026-11-24。已读官方页面本次更新、受监管机构与技术供应商相关正文。文章说明现有框架如何适用，并非宣布所有智能体一律需要新牌照；具体要求取决于提供的金融活动。",
+          "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+          "publisher": "英国金融行为监管局（FCA）",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "policy",
+          "tags": [
+            "金融智能体",
+            "英国",
+            "监管边界"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "strands-decider-v2-20261123",
+          "title": "Strands Decider v2 开放五款决策模型，直接为候选选项评分",
+          "summary": "Strands 发布基于 Gemma 4 的五款 Decider v2 模型，并开放权重和代码。模型对用户提供的选项输出概率，用于工具选择、请求路由与质量判断；通过共享上下文编码处理多个问题，避免逐字生成答案。",
+          "whyItMatters": "解读：对于边界明确的工作流决策，专门的选项评分模型提供了可复现的替代路线，可与复杂生成任务分工。",
+          "context": "近期精选补充。官方发布日：2026-11-23。已读发布文章的机制、评测、部署说明，以及 GitHub 原仓库 README 的接口示例和许可证说明。发布方报告校准改善，但概率不是正确性保证；未下载权重或复现性能，未将 Star 总数作为新增热度。",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider-v2/",
+          "publisher": "Strands Agents",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "决策模型",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ruibench-interface-2611-31115",
+          "title": "RUIBench 显示机器人接口设计会显著改变同一智能体的成绩",
+          "summary": "RUIBench 围绕30项操作任务构建机器人界面评测，覆盖知识、学习、动态交互和接触操作等能力；配套 RUIKit 提供13种接口配置。作者报告，仅更换接口就能明显改变模型在仿真任务中的成功率，并观察到错误宣告成功的现象。",
+          "whyItMatters": "解读：机器人模型排名需要同时交代动作接口与反馈条件，改进交互工具可能与更换模型同样重要。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-23 17:52:55 UTC。仅读原论文摘要及版本记录，未读全文、未审查代码或复现实验。结论来自作者设定的仿真评测，不能直接推断真实机器人可靠性。",
+          "url": "https://arxiv.org/abs/2611.31115",
+          "publisher": "arXiv（Yanzhe Chen 等）",
+          "publishedAt": "2026-11-23T17:52:55Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "机器人评测",
+            "接口设计",
+            "可靠性"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "kernelshift-arm-kernels-2611-29590",
+          "title": "KernelShift 用真实 Arm 算子评测编码智能体，揭示手调优化仍有优势",
+          "summary": "KernelShift 从 ncnn、llama.cpp、Arm SIMD Loops 和 KleidiAI 汇集99个真实 CPU 算子，考察智能体跨 Neon、SVE、SVE2、SME2 优化代码的能力。作者报告可超过部分编译器基线，但在与手工优化 KleidiAI 的比较中仍落后。",
+          "whyItMatters": "解读：将真实算子、正确性检查与硬件相关优化放在一起，有助于辨别生成代码的局部加速能否转化为工程收益。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-22 16:25:24 UTC。仅读摘要及版本记录，未读全文或运行基准。不同硬件、算子与基线对应不同加速比；本文不将作者的最佳结果外推为整个应用统一提速。",
+          "url": "https://arxiv.org/abs/2611.29590",
+          "publisher": "arXiv（Shuaiwei Huang 等）",
+          "publishedAt": "2026-11-22T16:25:24Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "代码优化",
+            "Arm",
+            "性能评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "toolsmith-reusable-tools-2611-31198",
+          "title": "ToolSmith 让多模态搜索智能体积累可复用工具模块",
+          "summary": "ToolSmith 从最小基础工具库出发，在解决任务时生成、积累并复用工具模块，尝试减少每次从头编写流程的重复。作者在三个域内和十个域外评测中报告改进，并提供代码与数据入口。",
+          "whyItMatters": "解读：让工具成为可检查、可复用的产物，是将智能体经验转化为工程资产的一条研究路线。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-23 18:48:02 UTC。仅读原论文摘要及版本记录，未通读论文、读取项目代码或复现。摘要中的效果使用视觉语言模型评委衡量，提升随基础模型而变，尚不能等同人工验证的普遍可靠性。",
+          "url": "https://arxiv.org/abs/2611.31198",
+          "publisher": "arXiv（Rui Sun 等）",
+          "publishedAt": "2026-11-23T18:48:02Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "工具复用",
+            "多模态搜索",
+            "智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "dexduet-contact-preservation-2611-30495",
+          "title": "DexDuet 从单次人类演示学习双手操作，单独约束接触关系",
+          "summary": "DexDuet 将人手与物体的配置、接触保持写入奖励，并让两个共享权重的单手策略互相参考状态。作者在三个仿真器、五种机器人形态的四组基准中报告更好的轨迹跟踪与接触保持。",
+          "whyItMatters": "解读：物体轨迹相似不代表抓持方式正确；显式评测接触关系有助于发现表面成功背后的不稳定操作。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-23 11:13:23 UTC。仅读摘要及提交记录，未读全文、观看演示或运行代码。作者称122组轨迹精度相近的配对实验中117组接触保持更好，实验来自所列仿真环境，不代表真实场景普适结果。",
+          "url": "https://arxiv.org/abs/2611.30495",
+          "publisher": "arXiv（Haoran Zhang 等）",
+          "publishedAt": "2026-11-23T11:13:23Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "双手机器人",
+            "接触操作",
+            "模仿学习"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "embo-harness-policy-2611-31201",
+          "title": "Embo-Harness 分析前沿多模态模型直接控制机器人的接口设计",
+          "summary": "Embo-Harness 对提示、规划、动作执行和工具使用进行系统比较，提出优先发挥模型原生视觉推理与工具调用能力的设计方案。作者报告 RoboLab-120 成功率83.3%，并在四项真实操作任务的20次零样本试验中成功15次。",
+          "whyItMatters": "解读：研究把机器人智能体的外围系统作为独立变量，说明模型能力与控制接口需要共同评估。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-23 18:48:54 UTC。仅读原论文摘要及版本记录，未读全文、检查项目实现或复现。上述均为作者报告，真实实验样本仅20次；不能据此认定长期部署可靠。",
+          "url": "https://arxiv.org/abs/2611.31201",
+          "publisher": "arXiv（Xiao-Ming Wu 等）",
+          "publishedAt": "2026-11-23T18:48:54Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "具身智能",
+            "控制接口",
+            "研究精选"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "loopres-looped-models-2611-31094",
+          "title": "LoopRes 将预训练模型改为循环计算结构，研究额外推理算力的利用",
+          "summary": "LoopRes 通过微调把预训练语言模型转换为循环结构，利用区分循环轮次的键表示和有限残差窗口，减少计算捷径。作者在三个模型家族、六个模型及九个基准上评测，规模最高到300亿参数。",
+          "whyItMatters": "解读：复用模型层提供另一种增加推理计算的路线，但收益需要与计算预算、训练方法和任务难度一同衡量。",
+          "context": "近期精选补充。arXiv v1提交：2026-11-23 17:38:43 UTC。仅读摘要及版本记录，未读全文或复现。实验使用增加的推理计算，不是无额外成本的性能提升；预印本结果不等于已确立的通用扩展规律。",
+          "url": "https://arxiv.org/abs/2611.31094",
+          "publisher": "arXiv（Xuanlei Zhao 等）",
+          "publishedAt": "2026-11-23T17:38:43Z",
+          "retrievedAt": "2026-11-24T23:07:03Z",
+          "category": "research",
+          "tags": [
+            "循环模型",
+            "推理计算",
+            "模型架构"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-24T23:07:03.849Z"
+}
