@@ -192,7 +192,193 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-25T11:05:39Z",
+      "searchCount": 28,
+      "collectionWindow": {
+        "start": "2026-11-22T11:02:03Z",
+        "end": "2026-11-25T11:05:39Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "baidu-ernie55-preview-weights-20261123",
+          "title": "百度开放文心 5.5 Flash Preview 权重，提供三种精度版本",
+          "summary": "百度已提供ERNIE-5.5-Flash-Preview默认混合精度、FP8及BF16权重，以Apache 2.0许可发布。模型卡标称总参数280B、每token激活14B、上下文1M，并提供含DSpark草稿头的SGLang与vLLM部署方案。",
+          "whyItMatters": "解读：从在线预览转为可下载权重，使开发者能够检查部署开销及定制训练；量化内核和框架支持仍会影响实际收益。",
+          "context": "近期精选补充。权重仓库11月23日创建并上传，11月24日继续更新及对外宣布开放；本条记录权重交付，不把11月上旬模型发布重报为新模型。已读官方模型卡的架构、下载、评测说明、推理优化、部署和许可，核对提交记录，未下载运行。Preview仍在后训练中；Apache 2.0仅覆盖Preview权重，Base保持其独立许可。",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+          "publisher": "百度 ERNIE 团队",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "opensource",
+          "tags": [
+            "中国AI",
+            "开放权重",
+            "推理优化"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "oceanseek-open-source-20261124",
+          "title": "OceanBase 开源 OceanSeek，将混合检索与智能体数据沙箱纳入数据库",
+          "summary": "OceanSeek以Apache 2.0开放AI数据库发行版，将关系、向量、JSON、文本等数据模型纳入统一事务和权限机制。中文README提供向量、全文与标量混合检索，以及基于写时复制的数据沙箱和Docker、Kubernetes部署入口。",
+          "whyItMatters": "解读：把检索、权限和试验数据隔离放进同一数据库，可减少企业智能体在多个系统间搬运数据的集成工作。",
+          "context": "近期精选补充。11月24日发布会及开源日期已与新浪科技现场报道正文核对。已读原仓库中文README全文及许可证标记，未编译、部署或通读源码。部署需要兼容S3的对象存储；OceanBase客户数量不能直接当成OceanSeek的独立生产验证数量。",
+          "url": "https://github.com/oceanbase/oceanseek/blob/master/README_CN.md",
+          "publisher": "OceanBase",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "opensource",
+          "tags": [
+            "中国AI",
+            "数据库",
+            "混合检索"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "claude-mcp-skills-tasks-20261124",
+          "title": "Claude 开放 Skills over MCP 测试，Tasks 与中途交互正式可用",
+          "summary": "Anthropic让MCP服务同时提供工具和按需加载的工作流指导。Tasks可让服务在后台完成长任务，Elicitation允许执行过程中请求用户输入；两项已正式可用，File Uploads仍处于后续推出阶段。",
+          "whyItMatters": "解读：连接器从单次工具调用扩展到可持续的工作流程，后台执行和中途确认能改善长任务协作，也使服务侧指导的版本与权限更值得审查。",
+          "context": "原文发布于2026-11-24。已读官方文章正文的功能、适用套餐和开放状态，未登录实测。Skills测试默认面向Pro、Max、Ultra，Team需管理员开启，Enterprise仍待开放；Tasks与Elicitation向组织逐步推出，不能概括为所有账号已经可用。",
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "product",
+          "tags": [
+            "MCP",
+            "智能体",
+            "工作流"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "wispr-canto2-20261124",
+          "title": "Wispr 推出 Canto-2，重点改善姓名术语与多语言听写",
+          "summary": "Wispr开始向各平台Flow用户逐步推出Canto-2。公司内部困难词评测中，姓名和术语识别率从Canto-1的41%升至69%，未增加误插入；其14种语言测试平均错误率由9.9%降至6.3%。",
+          "whyItMatters": "解读：个性词典是否能识别人名而不乱替换普通词，比只看干净语音的总体成绩更贴近日常听写需求。",
+          "context": "原文发布于2026-11-24。已读官方发布文章全文，未测试产品或阅读链接技术报告。上述比较为厂商数据与测试模型范围内的结果，不是独立认证的全行业排名；逐步推出不代表每个账号即时获得。",
+          "url": "https://wisprflow.ai/post/introducing-canto-2",
+          "publisher": "Wispr Flow",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "product",
+          "tags": [
+            "语音识别",
+            "多语言",
+            "个性化"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "alephalpha-kolibri11-20261123",
+          "title": "Kolibri 1.1 开放权重，以稀疏注意力降低英德语任务推理成本",
+          "summary": "Aleph Alpha发布Apache 2.0许可的Kolibri 1.1，沿用英德双语MoE路线，增加稀疏注意力和更精简的推理。官方在一台8张B200节点上测量吞吐并建模任务成本，报告相较1.0每任务GPU时间约降至三分之一。",
+          "whyItMatters": "解读：同时公开质量和服务成本的比较方式，有助于评估本地英德语业务是否值得迁移，而非只比较参数规模。",
+          "context": "近期精选补充。原文发布于2026-11-23。已读官方技术文章的概览、架构、基准表及成本测量方法，未下载权重或复现。3.4倍效率是指定硬件、布局选择、上下文采样和英德各半的加权任务成本模型，不能当作任意部署的实际账单降幅。",
+          "url": "https://aleph-alpha.com/en/blog/kolibri-1-1/",
+          "publisher": "Aleph Alpha",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "稀疏注意力",
+            "推理成本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31708",
+          "title": "PRETZEL 环肽基准同时检查折叠位置与化学结构有效性",
+          "summary": "PRETZEL整理285个环肽与蛋白复合物，覆盖三类环化化学，并用统一输入转换和键长、键角、二面角、闭环检查比较四种共折叠模型。作者发现各模型完整残基间键均有效的预测比例最高也只有8.1%。",
+          "whyItMatters": "解读：位置相近不等于化学结构可用，环肽设计需要把几何拟合和化学有效性同时作为验收条件。",
+          "context": "近期精选补充。原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。百分比仅针对该基准和验证规则；它不能直接等同药物有效率或临床成功率。",
+          "url": "https://arxiv.org/abs/2611.31708",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-31787",
+          "title": "SciFig2Data 从论文复合图恢复数据，并绑定图注中的实验背景",
+          "summary": "SciFig2Data将图形定位、分面、OCR筛选、图表分类与多模态重建连接为批处理流程。在605篇毒理药理论文和551篇脂质纳米颗粒论文上，作者分别重建468份、242份表格输出，并关联图注中的实验元数据。",
+          "whyItMatters": "解读：让图中证据成为可计算记录可扩展科学数据整理，但保留实验条件与来源是后续使用的前提。",
+          "context": "近期精选补充。原始提交于2026-11-24。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。输出份数不是准确率，也不代表每篇论文都成功抽取；摘要未给出可据以承诺的统一数值恢复精度。",
+          "url": "https://arxiv.org/abs/2611.31787",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31611",
+          "title": "多智能体求解器研究同时搜索 PDE 数值方法的多项性能权衡",
+          "summary": "研究让模型提出、评议、实现并评估由Krylov方法、预条件器等构成的求解器，再以进化搜索保留多目标Pareto候选。在三维声散射和弹性问题上，相对Jacobi预条件Krylov基线，最佳候选在线求解分别提速2.3倍、3倍。",
+          "whyItMatters": "解读：为数值科研保留速度、精度等多种权衡，比只交付一个看似最优的配置更便于专家检查和选择。",
+          "context": "近期精选补充。原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。小模型运行在笔记本是智能体服务设置，不能据此认定所有求解计算都只需该硬件；速度仅对应论文问题与基线。",
+          "url": "https://arxiv.org/abs/2611.31611",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31653",
+          "title": "方程原生研究尝试跨论文构造可检验的物理机制",
+          "summary": "作者提出从论文方程中抽取机制组成部分，再以确定性计算进行拆分、迁移和组合的系统，并称读取了250万份arXiv手稿中的方程。示例把阈值反应器构造成记忆装置、振荡器构造成开关，并列出实验检验条件。",
+          "whyItMatters": "解读：跨领域机制组合可把文献关联转为明确的方程约束，但最终价值仍取决于条件是否能在实验中实现。",
+          "context": "近期精选补充。原始提交于2026-11-23。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。摘要展示的是机制构造与实验条件，不是这些装置已完成物理实验或证明适用于所有学科。",
+          "url": "https://arxiv.org/abs/2611.31653",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-23",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-31823",
+          "title": "GaokaoMathGen 用潜在推理结构控制中文高考压轴题生成",
+          "summary": "GaokaoMathGen从种子题抽取技能、方法、核心恒等式和关键转折，再约束生成与难度估计。609个评分候选中78%通过逻辑质量筛选；教师审查的60个高求解开销候选均达到压轴或倒数第二题难度，其中1题存在严重逻辑问题。",
+          "whyItMatters": "解读：用解题结构而非题面关键词控制生成，为中文数学教学素材提供可检验的方法，也提醒生成后仍需教师审核。",
+          "context": "近期精选补充。原始提交于2026-11-24。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。教师审查对象是经过筛选的60题，并非全部生成题；不能将筛选子集成绩写成任意输出的质量保证。",
+          "url": "https://arxiv.org/abs/2611.31823",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T11:05:39Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-24T23:07:03.849Z"
+  "updatedAt": "2026-11-25T11:05:40.265Z"
 }
