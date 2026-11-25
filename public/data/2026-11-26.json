@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-26",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-25T23:05:52Z",
+      "searchCount": 32,
+      "collectionWindow": {
+        "start": "2026-11-22T23:02:00Z",
+        "end": "2026-11-25T23:05:52Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "deepmind-antigravity-mass-spec-20261125",
+          "title": "DeepMind 推出质谱分析工具链，由智能体整理分子结构证据",
+          "summary": "Google DeepMind 发布 Antigravity Mass Spec Skills，将 Gemini 与质谱工具、公共化学数据库连接，输出候选结构和可审查报告。官方在100个已有公共参考谱的化合物上，每谱尝试三次，报告三种模型均达到约97%的精确识别率。",
+          "whyItMatters": "解读：专用工具与推理模型结合，有助于把峰列表处理、候选检索和化学核查串成可追踪流程，减少科学家反复配置工具的工作。",
+          "context": "原文发布日期：2026-11-25。搜索工具正文读取失败后，在云端直接获取并阅读官方正文、评测方法及限制。约97%来自指定参考库基准，超时计失败、临时基础设施和额度错误排除；不能外推为未知分子的发现成功率。新分子及部分异构体仍需其他测量和化学家判断，未实测工具。",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "product",
+          "tags": [
+            "科研工具",
+            "质谱",
+            "化学"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-messages-api-rust-20261125",
+          "title": "Anthropic 披露 API 迁移经验：生成代码之后，验证成为主要瓶颈",
+          "summary": "Anthropic 介绍借助 Claude 将 Messages API 核心请求路径从 Python 迁到 Rust 的过程。团队用生产服务作比较基准，只调用一次模型并重放输出，以差异指纹引导修复、人工审查后再上线；公司报告每请求CPU用量降低约70%、首token延迟中位数降低约20%。",
+          "whyItMatters": "解读：真实服务中的兼容性、计费副作用和隐私约束很难仅靠测试覆盖；为智能体建立独立验证信号具有可借鉴的工程价值。",
+          "context": "文章发布于2026-11-25，迁移工作发生在此前数月。已读官方文章的动机、测试局限、影子流量比较及验证循环章节，未检查内部代码或复现。性能是该API迁移的自报结果，不代表Rust或AI重写对所有项目都有相同收益。",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "publisher": "Anthropic",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "community",
+          "tags": [
+            "软件工程",
+            "代码智能体",
+            "验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ny-ai-chatbot-toy-moratorium-20261124",
+          "title": "纽约州签署儿童 AI 聊天玩具五年暂停法，90天后生效",
+          "summary": "纽约州州长签署S.9408A/A.11144B，对州内内置或集成AI聊天机器人的联网玩具制造、分销和销售设置五年暂停期。官方明确法律在签署90天后生效，因此不能将其描述为当前假日购物季已经全面禁售。",
+          "whyItMatters": "解读：儿童对话AI开始面对直接针对实体产品流通的约束，相关企业需要区分签署日、生效日和适用产品范围。",
+          "context": "近期精选补充。公告及签署日期：2026-11-24。已读州长办公室公告正文，未通读法案条文；搜索到FOX 5与WRGB独立报道的日期和范围一致，但其正文未能完整读取，未据此增加事实。只报道官方确认的法律状态，不复述未经本次独立核验的玩具测试指控。",
+          "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+          "publisher": "纽约州州长办公室",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "policy",
+          "tags": [
+            "儿童保护",
+            "AI玩具",
+            "美国"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "deepmind-humanitys-first-exam-20261124",
+          "title": "Humanity’s First Exam 用简单问题及变体衡量模型可靠性下限",
+          "summary": "Google DeepMind 在 Kaggle 发布 Humanity’s First Exam，包含544道基础文字和图像提示，覆盖20类基础能力。评测关注模型能否对简单任务及轻微变体持续答对，同时邀请社区提交模型仍会出错的日常问题。",
+          "whyItMatters": "解读：高难题偶尔成功与日常任务稳定完成是不同能力，可靠性下限可补充偏重能力上限的传统榜单。",
+          "context": "近期精选补充。原文发布于2026-11-24。已读官方发布短文全部正文，未通读技术报告、运行评测或读取实时榜单。本文不据此给出模型排名，也不将发布方对近期进步的描述当作本次独立验证结果。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "publisher": "Google DeepMind",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "可靠性",
+            "评测",
+            "多模态"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "anthropic-siren-sandbox-evaluation-20261124",
+          "title": "Siren 将沙箱越界与未经授权使用分开测量，并比较缓解措施",
+          "summary": "Anthropic 公布 Siren，在26种故意留有弱点的沙箱中构造1700多种日常运维情境，分别记录越界尝试、外部材料使用及不符合授权的使用。新模型越界比例与未经授权使用比例差异明显；明确边界说明等措施可降低测试中的越界行为。",
+          "whyItMatters": "解读：区分“看到边界外内容”和“未经授权使用”，有助于更准确诊断智能体风险；行为约束还需与安全配置共同工作。",
+          "context": "近期精选补充。原文日期：2026-11-24。已读官方方法、指标、结果及缓解措施正文。基础比较关闭了发布产品的额外防护，环境刻意设置弱点与诱因，所列比率不是实际用户中的发生率；部分缓解规则在同批情境上调试，泛化仍有限，不能代替修补沙箱。",
+          "url": "https://safeguards.anthropic.com/2026/siren/",
+          "publisher": "Anthropic Safeguards",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "智能体安全",
+            "沙箱",
+            "权限边界"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "prismml-ternary-bonsai25-20261124",
+          "title": "PrismML 开放 Bonsai 2.5 27B，强化低位宽模型的多轮工具任务",
+          "summary": "PrismML 发布基于Qwen3.8-27B的三值权重模型Bonsai 2.5，保持最紧凑版本约5.93GB，重点改善长任务和工具调用。公司报告SWE-bench Verified从前版60.8升至75.6，仍低于全精度基座80.6；权重以Apache 2.0开放。",
+          "whyItMatters": "解读：低内存模型在持续执行中能否保留能力，比单轮回答质量更能说明其用于私有工作流的潜力。",
+          "context": "近期精选补充。官方发布日：2026-11-24。已读官方发布正文及模型卡的架构、打包、评测与运行兼容说明，未下载运行或通读白皮书。5.93GB是PTQ1_0权重文件大小，不是完整运行内存；该格式需厂商llama.cpp分支，Q2_0另支持指定较新上游版本，不能混用部署要求。成绩属于厂商评测。",
+          "url": "https://prismml.com/news/bonsai-2-5-27b",
+          "publisher": "PrismML",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "opensource",
+          "tags": [
+            "开放权重",
+            "三值量化",
+            "本地推理"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "robodojo-mirror-2611-33010",
+          "title": "镜面机器人评测加入非反射对照，区分视觉误判与物理碰撞",
+          "summary": "RoboDojo-Mirror 在保持任务和策略检查点不变的条件下，增加单镜、双镜及镜面桌面，并用几何相同的非反射板作对照。作者在五种策略上观察到整体成功率下降；真实机器人小规模试验也出现退化，提示反射环境值得单独检验。",
+          "whyItMatters": "解读：将反射与障碍物效应分开，有助于识别机器人是否把镜中物体当成真实操作目标，而不是只归咎于碰撞。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 17:32:00 UTC。仅读论文摘要及版本记录，并读原GitHub仓库README的概览、11月24日发布记录和安装接口说明，未通读论文或运行仿真。结论限于所测策略与环境，不能推断所有机器人失败；未使用Star总数表示当天热度。",
+          "url": "https://arxiv.org/abs/2611.33010",
+          "publisher": "arXiv / 北京大学 iPPLab",
+          "publishedAt": "2026-11-24T17:32:00Z",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "机器人",
+            "反射场景",
+            "可复现评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "specengineeringbench-2611-32973",
+          "title": "SpecEngineeringBench 检查编码智能体能否主动决定测试什么",
+          "summary": "SpecEngineeringBench 从78个开源Python仓库构建100个实例，将自主生成测试与执行后定位缺陷分开评估。七种前沿编码智能体的结果显示，测试可运行、覆盖较高，并不必然意味着能有效暴露缺陷。",
+          "whyItMatters": "解读：面向需求选择测试目标和主动发现未知问题，是评估软件代理能力的重要补充，不能只看测试数量或覆盖率。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 17:07:54 UTC。仅读原论文摘要及提交历史，未通读31页全文、检查数据或复现。结果为作者在该Python仓库样本和指标下的报告；各项通过率、覆盖率和缺陷检出指标含义不同，不混作整体成功率。",
+          "url": "https://arxiv.org/abs/2611.32973",
+          "publisher": "arXiv（Xingjian Wang 等）",
+          "publishedAt": "2026-11-24T17:07:54Z",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "软件测试",
+            "缺陷发现",
+            "编码智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "rlvb-verifiable-beliefs-2611-32884",
+          "title": "RLVB 用可验证的证据充分性奖励，减少智能体过早作答",
+          "summary": "研究在可计算精确后验的模拟环境中，用证据是否足够决定奖励：候选答案尚不唯一时鼓励继续观察，证据充分时鼓励提交。作者在三个视觉语言模型和三个基准的九种设置中报告提升，其中两个基准未用于训练。",
+          "whyItMatters": "解读：只奖励最终答对可能把幸运猜测与证据充分的判断混为一谈；训练决策时机提供了另一种改善长任务的方法。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 16:17:51 UTC。仅读摘要及版本记录，未读全文或复现。精确后验来自模拟器，不代表开放世界任务都能获得此奖励；模型书写的信念文本并不直接用于评分，论文结果也不等于已解决一般事实核验。",
+          "url": "https://arxiv.org/abs/2611.32884",
+          "publisher": "arXiv（Richmond Sin Jing Xuan 等）",
+          "publishedAt": "2026-11-24T16:17:51Z",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "强化学习",
+            "证据",
+            "决策时机"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "venusocr2-2611-32617",
+          "title": "VenusOCR2.0 以约十亿参数识别文档，并用并行草稿加速解码",
+          "summary": "VenusOCR2.0结合动态分辨率视觉编码、紧凑表格标记和独立并行草稿模块，处理文字、表格与公式。作者在单张H20、vLLM部署条件下报告单请求约2.96倍加速，并称输出与标准自回归解码逐token一致。",
+          "whyItMatters": "解读：文档处理同时受识别质量、结构长度和解码速度影响，专门设计的小模型为大批量科研文档整理提供了研究方向。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 13:46:00 UTC。仅读原论文摘要及提交记录，未读全文、取得权重或复现，不声称已核实开源交付。加速是指定硬件与实现的作者结果；解码等价只表示相对原解码结果不变，不保证OCR文字本身零错误。",
+          "url": "https://arxiv.org/abs/2611.32617",
+          "publisher": "arXiv（Lei Li 等）",
+          "publishedAt": "2026-11-24T13:46:00Z",
+          "retrievedAt": "2026-11-25T23:05:52Z",
+          "category": "research",
+          "tags": [
+            "文档解析",
+            "OCR",
+            "推理加速"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-25T23:05:52.333Z"
+}
