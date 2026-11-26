@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-27",
+  "editions": {
+    "morning": {
+      "publishedAt": "2026-11-26T23:07:43Z",
+      "searchCount": 31,
+      "collectionWindow": {
+        "start": "2026-11-23T23:04:10Z",
+        "end": "2026-11-26T23:07:43Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "kandinsky-imagesr2-pipeline-20261125",
+          "title": "Kandinsky ImageSR 2.0 提供开源推理管线，一套权重支持两倍与四倍超分",
+          "summary": "Kandinsky Lab 的图像超分模型和 Diffusers 管线已公开，一套Transformer权重支持两倍与四倍放大，并提供命令行、Python和笔记本示例。推理采用分块重叠融合，可调节细节生成程度；代码与Transformer使用MIT许可，所附VAE另遵循Apache 2.0。",
+          "whyItMatters": "解读：统一管线和复现脚本便于开发者检查部署与效果，但生成式增强应与忠实还原原图细节区分。",
+          "context": "近期精选补充。Hugging Face仓库创建于2026-11-24 08:51 UTC；原GitHub管线在11月25日已有交付及更新记录，本条按11月25日代码交付收录，不将11月26日聚合转载当首发。已读原仓库README、在云端获取官方模型卡并核对提交记录；未下载运行，未用Star总数代表新增热度。",
+          "url": "https://github.com/kandinskylab/kandinsky-image-sr",
+          "publisher": "Kandinsky Lab",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "opensource",
+          "tags": [
+            "图像超分",
+            "开放权重",
+            "可复现工具"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "real2simlab-2611-34849",
+          "title": "Real2SimLab 统一真实视频到仿真的评测接口，保留各基准原评分器",
+          "summary": "Real2SimLab 将方法输出的仿真程序冻结后离线重跑，调用各基准自己的评分器，再汇总为统一记录。论文称支持六个基准、47种编码智能体及五种非智能体方法，并提供与评测一致的训练数据和奖励生成流程。",
+          "whyItMatters": "解读：减少逐个适配方法与基准的重复劳动，并把交付程序本身作为验收对象，有助于提高仿真研究的可比较性。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 18:23:41 UTC。已读论文摘要、版本记录、官方项目页及GitHub README的机制、支持范围和快速开始；未通读论文或运行基准。兼容范围与复现保证属于作者说明，实际执行仍依赖相应模拟器、数据与方法环境。",
+          "url": "https://arxiv.org/abs/2611.34849",
+          "publisher": "arXiv / Real2SimHub",
+          "publishedAt": "2026-11-25T18:23:41Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "opensource",
+          "tags": [
+            "仿真",
+            "研究基础设施",
+            "机器人"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sage-med-preview-2611-34575",
+          "title": "Sage-Med 研究医疗多模态训练，区分语言推理与视觉能力提升",
+          "summary": "Sage-Med 团队提出总参数350亿、激活参数30亿的医疗多模态预览模型，通过分阶段数据筛选、监督微调与强化学习改进视觉和语言任务。研究在多类公开及私有医疗基准中比较77个模型，指出扩大规模或开启推理并不能自动补足视觉理解差距。",
+          "whyItMatters": "解读：医疗AI需要分别检查影像感知、文本理解与复杂工作流，不能把综合分数直接当成临床效用。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 15:39:45 UTC。仅读摘要及提交历史，未通读101页报告、检查数据或复现。摘要所列3.227亿是候选记录规模，不等同最终训练样本量；预印本评测不代表真实临床前瞻验证、获批应用或可替代医生。",
+          "url": "https://arxiv.org/abs/2611.34575",
+          "publisher": "arXiv（Sage-Med Team）",
+          "publishedAt": "2026-11-25T15:39:45Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "医学多模态",
+            "训练数据",
+            "研究精选"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "counterfactual-sql-rewards-2611-34363",
+          "title": "Text-to-SQL 研究用反事实数据库查出碰巧答对的错误查询",
+          "summary": "研究把同一SQL放到若干隐藏、代码生成的数据库副本上运行，避免错误查询因原数据库缺少关键记录而得到满分。作者在1302道合成审计题中报告严格奖励能减少奖励投机，但控制训练实验没有改善域内准确率，跨域收益也随随机种子变化。",
+          "whyItMatters": "解读：评测需要区分结果偶合与语义正确，奖励更难作弊也不必然意味着训练后模型整体更强。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 13:30:26 UTC。仅读原论文摘要及版本记录，未读全文或运行代码。训练比较针对3.35B模型、每组3个种子；作者明确单个种子可反转效果方向，不将审计中的改善包装为稳定训练收益。",
+          "url": "https://arxiv.org/abs/2611.34363",
+          "publisher": "arXiv（Shreshth Rai 等）",
+          "publishedAt": "2026-11-25T13:30:26Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "Text-to-SQL",
+            "奖励设计",
+            "评测可靠性"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "aichipbench-state-feedback-2611-33093",
+          "title": "AIChipBench 发现硬件设计智能体需要状态级反馈，输出通过仍可能藏错",
+          "summary": "AIChipBench 要求智能体用可综合RTL实现量化语言模型解码器，并将输出与跨步存储状态同时对照整数参考实现。作者在9136次尝试中发现，指出首个状态差异比只看输出更有助于调试；已通过开发测试的部分设计在新序列和条件下仍失败。",
+          "whyItMatters": "解读：状态错误可能延后多个token才暴露，芯片自动设计需要超出当前输出和开发样例的验收。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 18:28:41 UTC。仅读摘要及版本记录，未通读论文、仿真或综合RTL。作者称重新评测的69个已接受设计中45个在新增序列和条件下失败；此结论只针对该任务与测试设置，不代表实体芯片故障率。",
+          "url": "https://arxiv.org/abs/2611.33093",
+          "publisher": "arXiv（Guangyuan Wang 等）",
+          "publishedAt": "2026-11-24T18:28:41Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "芯片设计",
+            "RTL",
+            "状态验证"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "docseam-cross-page-2611-34420",
+          "title": "DocSEAM 在视觉编码阶段融合相邻页，缓解文档跨页信息断裂",
+          "summary": "DocSEAM 在预训练视觉编码器与语言模型之间加入轻量模块，每次以当前页及其前后页形成局部窗口，只返回增强后的当前页视觉token。作者报告9B模型在五个多页问答基准上表现改善，重新分页控制实验也降低了对页边界的敏感性。",
+          "whyItMatters": "解读：跨页表格和文字可能在独立编码时丢失联系，将邻页信息提前融合提供了不增加视觉token数量的研究路线。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 14:11:06 UTC。仅读摘要及提交历史，未通读全文或复现。作者的领先结论限于所评测的10B及以下开放权重模型；视觉token数不变不等于所有计算、训练成本都不变。",
+          "url": "https://arxiv.org/abs/2611.34420",
+          "publisher": "arXiv（Hoang-Nhat Nguyen、Chen Change Loy）",
+          "publishedAt": "2026-11-25T14:11:06Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "文档理解",
+            "跨页检索",
+            "视觉编码"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "model-driven-context-2611-34147",
+          "title": "上下文管理研究让模型自行决定何时压缩，效果随模型和预算变化",
+          "summary": "研究通过NVIDIA开源智能体框架中的上下文API，让模型决定何时及压缩哪些历史内容，与框架自动压缩比较。在文档研究和机器学习工程任务、8K至512K预算下，部分模型以更少输入token提高准确率；作者还研究复用未改动后缀的KV缓存。",
+          "whyItMatters": "解读：长任务表现受信息保留策略影响，模型、外围执行框架与推理引擎可以共同优化。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 10:44:04 UTC。仅读原论文摘要及提交记录，未读全文或检查框架实现。不同模型使用API的积极程度差异明显，提示词也影响压缩时机；最多15%的预填充计算节省是作者特定实验结果，不代表端到端统一加速。",
+          "url": "https://arxiv.org/abs/2611.34147",
+          "publisher": "arXiv（Alessio Devoto 等）",
+          "publishedAt": "2026-11-25T10:44:04Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "上下文管理",
+            "KV缓存",
+            "智能体"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "airis-streaming-social-2611-34347",
+          "title": "AIRIS 只给当时可见的视频，检验智能体是否过早介入社交情境",
+          "summary": "AIRIS 将注意、意图、反应与交互放在带时间锚点的决策链中，包含357段第一视角视频、8000道专家整理问题。模型每次只能看到当时已有的视频片段；45种模型的比较显示，识别线索与同时选对介入时机、动作和执行方式仍存在差距。",
+          "whyItMatters": "解读：日常协助不仅要理解画面，也要知道证据是否足够、何时应该等待，完整视频回放可能掩盖这些问题。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 13:18:30 UTC。仅读摘要及版本记录，未读全文、查看标注或运行基准。结论为预印本作者在该视频问答设置中的报告，不等于真实机器人与人共同生活的安全验证。",
+          "url": "https://arxiv.org/abs/2611.34347",
+          "publisher": "arXiv（Yuchen Zhou 等）",
+          "publishedAt": "2026-11-25T13:18:30Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "流式视频",
+            "社交智能",
+            "决策时机"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "multilingual-decision-calibration-2611-33307",
+          "title": "多语言决策评测发现准确率下降时，置信度未同步降低",
+          "summary": "研究在14种语言、17项任务上比较25个开放权重决策模型，发现相对英语的准确率损失大于置信度下降。作者报告，用英语设定的95%准确率阈值在泰米尔语中只达到90%；模型翻译的测试集还可能低估真实差距。",
+          "whyItMatters": "解读：路由与安全检查若直接沿用英语置信度门槛，可能在其他语言中形成未被察觉的误判，需要按语言校准。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-24 19:01:47 UTC。仅读摘要及提交历史，未读全文或复现。上述数值来自作者平行题及特定阈值实验，不是所有语言或业务的通用准确率；本条为独立跨语言研究，不重复此前某款决策模型的发布事件。",
+          "url": "https://arxiv.org/abs/2611.33307",
+          "publisher": "arXiv（Mingzhe Du 等）",
+          "publishedAt": "2026-11-24T19:01:47Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "research",
+          "tags": [
+            "多语言",
+            "置信度校准",
+            "决策模型"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "aidenai-series-a-20261124",
+          "title": "AidenAI 宣布3200万美元 A 轮，投入企业智能体平台与交付团队",
+          "summary": "AidenAI 宣布获得A91 Partners领投的3200万美元A轮投资，用于AI Builder Platform、工程交付和全球扩张。公司定位于连接企业系统、模型、知识与治理，并计划通过培训体系扩充工程师团队；公告未披露估值。",
+          "whyItMatters": "解读：企业AI落地仍包含系统整合、治理和工程服务，这轮融资体现了模型能力之外的交付需求。",
+          "context": "近期精选补充。公司通过PR Newswire发布于2026-11-24 08:30美东时间。已读原始公司新闻稿的融资、平台、用途及投资方说明，未取得财务文件。融资金额依据公司公告；超过1000人的团队是扩充计划，不是已实现人数，未采用营销性效果承诺。",
+          "url": "https://www.prnewswire.com/news-releases/aidenai-raises-32m-series-a-from-a91-partners-to-build-and-deploy-ai-at-enterprise-scale-302949458.html",
+          "publisher": "AidenAI / PR Newswire",
+          "publishedAt": "2026-11-24T13:30:00Z",
+          "retrievedAt": "2026-11-26T23:07:43Z",
+          "category": "business",
+          "tags": [
+            "企业AI",
+            "融资",
+            "工程交付"
+          ],
+          "importance": 3
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-11-26T23:07:43.250Z"
+}
