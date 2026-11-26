@@ -192,7 +192,193 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-26T11:06:29Z",
+      "searchCount": 28,
+      "collectionWindow": {
+        "start": "2026-11-23T11:02:22Z",
+        "end": "2026-11-26T11:06:29Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "sand-magi2-flagship-20261124",
+          "title": "Sand.ai 发布 MAGI-2，支持最长30秒的1080p音画生成",
+          "summary": "Sand.ai将MAGI-2从研究预览版扩展为480B总参数、约28B激活参数的模型，官方介绍其支持最长30秒、1080p、25fps音画同步生成、多种媒体参考、时间线控制及视频编辑。",
+          "whyItMatters": "解读：把参考素材、分镜和音频放进同一生成流程，可拓展视频制作的控制方式；长片段的一致性仍需实测。",
+          "context": "近期精选补充。官方原文发布于2026-11-24。已读发布文章的能力、架构、训练、案例与局限段落，未调用API、逐帧审阅演示或复现。官方明确高速运动仍可能出现轨迹问题，模型开源与完整技术报告是后续计划，不能写成权重已开放。",
+          "url": "https://sand.ai/blog/magi-2/",
+          "publisher": "Sand.ai",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "product",
+          "tags": [
+            "中国AI",
+            "视频生成",
+            "音画同步"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "amap-abotworld05-iris-20261124",
+          "title": "高德开放 ABot-World 0.5 Iris，用键盘与文字持续控制生成世界",
+          "summary": "ABot-World仓库提供Iris及双向教师权重入口、交互示例和Apache 2.0许可。Iris生成视频，Halo提供云端音画流；仓库报告Iris在单张RTX 5090上为21fps，并强调动作产生的变化应延续到后续交互。",
+          "whyItMatters": "解读：开放模型和示例方便研究者检查长程物理一致性，而非只观察短视频是否逼真。",
+          "context": "近期精选补充。仓库News将Iris、Iris-BiT与六个示例开放日期记为2026-11-24，Halo体验入口为11月25日；同一发布合为一条。已读官方README全文，未下载运行。21fps为作者指定配置，Halo不是本次可下载模型列表中的开放权重，0.5技术报告仍标为待发布。",
+          "url": "https://github.com/amap-cvlab/ABot-World",
+          "publisher": "高德 ABot-World 团队",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "opensource",
+          "tags": [
+            "中国AI",
+            "世界模型",
+            "交互生成"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "bharatgen-patram15-20261126",
+          "title": "BharatGen 发布 Patram 1.5，将按区域读图与拒答纳入文档处理",
+          "summary": "BharatGen推出7B参数Patram 1.5，面向扫描件、表格、手写和印度文书。官方页面展示按指令读取局部内容、转为Markdown/HTML/JSON，以及在页面空白、模糊或缺少答案时说明无法回答的能力。",
+          "whyItMatters": "解读：文档模型除了读对文字，还要控制读取范围并承认证据不足，这对财务与法律资料的人工复核更有实际意义。",
+          "context": "原文模型页面标注2026-11-26。已读官方Vision页面与模型总览的能力、部署和开放说明，未登录Playground或下载权重。官方称Apache 2.0开放，下载可能要求账号资料；本次权重端点不可直接读取，因此未核实文件完整性，不把页面演示写成独立准确率结论。",
+          "url": "https://bharatgen.com/models/vision/",
+          "publisher": "BharatGen",
+          "publishedAt": "2026-11-26",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "product",
+          "tags": [
+            "文档智能",
+            "OCR",
+            "证据不足拒答"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "jetbrains-kotlin-benchmark20-20261124",
+          "title": "Kotlin Benchmark 2.0 加入私有代码任务，限制公开任务查找现成补丁",
+          "summary": "JetBrains更新评测为100项较难任务，其中70项来自公开仓库、30项来自内部私有项目。公开任务禁用外部联网并隐藏历史，每种配置运行三次、每任务限时30分钟，榜单同时展示成本、token与执行步骤。",
+          "whyItMatters": "解读：公开代码成绩可能混入记忆或现成答案，拆分私有代码结果能为企业选型提供额外参照。",
+          "context": "近期精选补充。文章索引发布日期为2026-11-24。已读官方文章正文的任务构成、网络约束、结果和局限，未运行公开任务或访问私有代码。私有任务保留网络且集中于服务端Kotlin，两组并非完全同分布对照；不能只凭分数差证明训练污染。新旧版本任务不同，成绩也不可直接作升降比较。",
+          "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/",
+          "publisher": "JetBrains",
+          "publishedAt": "2026-11-24",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "编码智能体",
+            "评测",
+            "私有代码"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "uw-pdsqi9-summary-evaluation-20261125",
+          "title": "威斯康星大学介绍公开的病历摘要评审工具，以九项评分卡检查质量",
+          "summary": "UW Health团队与Epic合作，将PDSQI-9评分规则及AI评审运行工具放入公开仓库。评分卡检查准确性、完整性、组织、清晰度和污名化语言等，独立AI评审标记低质量摘要，但不会直接重写或纠正摘要。",
+          "whyItMatters": "解读：把自动摘要和质量监测分开，有助于医疗机构在采用生成工具时建立可追踪的复核环节。",
+          "context": "原文发布于2026-11-25。已读大学新闻正文，未阅读链接的两篇研究全文或运行公开软件。文章介绍约一年研发后的工具可用性，不把相关早期研究重标为当天新实验；AI评分与医生接近是该研究设置下的报告，不保证发现每一处临床错误。",
+          "url": "https://www.med.wisc.edu/news/uw-researchers-build-ai-judge-to-grade-ai-written-patient-summaries/",
+          "publisher": "University of Wisconsin–Madison",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "opensource",
+          "tags": [
+            "医疗AI",
+            "摘要评估",
+            "开源工具"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-33712",
+          "title": "PowerFix 用物理诊断和确定性编辑修复电源转换器设计",
+          "summary": "PowerFix把工程校验失败映射到物理原因和可改字段，由模型排序修复路径、编译器执行受限编辑，并在隔离副本中复验。在96项反激式转换器修复任务上，作者报告验证通过率78.7%，增加三轮重规划后为88.4%。",
+          "whyItMatters": "解读：让模型提出方案、让确定性工具约束改动并复验，可帮助区分文字解释合理与设计真的通过检查。",
+          "context": "近期精选补充。原始提交于2026-11-25。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。这是注入故障及设计生成器自然失败构成的离线仿真基准；硬件样机与第二种拓扑迁移仍是后续工作。",
+          "url": "https://arxiv.org/abs/2611.33712",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-33966",
+          "title": "PatternMiner 让模型从数学数据训练小模型，再用反例迭代猜想",
+          "summary": "PatternMiner结合语言模型、小模型训练和可解释性分析，先从数学数据中提取模式，再调用数学软件搜索反例并修订猜想。作者在五类代数组合正性问题上报告若干新定理及常见失败路径。",
+          "whyItMatters": "解读：把模式发现、反例搜索和证明尝试串起来，可让开放式数学探索留下更可检查的过程。",
+          "context": "近期精选补充。原始提交于2026-11-25。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。仅依据摘要记录系统流程和作者的定理声明，未审查证明、核对优先权或确认数学社区认可，不能概括为已解决一般性猜想。",
+          "url": "https://arxiv.org/abs/2611.33966",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-34254",
+          "title": "Crucible Bench 用可执行化学任务检验智能体是否真的会用工具",
+          "summary": "Crucible Bench从18个数据集整理1078项任务、12类任务族，覆盖设计、合成、测试与分析。智能体在七个隔离环境中使用75种MCP工具，沙箱评分器检查产物；14个模型中最高总体得分为0.545。",
+          "whyItMatters": "解读：成功调用化学软件并不代表产物化学有效，贯穿研究流程的可执行评分更接近真实工作需求。",
+          "context": "近期精选补充。原始提交于2026-11-25。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。实验任务使用机器人模拟器或已有实验数据，并非1078次新湿实验；总体得分不是统一成功概率，优化子任务排名也不同于总榜。",
+          "url": "https://arxiv.org/abs/2611.34254",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "arxiv-2611-33615",
+          "title": "视觉学习研究用表征几何解释数量与比例为何能逐渐分离",
+          "summary": "研究比较未训练与预训练网络的数量表征，发现自然图像学习可增大数量和比例子空间的夹角、减少重叠，从而改善二者冲突时的读出。作者通过直接调整几何性质检验其作用，并在自监督和合成图像训练中观察到类似分离。",
+          "whyItMatters": "解读：单个神经元看似对数量敏感不等于系统能稳健判断，表征几何为解释视觉学习的功能变化提供了另一种检验方法。",
+          "context": "近期精选补充。原始提交于2026-11-25。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。结果来自人工网络的训练与干预，不能直接推出儿童或动物神经机制已得到证实。",
+          "url": "https://arxiv.org/abs/2611.33615",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "arxiv-2611-33563",
+          "title": "FIG-MAC 用细粒度灵感图记录科学假说的证据与推导路径",
+          "summary": "FIG-MAC把文献中的学术语义单元作为节点，以启发关系连接，结合本体约束推理和向量检索补充证据，再由分工智能体生成、筛选和评估假说。作者报告其在来源多样性及若干新颖性指标上优于所比较方法。",
+          "whyItMatters": "解读：显式记录假说从哪些知识片段演变而来，可能让研究者更容易追溯建议依据并决定下一步实验。",
+          "context": "近期精选补充。原始提交于2026-11-25。已读arXiv摘要及提交历史，未通读全文、运行代码或独立复现。结果属于预印本作者报告。摘要没有给出足够细节支持通用提升幅度；假说新颖性评测不等于科学正确性，也不代表已通过真实实验验证。",
+          "url": "https://arxiv.org/abs/2611.33563",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25",
+          "retrievedAt": "2026-11-26T11:06:29Z",
+          "category": "research",
+          "tags": [
+            "科研精选",
+            "预印本"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-25T23:05:52.333Z"
+  "updatedAt": "2026-11-26T11:06:30.390Z"
 }
