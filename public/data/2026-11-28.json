@@ -186,7 +186,198 @@
           "importance": 3
         }
       ]
+    },
+    "evening": {
+      "publishedAt": "2026-11-28T11:07:30Z",
+      "searchCount": 32,
+      "collectionWindow": {
+        "start": "2026-11-25T11:04:32Z",
+        "end": "2026-11-28T11:07:30Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "stories": [
+        {
+          "id": "pinky-iphone-privacy-fixes-20261128",
+          "title": "Pinky 修复 iPhone 屏幕识别与明文密码处理，收紧手机智能体隐私边界",
+          "summary": "Pinky的11月28日更新修复了特定iPhone状态下把弹窗、通知或无法识别的界面当作主屏幕的问题，避免继续截取、读取或录制下层被屏蔽应用。同日另一项修复让点击“显示”后的密码继续在活动、审批、历史与截图中遮蔽，并对输入请求要求批准。",
+          "whyItMatters": "解读：手机智能体的访问边界需要由执行网关落实；识别失败时停止读取，以及保护已显示的密码，是有实质影响的隐私修复。",
+          "context": "发布说明：v2026.1128.2为2026-11-28 03:15:10 UTC，v2026.1128.3为04:03:59 UTC。已读这两版及前一版官方中英文说明、原仓库README的定位和状态部分；未安装、连接手机或复测。应用仍为pre-alpha，修复适用条件见原文，不把维护者说明当作独立安全审计或所有场景保证。",
+          "url": "https://github.com/DIYgod/pinky/releases/tag/v2026.1128.3",
+          "publisher": "DIYgod / Pinky",
+          "publishedAt": "2026-11-28T04:03:59Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "opensource",
+          "tags": [
+            "中国开发者",
+            "手机智能体",
+            "隐私修复"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "meituan-catpaw-q3-disclosure-20261127",
+          "title": "美团三季报披露“妙手”已服务超200万商家，季度研发投入77亿元",
+          "summary": "美团在第三季度业绩说明中披露，AI经营工作台“妙手”（CatPaw）已服务超过200万商家，提供经营诊断、辅助决策与任务执行能力。公司同期研发投入77亿元，同比增长11.3%；用户侧“小团”国庆期间用户量与调用量较五一增长超六成。",
+          "whyItMatters": "解读：商家覆盖和业务调用提供了观察AI应用落地的线索，仍需与持续活跃、付费和经营效果等指标分开理解。",
+          "context": "公司原文发布于2026-11-27。已在云端读取美团官方三季报新闻正文，包括研发、商家工具和用户侧应用章节；未审阅全部财务报表。商户覆盖与调用变化为公司披露，未独立审计；77亿元是公司季度研发总投入，不等于单独AI研发支出，也不据此推算AI收入或投资回报。",
+          "url": "https://www.meituan.com/news/NN261127296001055",
+          "publisher": "美团",
+          "publishedAt": "2026-11-27",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "business",
+          "tags": [
+            "中国 AI",
+            "商家经营",
+            "企业应用"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "ming-image-02-design-weights-20261125",
+          "title": "蚂蚁开放 Ming-Image-0.2-Design 权重，面向图文排版与设计生成",
+          "summary": "蚂蚁inclusionAI开放设计生成模型Ming-Image-0.2-Design，模型卡列出60亿DiT参数，采用MIT许可，面向电商主图、界面设计稿与空间效果图。官方提供自然语言和结构化提示示例，并给出2K级图像的推荐推理设置。",
+          "whyItMatters": "解读：可下载权重与明确部署条件便于设计团队检查版式和文字渲染能力，判断其能否进入自己的素材工作流。",
+          "context": "近期精选补充。Hugging Face首次大文件权重上传为2026-11-25 12:52:53 UTC，11月26日更新模型卡；仓库创建时间11月25日04:02不当作权重交付时间。已读官方模型卡、提交记录，并核对首次上传版本存在safetensors权重及MIT标记；未下载运行。60亿是DiT参数，不是整个管线总参数；验证配置为单张80 GiB CUDA GPU、BF16。分层模型另列为上一代0.1，不能混称本版已独立提供所有分解能力。",
+          "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+          "publisher": "蚂蚁 inclusionAI",
+          "publishedAt": "2026-11-25T12:52:53Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "opensource",
+          "tags": [
+            "中国 AI",
+            "设计生成",
+            "开放权重"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "sakana-marlin-research-modes-20261126",
+          "title": "Sakana Marlin 增加深度调研模式，并重做带来源的 PowerPoint 输出",
+          "summary": "Sakana AI为Marlin加入Twilight 2.0和Midnight 2.0两种调研模式，分别面向快速建立主题结构和更深入的探索核验，原模式继续以Sunlight提供。新版幻灯片按报告组织故事线，将数据整理为图表并附来源URL，支持既有模板。",
+          "whyItMatters": "解读：研究交付需要兼顾证据、结构和共享格式；可选择调研深度与保留来源的幻灯片，有助于团队评估从报告到汇报的完整流程。",
+          "context": "近期精选补充。官方更新日期为2026-11-26。已读Sakana官方新闻页当日模式、消耗和幻灯片说明，未登录、付费或测试。Sunlight每次100积分，两种新模式各300积分，积分不是现金价格；更深入和更强核验为官方定位，本文不把来源数量或功能描述当成独立准确率证明。",
+          "url": "https://sakana.ai/marlin/news/",
+          "publisher": "Sakana AI",
+          "publishedAt": "2026-11-26",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "product",
+          "tags": [
+            "深度研究",
+            "报告交付",
+            "来源追溯"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "ree-scientific-entrance-exam-2611-34646",
+          "title": "REE 用100个开放科研问题测试智能体迭代改进，区分专家基线与原创发现",
+          "summary": "REE覆盖五大科学方向、23个领域的100个开放问题，每题由领域专家审查。智能体最多用12小时改进可工作的起始方案，再与可比条件下的既有专家方案比较；作者报告两款受测智能体在86%和81%的问题上超过该参考。",
+          "whyItMatters": "解读：科研智能体应在明确起点、预算和基线下测量改进，过程记录还能帮助判断提升来自已有方法的调配，还是新的科学见解。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 16:25:19 UTC。仅读原论文摘要及提交记录，未通读全文、审查专家方案或复现。86%和81%分别对应Claude Opus 5.5与GPT-6.1 Sol在此基准中的作者报告，不代表超越相同比例的科学家；摘要称最佳解主要是定制或组合领域已有方法，不能等同独立原创发现。",
+          "url": "https://arxiv.org/abs/2611.34646",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T16:25:19Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "AI for Science",
+            "科研评测",
+            "实验预算"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "zerohero-small-language-agents-2611-34635",
+          "title": "ZeroHero 从零训练不足5000万参数语言智能体，先学示范再与环境交互",
+          "summary": "ZeroHero在各环境收集大模型成功轨迹，从零训练小语言智能体预测专家回答，再用PPO及推理语言监督进行后训练。作者在Crafter、WebShop与Alfworld-Dialogue三类多步任务中，观察到小模型接近或在部分设置下超过其示范专家。",
+          "whyItMatters": "解读：专用智能体未必需要通用大模型的全部容量，分离示范学习、环境奖励与推理对齐，有助于研究成本和任务泛化的边界。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 16:20:13 UTC。仅读摘要与提交历史，未读全文、运行演示或复现。模型各不足5000万参数；超过专家的结果分别涉及Crafter训练回合和Alfworld-Dialogue保留任务，不能写成在所有任务或开放互联网中全面超越专家。",
+          "url": "https://arxiv.org/abs/2611.34635",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T16:20:13Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "小模型",
+            "智能体训练",
+            "效率研究"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "knowledge-base-gradient-descent-2611-34841",
+          "title": "知识库结构学习研究发现：合成问题上更优，未必更适合真人提问",
+          "summary": "Knowledge-Base Gradient Descent通过预期答案与当前回答的差异诊断知识库结构，提出编辑、重建后，仅在学习损失下降时保留改动。在论文集合实验中，知识卡片和图模式均改善保留的生成问题平均F1；在人类问题上，图模式提升、卡片却下降。",
+          "whyItMatters": "解读：知识库优化可能学到训练问题的偏好，验收时应纳入实际用户提问，避免把合成评测收益直接视为检索质量全面改善。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 18:19:02 UTC。仅读摘要和提交记录，未通读全文、核查实现或复现。所称“梯度”通过候选编辑选择概率下的损失变化表达，不是声称直接对离散文档做普通反向传播；摘要未列统一提升数值，本条不补造幅度。",
+          "url": "https://arxiv.org/abs/2611.34841",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T18:19:02Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "知识库",
+            "研究可靠性",
+            "人类问题"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "failure-driven-vla-flywheel-2611-34698",
+          "title": "自动驾驶后训练研究按失败分布生成数据，同时检查不必要刹车",
+          "summary": "研究在重建场景中插入任务相关实体，按模型在不同条件和难度上的失败率分配后续数据，再逐轮重测。作者在遮挡行人出现与停车让行任务上比较两款VLA和一款非VLA规划器，发现总体避碰改善仍可能掩盖行人出现后制动能力不足。",
+          "whyItMatters": "解读：闭环数据生成需要同时看成功指标、提前减速与误刹等行为，按细项验收有助于避免用单一避碰率掩盖弱点。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 16:54:15 UTC。仅读摘要与提交历史，未通读论文或复现。五轮后，密封测试集关键阶段无碰撞率AutoVLA由0.261至0.579、ReCogDrive由0.390至0.765；配对控制场景不必要刹车率不超过0.013。实车仅5次尝试，不能外推道路安全、无人驾驶资质或大规模可靠性。",
+          "url": "https://arxiv.org/abs/2611.34698",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T16:54:15Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "自动驾驶",
+            "失败驱动数据",
+            "行为评测"
+          ],
+          "importance": 4
+        },
+        {
+          "id": "exposure-rl-uncertainty-2611-34248",
+          "title": "EXPOSURE 将强化学习不确定性拆成缺失观测与环境随机性",
+          "summary": "EXPOSURE使用同一个能处理特征遮蔽的信念网络进行动作选择与Shapley解释，把回报方差拆为缺失观测带来的部分和环境固有随机部分，并解释对被遮蔽特征的信念熵。作者在井字棋和扫雷中与可精确计算的Shapley值比较。",
+          "whyItMatters": "解读：解释智能体为什么行动之外，还需要解释它为什么不确定；区分信息不足与环境随机，有助于判断补充观测是否有用。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 12:11:44 UTC。仅读摘要及版本记录，未通读全文、检查证明或复现。作者在两个有限游戏环境中报告解释更准确，不能据此认定在真实机器人、医疗或高维复杂环境中同样有效。",
+          "url": "https://arxiv.org/abs/2611.34248",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T12:11:44Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "强化学习",
+            "不确定性",
+            "可解释性"
+          ],
+          "importance": 3
+        },
+        {
+          "id": "evolink-interdependent-streams-2611-34400",
+          "title": "EvoLink-Bench 检查智能体能否跨任务复用经验，记忆更新不保证后续进步",
+          "summary": "EvoLink-Bench在持久工作空间中组织相互依赖的办公、对话与自动研究任务，分别评估可语言表达知识的修订及执行反馈带来的能力形成。作者比较五个框架、三类底座配置与三种持久化条件，覆盖19635个计分任务槽。",
+          "whyItMatters": "解读：持续运行智能体的进步应在后续任务中验证，区分本次重试成功、状态被写入，以及经验真正得到复用。",
+          "context": "近期精选补充。arXiv v1提交于2026-11-25 14:00:22 UTC。仅读摘要和提交记录，未通读全文、核查任务资产或复现。19635是所选评测组的计分任务槽，不是独立任务题目数；作者报告无框架在两层评测中始终占优，持久状态更新并不必然提高后续成绩，收益还随领域与任务流变化。",
+          "url": "https://arxiv.org/abs/2611.34400",
+          "publisher": "arXiv（论文作者）",
+          "publishedAt": "2026-11-25T14:00:22Z",
+          "retrievedAt": "2026-11-28T11:07:30Z",
+          "category": "research",
+          "tags": [
+            "长期智能体",
+            "经验复用",
+            "评测基准"
+          ],
+          "importance": 3
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-27T23:08:46.070Z"
+  "updatedAt": "2026-11-28T11:08:09.413Z"
 }
